@@ -1,0 +1,15 @@
+Sunset Harbor Stories V6.4 项目结构核查摘要
+核查日期：2026-09-11
+资料范围：项目 README.md、ARCHITECTURE.md、package.json、racing-comparison/README.md、racing-comparison/verification/comparison.json 及相关源模块。
+
+1. 正式游戏是自有 WebGL 渲染器与 CPU 兼容路径，构建为离线 HTML。已有多个可旅行地图、陆海空车辆、射击、守卫、任务和本地存档。
+2. 模拟按固定步长更新，呈现使用插值快照；画质策略与玩法状态已分离。活动模块仍存在遗留适配，并非完整引擎重写。
+3. 角色由程序化关节部件和姿态混合驱动；当前实现不等于导入骨骼动画库。车辆已有命名刚性零件、枢轴和高低 LOD。
+4. 港口有局部 A* 导航、掩体评分和攻击槽位；不是任意城市导航网格。
+5. 图形管线已有阴影、HDR/PBR、AO、屏幕空间水面反射、bloom、FXAA 和 AgX。画面下一阶段仍需一致的模型、贴图、角色动画和内容布置。
+6. Blender 工程可导出标准 GLB，也导出量化几何包，以便离线 HTML 内联。新引擎可优先使用 GLB，不应为兼容旧解码器丢弃骨骼和材质信息。
+7. 赛车对照版本共享跑分/车辆模拟，但主要测试渲染呈现；未测试 Havok 与 Ammo 在完整 GTA 式游戏中的性能或行为。
+8. comparison.json 中 Babylon.js 9.26.0 和 PlayCanvas 2.22.1 各有一轮 90 秒验证。Unity compiled=false、runtimeVerified=false，performance=null。
+9. 原项目明确列出的待验收项包括实体手机、20–30 分钟持续运行和用户完整试玩。报告不将这些描述为已通过。
+
+本摘要是报告的内部资料引用，不包含项目全部源码或第三方付费资产。
