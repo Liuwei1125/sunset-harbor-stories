@@ -1,0 +1,33 @@
+{
+  "name": "sunset-harbor-stories",
+  "version": "6.4.0",
+  "private": true,
+  "description": "Offline multi-route harbor campaign and land-sea-air arcade game",
+  "scripts": {
+    "site:prepare": "python3 tools/build_site.py",
+    "site:verify": "python3 tools/verify_site.py",
+    "build": "python3 build.py",
+    "check": "node --check bundle.js && node --check arcade-bundle.js",
+    "assets": "node tools/export_assets.cjs",
+    "assets:blender": "python3 tools/build_blender_assets.py",
+    "assets:armory": "python3 tools/build_blender_assets.py --armory",
+    "verify:assets": "node tools/verify_blender_assets.cjs",
+    "verify:armory-assets": "node tools/verify_blender_assets.cjs --armory",
+    "verify:armory": "python3 tools/verify_armory.py",
+    "benchmark:armory": "python3 tools/benchmark_armory.py",
+    "verify:workshop": "python3 tools/verify_workshop_browser.py",
+    "assets:showroom": "python3 tools/build_showroom_assets.py",
+    "verify:showroom": "python3 tools/verify_showroom.py",
+    "assets:lighting": "python3 tools/build_lighting.py",
+    "verify:graphics": "python3 tools/verify_graphics.py",
+    "capture:graphics": "python3 tools/capture_graphics.py",
+    "verify": "python3 tools/verify_all.py",
+    "verify:color": "python3 tools/verify_color.py",
+    "verify:effects": "python3 tools/verify_effects.py",
+    "assets:arcade": "python3 tools/build_blender_assets.py --arcade",
+    "verify:arcade-assets": "node tools/verify_blender_assets.cjs --arcade",
+    "verify:arcade": "python3 tools/verify_arcade.py",
+    "verify:arcade-input": "python3 tools/verify_arcade_input.py",
+    "benchmark:arcade": "python3 tools/benchmark_arcade.py"
+  }
+}

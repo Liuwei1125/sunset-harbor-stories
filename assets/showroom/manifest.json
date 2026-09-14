@@ -1,0 +1,27 @@
+{
+  "camera": {
+    "theta": 75,
+    "phi": 70,
+    "radius": 2.65,
+    "fov": 30,
+    "target": [
+      0,
+      -0.027,
+      -0.267
+    ],
+    "width": 1296,
+    "height": 810
+  },
+  "model": "assets/armory/ar7-rifle.glb",
+  "modelSha256": "65f1b8863eec45a741a0dce41d991cd2f36ca6b6ddc5b99f80de9cc0b487b801",
+  "gameSha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "lighting": "Original analytical HDR radiance softboxes, studio and sunset",
+  "blenderReference": "Exact GLB; Cycles 64 samples, studio HDR, AgX; transparent PNG on CSS background #d5dde0; no added ground plane",
+  "gameReference": "Same camera and source high LOD, Harbor Radiance 6.3.1 materials, outdoor IBL and sunlight, AgX; neutral linear backdrop [.64,.77,.82]",
+  "files": {
+    "studio.hdr": "25140006aa8b4980de5b321c269b2be8c11747fe3e740ea01b2504b2fcc36554",
+    "ar7-game.png": "29849c5d1957258bed42ea158baebac2a17e1c3539ceb6569336d248db8840c4",
+    "ar7-blender.png": "30a5ba2e8716005c079321340f375796c1c3e87f67c6c0940bb9b0f808c2d36a",
+    "sunset.hdr": "f7fd1953d243a5440b63511ae9350e80a42ecae3435e09a0f6ea2c03734b5119"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dependencies": [
+    {
+      "id": "babylon",
+      "version": "9.26.0",
+      "file": "babylon-9.26.0.js",
+      "license": "Apache-2.0",
+      "source": "https://www.npmjs.com/package/babylonjs/v/9.26.0",
+      "bytes": 8330458,
+      "sha256": "f4d7e6800fa23a969f970dcdfacdf015d18a220fa9e589800a24f2dd531fe677"
+    },
+    {
+      "id": "babylon-loaders",
+      "version": "9.26.0",
+      "file": "babylonjs.loaders-9.26.0.min.js",
+      "license": "Apache-2.0",
+      "source": "https://registry.npmjs.org/babylonjs-loaders/-/babylonjs-loaders-9.26.0.tgz",
+      "archiveSha256": "a5f79dea4bc7d22be7765c3d06eb5c778da3750917c85398383cf39cbeab9535",
+      "bytes": 608712,
+      "sha256": "0d1b9b76e7f866325181ef17531f0d2d1dcfe178f201fabb6af0ddacf4853532"
+    },
+    {
+      "id": "playcanvas",
+      "version": "2.22.1",
+      "file": "playcanvas-2.22.1.js",
+      "license": "MIT",
+      "source": "https://www.npmjs.com/package/playcanvas/v/2.22.1",
+      "bytes": 2466254,
+      "sha256": "115983998d6cdea9126a7a782f2579a3b98401531abd06e852ad415438508d17"
+    }
+  ]
+}

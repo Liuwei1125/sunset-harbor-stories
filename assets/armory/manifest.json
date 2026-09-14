@@ -1,0 +1,245 @@
+{
+  "format": "Harbor Workshop 1 / GLB + offline indexed mesh pack",
+  "generator": "Blender 5.2.1 LTS",
+  "units": "meters; runtime Y up, -Z forward",
+  "assets": [
+    {
+      "id": "ar7-rifle",
+      "label": "AR-7 \u2022 Harbor assault rifle",
+      "glb": "ar7-rifle.glb",
+      "bytes": 179404,
+      "triangles": {
+        "high": 2940,
+        "low": 310
+      },
+      "bounds": [
+        [
+          -0.08,
+          -0.3625,
+          -0.983
+        ],
+        [
+          0.0875,
+          0.305,
+          0.462
+        ]
+      ],
+      "parts": [
+        "body",
+        "magazine",
+        "bolt",
+        "muzzle",
+        "eject",
+        "support"
+      ]
+    },
+    {
+      "id": "comet-launcher",
+      "label": "COMET \u2022 Rocket launcher",
+      "glb": "comet-launcher.glb",
+      "bytes": 58524,
+      "triangles": {
+        "high": 1508,
+        "low": 390
+      },
+      "bounds": [
+        [
+          -0.137,
+          -0.2739,
+          -0.918
+        ],
+        [
+          0.137,
+          0.34,
+          0.258
+        ]
+      ],
+      "parts": [
+        "body",
+        "round",
+        "muzzle",
+        "eject",
+        "support"
+      ]
+    },
+    {
+      "id": "ember-bottle",
+      "label": "EMBER \u2022 Incendiary prop",
+      "glb": "ember-bottle.glb",
+      "bytes": 27780,
+      "triangles": {
+        "high": 732,
+        "low": 188
+      },
+      "bounds": [
+        [
+          -0.074,
+          -0.15,
+          -0.162
+        ],
+        [
+          0.074,
+          0.3355,
+          0.035
+        ]
+      ],
+      "parts": [
+        "body",
+        "muzzle",
+        "eject",
+        "support"
+      ]
+    },
+    {
+      "id": "longwatch-sniper",
+      "label": "LONGWATCH \u2022 Precision rifle",
+      "glb": "longwatch-sniper.glb",
+      "bytes": 208128,
+      "triangles": {
+        "high": 4164,
+        "low": 638
+      },
+      "bounds": [
+        [
+          -0.08,
+          -0.3225,
+          -1.328
+        ],
+        [
+          0.1685,
+          0.3635,
+          0.462
+        ]
+      ],
+      "parts": [
+        "body",
+        "magazine",
+        "bolt",
+        "muzzle",
+        "eject",
+        "support"
+      ]
+    },
+    {
+      "id": "pulse-grenade",
+      "label": "PULSE \u2022 Arcade grenade",
+      "glb": "pulse-grenade.glb",
+      "bytes": 26112,
+      "triangles": {
+        "high": 608,
+        "low": 158
+      },
+      "bounds": [
+        [
+          -0.1,
+          -0.13,
+          -0.18
+        ],
+        [
+          0.1,
+          0.2,
+          0.025
+        ]
+      ],
+      "parts": [
+        "body",
+        "lever",
+        "muzzle",
+        "eject",
+        "support"
+      ]
+    },
+    {
+      "id": "pump-shotgun",
+      "label": "PUMP \u2022 Dockside shotgun",
+      "glb": "pump-shotgun.glb",
+      "bytes": 91256,
+      "triangles": {
+        "high": 2568,
+        "low": 306
+      },
+      "bounds": [
+        [
+          -0.08,
+          -0.2739,
+          -1.098
+        ],
+        [
+          0.0875,
+          0.1255,
+          0.462
+        ]
+      ],
+      "parts": [
+        "body",
+        "pump",
+        "bolt",
+        "muzzle",
+        "eject",
+        "support"
+      ]
+    },
+    {
+      "id": "sidearm-pistol",
+      "label": "9MM \u2022 Harbor sidearm",
+      "glb": "sidearm-pistol.glb",
+      "bytes": 65444,
+      "triangles": {
+        "high": 1000,
+        "low": 132
+      },
+      "bounds": [
+        [
+          -0.073,
+          -0.2795,
+          -0.387
+        ],
+        [
+          0.073,
+          0.1375,
+          0.0705
+        ]
+      ],
+      "parts": [
+        "body",
+        "magazine",
+        "slide",
+        "muzzle",
+        "eject",
+        "support"
+      ]
+    },
+    {
+      "id": "vector-smg",
+      "label": "VECTOR \u2022 Compact automatic",
+      "glb": "vector-smg.glb",
+      "bytes": 75532,
+      "triangles": {
+        "high": 1240,
+        "low": 200
+      },
+      "bounds": [
+        [
+          -0.0761,
+          -0.4325,
+          -0.605
+        ],
+        [
+          0.085,
+          0.255,
+          0.38
+        ]
+      ],
+      "parts": [
+        "body",
+        "magazine",
+        "bolt",
+        "muzzle",
+        "eject",
+        "support"
+      ]
+    }
+  ],
+  "runtimeBytes": 523172,
+  "uniqueMeshes": 117
+}

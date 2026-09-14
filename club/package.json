@@ -1,0 +1,21 @@
+{
+  "name": "harbor-club",
+  "version": "7.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 8012 --bind 127.0.0.1 --directory ..",
+    "assets": "python3 tools/build_assets.py",
+    "test": "node --test tools/*.test.mjs",
+    "verify": "python3 tools/verify_browser.py",
+    "benchmark": "python3 tools/benchmark.py",
+    "soak": "python3 tools/soak.py --minutes 20",
+    "verify:input": "python3 tools/verify_input.py",
+    "verify:lifecycle": "python3 tools/verify_lifecycle.py",
+    "verify:campaign": "python3 tools/verify_campaign.py",
+    "report": "python3 tools/report_update.py",
+    "verify:update": "python3 tools/verify_update.py",
+    "benchmark:update": "python3 tools/benchmark_update.py",
+    "assets:external": "/Applications/Blender.app/Contents/MacOS/Blender -b --factory-startup --disable-autoexec --python tools/build_external_assets.py"
+  }
+}

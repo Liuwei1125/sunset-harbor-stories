@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b23">
+  <meta name="description" content="Harbor Stories AR-7 武器检视：旋转缩放、摄影棚与日落灯光，以及 Blender 和游戏渲染对照。">
+  <title>AR-7 武器检视 · Harbor Stories</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="showroom.css">
+  <script defer src="showroom.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="返回 Harbor Stories 游戏">HARBOR<span>STORIES</span></a>
+    <span class="page-label">武器检视 <span>/ 01</span></span>
+    <a class="back-link" href="index.html">返回游戏 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <div class="workbench">
+      <section class="stage" aria-labelledby="weapon-title">
+        <div class="stage-heading"><span>HARBOR ARMORY</span><span id="view-status" role="status" aria-live="polite">正在准备模型</span></div>
+        <model-viewer id="weapon-viewer" src="assets/armory/ar7-rifle.glb"
+          alt="AR-7 突击步枪三维模型，青蓝色护木和枪托，金属机匣、独立弹匣与反射瞄具。可拖动旋转、滚轮或双指缩放。"
+          camera-controls touch-action="pan-y" disable-pan disable-tap
+          camera-orbit="75deg 70deg 2.65m" camera-target="0m -0.027m -0.267m"
+          field-of-view="30deg" min-camera-orbit="auto 15deg 0.5m" max-camera-orbit="auto 165deg 4m"
+          min-field-of-view="30deg" max-field-of-view="30deg"
+          environment-image="assets/showroom/studio.hdr" tone-mapping="agx" exposure="1"
+          shadow-intensity="1" shadow-softness="0.8" interaction-prompt="none" loading="eager"
+          auto-rotate-delay="0" rotation-per-second="12deg">
+          <div slot="progress-bar" class="loading-strip" aria-hidden="true"><i id="load-progress"></i></div>
+        </model-viewer>
+        <div id="viewer-error" class="viewer-error" role="alert" hidden>
+          <strong>模型暂时无法显示</strong><p id="error-message"></p><button id="retry" type="button">重新加载</button>
+        </div>
+        <div class="stage-caption"><div><h1 id="weapon-title">AR-7</h1><p>突击步枪 <span>／</span> HARBOR EDITION</p></div><span class="interaction-hint">拖动旋转<br>滚轮 / 双指缩放</span></div>
+        <div class="camera-bar" role="group" aria-label="选择检视角度">
+          <button type="button" data-view="hero" aria-pressed="true">整体</button>
+          <button type="button" data-view="side" aria-pressed="false">侧面</button>
+          <button type="button" data-view="detail" aria-pressed="false">机匣细节</button>
+          <button type="button" id="rotate" aria-pressed="false">自动旋转</button>
+        </div>
+      </section>
+      <aside class="inspector" aria-label="展示设置">
+        <div class="inspector-title"><h2>光影设置</h2><button id="reset" class="text-button" type="button">重置</button></div>
+        <fieldset class="light-options"><legend>灯光环境</legend>
+          <label><input type="radio" name="lighting" value="studio" checked><span><strong>摄影棚</strong><small>柔光 · 金属层次</small></span></label>
+          <label><input type="radio" name="lighting" value="neutral"><span><strong>均匀中性光</strong><small>观察材质本色</small></span></label>
+          <label><input type="radio" name="lighting" value="sunset"><span><strong>港口日落</strong><small>暖色侧光 · 冷色补光</small></span></label>
+        </fieldset>
+        <div class="setting"><label for="exposure">曝光 <output id="exposure-value" for="exposure">1.00</output></label><input id="exposure" type="range" min="0.5" max="1.8" step="0.05" value="1"><div class="range-scale"><span>暗</span><span>亮</span></div></div>
+        <div class="setting"><label for="tone">色调映射</label><select id="tone"><option value="agx">AgX · 柔和高光</option><option value="neutral">Neutral · 保留本色</option><option value="aces">ACES · 较强对比</option></select></div>
+        <div class="setting shadow-setting"><label for="shadow">落地阴影 <output id="shadow-value" for="shadow">1.00</output></label><input id="shadow" type="range" min="0" max="2" step="0.1" value="1"></div>
+        <a class="compare-link" href="#comparison">查看渲染对照 <span aria-hidden="true">↓</span></a>
+        <p class="inspector-note">观察护木倒角、机匣反光与弹匣凹槽。灯光切换会改变质感，不会修改模型材质。</p>
+      </aside>
+    </div>
+    <section class="comparison" id="comparison" aria-labelledby="comparison-title">
+      <div class="section-heading"><div><span class="eyebrow">RENDER STUDY / AR-7</span><h2 id="comparison-title">同一把武器，不同的光影</h2></div><button type="button" id="restore-comparison">恢复参考视角</button></div>
+      <p class="comparison-note">下方是固定参考图，与上方初始视角、构图一致。Blender 和展示页使用同一份 GLB、摄影棚环境光与 AgX；游戏参考保留现有光照，使用同源的高细节网格。阴影和渲染算法仍有区别。</p>
+      <div class="reference-grid">
+        <figure><img src="assets/showroom/ar7-blender.png" width="1296" height="810" alt="同一 AR-7 模型在 Blender Cycles 摄影棚环境下的参考渲染" loading="lazy"><figcaption><strong>Blender / Cycles</strong><span>摄影棚环境光 · AgX</span></figcaption></figure>
+        <figure><img src="assets/showroom/ar7-game.png" width="1296" height="810" alt="AR-7 高细节网格在现有游戏 WebGL 渲染器中的固定视角截图" loading="lazy"><figcaption><strong>当前游戏 / WebGL</strong><span>Radiance 6.3.1 · 室外环境光 · AgX</span></figcaption></figure>
+      </div>
+    </section>
+  </main>
+  <footer><span>HARBOR STORIES · AR-7 MODEL STUDY</span><a href="https://modelviewer.dev/" target="_blank" rel="noreferrer">展示组件：model-viewer</a></footer>
+  <noscript><p class="noscript">请启用 JavaScript 以检视三维模型。下方仍可查看参考图。</p></noscript>
+</body>
+</html>

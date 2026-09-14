@@ -1,0 +1,18 @@
+{
+  "generator": "tools/build_lighting.py",
+  "source": "Original analytical outdoor radiance, no stock photograph",
+  "sampling": "96 GGX importance samples per specular texel, 128 cosine hemisphere samples per diffuse texel",
+  "atlas": [
+    256,
+    1024
+  ],
+  "sun": [
+    -0.5259237061407777,
+    0.7686577243595981,
+    0.3641010273282307
+  ],
+  "files": {
+    "harbor-environment.hdr": "cf3d5ed09b1c28a43fc617ba7492ccf5175ac57a87342252f5c4a42cbf3eeb7d",
+    "lighting-pack.js": "38796a70a42d4c44157e22930abb18c89c2de4f4dda173ec54b4d75124527efd"
+  }
+}

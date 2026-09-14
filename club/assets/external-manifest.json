@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "assets": {
+    "touring-gt": {
+      "id": "touring-gt",
+      "label": "GT 概念跑车",
+      "source": {
+        "file": "club/assets/source/third-party/car-concept/CarConcept.glb",
+        "sha256": "c272098089d78c5cd9fd9f24ff50ee8acf8d932c55f2d55fc10adb6c8998966b"
+      },
+      "lods": {
+        "high": {
+          "file": "models/touring-gt.high.glb",
+          "bytes": 3777084,
+          "sha256": "e55332660902b901909e9ee5bd90591415ae820c78305d0bbdd0c9a672c0c6f8",
+          "triangles": 41548,
+          "drawGroups": 43,
+          "bounds": [
+            [
+              -1.0524132,
+              -0.0026763,
+              -2.1756549
+            ],
+            [
+              1.0523164,
+              1.0342294,
+              1.7462491
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/touring-gt.low.glb",
+          "bytes": 2050348,
+          "sha256": "eac89b1075d676c888e46f22d1c043895d11a3f8fe019e981109ab1ea7da4fe5",
+          "triangles": 14161,
+          "drawGroups": 42,
+          "bounds": [
+            [
+              -1.0523837,
+              -0.0184723,
+              -2.1786127
+            ],
+            [
+              1.0519456,
+              1.0338922,
+              1.7457057
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "motion": ""
+        },
+        "steering": {
+          "pivot": [
+            -0.0008999,
+            0.5778,
+            -0.8361
+          ],
+          "motion": "steering"
+        },
+        "wheel-fl": {
+          "pivot": [
+            -0.8779438,
+            0.3453833,
+            -1.3371127
+          ],
+          "motion": "wheel-front"
+        },
+        "wheel-fr": {
+          "pivot": [
+            0.8790075,
+            0.3453833,
+            -1.3355716
+          ],
+          "motion": "wheel-front"
+        },
+        "wheel-rl": {
+          "pivot": [
+            -0.8842624,
+            0.345383,
+            1.182656
+          ],
+          "motion": "wheel"
+        },
+        "wheel-rr": {
+          "pivot": [
+            0.8835342,
+            0.345383,
+            1.1826563
+          ],
+          "motion": "wheel"
+        }
+      },
+      "bounds": [
+        [
+          -1.0524132,
+          -0.0026763,
+          -2.1756549
+        ],
+        [
+          1.0523164,
+          1.0342294,
+          1.7462491
+        ]
+      ],
+      "collision": {
+        "type": "visual-only",
+        "note": "Authoritative club vehicle/weapon rules remain in the simulation."
+      },
+      "license": "car-concept"
+    },
+    "field-akm": {
+      "id": "field-akm",
+      "label": "AKM / 木饰步枪",
+      "source": {
+        "file": "club/assets/source/third-party/oga-akm/akm54.blend",
+        "sha256": "4fe01a2cc27c6d31136e7a776fcef56fc9d336dd0d93e128b2f42778e94cf4d6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/field-akm.high.glb",
+          "bytes": 1142420,
+          "sha256": "349ee578aa0f175b91098fb5f37b8383b7d7828bc9e7931c5fa42614a6546e4d",
+          "triangles": 5322,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.0176223,
+              -0.2233103,
+              -0.4895281
+            ],
+            [
+              0.0364325,
+              0.0505201,
+              0.482806
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/field-akm.low.glb",
+          "bytes": 937500,
+          "sha256": "ff78df0fec63d6a1e9949a6130c4ef2ec893713cac6444c97468f821a7683837",
+          "triangles": 2925,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.017568,
+              -0.2233103,
+              -0.4895283
+            ],
+            [
+              0.0364396,
+              0.0504273,
+              0.482806
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "magazine": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": "magazine"
+        },
+        "bolt": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": "bolt"
+        }
+      },
+      "bounds": [
+        [
+          -0.0176223,
+          -0.2233103,
+          -0.4895281
+        ],
+        [
+          0.0364325,
+          0.0505201,
+          0.482806
+        ]
+      ],
+      "collision": {
+        "type": "visual-only",
+        "note": "Authoritative club vehicle/weapon rules remain in the simulation."
+      },
+      "license": "oga-akm"
+    }
+  },
+  "licenses": [
+    {
+      "id": "car-concept",
+      "license": "CC-BY-4.0",
+      "author": "Eric Chadwick / Darmstadt Graphics Group GmbH, 2024",
+      "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept",
+      "changes": "Normalized orientation and scale, removed logo meshes and wipers, decimated LODs, resized textures, merged by joint, simplified glass."
+    },
+    {
+      "id": "oga-akm",
+      "license": "CC0-1.0",
+      "author": "LonesomeDucky",
+      "url": "https://opengameart.org/content/weathered-akm-rifle",
+      "changes": "Resized PBR textures, separated magazine and bolt for game animation, lower LOD."
+    }
+  ]
+}

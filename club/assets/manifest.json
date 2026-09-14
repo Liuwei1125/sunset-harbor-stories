@@ -1,0 +1,2406 @@
+{
+  "version": 1,
+  "coordinates": "right-handed; meters; Y up; -Z forward",
+  "pipeline": "glTF 2.0 / GLB, uncompressed, native engine loaders; no runtime geometry decoder",
+  "assets": {
+    "comet-sport": {
+      "id": "comet-sport",
+      "label": "COMET / GT 02",
+      "source": {
+        "file": "assets/blender/comet-sport.glb",
+        "sha256": "3ce5c7ed922a288e738f57f63b45d554acbaf313b000a1df6dafed6af5ba2f61",
+        "lowSource": "assets/blender/harbor-pack.js",
+        "lowSourceSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/comet-sport.high.glb",
+          "bytes": 825904,
+          "sha256": "f51cf801f8aa27b58f0e960e2018bf49830eb3d4f9b5a012d8145c1a58b58e31",
+          "triangles": 16253,
+          "drawGroups": 35,
+          "bounds": [
+            [
+              -1.284999966621399,
+              0.0032000223718020027,
+              -2.274999901652336
+            ],
+            [
+              1.284999966621399,
+              1.5360000506043434,
+              2.3354999440883426
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/comet-sport.low.glb",
+          "bytes": 178148,
+          "sha256": "9018ab9fc7d91ff3d3d4392d5df46890e9ee833faafeb412d4369386f3f6eb35",
+          "triangles": 2797,
+          "drawGroups": 35,
+          "bounds": [
+            [
+              -1.272,
+              0.010999999999999954,
+              -2.2720000000000002
+            ],
+            [
+              1.272,
+              1.518,
+              2.336
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "door-left": {
+          "pivot": [
+            -0.97,
+            1,
+            -0.78
+          ],
+          "motion": ""
+        },
+        "door-right": {
+          "pivot": [
+            0.97,
+            1,
+            -0.78
+          ],
+          "motion": "door"
+        },
+        "front-left": {
+          "pivot": [
+            -1.035,
+            0.41,
+            -1.36
+          ],
+          "motion": "wheel-front"
+        },
+        "rear-left": {
+          "pivot": [
+            -1.035,
+            0.41,
+            1.4
+          ],
+          "motion": "wheel"
+        },
+        "front-right": {
+          "pivot": [
+            1.035,
+            0.41,
+            -1.36
+          ],
+          "motion": "wheel-front"
+        },
+        "rear-right": {
+          "pivot": [
+            1.035,
+            0.41,
+            1.4
+          ],
+          "motion": "wheel"
+        }
+      },
+      "bounds": [
+        [
+          -1.284999966621399,
+          0.0032000223718020027,
+          -2.274999901652336
+        ],
+        [
+          1.284999966621399,
+          1.5360000506043434,
+          2.3354999440883426
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -1.284999966621399,
+            0.0032000223718020027,
+            -2.274999901652336
+          ],
+          [
+            1.284999966621399,
+            1.5360000506043434,
+            2.3354999440883426
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "dock-pallet": {
+      "id": "dock-pallet",
+      "label": "EURO / TIMBER PALLET",
+      "source": {
+        "file": "assets/blender/dock-pallet.glb",
+        "sha256": "2431a1df4b5032666b3a80a58a9a4b7ff4e2817169e9fd7055254c62e5e4e2ba",
+        "lowSource": "assets/blender/harbor-pack.js",
+        "lowSourceSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/dock-pallet.high.glb",
+          "bytes": 71128,
+          "sha256": "7602d1611ec31edc968248f41f41e433d298b9b4ec41257d61751753d61328a5",
+          "triangles": 836,
+          "drawGroups": 2,
+          "bounds": [
+            [
+              -0.607499971985817,
+              -0.0004999972879886627,
+              -0.5249999761581421
+            ],
+            [
+              0.6095000058412552,
+              0.26249999925494194,
+              0.5249999761581421
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/dock-pallet.low.glb",
+          "bytes": 23200,
+          "sha256": "0af4142793768f949590241839a1ef6b6f42b875b61ded61a0c6d620fa8fa33e",
+          "triangles": 190,
+          "drawGroups": 2,
+          "bounds": [
+            [
+              -0.604,
+              0.003,
+              -0.522
+            ],
+            [
+              0.609,
+              0.259,
+              0.525
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.607499971985817,
+          -0.0004999972879886627,
+          -0.5249999761581421
+        ],
+        [
+          0.6095000058412552,
+          0.26249999925494194,
+          0.5249999761581421
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.607499971985817,
+            -0.0004999972879886627,
+            -0.5249999761581421
+          ],
+          [
+            0.6095000058412552,
+            0.26249999925494194,
+            0.5249999761581421
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "fuel-drum": {
+      "id": "fuel-drum",
+      "label": "FUEL / STEEL DRUM",
+      "source": {
+        "file": "assets/blender/fuel-drum.glb",
+        "sha256": "3b1bf4ec962d40e2f145b970e6ce40b1a42fd1e8dd95fb15dd602e953162b51f",
+        "lowSource": "assets/blender/harbor-pack.js",
+        "lowSourceSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/fuel-drum.high.glb",
+          "bytes": 100292,
+          "sha256": "72c17db4f877dd6a02068043f9fa9706d37890090d52e9329b047fde74eb02c7",
+          "triangles": 2460,
+          "drawGroups": 5,
+          "bounds": [
+            [
+              -0.3330000042915344,
+              0.02000001072883606,
+              -0.3330000042915382
+            ],
+            [
+              0.33300000429153004,
+              0.965999991632998,
+              0.33300000429153065
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/fuel-drum.low.glb",
+          "bytes": 24240,
+          "sha256": "5b53bbda17fded96f1e8ceed37d44f2cfe6b98925be6c793e912f6eab6f09104",
+          "triangles": 578,
+          "drawGroups": 5,
+          "bounds": [
+            [
+              -0.33,
+              0.02,
+              -0.332
+            ],
+            [
+              0.328,
+              0.966,
+              0.332
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.3330000042915344,
+          0.02000001072883606,
+          -0.3330000042915382
+        ],
+        [
+          0.33300000429153004,
+          0.965999991632998,
+          0.33300000429153065
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.3330000042915344,
+            0.02000001072883606,
+            -0.3330000042915382
+          ],
+          [
+            0.33300000429153004,
+            0.965999991632998,
+            0.33300000429153065
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "oak-crate": {
+      "id": "oak-crate",
+      "label": "OAK / TRANSIT CRATE",
+      "source": {
+        "file": "assets/blender/oak-crate.glb",
+        "sha256": "21e629edeb08914daf75d0da116a46794dd028679f31fe581237d8965c0ee7a9",
+        "lowSource": "assets/blender/harbor-pack.js",
+        "lowSourceSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/oak-crate.high.glb",
+          "bytes": 182256,
+          "sha256": "1d14c72836b404f39ebfbfef02dd534adc088568d291f167586f3e61a37ffa26",
+          "triangles": 2480,
+          "drawGroups": 5,
+          "bounds": [
+            [
+              -0.7899999860674143,
+              0.0,
+              -0.8014999945306519
+            ],
+            [
+              0.7899999860674143,
+              1.0285000056028366,
+              0.8014999945306519
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/oak-crate.low.glb",
+          "bytes": 49172,
+          "sha256": "8c4fe141367d6c19312967d185e90fed52fede62e400cb170ab6f5ded9ff85f9",
+          "triangles": 410,
+          "drawGroups": 4,
+          "bounds": [
+            [
+              -0.785,
+              0.005,
+              -0.785
+            ],
+            [
+              0.785,
+              1.024,
+              0.787
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.7899999860674143,
+          0.0,
+          -0.8014999945306519
+        ],
+        [
+          0.7899999860674143,
+          1.0285000056028366,
+          0.8014999945306519
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.7899999860674143,
+            0.0,
+            -0.8014999945306519
+          ],
+          [
+            0.7899999860674143,
+            1.0285000056028366,
+            0.8014999945306519
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "quay-barrier": {
+      "id": "quay-barrier",
+      "label": "QUAY / CONCRETE BARRIER",
+      "source": {
+        "file": "assets/blender/quay-barrier.glb",
+        "sha256": "512997f19c30c3338a9a3bb0447c4371bda9568df89812738c14e5d1ef4a32fa",
+        "lowSource": "assets/blender/harbor-pack.js",
+        "lowSourceSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/quay-barrier.high.glb",
+          "bytes": 57932,
+          "sha256": "511f8903754e5c022229c782263cd763b6dbc7f4518b4a9ef9d98ca810f1150f",
+          "triangles": 916,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.47999998927116394,
+              0.0,
+              -2.0
+            ],
+            [
+              0.47999998927116394,
+              1.0369999781250954,
+              2.0
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/quay-barrier.low.glb",
+          "bytes": 20028,
+          "sha256": "9f7e627d693bbae035d8e1fc2ab23db96f88db07b95ca63a1d4585e019bb470b",
+          "triangles": 224,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.48,
+              0.016,
+              -1.995
+            ],
+            [
+              0.48,
+              1.032,
+              1.995
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.47999998927116394,
+          0.0,
+          -2.0
+        ],
+        [
+          0.47999998927116394,
+          1.0369999781250954,
+          2.0
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.47999998927116394,
+            0.0,
+            -2.0
+          ],
+          [
+            0.47999998927116394,
+            1.0369999781250954,
+            2.0
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "quay-container": {
+      "id": "quay-container",
+      "label": "NORTH QUAY / FREIGHT 17",
+      "source": {
+        "file": "assets/blender/quay-container.glb",
+        "sha256": "582b47b5be3a40df63798bbd5ddfb2ca0821493cd47de45a55d062cd4d27e507",
+        "lowSource": "assets/blender/harbor-pack.js",
+        "lowSourceSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/quay-container.high.glb",
+          "bytes": 598208,
+          "sha256": "46b8c8c8e9c3896bae4c2080109a614855528e6ca236bc6f3597319903869513",
+          "triangles": 8680,
+          "drawGroups": 5,
+          "bounds": [
+            [
+              -2.4794998834840953,
+              -0.009999997913837433,
+              -5.405000172555447
+            ],
+            [
+              2.4794998834840953,
+              2.7200000802986324,
+              5.535000000149012
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/quay-container.low.glb",
+          "bytes": 136592,
+          "sha256": "f6ebee0ac8e9d9621fab2799b45050bea9b2174f421d67cb65b02a998512ef35",
+          "triangles": 1240,
+          "drawGroups": 4,
+          "bounds": [
+            [
+              -2.452,
+              -0.01,
+              -5.3950000000000005
+            ],
+            [
+              2.452,
+              2.72,
+              5.535
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -2.4794998834840953,
+          -0.009999997913837433,
+          -5.405000172555447
+        ],
+        [
+          2.4794998834840953,
+          2.7200000802986324,
+          5.535000000149012
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -2.4794998834840953,
+            -0.009999997913837433,
+            -5.405000172555447
+          ],
+          [
+            2.4794998834840953,
+            2.7200000802986324,
+            5.535000000149012
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "quay-lamp": {
+      "id": "quay-lamp",
+      "label": "QUAY / TASK LIGHT",
+      "source": {
+        "file": "assets/blender/quay-lamp.glb",
+        "sha256": "28271dff97da2cbe933ce9c3d357db542bd80be90345ab95f205d9a3a48475c2",
+        "lowSource": "assets/blender/harbor-pack.js",
+        "lowSourceSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/quay-lamp.high.glb",
+          "bytes": 53484,
+          "sha256": "18c390d0b3a366e4cf5bb673b1d7a48bc51ddc424f94db7b42303c120cbe4b9b",
+          "triangles": 748,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.23999999463558197,
+              0.0,
+              -0.2549999952316284
+            ],
+            [
+              2.0800000429153442,
+              7.070000171661377,
+              0.2549999952316284
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/quay-lamp.low.glb",
+          "bytes": 17440,
+          "sha256": "5c356ce0d8c547f46f185ce189c4fe21e6b093076d91e900fe74fc3790a310d6",
+          "triangles": 188,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.228,
+              0.012,
+              -0.252
+            ],
+            [
+              2.077,
+              7.0600000000000005,
+              0.252
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.23999999463558197,
+          0.0,
+          -0.2549999952316284
+        ],
+        [
+          2.0800000429153442,
+          7.070000171661377,
+          0.2549999952316284
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.23999999463558197,
+            0.0,
+            -0.2549999952316284
+          ],
+          [
+            2.0800000429153442,
+            7.070000171661377,
+            0.2549999952316284
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "trail-jeep": {
+      "id": "trail-jeep",
+      "label": "TRAIL / UTILITY 04",
+      "source": {
+        "file": "assets/blender/trail-jeep.glb",
+        "sha256": "928ff7d7db75166cfd17c3ac9eca85e569f946df36e9c39f3ef3d941d3ce90c6",
+        "lowSource": "assets/blender/harbor-pack.js",
+        "lowSourceSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/trail-jeep.high.glb",
+          "bytes": 1482996,
+          "sha256": "2ddc1713df2367a05949527f3a6e7d5b00130cd926c82d95f33e5094c6fbc8c2",
+          "triangles": 24260,
+          "drawGroups": 37,
+          "bounds": [
+            [
+              -1.284999966621399,
+              -0.009000003502883103,
+              -2.397999905049801
+            ],
+            [
+              1.284999966621399,
+              2.413000206670595,
+              2.372499979641422
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/trail-jeep.low.glb",
+          "bytes": 154644,
+          "sha256": "4a4602659a964992c968fbdbc4b24d4708b9100d0ad9f069d8a20a86a869aef7",
+          "triangles": 2468,
+          "drawGroups": 36,
+          "bounds": [
+            [
+              -1.272,
+              0.011999999999999955,
+              -2.398
+            ],
+            [
+              1.272,
+              2.4130000000000003,
+              2.372
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "door-left": {
+          "pivot": [
+            -0.97,
+            1,
+            -0.78
+          ],
+          "motion": ""
+        },
+        "door-right": {
+          "pivot": [
+            0.97,
+            1,
+            -0.78
+          ],
+          "motion": "door"
+        },
+        "front-left": {
+          "pivot": [
+            -1.035,
+            0.49,
+            -1.36
+          ],
+          "motion": "wheel-front"
+        },
+        "rear-left": {
+          "pivot": [
+            -1.035,
+            0.49,
+            1.4
+          ],
+          "motion": "wheel"
+        },
+        "front-right": {
+          "pivot": [
+            1.035,
+            0.49,
+            -1.36
+          ],
+          "motion": "wheel-front"
+        },
+        "rear-right": {
+          "pivot": [
+            1.035,
+            0.49,
+            1.4
+          ],
+          "motion": "wheel"
+        }
+      },
+      "bounds": [
+        [
+          -1.284999966621399,
+          -0.009000003502883103,
+          -2.397999905049801
+        ],
+        [
+          1.284999966621399,
+          2.413000206670595,
+          2.372499979641422
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -1.284999966621399,
+            -0.009000003502883103,
+            -2.397999905049801
+          ],
+          [
+            1.284999966621399,
+            2.413000206670595,
+            2.372499979641422
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "ar7-rifle": {
+      "id": "ar7-rifle",
+      "label": "AR-7 • Harbor assault rifle",
+      "source": {
+        "file": "assets/armory/ar7-rifle.glb",
+        "sha256": "65f1b8863eec45a741a0dce41d991cd2f36ca6b6ddc5b99f80de9cc0b487b801",
+        "lowSource": "assets/armory/armory-pack.js",
+        "lowSourceSha256": "948a79e2d388c971041ea8f9173a012998cf5845b31b7059e30f8f7b57f6bb7b"
+      },
+      "lods": {
+        "high": {
+          "file": "models/ar7-rifle.high.glb",
+          "bytes": 227812,
+          "sha256": "4950ec8d94efd352aafc9154078a35b8b52440f1b63126a967c8e60b3cfa9233",
+          "triangles": 2940,
+          "drawGroups": 10,
+          "bounds": [
+            [
+              -0.07999999821186066,
+              -0.36249999422580004,
+              -0.9830000122843461
+            ],
+            [
+              0.08750000037252903,
+              0.3049999913200736,
+              0.4619999881833792
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/ar7-rifle.low.glb",
+          "bytes": 36096,
+          "sha256": "722f8d8d43f261c2e2282eb5e1f9ef9ddcecb2784866b8012cb777bc690e1506",
+          "triangles": 310,
+          "drawGroups": 9,
+          "bounds": [
+            [
+              -0.078,
+              -0.36,
+              -0.983
+            ],
+            [
+              0.08600000000000001,
+              0.303,
+              0.453
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "magazine": {
+          "pivot": [
+            0,
+            -0.09,
+            -0.22
+          ],
+          "motion": "magazine"
+        },
+        "bolt": {
+          "pivot": [
+            0,
+            0.05,
+            -0.16
+          ],
+          "motion": "bolt"
+        },
+        "muzzle": {
+          "pivot": [
+            0,
+            0.055,
+            -0.985
+          ],
+          "motion": "socket"
+        },
+        "eject": {
+          "pivot": [
+            0.085,
+            0.045,
+            -0.17
+          ],
+          "motion": "socket"
+        },
+        "support": {
+          "pivot": [
+            -0.03,
+            -0.075,
+            -0.36
+          ],
+          "motion": "socket"
+        }
+      },
+      "bounds": [
+        [
+          -0.07999999821186066,
+          -0.36249999422580004,
+          -0.9830000122843461
+        ],
+        [
+          0.08750000037252903,
+          0.3049999913200736,
+          0.4619999881833792
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.07999999821186066,
+            -0.36249999422580004,
+            -0.9830000122843461
+          ],
+          [
+            0.08750000037252903,
+            0.3049999913200736,
+            0.4619999881833792
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "longwatch-sniper": {
+      "id": "longwatch-sniper",
+      "label": "LONGWATCH • Precision rifle",
+      "source": {
+        "file": "assets/armory/longwatch-sniper.glb",
+        "sha256": "f1c6b3746739ad840de34821884e9ba9a1ac2f8595cceecdb1d4e73c6d8f8c9a",
+        "lowSource": "assets/armory/armory-pack.js",
+        "lowSourceSha256": "948a79e2d388c971041ea8f9173a012998cf5845b31b7059e30f8f7b57f6bb7b"
+      },
+      "lods": {
+        "high": {
+          "file": "models/longwatch-sniper.high.glb",
+          "bytes": 269632,
+          "sha256": "ba41718eb12dd9957df1c6a8f4fc339a5ed20805164e616a3ca526354c61e07f",
+          "triangles": 4164,
+          "drawGroups": 12,
+          "bounds": [
+            [
+              -0.07999999821186066,
+              -0.3225000025704503,
+              -1.3279999812899308
+            ],
+            [
+              0.16850000619888306,
+              0.36350001208484173,
+              0.4619999881833792
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/longwatch-sniper.low.glb",
+          "bytes": 46156,
+          "sha256": "436d55b7be8998e1f4fc96bc559914331f02955e05c1006c54e632cdfc3db7ce",
+          "triangles": 638,
+          "drawGroups": 11,
+          "bounds": [
+            [
+              -0.078,
+              -0.32,
+              -1.328
+            ],
+            [
+              0.169,
+              0.362,
+              0.453
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "magazine": {
+          "pivot": [
+            0,
+            -0.09,
+            -0.22
+          ],
+          "motion": "magazine"
+        },
+        "bolt": {
+          "pivot": [
+            0,
+            0.05,
+            -0.16
+          ],
+          "motion": "bolt"
+        },
+        "muzzle": {
+          "pivot": [
+            0,
+            0.055,
+            -1.33
+          ],
+          "motion": "socket"
+        },
+        "eject": {
+          "pivot": [
+            0.083,
+            0.06,
+            -0.18
+          ],
+          "motion": "socket"
+        },
+        "support": {
+          "pivot": [
+            -0.03,
+            -0.075,
+            -0.38
+          ],
+          "motion": "socket"
+        }
+      },
+      "bounds": [
+        [
+          -0.07999999821186066,
+          -0.3225000025704503,
+          -1.3279999812899308
+        ],
+        [
+          0.16850000619888306,
+          0.36350001208484173,
+          0.4619999881833792
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.07999999821186066,
+            -0.3225000025704503,
+            -1.3279999812899308
+          ],
+          [
+            0.16850000619888306,
+            0.36350001208484173,
+            0.4619999881833792
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "sidearm-pistol": {
+      "id": "sidearm-pistol",
+      "label": "9MM • Harbor sidearm",
+      "source": {
+        "file": "assets/armory/sidearm-pistol.glb",
+        "sha256": "ec85752b8e74bbdb5a992a66e7e88361314bc1209bc6eea6a1891940313f2ad7",
+        "lowSource": "assets/armory/armory-pack.js",
+        "lowSourceSha256": "948a79e2d388c971041ea8f9173a012998cf5845b31b7059e30f8f7b57f6bb7b"
+      },
+      "lods": {
+        "high": {
+          "file": "models/sidearm-pistol.high.glb",
+          "bytes": 86932,
+          "sha256": "e9996c2a5aeb327f923a907a1af0dfb09be1c94baf130afeb804ef5eadbc91d6",
+          "triangles": 1000,
+          "drawGroups": 10,
+          "bounds": [
+            [
+              -0.07300000032410026,
+              -0.2794999899342656,
+              -0.38699999464276597
+            ],
+            [
+              0.07300000032410026,
+              0.1375000011175871,
+              0.0705000008456409
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/sidearm-pistol.low.glb",
+          "bytes": 24692,
+          "sha256": "5955029ce8a32228cc7ebbf32c23ce6c287ce738e38182572b8b7574cda09594",
+          "triangles": 132,
+          "drawGroups": 10,
+          "bounds": [
+            [
+              -0.068,
+              -0.278,
+              -0.387
+            ],
+            [
+              0.063,
+              0.138,
+              0.07100000000000001
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "magazine": {
+          "pivot": [
+            0,
+            -0.105,
+            -0.01
+          ],
+          "motion": "magazine"
+        },
+        "slide": {
+          "pivot": [
+            0,
+            0.05,
+            -0.15
+          ],
+          "motion": "slide"
+        },
+        "muzzle": {
+          "pivot": [
+            0,
+            0.035,
+            -0.38
+          ],
+          "motion": "socket"
+        },
+        "eject": {
+          "pivot": [
+            0.07,
+            0.07,
+            -0.17
+          ],
+          "motion": "socket"
+        },
+        "support": {
+          "pivot": [
+            -0.04,
+            -0.07,
+            -0.055
+          ],
+          "motion": "socket"
+        }
+      },
+      "bounds": [
+        [
+          -0.07300000032410026,
+          -0.2794999899342656,
+          -0.38699999464276597
+        ],
+        [
+          0.07300000032410026,
+          0.1375000011175871,
+          0.0705000008456409
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.07300000032410026,
+            -0.2794999899342656,
+            -0.38699999464276597
+          ],
+          [
+            0.07300000032410026,
+            0.1375000011175871,
+            0.0705000008456409
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-archery-target": {
+      "id": "club-archery-target",
+      "label": "Ten-ring target and folding stand",
+      "source": {
+        "file": "assets/arcade/club-archery-target.glb",
+        "sha256": "959f1fe34cee82b2ca17fc2c8e99edeac7a563d4fa4a6ac963b8dce26fcdec20",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-archery-target.high.glb",
+          "bytes": 392196,
+          "sha256": "1614a8d34d4609185f9d6f4795887d9aaeaee23c4e885f79e2309ba4847fa665",
+          "triangles": 13228,
+          "drawGroups": 8,
+          "bounds": [
+            [
+              -0.6549999713897705,
+              -1.310366660818925,
+              -0.6792152329772138
+            ],
+            [
+              0.6549999713897705,
+              0.6549999725998674,
+              0.2224368502658681
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-archery-target.low.glb",
+          "bytes": 111808,
+          "sha256": "e72386702c08f7b06c65910c398d13d1e86e139485442fe653cd83564540015c",
+          "triangles": 3548,
+          "drawGroups": 8,
+          "bounds": [
+            [
+              -0.655,
+              -1.308,
+              -0.679
+            ],
+            [
+              0.655,
+              0.655,
+              0.215
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.6549999713897705,
+          -1.310366660818925,
+          -0.6792152329772138
+        ],
+        [
+          0.6549999713897705,
+          0.6549999725998674,
+          0.2224368502658681
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.6549999713897705,
+            -1.310366660818925,
+            -0.6792152329772138
+          ],
+          [
+            0.6549999713897705,
+            0.6549999725998674,
+            0.2224368502658681
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-arrow": {
+      "id": "club-arrow",
+      "label": "Carbon practice arrow",
+      "source": {
+        "file": "assets/arcade/club-arrow.glb",
+        "sha256": "e8ffbe6ef02561fb1309fb6f5a5d3959625526b9c59b68dae7205901bfc0b65d",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-arrow.high.glb",
+          "bytes": 17472,
+          "sha256": "cf31eb32f094f306530e8fab81701c70394c85d8e8db5d5c8217f71fc3a79449",
+          "triangles": 274,
+          "drawGroups": 4,
+          "bounds": [
+            [
+              -0.012000000104308128,
+              -0.020784609019756317,
+              -0.39599999097794936
+            ],
+            [
+              0.024000000208616257,
+              0.020784609019756317,
+              0.33600000184343437
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-arrow.low.glb",
+          "bytes": 8088,
+          "sha256": "4c38f21042dd7a2927e03f3b9fbc5728bb8f8d99ad039d0a988431def77427d1",
+          "triangles": 80,
+          "drawGroups": 4,
+          "bounds": [
+            [
+              -0.012,
+              -0.021,
+              -0.396
+            ],
+            [
+              0.024,
+              0.021,
+              0.336
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.012000000104308128,
+          -0.020784609019756317,
+          -0.39599999097794936
+        ],
+        [
+          0.024000000208616257,
+          0.020784609019756317,
+          0.33600000184343437
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.012000000104308128,
+            -0.020784609019756317,
+            -0.39599999097794936
+          ],
+          [
+            0.024000000208616257,
+            0.020784609019756317,
+            0.33600000184343437
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-canopy-tree": {
+      "id": "club-canopy-tree",
+      "label": "Wind-shaped coastal tree",
+      "source": {
+        "file": "assets/arcade/club-canopy-tree.glb",
+        "sha256": "78db2ff43707bea075cb94c761ad3bd520004e08db6d5dd58d706c074564cdd6",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-canopy-tree.high.glb",
+          "bytes": 53076,
+          "sha256": "922a7b840fb38930917f2ac68ce928b012853f1736f5eff77c2ae09b224583f3",
+          "triangles": 1312,
+          "drawGroups": 4,
+          "bounds": [
+            [
+              -2.7733821868896484,
+              -0.05395221019716037,
+              -2.23384952545166
+            ],
+            [
+              2.9200291633605957,
+              5.28000020980835,
+              2.69417405128479
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-canopy-tree.low.glb",
+          "bytes": 23292,
+          "sha256": "f7270d1e385af8f02e35dd2c831a2712a8d321964ea82a77db520c4f31a6ce51",
+          "triangles": 443,
+          "drawGroups": 4,
+          "bounds": [
+            [
+              -2.1590000000000003,
+              -0.024,
+              -2.234
+            ],
+            [
+              2.606,
+              5.28,
+              2.352
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -2.7733821868896484,
+          -0.05395221019716037,
+          -2.23384952545166
+        ],
+        [
+          2.9200291633605957,
+          5.28000020980835,
+          2.69417405128479
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -2.7733821868896484,
+            -0.05395221019716037,
+            -2.23384952545166
+          ],
+          [
+            2.9200291633605957,
+            5.28000020980835,
+            2.69417405128479
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-cockpit": {
+      "id": "club-cockpit",
+      "label": "APEX GT • first-person cockpit",
+      "source": {
+        "file": "assets/arcade/club-cockpit.glb",
+        "sha256": "770829cd221fdf3dd97d41373131031d3a9b95ce5fce3c71ddf1d2adcfc24833",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-cockpit.high.glb",
+          "bytes": 415676,
+          "sha256": "e8545a971254c2bc8dc2a315b4a90fa052662e042ead4f9b1a936229b05f95b4",
+          "triangles": 7640,
+          "drawGroups": 15,
+          "bounds": [
+            [
+              -0.9200000055134296,
+              0.12999999523162842,
+              -2.0
+            ],
+            [
+              0.9200000055134296,
+              1.4663375616073608,
+              1.3949999511241913
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-cockpit.low.glb",
+          "bytes": 99204,
+          "sha256": "5d11cc58b995e768d39e30314b524d563b8bccda298278556b26721462ce3fe8",
+          "triangles": 1568,
+          "drawGroups": 14,
+          "bounds": [
+            [
+              -0.903,
+              0.145,
+              -2.0
+            ],
+            [
+              0.92,
+              1.466,
+              1.395
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "speed-needle": {
+          "pivot": [
+            -0.48,
+            0.85,
+            -0.243
+          ],
+          "motion": "gauge"
+        },
+        "rpm-needle": {
+          "pivot": [
+            -0.25,
+            0.85,
+            -0.243
+          ],
+          "motion": "gauge"
+        },
+        "steering": {
+          "pivot": [
+            -0.37,
+            0.72,
+            0.02
+          ],
+          "motion": "steering"
+        }
+      },
+      "bounds": [
+        [
+          -0.9200000055134296,
+          0.12999999523162842,
+          -2.0
+        ],
+        [
+          0.9200000055134296,
+          1.4663375616073608,
+          1.3949999511241913
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.9200000055134296,
+            0.12999999523162842,
+            -2.0
+          ],
+          [
+            0.9200000055134296,
+            1.4663375616073608,
+            1.3949999511241913
+          ]
+        ]
+      },
+      "license": "harbor-originals",
+      "camera": {
+        "driver": [
+          -0.37,
+          1.12,
+          0.8
+        ],
+        "fovDegrees": 75
+      }
+    },
+    "club-dart": {
+      "id": "club-dart",
+      "label": "Tungsten precision dart",
+      "source": {
+        "file": "assets/arcade/club-dart.glb",
+        "sha256": "91b787f4cf3bd9005eb357ff0e771f9efce3ba5d9f76f1caafb4b6eaba5768d3",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-dart.high.glb",
+          "bytes": 76708,
+          "sha256": "d9b80595dd01704ea79d419a1ec3d14ace4383ad84d912017118d790eb8bab5e",
+          "triangles": 2396,
+          "drawGroups": 5,
+          "bounds": [
+            [
+              -0.02800000086426735,
+              -0.02800000086426735,
+              -0.06800000350487691
+            ],
+            [
+              0.02800000086426735,
+              0.02800000086426735,
+              0.1080000028014183
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-dart.low.glb",
+          "bytes": 25304,
+          "sha256": "617a7828de86154bdd1fde827343f18eae8c820ebbadb9723229f024491efdd6",
+          "triangles": 650,
+          "drawGroups": 5,
+          "bounds": [
+            [
+              -0.028,
+              -0.028,
+              -0.068
+            ],
+            [
+              0.028,
+              0.028,
+              0.108
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.02800000086426735,
+          -0.02800000086426735,
+          -0.06800000350487691
+        ],
+        [
+          0.02800000086426735,
+          0.02800000086426735,
+          0.1080000028014183
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.02800000086426735,
+            -0.02800000086426735,
+            -0.06800000350487691
+          ],
+          [
+            0.02800000086426735,
+            0.02800000086426735,
+            0.1080000028014183
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-dartboard": {
+      "id": "club-dartboard",
+      "label": "Tournament sisal dartboard",
+      "source": {
+        "file": "assets/arcade/club-dartboard.glb",
+        "sha256": "d3802942d8719289c1a4bcdd2dca32d7f463cbe6ea3ea4b68fb07aa3f53e30d8",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-dartboard.high.glb",
+          "bytes": 728264,
+          "sha256": "58e13ac862cf355de2c2a625750ef4785cf413ebea60687db657b972b9743d54",
+          "triangles": 18976,
+          "drawGroups": 8,
+          "bounds": [
+            [
+              -0.2370000034570694,
+              -0.23700000503917806,
+              -0.061000066827066136
+            ],
+            [
+              0.2370000034570694,
+              0.23700000503917806,
+              0.04500000169855908
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-dartboard.low.glb",
+          "bytes": 224344,
+          "sha256": "e4ca2a5a0b9a24b86d1f060ccf85b330acc367ce82c34723bef25fe3e71d6726",
+          "triangles": 5658,
+          "drawGroups": 8,
+          "bounds": [
+            [
+              -0.23700000000000002,
+              -0.23700000000000002,
+              -0.061
+            ],
+            [
+              0.23700000000000002,
+              0.23700000000000002,
+              0.045
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.2370000034570694,
+          -0.23700000503917806,
+          -0.061000066827066136
+        ],
+        [
+          0.2370000034570694,
+          0.23700000503917806,
+          0.04500000169855908
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.2370000034570694,
+            -0.23700000503917806,
+            -0.061000066827066136
+          ],
+          [
+            0.2370000034570694,
+            0.23700000503917806,
+            0.04500000169855908
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-meadow": {
+      "id": "club-meadow",
+      "label": "Meadow tuft and seed heads",
+      "source": {
+        "file": "assets/arcade/club-meadow.glb",
+        "sha256": "47c1e9a9ffc9d5bcc2fed3727d67a734430c9a90e39765b761655efd633a0031",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-meadow.high.glb",
+          "bytes": 17940,
+          "sha256": "1d97e932e62ced4273b80ae583ea6f5f64a5d7fc918231fdbf1d3839a67a7b1d",
+          "triangles": 270,
+          "drawGroups": 4,
+          "bounds": [
+            [
+              -0.8400640487670898,
+              -0.0005759161921363443,
+              -0.9080772399902344
+            ],
+            [
+              0.9906591176986694,
+              0.5029878653585911,
+              0.8477062582969666
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-meadow.low.glb",
+          "bytes": 15508,
+          "sha256": "8db9eb4bed6b4534e1f8b567a4ffd2b553bfc4e23ddc08b050e1dc64470a14a0",
+          "triangles": 108,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.84,
+              0.0,
+              -0.908
+            ],
+            [
+              0.991,
+              0.46,
+              0.848
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -0.8400640487670898,
+          -0.0005759161921363443,
+          -0.9080772399902344
+        ],
+        [
+          0.9906591176986694,
+          0.5029878653585911,
+          0.8477062582969666
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.8400640487670898,
+            -0.0005759161921363443,
+            -0.9080772399902344
+          ],
+          [
+            0.9906591176986694,
+            0.5029878653585911,
+            0.8477062582969666
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-race-gate": {
+      "id": "club-race-gate",
+      "label": "Illuminated timing gantry",
+      "source": {
+        "file": "assets/arcade/club-race-gate.glb",
+        "sha256": "47bd01461745dfc2f08491eac03cc650b54b6daf643752beb46a082578542777",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-race-gate.high.glb",
+          "bytes": 201732,
+          "sha256": "c8cb79bfc6df954a5f57304618b0fd4ed1cdf345822a9cbe1c99c2ec59e014d4",
+          "triangles": 4072,
+          "drawGroups": 6,
+          "bounds": [
+            [
+              -5.250000178813934,
+              0.0,
+              -0.6000000238418579
+            ],
+            [
+              5.250000178813934,
+              4.180000066757202,
+              0.6000000238418579
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-race-gate.low.glb",
+          "bytes": 59376,
+          "sha256": "821a3bd090dbded7b5b5969dca8f7d77725184dd305ecc309ae838de9008f964",
+          "triangles": 1084,
+          "drawGroups": 6,
+          "bounds": [
+            [
+              -5.25,
+              0.042,
+              -0.6
+            ],
+            [
+              5.212,
+              4.18,
+              0.558
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        }
+      },
+      "bounds": [
+        [
+          -5.250000178813934,
+          0.0,
+          -0.6000000238418579
+        ],
+        [
+          5.250000178813934,
+          4.180000066757202,
+          0.6000000238418579
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -5.250000178813934,
+            0.0,
+            -0.6000000238418579
+          ],
+          [
+            5.250000178813934,
+            4.180000066757202,
+            0.6000000238418579
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-recurve": {
+      "id": "club-recurve",
+      "label": "WINDSONG • laminated recurve bow",
+      "source": {
+        "file": "assets/arcade/club-recurve.glb",
+        "sha256": "91d11e78acf3715a047142711ae8ebd7663b8f1596864f0b2b593458db557b47",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-recurve.high.glb",
+          "bytes": 68844,
+          "sha256": "ba7a557ed3496fa4c7b36a6a9490c44b91ff8aca477fc907c4ea7d0d4cded1e7",
+          "triangles": 1552,
+          "drawGroups": 14,
+          "bounds": [
+            [
+              -0.05913601070642471,
+              -0.7089999970048666,
+              -0.43250000938818156
+            ],
+            [
+              0.15799999982118607,
+              0.7089999970048666,
+              0.07399999909102917
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-recurve.low.glb",
+          "bytes": 30292,
+          "sha256": "dddb9aad3518c242b02332fef5d1a53946351ed863b241cd6bcaad031dd28517",
+          "triangles": 400,
+          "drawGroups": 14,
+          "bounds": [
+            [
+              -0.057,
+              -0.708,
+              -0.432
+            ],
+            [
+              0.158,
+              0.7090000000000001,
+              0.074
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "lower-limb": {
+          "pivot": [
+            0,
+            -0.19,
+            0
+          ],
+          "motion": "bow-limb"
+        },
+        "upper-limb": {
+          "pivot": [
+            0,
+            0.19,
+            0
+          ],
+          "motion": "bow-limb"
+        },
+        "string-top": {
+          "pivot": [
+            0,
+            0.69,
+            0.055
+          ],
+          "motion": "socket"
+        },
+        "string-bottom": {
+          "pivot": [
+            0,
+            -0.69,
+            0.055
+          ],
+          "motion": "socket"
+        }
+      },
+      "bounds": [
+        [
+          -0.05913601070642471,
+          -0.7089999970048666,
+          -0.43250000938818156
+        ],
+        [
+          0.15799999982118607,
+          0.7089999970048666,
+          0.07399999909102917
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.05913601070642471,
+            -0.7089999970048666,
+            -0.43250000938818156
+          ],
+          [
+            0.15799999982118607,
+            0.7089999970048666,
+            0.07399999909102917
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "club-shooting-target": {
+      "id": "club-shooting-target",
+      "label": "Reactive mechanical training plate",
+      "source": {
+        "file": "assets/arcade/club-shooting-target.glb",
+        "sha256": "479743e3bf1f13518f0506070f57435c413ccf0890b4958c27b1dfff2e943a7a",
+        "lowSource": "assets/arcade/arcade-pack.js",
+        "lowSourceSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350"
+      },
+      "lods": {
+        "high": {
+          "file": "models/club-shooting-target.high.glb",
+          "bytes": 115268,
+          "sha256": "9b334bb761f5072620680df990e72f156c5c811a3389527f4dd51094b9b93043",
+          "triangles": 2784,
+          "drawGroups": 8,
+          "bounds": [
+            [
+              -0.38999998569488525,
+              0.009999997913837433,
+              -0.25999999046325684
+            ],
+            [
+              0.38999998569488525,
+              1.5999999642372131,
+              0.25999999046325684
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/club-shooting-target.low.glb",
+          "bytes": 36212,
+          "sha256": "fcb31202788576beba36ab46a07bb4eda8580c78a34ceffde6bd146cfdcaade4",
+          "triangles": 748,
+          "drawGroups": 8,
+          "bounds": [
+            [
+              -0.39,
+              0.033,
+              -0.23700000000000002
+            ],
+            [
+              0.369,
+              1.597,
+              0.26
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "plate": {
+          "pivot": [
+            0,
+            0.72,
+            0
+          ],
+          "motion": "target-fold"
+        }
+      },
+      "bounds": [
+        [
+          -0.38999998569488525,
+          0.009999997913837433,
+          -0.25999999046325684
+        ],
+        [
+          0.38999998569488525,
+          1.5999999642372131,
+          0.25999999046325684
+        ]
+      ],
+      "collision": {
+        "type": "box",
+        "bounds": [
+          [
+            -0.38999998569488525,
+            0.009999997913837433,
+            -0.25999999046325684
+          ],
+          [
+            0.38999998569488525,
+            1.5999999642372131,
+            0.25999999046325684
+          ]
+        ]
+      },
+      "license": "harbor-originals"
+    },
+    "touring-gt": {
+      "id": "touring-gt",
+      "label": "GT 概念跑车",
+      "source": {
+        "file": "club/assets/source/third-party/car-concept/CarConcept.glb",
+        "sha256": "c272098089d78c5cd9fd9f24ff50ee8acf8d932c55f2d55fc10adb6c8998966b"
+      },
+      "lods": {
+        "high": {
+          "file": "models/touring-gt.high.glb",
+          "bytes": 3777084,
+          "sha256": "e55332660902b901909e9ee5bd90591415ae820c78305d0bbdd0c9a672c0c6f8",
+          "triangles": 41548,
+          "drawGroups": 43,
+          "bounds": [
+            [
+              -1.0524132,
+              -0.0026763,
+              -2.1756549
+            ],
+            [
+              1.0523164,
+              1.0342294,
+              1.7462491
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/touring-gt.low.glb",
+          "bytes": 2050348,
+          "sha256": "eac89b1075d676c888e46f22d1c043895d11a3f8fe019e981109ab1ea7da4fe5",
+          "triangles": 14161,
+          "drawGroups": 42,
+          "bounds": [
+            [
+              -1.0523837,
+              -0.0184723,
+              -2.1786127
+            ],
+            [
+              1.0519456,
+              1.0338922,
+              1.7457057
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "motion": ""
+        },
+        "steering": {
+          "pivot": [
+            -0.0008999,
+            0.5778,
+            -0.8361
+          ],
+          "motion": "steering"
+        },
+        "wheel-fl": {
+          "pivot": [
+            -0.8779438,
+            0.3453833,
+            -1.3371127
+          ],
+          "motion": "wheel-front"
+        },
+        "wheel-fr": {
+          "pivot": [
+            0.8790075,
+            0.3453833,
+            -1.3355716
+          ],
+          "motion": "wheel-front"
+        },
+        "wheel-rl": {
+          "pivot": [
+            -0.8842624,
+            0.345383,
+            1.182656
+          ],
+          "motion": "wheel"
+        },
+        "wheel-rr": {
+          "pivot": [
+            0.8835342,
+            0.345383,
+            1.1826563
+          ],
+          "motion": "wheel"
+        }
+      },
+      "bounds": [
+        [
+          -1.0524132,
+          -0.0026763,
+          -2.1756549
+        ],
+        [
+          1.0523164,
+          1.0342294,
+          1.7462491
+        ]
+      ],
+      "collision": {
+        "type": "visual-only",
+        "note": "Authoritative club vehicle/weapon rules remain in the simulation."
+      },
+      "license": "car-concept"
+    },
+    "field-akm": {
+      "id": "field-akm",
+      "label": "AKM / 木饰步枪",
+      "source": {
+        "file": "club/assets/source/third-party/oga-akm/akm54.blend",
+        "sha256": "4fe01a2cc27c6d31136e7a776fcef56fc9d336dd0d93e128b2f42778e94cf4d6"
+      },
+      "lods": {
+        "high": {
+          "file": "models/field-akm.high.glb",
+          "bytes": 1142420,
+          "sha256": "349ee578aa0f175b91098fb5f37b8383b7d7828bc9e7931c5fa42614a6546e4d",
+          "triangles": 5322,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.0176223,
+              -0.2233103,
+              -0.4895281
+            ],
+            [
+              0.0364325,
+              0.0505201,
+              0.482806
+            ]
+          ]
+        },
+        "low": {
+          "file": "models/field-akm.low.glb",
+          "bytes": 937500,
+          "sha256": "ff78df0fec63d6a1e9949a6130c4ef2ec893713cac6444c97468f821a7683837",
+          "triangles": 2925,
+          "drawGroups": 3,
+          "bounds": [
+            [
+              -0.017568,
+              -0.2233103,
+              -0.4895283
+            ],
+            [
+              0.0364396,
+              0.0504273,
+              0.482806
+            ]
+          ]
+        }
+      },
+      "joints": {
+        "body": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": ""
+        },
+        "magazine": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": "magazine"
+        },
+        "bolt": {
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "motion": "bolt"
+        }
+      },
+      "bounds": [
+        [
+          -0.0176223,
+          -0.2233103,
+          -0.4895281
+        ],
+        [
+          0.0364325,
+          0.0505201,
+          0.482806
+        ]
+      ],
+      "collision": {
+        "type": "visual-only",
+        "note": "Authoritative club vehicle/weapon rules remain in the simulation."
+      },
+      "license": "oga-akm"
+    }
+  },
+  "textures": {
+    "road.png": {
+      "file": "textures/road.png",
+      "bytes": 437525,
+      "sha256": "d356c16ca91ddd9424a171336aaedb1eefc67d52490acf3cb1bda79d1f98491b",
+      "source": "Original racing-comparison/shared/textures/road.png"
+    },
+    "road-normal.png": {
+      "file": "textures/road-normal.png",
+      "bytes": 551376,
+      "sha256": "b56308e3e7f58b82539e22779ba67a16aedd0aa6d4d706948110af73c80abe31",
+      "source": "Original racing-comparison/shared/textures/road-normal.png"
+    },
+    "rock.png": {
+      "file": "textures/rock.png",
+      "bytes": 321495,
+      "sha256": "2c1f260eb81a6a3c1617d29896f3cf4acafe05f55748f7d509441f08cfdb1547",
+      "source": "Original racing-comparison/shared/textures/rock.png"
+    },
+    "grass.png": {
+      "file": "textures/grass.png",
+      "bytes": 341501,
+      "sha256": "c9a40e727fbc2e18210e48f302b7416ca5fd4ee7b3a12e387e8a8d443d05bf37",
+      "source": "Original racing-comparison/shared/textures/grass.png"
+    },
+    "sky.png": {
+      "file": "textures/sky.png",
+      "bytes": 114537,
+      "sha256": "144b1dcb76f1ffbefb8df29764792dfb6a10c8fa6ac02a3e5c6ec1c5abc9aa79",
+      "source": "Original racing-comparison/shared/textures/sky.png"
+    }
+  },
+  "licenses": [
+    {
+      "id": "harbor-originals",
+      "license": "Original project assets",
+      "sources": [
+        "art/harbor-workshop.blend",
+        "art/harbor-armory.blend",
+        "art/harbor-arcade.blend"
+      ]
+    },
+    {
+      "id": "car-concept",
+      "license": "CC-BY-4.0",
+      "author": "Eric Chadwick / Darmstadt Graphics Group GmbH, 2024",
+      "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept",
+      "changes": "Normalized orientation and scale, removed logo meshes and wipers, decimated LODs, resized textures, merged by joint, simplified glass."
+    },
+    {
+      "id": "oga-akm",
+      "license": "CC0-1.0",
+      "author": "LonesomeDucky",
+      "url": "https://opengameart.org/content/weathered-akm-rifle",
+      "changes": "Resized PBR textures, separated magazine and bolt for game animation, lower LOD."
+    }
+  ]
+}

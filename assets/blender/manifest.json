@@ -1,0 +1,374 @@
+{
+  "format": "Harbor Workshop 1 / GLB + offline indexed mesh pack",
+  "generator": "Blender 5.2.1 LTS",
+  "units": "meters; runtime Y up, -Z forward",
+  "assets": [
+    {
+      "id": "comet-sport",
+      "label": "COMET / GT 02",
+      "glb": "comet-sport.glb",
+      "bytes": 625932,
+      "triangles": {
+        "high": 16249,
+        "low": 2797
+      },
+      "bounds": [
+        [
+          -1.285,
+          0.0032,
+          -2.275
+        ],
+        [
+          1.285,
+          1.536,
+          2.3355
+        ]
+      ],
+      "parts": [
+        "body",
+        "door-left",
+        "door-right",
+        "front-left",
+        "rear-left",
+        "front-right",
+        "rear-right"
+      ]
+    },
+    {
+      "id": "dock-forklift",
+      "label": "QUAY / ELECTRIC LIFT",
+      "glb": "dock-forklift.glb",
+      "bytes": 310564,
+      "triangles": {
+        "high": 9212,
+        "low": 2179
+      },
+      "bounds": [
+        [
+          -0.8816,
+          0.0034,
+          -2.68
+        ],
+        [
+          0.8816,
+          3.11,
+          1.65
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "dock-pallet",
+      "label": "EURO / TIMBER PALLET",
+      "glb": "dock-pallet.glb",
+      "bytes": 57052,
+      "triangles": {
+        "high": 836,
+        "low": 190
+      },
+      "bounds": [
+        [
+          -0.6075,
+          -0.0005,
+          -0.525
+        ],
+        [
+          0.6095,
+          0.2625,
+          0.525
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "fuel-drum",
+      "label": "FUEL / STEEL DRUM",
+      "glb": "fuel-drum.glb",
+      "bytes": 66384,
+      "triangles": {
+        "high": 2516,
+        "low": 578
+      },
+      "bounds": [
+        [
+          -0.333,
+          0.02,
+          -0.333
+        ],
+        [
+          0.333,
+          0.966,
+          0.333
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "mission-case",
+      "label": "OPS / SECURE CARGO",
+      "glb": "mission-case.glb",
+      "bytes": 52836,
+      "triangles": {
+        "high": 712,
+        "low": 176
+      },
+      "bounds": [
+        [
+          -0.6387,
+          0.04,
+          -0.37
+        ],
+        [
+          0.6387,
+          0.8795,
+          0.4145
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "mooring-bollard",
+      "label": "QUAY / MOORING 06",
+      "glb": "mooring-bollard.glb",
+      "bytes": 40928,
+      "triangles": {
+        "high": 1548,
+        "low": 408
+      },
+      "bounds": [
+        [
+          -0.365,
+          0.0,
+          -0.27
+        ],
+        [
+          0.7956,
+          0.65,
+          0.3269
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "oak-crate",
+      "label": "OAK / TRANSIT CRATE",
+      "glb": "oak-crate.glb",
+      "bytes": 147916,
+      "triangles": {
+        "high": 2480,
+        "low": 410
+      },
+      "bounds": [
+        [
+          -0.79,
+          0.0,
+          -0.8015
+        ],
+        [
+          0.79,
+          1.0285,
+          0.8015
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "osprey-heli",
+      "label": "OSPREY / RESCUE H4",
+      "glb": "osprey-heli.glb",
+      "bytes": 273360,
+      "triangles": {
+        "high": 6736,
+        "low": 870
+      },
+      "bounds": [
+        [
+          -5.114,
+          0.132,
+          -5.114
+        ],
+        [
+          5.114,
+          3.5761,
+          5.69
+        ]
+      ],
+      "parts": [
+        "body",
+        "main-rotor",
+        "tail-rotor"
+      ]
+    },
+    {
+      "id": "quay-barrier",
+      "label": "QUAY / CONCRETE BARRIER",
+      "glb": "quay-barrier.glb",
+      "bytes": 44176,
+      "triangles": {
+        "high": 916,
+        "low": 224
+      },
+      "bounds": [
+        [
+          -0.48,
+          0.0,
+          -2.0
+        ],
+        [
+          0.48,
+          1.037,
+          2.0
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "quay-container",
+      "label": "NORTH QUAY / FREIGHT 17",
+      "glb": "quay-container.glb",
+      "bytes": 474904,
+      "triangles": {
+        "high": 8680,
+        "low": 1240
+      },
+      "bounds": [
+        [
+          -2.4795,
+          -0.01,
+          -5.405
+        ],
+        [
+          2.4795,
+          2.72,
+          5.535
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "quay-lamp",
+      "label": "QUAY / TASK LIGHT",
+      "glb": "quay-lamp.glb",
+      "bytes": 42576,
+      "triangles": {
+        "high": 748,
+        "low": 188
+      },
+      "bounds": [
+        [
+          -0.24,
+          0.0,
+          -0.255
+        ],
+        [
+          2.08,
+          7.07,
+          0.255
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "relay-terminal",
+      "label": "RELAY / PORT CONTROL",
+      "glb": "relay-terminal.glb",
+      "bytes": 91764,
+      "triangles": {
+        "high": 1336,
+        "low": 318
+      },
+      "bounds": [
+        [
+          -0.35,
+          0.0,
+          -0.245
+        ],
+        [
+          0.35,
+          1.98,
+          0.4955
+        ]
+      ],
+      "parts": [
+        "body"
+      ]
+    },
+    {
+      "id": "stingray-boat",
+      "label": "STINGRAY / COASTAL 08",
+      "glb": "stingray-boat.glb",
+      "bytes": 253804,
+      "triangles": {
+        "high": 4935,
+        "low": 697
+      },
+      "bounds": [
+        [
+          -1.186,
+          -0.7088,
+          -3.9824
+        ],
+        [
+          1.186,
+          1.39,
+          3.562
+        ]
+      ],
+      "parts": [
+        "body",
+        "outboard"
+      ]
+    },
+    {
+      "id": "trail-jeep",
+      "label": "TRAIL / UTILITY 04",
+      "glb": "trail-jeep.glb",
+      "bytes": 1056612,
+      "triangles": {
+        "high": 24260,
+        "low": 2468
+      },
+      "bounds": [
+        [
+          -1.285,
+          -0.009,
+          -2.398
+        ],
+        [
+          1.285,
+          2.413,
+          2.3725
+        ]
+      ],
+      "parts": [
+        "body",
+        "door-left",
+        "door-right",
+        "front-left",
+        "rear-left",
+        "front-right",
+        "rear-right"
+      ]
+    }
+  ],
+  "runtimeBytes": 2556035,
+  "uniqueMeshes": 242
+}

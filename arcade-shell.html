@@ -1,0 +1,21 @@
+<main id="club" aria-label="港湾休闲俱乐部">
+ <header class="club-header"><a href="index.html?v=6.4.0" class="club-logo"><span class="club-mark">H<span>／</span>C</span><span>HARBOR CLUB<small>港湾 · 休闲竞技</small></span></a><div class="club-header-right"><span id="club-rank"></span><button id="club-settings-open">效果 / 设置</button><a class="club-main-link" href="index.html?v=6.4.0">主线模式 ↗</a></div></header>
+ <section id="club-lobby">
+  <div class="club-intro"><div class="club-eyebrow">A LITTLE COMPETITION. A GOOD TIME.</div><h1>好好玩一场。</h1><p>四种竞技，一座属于你的俱乐部。<br>从第一圈、第一发开始，把自己的纪录再推远一点。</p></div>
+  <nav id="club-mode-cards" aria-label="选择休闲游戏"></nav>
+  <section class="club-event-panel"><div class="club-event-heading"><div><small id="club-mode-en"></small><h2 id="club-mode-name"></h2></div><span id="club-medals"></span></div><p id="club-description"></p>
+   <div class="club-playlists" role="group" aria-label="挑战类型"><button data-playlist="levels" class="active">关卡挑战</button><button data-playlist="daily">每日挑战</button><button data-playlist="endless">无限练习</button></div>
+   <div id="club-levels" aria-label="关卡列表"></div>
+   <div class="club-options"><label>难度<select id="club-difficulty"></select></label><label id="club-equipment-label">车辆调校<select id="club-equipment"></select></label></div><p id="club-difficulty-help" class="club-subtle"></p>
+   <div class="club-start-row"><button id="club-start" class="club-primary">开始挑战 <span>→</span></button><div id="club-best"></div></div>
+  </section><footer class="club-lobby-footer"><span>第一人称 · 离线可玩 · 独立进度</span><button id="club-progress-open">我的纪录 ↗</button></footer>
+ </section>
+ <section id="club-game-hud" hidden><div class="club-game-top"><div><small id="club-game-eyebrow"></small><h2 id="club-game-title"></h2><p id="club-game-objective"></p></div><button id="club-pause">暂停 Ⅱ</button></div>
+  <div id="club-scope" hidden><i></i><b></b></div><div id="club-countdown" aria-live="polite"></div><div id="club-message" aria-live="polite"></div><div id="club-reticle"><i></i><b></b></div><div id="club-hit">×</div><div id="club-aim-hint"></div>
+  <div id="club-left-hud"><canvas id="club-minimap" width="220" height="220"></canvas><div id="club-rounds"></div></div>
+  <div id="club-scoreboard"><div id="club-score-main"></div><div id="club-score-sub"></div><div class="club-meter"><i id="club-meter-fill"></i></div><div id="club-score-extra"></div></div>
+  <div id="club-controls-hint"></div><button id="club-bank" hidden>结束并记录</button>
+ </section>
+ <section id="club-touch" hidden aria-label="触屏操作"><div id="club-look" aria-label="拖动瞄准"></div><div id="club-stick" aria-label="移动或转向"><i></i></div><div class="club-touch-buttons"><button id="club-touch-action" data-hold="action">开火</button><button id="club-touch-secondary" data-hold="secondary">瞄准</button><button id="club-touch-aux" data-action="aux">换弹</button><button id="club-touch-nitro" data-hold="nitro">氮气</button></div></section>
+ <dialog id="club-dialog"><div id="club-dialog-content"></div></dialog>
+</main>

@@ -1,0 +1,385 @@
+{
+  "name": "HARBOR STORIES / Sunset Frontiers VI",
+  "version": "6.4.0",
+  "singlePlayer": true,
+  "offline": true,
+  "maps": 3,
+  "vehicles": 12,
+  "weapons": 8,
+  "runtimeExternalDependencies": [],
+  "physicalDeviceTesting": "pending",
+  "browserWebGLValidation": "PASS: offline file URL, desktop WebGL, CPU fallback and high/low continuous-fire samples",
+  "noviceHumanPlaytest": "pending",
+  "verification": "verification/RESULTS.md",
+  "htmlSha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "verificationSummary": {
+    "release": "HARBOR STORIES 6.4.0",
+    "htmlSha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+    "checkSets": {
+      "regressions": {
+        "passed": 29,
+        "total": 29
+      },
+      "mobile": {
+        "passed": 15,
+        "total": 15
+      },
+      "blender-browser": {
+        "passed": 14,
+        "total": 14
+      },
+      "armory-browser": {
+        "passed": 21,
+        "total": 21
+      },
+      "graphics-browser": {
+        "passed": 16,
+        "total": 16
+      },
+      "color-browser": {
+        "passed": 7,
+        "total": 7
+      },
+      "effects-browser": {
+        "passed": 16,
+        "total": 16
+      }
+    },
+    "inputOnlyCampaigns": {
+      "road": {
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "road",
+        "used": [
+          "land"
+        ],
+        "cargo": 100,
+        "seconds": 91.1,
+        "kills": 4,
+        "quiet": false,
+        "checkpoint": "extract"
+      },
+      "sea": {
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "sea",
+        "used": [
+          "sea"
+        ],
+        "cargo": 100,
+        "seconds": 158.1,
+        "kills": 4,
+        "quiet": false,
+        "checkpoint": "extract"
+      },
+      "air": {
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "air",
+        "used": [
+          "air"
+        ],
+        "cargo": 100,
+        "seconds": 122.5,
+        "kills": 4,
+        "quiet": false,
+        "checkpoint": "extract"
+      }
+    },
+    "armoryLive": [
+      {
+        "quality": "high",
+        "medianFPS": 50.45,
+        "medianCpuMs": 19.369652043585596,
+        "samples": 20,
+        "pools": {
+          "casings": 12,
+          "motes": 20,
+          "marks": 42,
+          "bursts": 2,
+          "bodies": 0
+        },
+        "cap": {
+          "casings": 48,
+          "motes": 110,
+          "marks": 42,
+          "bodies": 5,
+          "bursts": 10
+        }
+      },
+      {
+        "quality": "low",
+        "medianFPS": 60.0,
+        "medianCpuMs": 0.9455845933981296,
+        "samples": 20,
+        "pools": {
+          "casings": 12,
+          "motes": 11,
+          "marks": 12,
+          "bursts": 2,
+          "bodies": 0
+        },
+        "cap": {
+          "casings": 14,
+          "motes": 36,
+          "marks": 12,
+          "bodies": 2,
+          "bursts": 4
+        }
+      }
+    ],
+    "pending": [
+      "Physical Android and iPhone",
+      "Novice human player sessions",
+      "20-30 minute thermal and battery run",
+      "Persistent storage on a real deployment origin"
+    ]
+  },
+  "blenderAssets": {
+    "count": 14,
+    "driveableReplacements": 4,
+    "props": 10,
+    "source": "art/harbor-workshop.blend",
+    "manifest": "assets/blender/manifest.json",
+    "runtimeBytes": 2556035
+  },
+  "armoryAssets": {
+    "count": 8,
+    "source": "art/harbor-armory.blend",
+    "manifest": "assets/armory/manifest.json",
+    "runtimeBytes": 523172,
+    "batches": [
+      [
+        "rifle",
+        "shotgun",
+        "sniper"
+      ],
+      [
+        "pistol",
+        "smg",
+        "grenade",
+        "molotov",
+        "launcher"
+      ]
+    ]
+  },
+  "graphics": {
+    "effects": [
+      "6.2",
+      "6.3.1"
+    ],
+    "defaultEffect": "6.3.1",
+    "name": "Harbor Radiance",
+    "scope": "All three campaign maps and four Harbor Club modes, vehicles, weapons and world geometry",
+    "guide": "GRAPHICS_ZH.md",
+    "comparison": "graphics.html",
+    "environment": "assets/lighting/manifest.json",
+    "high": [
+      "Filtered IBL",
+      "Two shadow cascades",
+      "SSAO",
+      "Screen-space water reflections",
+      "Local combat lights",
+      "HDR Bloom",
+      "AgX",
+      "FXAA"
+    ],
+    "fallbacks": [
+      "LDR without half-float",
+      "No screen-depth effects without depth textures",
+      "No micro-normal detail without derivatives",
+      "Classic renderer switch",
+      "Existing CPU fallback"
+    ],
+    "limitations": [
+      "Not Cycles or path-traced global illumination",
+      "Screen-space reflections miss offscreen geometry",
+      "Campaign retains existing simplified characters and buildings; Club draws no characters",
+      "Physical-phone performance unverified"
+    ]
+  },
+  "arcade": {
+    "entry": "arcade.html",
+    "htmlSha256": "365c5786084ff445a7cf8b212091ea49d9c81079a686788838fe3b0b915c0079",
+    "htmlBytes": 6504112,
+    "guide": "ARCADE_ZH.md",
+    "modes": [
+      "race",
+      "shooting",
+      "darts",
+      "archery"
+    ],
+    "levelsPerMode": 6,
+    "difficulties": [
+      "casual",
+      "sport",
+      "expert"
+    ],
+    "playlists": [
+      "levels",
+      "daily",
+      "endless"
+    ],
+    "firstPerson": true,
+    "characterModels": false,
+    "separateSaveKey": "sunset-harbor-club-v1",
+    "assets": {
+      "count": 10,
+      "source": "art/harbor-arcade.blend",
+      "manifest": "assets/arcade/manifest.json",
+      "runtimeBytes": 1348431
+    },
+    "checks": {
+      "arcade-browser": {
+        "passed": 84,
+        "total": 84
+      },
+      "arcade-native-input": {
+        "passed": 4,
+        "total": 4
+      }
+    },
+    "completeEventDifficultyRuns": 72,
+    "liveProfiles": [
+      {
+        "mode": "race",
+        "quality": "high",
+        "seconds": 19.98259999999963,
+        "frames": 1200,
+        "averageFPS": 60.00220191566775,
+        "medianFrameMs": 16.59999999962747,
+        "p95FrameMs": 18.399999998509884,
+        "medianRenderCpuMs": 0.8000000007450581,
+        "errors": [],
+        "gl": 0,
+        "phase": "playing",
+        "elapsed": 21.999999999999392,
+        "shots": 0,
+        "hits": 0,
+        "checkpoints": 13,
+        "pools": {
+          "sparks": 0,
+          "tracers": 0,
+          "embedded": 0,
+          "trace": 220
+        },
+        "tier": 2,
+        "width": 1600,
+        "height": 1000,
+        "passed": true
+      },
+      {
+        "mode": "shooting",
+        "quality": "high",
+        "seconds": 19.999300000000744,
+        "frames": 1201,
+        "averageFPS": 60.00210007350034,
+        "medianFrameMs": 16.59999999962747,
+        "p95FrameMs": 18.300000000745058,
+        "medianRenderCpuMs": 0.7999999988824129,
+        "errors": [],
+        "gl": 0,
+        "phase": "playing",
+        "elapsed": 22.02499999999939,
+        "shots": 7,
+        "hits": 7,
+        "checkpoints": null,
+        "pools": {
+          "sparks": 0,
+          "tracers": 0,
+          "embedded": 0,
+          "trace": 0
+        },
+        "tier": 2,
+        "width": 1600,
+        "height": 1000,
+        "passed": true
+      },
+      {
+        "mode": "darts",
+        "quality": "high",
+        "seconds": 19.983300000000746,
+        "frames": 1200,
+        "averageFPS": 60.00010008356754,
+        "medianFrameMs": 16.59999999962747,
+        "p95FrameMs": 18.40000000037253,
+        "medianRenderCpuMs": 0.40000000037252903,
+        "errors": [],
+        "gl": 0,
+        "phase": "playing",
+        "elapsed": 21.999999999999392,
+        "shots": 12,
+        "hits": 12,
+        "checkpoints": null,
+        "pools": {
+          "sparks": 0,
+          "tracers": 0,
+          "embedded": 9,
+          "trace": 0
+        },
+        "tier": 2,
+        "width": 1600,
+        "height": 1000,
+        "passed": true
+      },
+      {
+        "mode": "archery",
+        "quality": "high",
+        "seconds": 19.99889999999851,
+        "frames": 1201,
+        "averageFPS": 60.003300181514454,
+        "medianFrameMs": 16.59999999962747,
+        "p95FrameMs": 18.40000000037253,
+        "medianRenderCpuMs": 0.6999999992549419,
+        "errors": [],
+        "gl": 0,
+        "phase": "playing",
+        "elapsed": 22.016666666666058,
+        "shots": 10,
+        "hits": 10,
+        "checkpoints": null,
+        "pools": {
+          "sparks": 0,
+          "tracers": 0,
+          "embedded": 10,
+          "trace": 0
+        },
+        "tier": 2,
+        "width": 1600,
+        "height": 1000,
+        "passed": true
+      },
+      {
+        "mode": "race",
+        "quality": "low",
+        "seconds": 19.981,
+        "frames": 1200,
+        "averageFPS": 60.007006656323505,
+        "medianFrameMs": 16.5,
+        "p95FrameMs": 18.300000000745058,
+        "medianRenderCpuMs": 0.40000000037252903,
+        "errors": [],
+        "gl": 0,
+        "phase": "playing",
+        "elapsed": 21.999999999999392,
+        "shots": 0,
+        "hits": 0,
+        "checkpoints": 13,
+        "pools": {
+          "sparks": 0,
+          "tracers": 0,
+          "embedded": 0,
+          "trace": 220
+        },
+        "tier": 0,
+        "width": 793,
+        "height": 496,
+        "passed": true
+      }
+    ],
+    "performanceScope": "20 wall-clock seconds per profile after warm-up, desktop Chrome WebGL at 1280x800 DPR1, photo effect. Normal requestAnimationFrame loop; control driver steers, aims, fires or charges through production physics. Average FPS counts actual rendered frame intervals. CPU measures render submission only, not GPU time. These are not physical-phone or thermal measurements."
+  }
+}

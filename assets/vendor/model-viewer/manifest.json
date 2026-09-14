@@ -1,0 +1,9 @@
+{
+  "name": "@google/model-viewer",
+  "version": "4.3.1",
+  "source": "https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js",
+  "bytes": 1068903,
+  "sha256": "283b0672384614b4847636c306fc93fe4b1fcadc76d668b4e47f0ca76bcf033b",
+  "license": "Apache-2.0; bundled Three.js MIT and Lit BSD-3-Clause; upstream license comments retained",
+  "network": "Runtime is local. This model uses no Draco, Meshopt or KTX2 decoders."
+}

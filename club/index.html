@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#213c36"><title>Harbor Club · 港湾休闲俱乐部</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css"></head>
+<body>
+ <canvas id="view" aria-label="三维比赛场地" tabindex="0"></canvas>
+ <div class="vignette"></div>
+ <section id="loading" class="loading" aria-live="polite"><div class="loading-card"><div class="brand-mark">H<span>C</span></div><p class="eyebrow">SUNSET HARBOR / CLUB</p><h1>留一点时间，给自己。</h1><p id="load-label">正在打开俱乐部</p><progress id="load-progress" max="1" value="0"></progress><div id="load-error" hidden><p id="error-text"></p><button data-action="retry-load">重试加载</button><a href="../arcade.html">打开原版离线俱乐部</a></div></div></section>
+ <main id="lobby" hidden>
+  <header class="lobby-header"><a class="wordmark" href="./"><b>HARBOR<span>CLUB</span></b><small>FOUR WAYS TO PLAY</small></a><div class="header-actions"><span id="rank"></span><button data-action="records">我的纪录</button><button data-action="settings">设置</button></div></header>
+  <section class="lobby-panel"><p id="mode-en" class="eyebrow"></p><h1 id="mode-name"></h1><p id="description" class="description"></p><div id="playlists" class="segmented"><button data-playlist="levels">关卡挑战</button><button data-playlist="daily">每日挑战</button><button data-playlist="endless">无限练习</button></div><div id="levels" class="levels"></div><div class="choices"><label>挑战难度<select id="difficulty"></select></label><label><span id="equipment-label">车辆调校</span><select id="equipment"></select></label></div><p id="difficulty-help" class="muted"></p><div class="start-row"><button id="start" class="primary" data-action="brief">开始挑战 <span>↗</span></button><div id="best"></div></div></section>
+  <aside class="venue-caption"><span id="medals"></span><p>慢慢来。<br>下一次，总会更好一点。</p><small>EST. 2026 / SUNSET HARBOR</small></aside>
+  <nav id="modes" class="mode-cards" aria-label="选择项目"></nav>
+  <footer class="lobby-footer"><span>单人体验 · 本地保存</span><button class="credits-link" data-action="credits">素材鸣谢</button><a href="../arcade.html">原版离线入口 ↗</a><span id="storage-notice" role="status"></span></footer>
+ </main>
+ <section id="hud" hidden aria-label="比赛信息"><header class="hud-header"><div><small id="game-eyebrow"></small><h2 id="game-title"></h2><p id="game-objective"></p></div><div><button id="camera-switch" data-action="camera" aria-label="切换赛车视角" hidden>追尾 · C</button><button id="bank" data-action="bank" hidden>结束并记录</button><button data-action="pause" aria-label="暂停比赛">Ⅱ 暂停</button></div></header><div id="countdown"></div><div id="message" role="status"></div><div id="scope" hidden></div><div id="reticle"><i></i></div><div id="prediction" hidden></div><div id="hit">×</div><div id="aim-hint"></div><canvas id="minimap" width="200" height="200" aria-label="赛道小地图"></canvas><div id="rounds"></div><div class="score-panel"><div id="score-main"></div><div id="score-sub"></div><div class="meter"><i id="meter-fill"></i></div><div id="score-extra"></div></div><p id="controls-hint"></p></section>
+ <div id="touch" hidden><div id="stick" aria-label="转向或移动摇杆"><i></i></div><div class="touch-actions"><button data-hold="nitro" id="touch-nitro">氮气</button><button data-hold="aux" id="touch-aux">手刹</button><button data-hold="secondary" id="touch-secondary">刹车</button><button data-hold="primary" id="touch-primary">油门</button></div></div>
+ <output id="performance" hidden></output>
+ <dialog id="dialog"><div id="dialog-content"></div></dialog>
+ <script type="module" src="./src/app.js"></script>
+ <noscript>需要启用 JavaScript 才能进入俱乐部。</noscript>
+</body></html>
