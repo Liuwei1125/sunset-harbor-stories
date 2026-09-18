@@ -1,0 +1,157 @@
+{
+  "title": "BMW M4",
+  "brand": "BMW M",
+  "edition": "2015 · F82",
+  "paint": "226FA3",
+  "paintMaterials": [
+    "body1"
+  ],
+  "tireMaterials": [
+    "Material5"
+  ],
+  "steering": [
+    -0.36,
+    0.42,
+    0.9
+  ],
+  "eye": [
+    -0.36,
+    -0.06,
+    1.19
+  ],
+  "aim": [
+    -0.03,
+    0.78,
+    0.94
+  ],
+  "screen": [
+    0,
+    0.45,
+    1.035,
+    0.242,
+    0.143,
+    0.12
+  ],
+  "layout": "landscape",
+  "cabin": true,
+  "notes": "保留原作外观和座舱，清理重叠正反面并保留原作法线；赛车显示为新增部件。",
+  "id": "bmw-m4",
+  "license": "CC BY 4.0",
+  "source": "https://sketchfab.com/3d-models/2015-bmw-m4-18476c3a7697462f884d8dc8f124d7a0",
+  "author": "David_Holiday",
+  "coordinates": "metres; glTF Y up; -Z forward",
+  "paintable": true,
+  "dimensions": {
+    "width": 2.0644482374191284,
+    "length": 4.671000003814697,
+    "height": 1.4140618443489075
+  },
+  "wheelFront": 1.5582264363765717,
+  "wheelRear": -1.318244368429184,
+  "track": 0.7889895914554597,
+  "radius": 0.35828193871454417,
+  "joints": {
+    "front-left": [
+      -0.7992967069149017,
+      0.3537009114807006,
+      -1.554946780204773
+    ],
+    "front-right": [
+      0.7999500930309296,
+      0.35370091747608967,
+      -1.5615060925483704
+    ],
+    "rear-left": [
+      -0.7780307829380035,
+      0.3635767942054926,
+      1.321624368429184
+    ],
+    "rear-right": [
+      0.7786807829380036,
+      0.3635767942054926,
+      1.3148643684291839
+    ]
+  },
+  "steeringPivot": [
+    -0.36,
+    0.9,
+    -0.42
+  ],
+  "views": {
+    "cockpit": {
+      "eye": [
+        -0.36,
+        1.19,
+        0.06
+      ],
+      "target": [
+        -0.03,
+        0.94,
+        -0.78
+      ]
+    },
+    "screen": {
+      "eye": [
+        -0.08,
+        1.1849999999999998,
+        -0.010000000000000009
+      ],
+      "target": [
+        0,
+        1.035,
+        -0.45
+      ]
+    }
+  },
+  "display": {
+    "material": "display:front",
+    "layout": "landscape",
+    "size": [
+      1536,
+      960
+    ],
+    "enabled": true
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "bmw-m4.high.glb",
+      "bytes": 2495304,
+      "triangles": 90255,
+      "sha256": "6340afab773f334e0b7143942ccdafe0e665c58685e8d1b9d56e88230e969f0b"
+    },
+    {
+      "lod": "low",
+      "file": "bmw-m4.low.glb",
+      "bytes": 1480652,
+      "triangles": 46260,
+      "sha256": "3e223f6decf54fa5ef78e3194888fd5837c7c7267ff3b441c25ccf9fab686389"
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "sourceFile": "art/vehicles/performance-fleet/models/bmw-m4/bmw-m4.high.glb",
+      "sourceSha256": "6340afab773f334e0b7143942ccdafe0e665c58685e8d1b9d56e88230e969f0b",
+      "lod": "high",
+      "file": "bmw-m4.high.glb",
+      "bytes": 2496400,
+      "sha256": "733d45934703b897f83877471829ec5563fb037f20db32bceda06a5b5141e353",
+      "triangles": 90255
+    },
+    {
+      "sourceFile": "art/vehicles/performance-fleet/models/bmw-m4/bmw-m4.low.glb",
+      "sourceSha256": "3e223f6decf54fa5ef78e3194888fd5837c7c7267ff3b441c25ccf9fab686389",
+      "lod": "low",
+      "file": "bmw-m4.low.glb",
+      "bytes": 1218456,
+      "sha256": "3e25b25d34025952ad0b6a970e9458bb295ec06f8d01098b9a14e09abc74197b",
+      "triangles": 36031
+    }
+  ],
+  "runtimeSource": {
+    "file": "art/vehicles/performance-fleet/models/bmw-m4/bmw-m4.low.glb",
+    "sha256": "3e223f6decf54fa5ef78e3194888fd5837c7c7267ff3b441c25ccf9fab686389",
+    "change": "Per-mesh simplification for racing LOD; hierarchy, articulation, UV and material attribution retained."
+  },
+  "status": "Integrated Harbor Circuit runtime derivative; original source preserved."
+}

@@ -1,0 +1,8 @@
+export class Audio {
+ constructor(){this.context=null;this.volume=.25;}
+ start(){if(!this.context){const C=globalThis.AudioContext||globalThis.webkitAudioContext;if(!C)return;this.context=new C();this.gain=this.context.createGain();this.gain.gain.value=0;this.gain.connect(this.context.destination);this.engine=this.context.createOscillator();this.engine.type='sawtooth';this.filter=this.context.createBiquadFilter();this.filter.type='lowpass';this.filter.frequency.value=700;this.engine.connect(this.filter);this.filter.connect(this.gain);this.engine.start();this.skid=this.context.createOscillator();this.skid.type='triangle';this.skidGain=this.context.createGain();this.skidGain.gain.value=0;this.skid.connect(this.skidGain);this.skidGain.connect(this.context.destination);this.skid.start();}this.context.resume();}
+ update(car,active){if(!this.context)return;const now=this.context.currentTime;this.engine.type=car.config.kind==='ev'?'sine':'sawtooth';this.engine.frequency.setTargetAtTime(car.config.kind==='ev'?100+car.rpm*.025:car.rpm/60*car.config.engineOrder,now,.04);this.filter.frequency.setTargetAtTime(350+car.throttle*1100,now,.07);this.gain.gain.setTargetAtTime(active?this.volume*(car.config.kind==='ev'?.045:.075)*(.25+car.throttle*.75):0,now,.08);this.skid.frequency.setTargetAtTime(330+Math.abs(car.speed)*4,now,.05);this.skidGain.gain.setTargetAtTime(active?clampAudio(car.slip-.11)*this.volume*.1:0,now,.06);}
+ mute(){if(!this.context)return;this.gain?.gain.setTargetAtTime(0,this.context.currentTime,.02);this.skidGain?.gain.setTargetAtTime(0,this.context.currentTime,.02);}
+ dispose(){this.context?.close();this.context=null;this.gain=this.skidGain=this.engine=this.skid=this.filter=null;}
+}
+const clampAudio=x=>Math.max(0,Math.min(1,x));

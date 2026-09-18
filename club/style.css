@@ -8,3 +8,5 @@
 
 .credits-link{background:transparent;border:0;padding:0;font-size:inherit;color:inherit;text-decoration:underline;text-underline-offset:3px}
 #camera-switch{touch-action:none}
+
+.circuit-entry{display:inline-block;padding:9px 12px;border:1px solid currentColor;border-radius:5px;color:#dba676;font-size:12px;text-decoration:none;white-space:nowrap}

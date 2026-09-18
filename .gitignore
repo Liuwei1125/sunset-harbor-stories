@@ -19,6 +19,8 @@ site-verification/
 !/club/verification/baseline.json
 /research/
 /racing-comparison/
+/art/vehicles/
+/club/circuit/verification/
 
 # Downloadable art originals remain local; the published GLBs and provenance are tracked.
 /club/assets/source/third-party/car-concept/CarConcept.glb

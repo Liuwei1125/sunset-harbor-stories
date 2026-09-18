@@ -1,0 +1,157 @@
+{
+  "title": "Ferrari 458",
+  "brand": "Ferrari",
+  "edition": "458 · 开顶展示网格",
+  "paint": "B82127",
+  "paintMaterials": [
+    "Body_Color"
+  ],
+  "tireMaterials": [
+    "Tires"
+  ],
+  "steering": [
+    -0.345,
+    0.36,
+    0.8
+  ],
+  "eye": [
+    -0.38,
+    -0.02,
+    1.05
+  ],
+  "aim": [
+    -0.17,
+    0.83,
+    0.91
+  ],
+  "screen": [
+    -0.345,
+    0.61,
+    1.01,
+    0.235,
+    0.135,
+    0.08
+  ],
+  "layout": "landscape",
+  "cabin": true,
+  "notes": "采用 Three.js 示例维护的 vicent091036 模型，原作标题为 458 Italia，网格呈开顶状态。",
+  "id": "ferrari-458",
+  "license": "CC BY 4.0",
+  "source": "https://sketchfab.com/3d-models/57bf6cc56931426e87494f554df1dab6",
+  "author": "vicent091036",
+  "coordinates": "metres; glTF Y up; -Z forward",
+  "paintable": true,
+  "dimensions": {
+    "width": 2.2538431882858276,
+    "length": 4.5269999504089355,
+    "height": 1.2340955138206482
+  },
+  "wheelFront": 1.1532190442085266,
+  "wheelRear": -1.4934743642807007,
+  "track": 0.8228052780032158,
+  "radius": 0.35750289261341095,
+  "joints": {
+    "front-left": [
+      -0.8363338708877563,
+      0.35750290751457214,
+      -1.1536478400230408
+    ],
+    "front-right": [
+      0.8224664032459259,
+      0.36013123393058777,
+      -1.1527902483940125
+    ],
+    "rear-left": [
+      -0.8146412372589111,
+      0.35750365257263184,
+      1.4928116202354431
+    ],
+    "rear-right": [
+      0.8177796006202698,
+      0.3575030565261841,
+      1.4941371083259583
+    ]
+  },
+  "steeringPivot": [
+    -0.345,
+    0.8,
+    -0.36
+  ],
+  "views": {
+    "cockpit": {
+      "eye": [
+        -0.38,
+        1.05,
+        0.02
+      ],
+      "target": [
+        -0.17,
+        0.91,
+        -0.83
+      ]
+    },
+    "screen": {
+      "eye": [
+        -0.425,
+        1.16,
+        -0.16999999999999998
+      ],
+      "target": [
+        -0.345,
+        1.01,
+        -0.61
+      ]
+    }
+  },
+  "display": {
+    "material": "display:front",
+    "layout": "landscape",
+    "size": [
+      1536,
+      960
+    ],
+    "enabled": true
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "ferrari-458.high.glb",
+      "bytes": 9989044,
+      "triangles": 240119,
+      "sha256": "4b92d39cfe106f0acbfa9ad1218ab7302a623c01b46548a4f17b8d8881e4a411"
+    },
+    {
+      "lod": "low",
+      "file": "ferrari-458.low.glb",
+      "bytes": 4155340,
+      "triangles": 85163,
+      "sha256": "cfaf95c6fcdb5d39d949d038d9449d457cf80d99f44bb50c7035b073818d0ea6"
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "sourceFile": "art/vehicles/performance-fleet/models/ferrari-458/ferrari-458.high.glb",
+      "sourceSha256": "4b92d39cfe106f0acbfa9ad1218ab7302a623c01b46548a4f17b8d8881e4a411",
+      "lod": "high",
+      "file": "ferrari-458.high.glb",
+      "bytes": 5501264,
+      "sha256": "909b47469f2b457bcc04ebcb6c718add65f8f7189c3ff8666b9b5d67fe41819d",
+      "triangles": 115096
+    },
+    {
+      "sourceFile": "art/vehicles/performance-fleet/models/ferrari-458/ferrari-458.low.glb",
+      "sourceSha256": "cfaf95c6fcdb5d39d949d038d9449d457cf80d99f44bb50c7035b073818d0ea6",
+      "lod": "low",
+      "file": "ferrari-458.low.glb",
+      "bytes": 1870384,
+      "sha256": "7f64deafbf01dd9b6d72b1b7bd91a1acbf856557bde51a30a9bbed4e37c822fa",
+      "triangles": 36104
+    }
+  ],
+  "runtimeSource": {
+    "file": "art/vehicles/performance-fleet/models/ferrari-458/ferrari-458.low.glb",
+    "sha256": "cfaf95c6fcdb5d39d949d038d9449d457cf80d99f44bb50c7035b073818d0ea6",
+    "change": "Per-mesh simplification for racing LOD; hierarchy, articulation, UV and material attribution retained."
+  },
+  "status": "Integrated Harbor Circuit runtime derivative; original source preserved."
+}

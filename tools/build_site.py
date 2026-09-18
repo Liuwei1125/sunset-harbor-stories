@@ -42,10 +42,10 @@ def main():
   for path in (ROOT/'assets').rglob('*'):
    if path.is_file() and path.suffix.lower() in ['.glb','.png','.jpg','.jpeg','.webp','.hdr','.json','.md','.txt','.js'] and not path.name.endswith('-pack.js'):copy_file(path,public/path.relative_to(ROOT))
    elif path.is_file() and path.name.startswith('LICENSE'):copy_file(path,public/path.relative_to(ROOT))
-  for directory in ['club/src','club/vendor','club/assets/models','club/assets/textures']:
+  for directory in ['club/src','club/vendor','club/assets/models','club/assets/textures','club/circuit/src','club/circuit/assets']:
    for path in (ROOT/directory).rglob('*'):
     if path.is_file() and not path.name.startswith('.') and '__pycache__' not in path.parts:copy_file(path,public/path.relative_to(ROOT))
-  for name in ['club/index.html','club/style.css','club/assets/manifest.json','club/assets/external-manifest.json','club/ASSETS.md']:
+  for name in ['club/index.html','club/style.css','club/assets/manifest.json','club/assets/external-manifest.json','club/ASSETS.md','club/circuit/index.html','club/circuit/style.css','club/circuit/CREDITS.html']:
    copy_file(ROOT/name,public/name)
   club=(public/'club/index.html').read_text();marker='<footer class="lobby-footer">'
   if club.count(marker)!=1:raise RuntimeError('Club footer changed; review the public return link.')
@@ -62,7 +62,7 @@ def main():
   shutil.copytree(public,OUTPUT)
  assert all(hashlib.sha256((ROOT/f).read_bytes()).hexdigest()==value for f,value in protected.items()),'Offline output changed'
  files=[p for p in OUTPUT.rglob('*') if p.is_file()]
- report={'files':len(files),'bytes':sum(p.stat().st_size for p in files),'largestFileBytes':max(p.stat().st_size for p in files),'offlineOutputsUnchanged':True,'routes':['/','/club/','/arcade.html','/showroom.html','/graphics.html'],'sha256':{str(p.relative_to(OUTPUT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(files)}}
+ report={'files':len(files),'bytes':sum(p.stat().st_size for p in files),'largestFileBytes':max(p.stat().st_size for p in files),'offlineOutputsUnchanged':True,'routes':['/','/club/','/club/circuit/','/arcade.html','/showroom.html','/graphics.html'],'sha256':{str(p.relative_to(OUTPUT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(files)}}
  (REPORT/'build.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  print(f'Public output: {report["files"]} files, {report["bytes"]/1024/1024:.2f} MiB; offline releases preserved.')
 
@@ -90,6 +90,11 @@ def validate(public):
    subprocess.run(['node','--check','--input-type=commonjs'],input=script,text=True,check=True,capture_output=True)
  for file in (public/'club/src').rglob('*.js'):
   subprocess.run(['node','--check','--input-type=module'],input=file.read_text(),text=True,check=True,capture_output=True)
+ for file in (public/'club/circuit/src').rglob('*.js'):
+  subprocess.run(['node','--check','--input-type=module'],input=file.read_text(),text=True,check=True,capture_output=True)
+ for file in (public/'club/circuit/assets').glob('*/manifest.json'):
+  for lod in json.loads(file.read_text())['runtimeFiles']:
+   if hashlib.sha256((file.parent/lod['file']).read_bytes()).hexdigest()!=lod['sha256']:raise RuntimeError('Circuit model hash mismatch: '+lod['file'])
  manifest=json.loads((public/'club/assets/manifest.json').read_text())
  for asset in manifest['assets'].values():
   for lod in asset['lods'].values():
