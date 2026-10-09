@@ -1,0 +1,12 @@
+RUN run_regression.py
+PASS run_regression.py
+RUN mobile_checks.py
+FAIL mobile_checks.py
+RUN input_run.py
+PASS input_run.py
+RUN input_sea.py
+PASS input_sea.py
+RUN input_air.py
+PASS input_air.py
+RUN live_soak.py
+PASS live_soak.py

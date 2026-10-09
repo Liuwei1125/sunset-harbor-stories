@@ -1,0 +1,105 @@
+{
+  "assetId": "xiaomi-su7-study",
+  "version": "0.5",
+  "status": "Independent visual reference study; not integrated into the shipped racing game.",
+  "coordinates": "meters; Y up; -Z forward in GLB",
+  "nominalDimensionsMeters": {
+    "length": 4.997,
+    "bodyWidth": 1.963,
+    "roofHeight": 1.445,
+    "wheelbase": 3.0
+  },
+  "joints": {
+    "body": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "static"
+    },
+    "spoiler": {
+      "pivot": [
+        0,
+        0.994,
+        2.27
+      ],
+      "motion": "spoiler"
+    },
+    "wheel-front-left": {
+      "pivot": [
+        -0.841,
+        0.355,
+        -1.55
+      ],
+      "motion": "wheel"
+    },
+    "wheel-rear-left": {
+      "pivot": [
+        -0.841,
+        0.355,
+        1.45
+      ],
+      "motion": "wheel"
+    },
+    "wheel-front-right": {
+      "pivot": [
+        0.841,
+        0.355,
+        -1.55
+      ],
+      "motion": "wheel"
+    },
+    "wheel-rear-right": {
+      "pivot": [
+        0.841,
+        0.355,
+        1.45
+      ],
+      "motion": "wheel"
+    },
+    "interior": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "static"
+    },
+    "steering": {
+      "pivot": [
+        -0.43,
+        0.808,
+        -0.286
+      ],
+      "motion": "steering"
+    }
+  },
+  "cameraSockets": {
+    "cockpit": [
+      -0.43,
+      1.12,
+      0.36
+    ]
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "xiaomi-su7.high.glb",
+      "bytes": 15498016,
+      "sha256": "73c03c14203ac2b2f338d42cd678bfda9708163009ddb9c8fd86076f78444278"
+    },
+    {
+      "lod": "low",
+      "file": "xiaomi-su7.low.glb",
+      "bytes": 6044300,
+      "sha256": "b26867439db736d4d0554ca9f7a34d5a90a2fb58b71be83d432f4716cfe9ffa9"
+    }
+  ],
+  "photoTexturesUsed": false,
+  "officialReference": "https://www.xiaomiev.com/su7",
+  "lodMethod": "Independent per-component reduction, source-normal transfer before articulation merge; higher surface budget for body and glazing.",
+  "authoring": "Fairer door shoulders; recessed panel gaps; layered headlamp optics; broad machined split spokes; source surface normals and reference review cameras.",
+  "accuracy": "Official-photo approximation with fixed orthographic and perspective views; no CAD or numerical likeness claim.",
+  "referenceModel": "2026 SU7 Max, Capri blue, 20-inch plum-blossom wheel; ceramic interior approximation"
+}

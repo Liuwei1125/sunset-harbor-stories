@@ -1,0 +1,384 @@
+{
+  "timestamp": "2026-09-11T16:57:57+0800",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "name": "babylon C cycles all three views while preserving held throttle and the entire running simulation",
+      "pass": true,
+      "detail": [
+        "hood",
+        "cockpit",
+        "chase"
+      ]
+    },
+    {
+      "name": "babylon native camera button preserves input and does not restart the race",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "babylon both LOD dashboards match live speed, nitro and HUD with transparent glass",
+      "pass": true,
+      "detail": [
+        {
+          "view": "cockpit",
+          "speed": 66,
+          "nitro": 100,
+          "display": {
+            "speed": 66,
+            "nitro": 100
+          },
+          "id": "touring-gt",
+          "lod": "low",
+          "hud": "66 KM/H",
+          "gl": 0,
+          "glass": [
+            0.11999999731779099
+          ]
+        },
+        {
+          "view": "cockpit",
+          "speed": 66,
+          "nitro": 100,
+          "display": {
+            "speed": 66,
+            "nitro": 100
+          },
+          "id": "touring-gt",
+          "lod": "high",
+          "hud": "66 KM/H",
+          "gl": 0,
+          "glass": [
+            0.11999999731779099
+          ]
+        }
+      ]
+    },
+    {
+      "name": "babylon instrument texture updates after acceleration and nitro use",
+      "pass": true,
+      "detail": {
+        "view": "cockpit",
+        "speed": 44,
+        "nitro": 85,
+        "display": {
+          "speed": 44,
+          "nitro": 85
+        },
+        "id": "touring-gt",
+        "lod": "high",
+        "hud": "44 KM/H",
+        "gl": 0,
+        "glass": [
+          0.11999999731779099
+        ]
+      }
+    },
+    {
+      "name": "babylon camera preference survives the visible settings flow and reload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "babylon repeated car and instrument LOD rebuilds stabilize native GPU resources",
+      "pass": true,
+      "detail": [
+        {
+          "Buffer": 1509,
+          "Texture": 53,
+          "Framebuffer": 8,
+          "Renderbuffer": 1,
+          "VertexArray": 318
+        },
+        {
+          "Buffer": 1509,
+          "Texture": 53,
+          "Framebuffer": 8,
+          "Renderbuffer": 1,
+          "VertexArray": 318
+        },
+        {
+          "Buffer": 1509,
+          "Texture": 53,
+          "Framebuffer": 8,
+          "Renderbuffer": 1,
+          "VertexArray": 318
+        }
+      ]
+    },
+    {
+      "name": "playcanvas C cycles all three views while preserving held throttle and the entire running simulation",
+      "pass": true,
+      "detail": [
+        "hood",
+        "cockpit",
+        "chase"
+      ]
+    },
+    {
+      "name": "playcanvas native camera button preserves input and does not restart the race",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "playcanvas both LOD dashboards match live speed, nitro and HUD with transparent glass",
+      "pass": true,
+      "detail": [
+        {
+          "view": "cockpit",
+          "speed": 66,
+          "nitro": 100,
+          "display": {
+            "speed": 66,
+            "nitro": 100
+          },
+          "id": "touring-gt",
+          "lod": "low",
+          "hud": "66 KM/H",
+          "gl": 0,
+          "glass": [
+            0.11999999731779099
+          ]
+        },
+        {
+          "view": "cockpit",
+          "speed": 66,
+          "nitro": 100,
+          "display": {
+            "speed": 66,
+            "nitro": 100
+          },
+          "id": "touring-gt",
+          "lod": "high",
+          "hud": "66 KM/H",
+          "gl": 0,
+          "glass": [
+            0.11999999731779099
+          ]
+        }
+      ]
+    },
+    {
+      "name": "playcanvas instrument texture updates after acceleration and nitro use",
+      "pass": true,
+      "detail": {
+        "view": "cockpit",
+        "speed": 44,
+        "nitro": 85,
+        "display": {
+          "speed": 44,
+          "nitro": 85
+        },
+        "id": "touring-gt",
+        "lod": "high",
+        "hud": "44 KM/H",
+        "gl": 0,
+        "glass": [
+          0.11999999731779099
+        ]
+      }
+    },
+    {
+      "name": "playcanvas camera preference survives the visible settings flow and reload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "playcanvas repeated car and instrument LOD rebuilds stabilize native GPU resources",
+      "pass": true,
+      "detail": [
+        {
+          "Buffer": 484,
+          "Texture": 118,
+          "Framebuffer": 9,
+          "Renderbuffer": 4,
+          "VertexArray": 213
+        },
+        {
+          "Buffer": 484,
+          "Texture": 118,
+          "Framebuffer": 9,
+          "Renderbuffer": 4,
+          "VertexArray": 213
+        },
+        {
+          "Buffer": 484,
+          "Texture": 118,
+          "Framebuffer": 9,
+          "Renderbuffer": 4,
+          "VertexArray": 213
+        }
+      ]
+    },
+    {
+      "name": "390×844 second touch changes camera while the first keeps accelerating",
+      "pass": true,
+      "detail": {
+        "view": "hood",
+        "held": [
+          "action"
+        ],
+        "phase": "playing"
+      }
+    },
+    {
+      "name": "390×844 primary touch switches the camera exactly once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "390×844 camera, bank and pause fit without overlap",
+      "pass": true,
+      "detail": {
+        "boxes": [
+          {
+            "x": 290,
+            "y": 17.740982055664062,
+            "right": 375,
+            "bottom": 53.74098205566406
+          },
+          {
+            "x": 244.65625,
+            "y": 65.25,
+            "right": 314.65625,
+            "bottom": 101.25
+          },
+          {
+            "x": 321.65625,
+            "y": 65.25,
+            "right": 375,
+            "bottom": 101.25
+          }
+        ],
+        "inBounds": true,
+        "separate": true,
+        "noScroll": true,
+        "buttonLabel": "驾驶舱"
+      }
+    },
+    {
+      "name": "844×390 second touch changes camera while the first keeps accelerating",
+      "pass": true,
+      "detail": {
+        "view": "hood",
+        "held": [
+          "action"
+        ],
+        "phase": "playing"
+      }
+    },
+    {
+      "name": "844×390 primary touch switches the camera exactly once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "844×390 camera, bank and pause fit without overlap",
+      "pass": true,
+      "detail": {
+        "boxes": [
+          {
+            "x": 544,
+            "y": 12.740690231323242,
+            "right": 638,
+            "bottom": 53.74069023132324
+          },
+          {
+            "x": 645,
+            "y": 12,
+            "right": 741,
+            "bottom": 53
+          },
+          {
+            "x": 748,
+            "y": 12,
+            "right": 824,
+            "bottom": 53
+          }
+        ],
+        "inBounds": true,
+        "separate": true,
+        "noScroll": true,
+        "buttonLabel": "驾驶舱"
+      }
+    },
+    {
+      "name": "Camera control is hidden outside racing and C leaves shooting unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C does not alter shooting state",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "AKM ironsights align on the aiming axis without a scope overlay",
+      "pass": true,
+      "detail": {
+        "id": "field-akm",
+        "aim": 0.9995471728171131,
+        "x": 0.0001041502520639781,
+        "y": -0.04958173530651104,
+        "scope": false
+      }
+    },
+    {
+      "name": "AKM fires with native bolt motion and a muzzle effect",
+      "pass": true,
+      "detail": {
+        "shots": 1,
+        "bolt": 0.032035743755568856,
+        "effects": [
+          "tracer0",
+          "flash"
+        ],
+        "gl": 0
+      }
+    },
+    {
+      "name": "AKM reload moves the native magazine",
+      "pass": true,
+      "detail": -0.17300506158579068
+    },
+    {
+      "name": "No exceptions and no runtime source changes during 7.1 checks",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "sourceFingerprint": {
+    "src/app.js": "d8e2e609e4242010e5feed42ac759cdb2c43751106e0b5b989379681f31a2518",
+    "src/core/camera.js": "630ad3eed7e33e017582ca6917e210378b7080c2751da784f12977be62dab662",
+    "src/core/clock.js": "9e2fc68d31268b64071315a2df2be645a5e3e353432c197e25236eaceacfef48",
+    "src/core/math.js": "345ad4f42c7a023cd53de4fc7b0c3eabe5c19814d51c58e3d5f05e88aa7983d0",
+    "src/core/progress.js": "acf3beb707ad9f46e2631e9ed88c73f5a17dd906acfa557ac18024073f57188b",
+    "src/core/track.js": "0aa30f0c5f48de34e6f67c8fc7ecd6446a8eb5e994db132fec293a97f6d0798d",
+    "src/games/catalog.js": "fa202e72b1183cf858c8f4539c58c3c25bf7d444885af38f616eab5930f15ac2",
+    "src/games/darts.js": "a05719351db0fc1c5bb0fcaf27b5a9b09fbcaadb334c78d93259329297afe816",
+    "src/games/racing.js": "fce7872f9b16047e371027d8f7ff3edd3489c482c9e8b069cee19d089b16cb24",
+    "src/games/shooting.js": "3a41f345ec930fab8a2c4c530c337ffbe87e52ee8b152ef41fad4cfc0018a15f",
+    "src/games/simulation.js": "85885a3c3fe99953ef196b7bf10345f9bfbf7195049c72a834f907577f5840c6",
+    "src/games/throwing.js": "982f81509475d293c73404f91736fccd9342fc4145a988d478647b1a9fd998d0",
+    "src/platform/audio.js": "8d5e2cf1aad603747be47839289dee3a55296e15c25526264dac8ab673c6c530",
+    "src/platform/diagnostics.js": "48d0ab36d15340fef09ef6a55163a65d9dede901b331423a3c8c62d801e2d9a1",
+    "src/platform/input.js": "1e97915772bf8c87d9c764793965a840d8f291df74047c9ec50309457f50c4de",
+    "src/platform/storage.js": "eaa13049b1fe5da1f71ef7aac77e380abc34ab1d605d8d46274cdaa0a1f340d2",
+    "src/presentation/babylon.js": "df8db70ecdc6a31d93502ab2f650509019c87f195e8373e0888cf2c7f0cec76c",
+    "src/presentation/dashboard.js": "1c21da3fa97c44fdfce10a468d7741b04521ce220ad617545979185541b231d2",
+    "src/presentation/engine.js": "b6c47f4f1df4e7f55b2b1f073ac5602c856589677a6936e7d44324299dac59da",
+    "src/presentation/frame.js": "20dbca166c01b7027cda383353b168532f5b5948cb689838bd6f95f96caf0ed2",
+    "src/presentation/geometry.js": "e4b54a566108ab2334b30083bfd7557543d0e107a8d1ac6d715598a95b54708a",
+    "src/presentation/playcanvas-lifetime.js": "d8411647b9deddac589c25c602ce2cedc0a4fb59d6f19f828586bc308594fdf2",
+    "src/presentation/playcanvas.js": "c2bb72fd4a97dff5dfaf9efdb9cf1bbd31fb4c63d797c8933e3964c9bffb5798",
+    "src/presentation/scene.js": "9580b7e4178efe3a8240c46d3f336a541ad4dd0c673ecebb99905b543a67d489",
+    "src/ui.js": "f91272f598ac6c0f8aede096a3f87f0189c0734f7ae93e879d819cd052e6b89c",
+    "index.html": "b5aab38d26f18cb71bf5e866f9f63104f2862ffdde086d8ba8f27d5365081952",
+    "style.css": "84319f49811e1706ff64bb25e5390e3802f84357d174437c9af361a6c1b1dc2b",
+    "assets/manifest.json": "d6d825115272e73262e0345302d07f03bb2dca28d5a2c803d2d19c0aab3c1ae0",
+    "vendor/manifest.json": "875d4e394580f6cbb487721c142f0ac47d40bdbdf83f0e66a08b21c72d5e457b"
+  },
+  "method": "Real native engine objects and keyboard/mouse/CDP touch events. Manual production physics time for functional assertions only. Portrait and landscape are desktop touch emulation; screenshots reviewed separately."
+}

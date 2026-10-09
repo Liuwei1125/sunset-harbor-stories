@@ -1,0 +1,9 @@
+﻿名称,作者,页面价_美元_2026-09-11,许可,格式,数量与复杂度,建议用途,待验收与限制,原始链接
+Kenney Car Kit,Kenney,免费,CC0,落地页未列格式；下载包待检查,45 个文件；不能按 45 辆车理解,最快验证车辆替换、比例、颜色和移动端负载。,未核实座舱、独立车门、方向盘及车轮枢轴；不预设第一人称质量。,https://kenney.nl/assets/car-kit
+Kenney Racing Kit,Kenney,免费,CC0,落地页未列格式；下载包待检查,110 个文件，含赛车题材场景资产,赛道、设施和轻量赛车原型的配套起点。,110 是文件数；不是 110 种车。座舱与可动零件未核实。,https://kenney.nl/assets/racing-kit
+Quaternius Low Poly Cars,Quaternius,免费,CC0,FBX / OBJ / Blend,8 个模型,交通车、占位车队、低预算场景统一风格。,转换为 GLB 后再接入；可动结构、第一人称座舱与 LOD 待检查。,https://quaternius.com/packs/cars.html
+POLYGON — Street Racer,Synty Studios,USD 199.99（页面价）,Synty 一次性购买许可，通常 5 席位,FBX 源文件；另有 Unity / Unreal 工程,15 个车辆类条目，含船和起重机；33 预设；423 配件,优先试样：模块化赛车、港口、美术风格成套；明确含可开门与座舱零件。,不是 15 种汽车。未验证司机眼位近景与每车完整座舱；引擎预设/特效需重做。页面有模板错误，结账可用性待确认。,https://syntystore.com/products/polygon-street-racer
+POLYGON — City Pack,Synty Studios,USD 19.99（页面价）,Synty 一次性购买许可，通常 5 席位,FBX 源文件；另有 Godot / Unity / Unreal 工程,8 种车、9 种角色与城市组件；配色变体另计,优先试样：街区、出租车、警车与行人风格统一。,角色不附动画；车辆座舱未核实。页面有模板错误，结账可用性待确认。,https://syntystore.com/products/polygon-city-pack
+Generic Passenger Car With Interior Pack,3d-disco / CGTrader,USD 89.00（页面价）,Royalty Free；Web 分发方式需确认,GLB / FBX / OBJ / Blend 等,"9 车型 × 5 配色；约 7,167–11,790 polygons / 车型",偏写实交通车队；含内饰，可作为驾驶车试样。,polygons 不等于三角形。含 2K PBR 贴图，但方向盘/车门层级、近景内饰及 LOD 未核实；商标安全不能仅凭卖家保证。,https://www.cgtrader.com/3d-models/car/car/generic-passenger-car-with-interior-3d-models-pack
+Game Ready Generic SUV,LugnutStudio / CGTrader,USD 9.00（页面价）,Royalty Free；Web 分发方式需确认,FBX；原生 MAX / Corona,"1 辆；1,563 polygons",远景交通、街边停放车、性能对照。,作者明确：内饰用于从车外观看。排除作为第一人称主驾驶车；不要依赖原生 Corona 材质直接导入。,https://www.cgtrader.com/3d-models/car/suv/game-ready-generic-suv
+90s generic police car,magicpeople / CGTrader,USD 53.00（页面价）,Royalty Free；Web 分发方式需确认,FBX / OBJ / 3DS / ABC；原生 MAX,"整车 64,370 tris；内饰 3,947 tris；车轮 14,032 tris",追逐剧情的近景警车候选，偏写实路线。,手机交通车群不宜直接复制高模；需 LOD 和车轮减面。车门、方向盘独立层级及座舱视角仍待验收。,https://www.cgtrader.com/3d-models/car/car/90s-generic-police-car

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SU7 · 实车与模型对照</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#10171d;color:#edf1f4;font-family:system-ui,-apple-system,"PingFang SC",sans-serif}main{max-width:1640px;margin:auto;padding:44px 32px 60px}header{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:30px}small{font-size:11px;letter-spacing:2px;color:#849aab}h1{font-size:34px;letter-spacing:-1px;font-weight:500;margin:12px 0}p{font-size:14px;line-height:1.8;color:#a2b3bf;max-width:850px;margin:0}a{color:#a9d6ee;text-underline-offset:4px}nav{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap}button{font:inherit;color:#b4c3ce;border:1px solid #364552;border-radius:7px;padding:10px 18px;background:transparent;cursor:pointer}button[aria-pressed=true]{background:#d1e6f0;color:#163444;border-color:#d1e6f0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;border:1px solid #35414b;border-radius:12px;overflow:hidden;background:#202c36}figcaption{padding:15px 18px;font-size:13px;display:flex;justify-content:space-between;color:#bccbd6}figcaption span{font-size:11px;color:#859ba9}figure img{width:100%;height:auto;aspect-ratio:1.6;object-fit:contain;display:block;background:#29353e}.notes{margin-top:24px;border-left:2px solid #70a9c7;padding-left:18px}.notes p+p{margin-top:7px}.old{margin-top:34px}.old summary{cursor:pointer;color:#a8becc;font-size:13px}.old img{display:block;width:min(760px,100%);margin-top:18px;border-radius:10px}footer{border-top:1px solid #283744;padding-top:22px;margin-top:34px;color:#7f94a3;font-size:12px;line-height:1.8}@media(max-width:800px){main{padding:26px 16px}.grid{grid-template-columns:1fr}header{display:block}header>a{display:inline-block;margin-top:14px}h1{font-size:29px}figcaption{padding:12px}}
+.compare-controls{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:0 0 18px;color:#a2b3bf;font-size:12px}.compare-controls select{font:inherit;background:#233543;color:#e2edf3;border:1px solid #405563;padding:7px 12px;border-radius:6px}.compare-controls span{line-height:1.8}.overlay-section{margin-top:38px}.overlay-section h2{font-size:23px;font-weight:500}.overlay-section label{display:flex;align-items:center;gap:16px;font-size:13px;margin:18px 0;color:#b4c8d5}.overlay-section input{width:220px;accent-color:#8bc8e6}.overlay-stage{position:relative;width:100%;border:1px solid #35414b;border-radius:12px;overflow:hidden}.overlay-stage img{display:block;width:100%}.overlay-stage #overlay-model{position:absolute;inset:0;width:100%;height:100%;opacity:.55}</style>
+<main>
+<header><div><small>SU7 / PRECISION STUDY 06</small><h1>实车与模型，直接对照</h1><p>这一轮重做玻璃与车顶连接、车尾饰板和面板分缝，并补充座舱组件。可对照第五版与官方照片，检查整车外形和零件连接。</p></div><a href="preview.html">打开可旋转的 3D 模型 ↗</a></header>
+<nav aria-label="对照角度"><button data-view="front" aria-pressed="true">整体外形</button><button data-view="side" aria-pressed="false">正侧面</button><button data-view="rear" aria-pressed="false">车尾</button><button data-view="rear-flat" aria-pressed="false">车尾正面</button><button data-view="headlight" aria-pressed="false">大灯近景</button><button data-view="wheel" aria-pressed="false">轮毂近景</button><button data-view="cockpit" aria-pressed="false">驾驶舱</button><button data-view="clay-side" aria-pressed="false">灰模侧面</button><button data-view="reflection-rear" aria-pressed="false">曲面反射</button></nav>
+<div class="compare-controls"><label>左侧对照 <select id="source"><option value="official">官方照片</option><option value="previous">第五版模型</option></select></label><span id="view-note">照片与模型的焦距、机位、光照不同；用于观察形状，不代表像素级配准。</span></div><div class="grid"><figure><figcaption id="source-caption">实车参考<span>小米汽车官方图片</span></figcaption><img id="reference" src="references/6-1.png" alt="小米 SU7 官方多角度实车照片"></figure><figure><figcaption>第六版模型<span>Blender 渲染</span></figcaption><img id="model" src="renders/v6-front.png" alt="第六版 SU7 模型前侧渲染"></figure></div>
+<div class="notes"><p>已调整：共用顶面网格消除玻璃重叠；有厚度的透射玻璃；连续门缝与尾门缝；嵌入式车尾饰板与扁平尾灯导光条；新仪表台、双手机托盘、杯架、方向盘下辐条和顶棚组件。</p><p>仍有差异：保险杠与侧窗局部曲率、光学结构、座椅与仪表界面。未取得厂家 CAD 或扫描资料。相机仅按人工标记拟合，不能把标记误差当作整车复原度；新旧整车展示图保留共同机位。</p></div>
+<section class="overlay-section"><h2>前侧叠加检查</h2><p>调节模型透明度，观察轮廓和部件位置。底图为官方照片，上层为拟合机位下的实际 Blender 透明渲染。</p><label>模型透明度 <input id="overlay-opacity" aria-label="模型叠加透明度" type="range" min="0" max="100" value="55"><output id="overlay-value">55%</output></label><div class="overlay-stage"><img src="references/6-1.png" alt="前侧实车底图"><img id="overlay-model" src="renders/v6-reference-front.png" alt="第六版模型透明叠加"></div></section><details class="old"><summary>查看上一版，比较这轮改动</summary><img src="renders/v5-front.png" alt="上一轮 SU7 第五版模型"></details>
+<details class="old"><summary>查看本轮座舱全景</summary><img src="renders/v6-cabin-wide.png" alt="第六版座舱全景真实渲染"></details>
+<footer>参考来源：<a href="https://www.xiaomiev.com/su7" target="_blank" rel="noopener">小米 SU7 官方页面</a>。参考照片仅用于本地对照，未嵌入模型。<br><a href="REVISION-06.md">本轮修改与检查记录</a><br>下载：<a href="xiaomi-su7.blend" download>Blender 源文件</a> · <a href="xiaomi-su7.high.glb" download>GLB 模型</a></footer>
+</main>
+<script>
+const views={front:['6-1.png','front','前侧'],side:['3-1.png','side','正侧面'],rear:['3-2.png','rear','后侧'],'rear-flat':['3-3.png','rear-flat','车尾正面'],headlight:['4-1.png','headlight','大灯近景'],wheel:['7-3-1.png','wheel','轮毂近景'],cockpit:['9-1.png','cockpit','驾驶舱'],'clay-side':['3-1.png','clay-side','灰模侧面'],'reflection-rear':['3-2.png','reflection-rear','曲面反射']};
+let current='front';
+function update(){
+ const [ref,render,label]=views[current],previous=document.querySelector('#source').value==='previous';
+ const old=render.replace('clay-','').replace('reflection-','');
+ document.querySelector('#reference').src=previous?'renders/v5-'+old+'.png':'references/'+ref;
+ document.querySelector('#reference').alt=(previous?'第五版模型':'小米 SU7 官方')+label;
+ document.querySelector('#source-caption').innerHTML=previous?'第五版模型<span>修订前 · Blender 渲染</span>':'实车参考<span>小米汽车官方图片</span>';
+ document.querySelector('#model').src='renders/v6-'+(!previous&&current==='front'?'reference-front':render)+'.png';
+ document.querySelector('#view-note').textContent=!previous&&current==='front'?'前侧已近似拟合参考相机；人工标记及光照仍有误差，可向下查看叠加。':'此视角用于形状与细节对照；照片的机位与光照不完全相同。';
+ document.querySelector('#model').alt='第六版模型'+label+'渲染';
+ document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===current)));
+}
+document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{current=button.dataset.view;update();}));
+document.querySelector('#source').addEventListener('change',update);
+document.querySelector('#overlay-opacity').addEventListener('input',e=>{document.querySelector('#overlay-model').style.opacity=e.target.value/100;document.querySelector('#overlay-value').value=e.target.value+'%';});
+update();
+</script>
+</html>

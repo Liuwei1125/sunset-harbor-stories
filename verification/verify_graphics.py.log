@@ -1,0 +1,17 @@
+PASS Offline game boots the HDR renderer with AO, two cascades and reflections
+PASS AO target contains actual contact occlusion pixels
+PASS Contact occlusion changes final scene pixels
+PASS Exposure produces a monotonic visible change through AgX
+PASS Water scene reflections change actual rendered pixels
+PASS Explosion light illuminates nearby geometry
+PASS Bloom affects emissive highlights in the final image
+PASS Repeated renders leave time, ammunition, mission and actor poses intact
+PASS Quality tiers reduce AO, reflections and shadow workload without GL errors
+PASS Resize replaces and deletes old render targets; steady frames reuse them
+PASS Public graphics controls switch renderer and round-trip through saves
+PASS Older saves receive safe graphics defaults
+PASS Coast, islands and canyon all render through the new pipeline
+PASS no-hdr retains a visible game and working exposure
+PASS no-depth retains a visible game and working exposure
+PASS basic-gpu retains a visible game and working exposure
+16/16 passed

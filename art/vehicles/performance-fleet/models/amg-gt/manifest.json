@@ -1,0 +1,131 @@
+{
+  "title": "Mercedes-AMG GT",
+  "brand": "Mercedes-AMG",
+  "edition": "GT · Yan Carvalho",
+  "paint": "5C9D91",
+  "paintMaterials": [
+    "Material.001"
+  ],
+  "tireMaterials": [
+    "Material.023"
+  ],
+  "steering": [
+    -0.36,
+    -0.09,
+    0.81
+  ],
+  "eye": [
+    -0.36,
+    -0.56,
+    1.08
+  ],
+  "aim": [
+    -0.04,
+    0.4,
+    0.88
+  ],
+  "screen": [
+    0,
+    -0.03,
+    0.95,
+    0.238,
+    0.145,
+    0.12
+  ],
+  "layout": "landscape",
+  "cabin": true,
+  "notes": "艺术家自建外形与简化座舱；新增独立赛车显示面。",
+  "id": "amg-gt",
+  "license": "CC BY 4.0",
+  "source": "https://sketchfab.com/3d-models/mercedes-benz-amg-gt-661dcab94455463784651a3ebc63cfb9",
+  "author": "Yan Carvalho",
+  "coordinates": "metres; glTF Y up; -Z forward",
+  "paintable": true,
+  "dimensions": {
+    "width": 2.075234532356262,
+    "length": 4.546000003814697,
+    "height": 1.2776601314544678
+  },
+  "wheelFront": 1.3792665600776672,
+  "wheelRear": -1.2597217857837677,
+  "track": 0.8363927528262138,
+  "radius": 0.33523492505432273,
+  "joints": {
+    "front-left": [
+      -0.8334224224090576,
+      0.33523494005203247,
+      -1.3874184489250183
+    ],
+    "front-right": [
+      0.833424985408783,
+      0.3352349102497101,
+      -1.3711146712303162
+    ],
+    "rear-left": [
+      -0.8545436859130859,
+      0.33523565550086687,
+      1.2607275247573853
+    ],
+    "rear-right": [
+      0.8241799175739288,
+      0.3352356256985445,
+      1.2587160468101501
+    ]
+  },
+  "steeringPivot": [
+    -0.36,
+    0.81,
+    0.09
+  ],
+  "views": {
+    "cockpit": {
+      "eye": [
+        -0.36,
+        1.08,
+        0.56
+      ],
+      "target": [
+        -0.04,
+        0.88,
+        -0.4
+      ]
+    },
+    "screen": {
+      "eye": [
+        -0.08,
+        1.0999999999999999,
+        0.47
+      ],
+      "target": [
+        0,
+        0.95,
+        0.03
+      ]
+    }
+  },
+  "display": {
+    "material": "display:front",
+    "layout": "landscape",
+    "size": [
+      1536,
+      960
+    ],
+    "enabled": true
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "amg-gt.high.glb",
+      "bytes": 17306848,
+      "triangles": 175719,
+      "sha256": "eceade488d4ac3069914ee0e2c315e1148c25b291716d9722322480b5d9d01d9"
+    },
+    {
+      "lod": "low",
+      "file": "amg-gt.low.glb",
+      "bytes": 8336020,
+      "triangles": 85138,
+      "sha256": "8e95e4d400519ab7f4ee2d0f1850c1b98e24361dffa1936dd04bf3d47fa6ae7a"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+REVISION 2 GEOMETRY COMPLETE 639
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+17:20:22 | INFO: Starting glTF 2.0 export
+17:20:22 | INFO: Extracting primitive: SU7 continuous sculpted exterior.001
+17:20:22 | INFO: Primitives created: 14
+17:20:22 | INFO: Extracting primitive: Cube.094
+17:20:22 | INFO: Primitives created: 11
+17:20:22 | INFO: Extracting primitive: Stowed integrated deck spoiler.001
+17:20:22 | INFO: Primitives created: 1
+17:20:22 | INFO: Extracting primitive: Flat bottom leather steering rim
+17:20:22 | INFO: Primitives created: 3
+17:20:22 | INFO: Extracting primitive: Performance radial tire.004
+17:20:22 | INFO: Primitives created: 6
+17:20:22 | INFO: Extracting primitive: Performance radial tire.006
+17:20:22 | INFO: Primitives created: 6
+17:20:22 | INFO: Extracting primitive: Performance radial tire.005
+17:20:22 | INFO: Primitives created: 6
+17:20:22 | INFO: Extracting primitive: Performance radial tire.007
+17:20:22 | INFO: Primitives created: 6
+17:20:22 | INFO: Finished glTF 2.0 export in 0.431210994720459 s
+
+17:20:23 | INFO: Starting glTF 2.0 export
+17:20:23 | INFO: Extracting primitive: SU7 continuous sculpted exterior.001
+17:20:23 | INFO: Primitives created: 14
+17:20:23 | INFO: Extracting primitive: Cube.094
+17:20:23 | INFO: Primitives created: 11
+17:20:23 | INFO: Extracting primitive: Stowed integrated deck spoiler.001
+17:20:23 | INFO: Primitives created: 1
+17:20:23 | INFO: Extracting primitive: Flat bottom leather steering rim
+17:20:23 | INFO: Primitives created: 3
+17:20:23 | INFO: Extracting primitive: Performance radial tire.004
+17:20:23 | INFO: Primitives created: 6
+17:20:23 | INFO: Extracting primitive: Performance radial tire.006
+17:20:23 | INFO: Primitives created: 6
+17:20:23 | INFO: Extracting primitive: Performance radial tire.005
+17:20:23 | INFO: Primitives created: 6
+17:20:23 | INFO: Extracting primitive: Performance radial tire.007
+17:20:23 | INFO: Primitives created: 6
+17:20:23 | INFO: Finished glTF 2.0 export in 0.45406603813171387 s
+
+Info: Saved as "xiaomi-su7.blend"
+RENDER front
+00:35.830  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v2-front.png'
+RENDER rear
+01:01.791  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v2-rear.png'
+RENDER side
+01:12.090  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v2-side.png'
+RENDER cockpit
+02:06.698  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v2-cockpit.png'
+RENDER clay-side
+02:17.413  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v2-clay-side.png'
+REVISION 2 COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

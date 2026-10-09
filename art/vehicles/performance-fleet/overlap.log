@@ -1,0 +1,7 @@
+00:05.688  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/source/normalized.blend"
+OVERLAP bmw-m4 181144 90717 [(('6a00d83451db4269e200e55380b5f68834-800wi', '0136_Charcoal_2'), 21020), (('black1', 'chrome1'), 10471), (('body1', 'body1'), 7334), (('material_3', 'Material5'), 5838), (('black1', 'body1'), 4670), (('black1', 'plastic1'), 4459), (('0136_Charcoal_2', '6a00d83451db4269e200e55380b5f68834-800wi'), 4204), (('black1', 'black1'), 4093), (('black1', 'silver1'), 3363), (('black1', '0136_Charcoal_2'), 3330), (('Material5', 'Material5'), 3324), (('black1', 'leather1'), 2991), (('Material5', 'material_3'), 2722), (('black1', 'Charcoal_1'), 1776), (('black1', 'glass1'), 1714)]
+00:06.605  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/amg-gt/source/normalized.blend"
+OVERLAP amg-gt 175529 0 []
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

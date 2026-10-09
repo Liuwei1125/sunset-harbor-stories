@@ -1,0 +1,29 @@
+15:56:41 | INFO: Data are loaded, start creating Blender stuff
+15:56:41 | INFO: Blender create Mesh node Object_0
+15:56:41 | INFO: Blender create Mesh node Object_1
+15:56:41 | INFO: Blender create Mesh node Object_2
+15:56:41 | INFO: Blender create Mesh node Object_3
+15:56:41 | INFO: Blender create Mesh node Object_4
+15:56:41 | INFO: Blender create Mesh node Object_5
+15:56:41 | INFO: Blender create Mesh node Object_6
+15:56:41 | INFO: Blender create Mesh node Object_7
+15:56:41 | INFO: Blender create Mesh node Object_8
+15:56:41 | INFO: Blender create Mesh node Object_9
+15:56:41 | INFO: Blender create Mesh node Object_10
+15:56:41 | INFO: Blender create Mesh node Object_11
+15:56:42 | INFO: Blender create Mesh node Object_12
+15:56:42 | INFO: Blender create Mesh node Object_13
+15:56:42 | INFO: Blender create Mesh node Object_14
+15:56:42 | INFO: Blender create Mesh node Object_15
+15:56:42 | INFO: Blender create Mesh node Object_16
+15:56:42 | INFO: Blender create Mesh node Object_17
+15:56:42 | INFO: glTF import finished in 0.29s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-model-3/build_model.py:32: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Studio environment');scene.world.use_nodes=True
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-model-3/build_model.py:38: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Studio floor');mat.diffuse_color=(.43,.47,.49,1);mat.use_nodes=True;mat.node_tree.nodes.get('Principled BSDF').inputs['Roughness'].default_value=.75
+00:26.714  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-model-3/renders/source-front.png'
+01:55.256  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-model-3/renders/source-cockpit.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

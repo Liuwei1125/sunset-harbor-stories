@@ -1,0 +1,135 @@
+{
+  "sha256": "ca3ea0336f7b36d4814649071519da95b4a244b2c15bdafd4326244bc774874f",
+  "exposure": 1,
+  "views": {
+    "harbor": {
+      "eye": [
+        161,
+        21,
+        310
+      ],
+      "target": [
+        124,
+        3,
+        262
+      ],
+      "player": [
+        121,
+        0.24,
+        285
+      ]
+    },
+    "sport": {
+      "eye": [
+        106,
+        2.7,
+        331
+      ],
+      "target": [
+        101,
+        1.1,
+        337
+      ],
+      "player": [
+        99,
+        0.24,
+        341
+      ]
+    },
+    "quay": {
+      "eye": [
+        154,
+        5.6,
+        293
+      ],
+      "target": [
+        132,
+        2.3,
+        275
+      ],
+      "player": [
+        140,
+        0.24,
+        287
+      ]
+    },
+    "warehouse": {
+      "eye": [
+        117,
+        3.3,
+        251
+      ],
+      "target": [
+        124,
+        1.5,
+        238
+      ],
+      "player": [
+        120,
+        0.24,
+        245
+      ]
+    },
+    "boat": {
+      "eye": [
+        194,
+        3.7,
+        337
+      ],
+      "target": [
+        187,
+        0.5,
+        345
+      ],
+      "player": [
+        184,
+        0.24,
+        342
+      ]
+    },
+    "rifle": {
+      "eye": [
+        112.4,
+        2.2,
+        317.8
+      ],
+      "target": [
+        110,
+        1.5,
+        315.8
+      ],
+      "player": [
+        110,
+        0.24,
+        316.5
+      ]
+    }
+  },
+  "results": [
+    {
+      "scene": "harbor",
+      "glError": 0
+    },
+    {
+      "scene": "sport",
+      "glError": 0
+    },
+    {
+      "scene": "quay",
+      "glError": 0
+    },
+    {
+      "scene": "warehouse",
+      "glError": 0
+    },
+    {
+      "scene": "boat",
+      "glError": 0
+    },
+    {
+      "scene": "rifle",
+      "glError": 0
+    }
+  ],
+  "errors": []
+}

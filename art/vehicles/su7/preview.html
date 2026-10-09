@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>SU7 · 模型工坊</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eceeea;color:#1c2a32;font-family:system-ui,-apple-system,"PingFang SC",sans-serif}button,input{font:inherit}button{cursor:pointer}canvas{display:block;width:100vw;height:100vh;outline:0;touch-action:none}header{position:fixed;top:36px;left:44px;pointer-events:none}small{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#63737b}h1{font-size:48px;line-height:1.1;font-weight:500;letter-spacing:-2px;margin:12px 0}header p{font-size:13px;letter-spacing:1px;color:#607078}.badge{position:fixed;right:36px;top:38px;border:1px solid #b6c6c7;border-radius:24px;padding:10px 16px;background:#f8faf9bb;font-size:12px}.bottom{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);width:min(880px,calc(100% - 40px));padding:18px 24px;background:#fdfefbe8;backdrop-filter:blur(20px);border:1px solid #ffffff;border-radius:18px;box-shadow:0 6px 30px #25364412}.row{display:flex;align-items:center;justify-content:space-between;gap:14px}.views{display:flex;gap:6px;flex-wrap:wrap}button{border:0;border-radius:9px;background:transparent;padding:10px 17px;color:#65737b;font-size:13px}button.on{background:#153f4d;color:white}button:hover{background:#dce7e8;color:#16333e}.line{height:1px;background:#dde4e3;margin:15px 0}.controls{font-size:12px;color:#5e7079;gap:18px;flex-wrap:wrap}.toggle{display:flex;align-items:center;gap:7px;cursor:pointer}input[type=checkbox]{accent-color:#246274}input[type=range]{width:105px;accent-color:#246274}.stats{font-size:11px;color:#70828a;letter-spacing:.3px}.colors{display:flex;gap:8px}.swatch{width:22px;height:22px;border:2px solid #fff;outline:1px solid #ced5d3;border-radius:50%;padding:0}.swatch.on{outline:2px solid #254e5e}.note{position:fixed;left:44px;bottom:166px;font-size:11px;color:#6c7d84;line-height:1.8}.load{position:fixed;inset:0;display:grid;place-content:center;background:#eceeea;z-index:10;color:#315361}.load.error{color:#963c36}.links a{color:#536f7a;font-size:12px;text-decoration:none;margin-left:15px}.links a:hover{text-decoration:underline}@media(max-width:650px){header{left:22px;top:24px}h1{font-size:36px}.badge{right:20px;top:26px;font-size:10px;padding:8px 11px}.bottom{bottom:14px;padding:14px;width:calc(100% - 24px)}button{padding:9px 12px}.row{gap:8px}.links{display:none}.note{left:22px;bottom:205px}.stats{display:none}.controls{gap:10px}.colors{gap:6px}}
+body.cockpit header,body.cockpit header small,body.cockpit header p{color:#f1f5f7;text-shadow:0 1px 5px #142333}body.cockpit .note{display:none}@media(max-width:650px){.badge{display:none}}
+
+.telemetry-panel{display:none;position:fixed;right:28px;top:114px;width:294px;padding:16px 18px;background:#101f2ce8;color:#e9f3f6;border:1px solid #5a778866;border-radius:14px;backdrop-filter:blur(16px)}
+body.cockpit .telemetry-panel{display:block}.telemetry-heading{display:flex;justify-content:space-between;align-items:center;font-size:13px;margin-bottom:11px}.telemetry-heading small{font-size:10px;letter-spacing:0;color:#9dc8d8}.telemetry-panel button{background:#294b5a;color:white;padding:7px 11px;font-size:12px}.telemetry-panel label{display:flex;align-items:center;gap:10px;font-size:11px;color:#aec3cd;margin-top:12px}.telemetry-panel input[type=range]{flex:1;min-width:0}.telemetry-panel select{background:#263e4b;border:1px solid #58707a;border-radius:5px;color:white;padding:4px 8px}.telemetry-panel output{min-width:30px;text-align:right;font-variant-numeric:tabular-nums}.telemetry-panel p{font-size:10px;color:#9db2bd;margin:11px 0 0;line-height:1.6}
+@media(max-width:650px){.telemetry-panel{top:142px;right:12px;width:240px;padding:11px 13px}.telemetry-panel p{display:none}.telemetry-panel label{margin-top:8px}.views{gap:0}.views button{padding:8px 9px}.bottom .row:first-child{flex-wrap:wrap}body.cockpit header p{max-width:240px;font-size:11px}}
+</style>
+<canvas id="view" aria-label="可旋转的小米 SU7 三维模型"></canvas>
+<header><small>Harbor / Vehicle atelier</small><h1>Xiaomi SU7</h1><p>卡布里蓝 · 浅色座舱 · 座舱与动态仪表 07</p></header>
+<div class="badge">Blender 原创建模 / 修订稿</div>
+<div class="note">拖动旋转 · 滚轮缩放 · 双指缩放<br>依据实车照片制作的游戏模型，第 7 轮座舱与仪表更新 · 可打开实车对照</div>
+<section class="bottom">
+ <div class="row"><nav class="views" aria-label="查看角度"><button class="on" data-view="front">前侧</button><button data-view="side">侧面</button><button data-view="rear">车尾</button><button data-view="cockpit">座舱</button><button data-view="instruments">仪表</button></nav><div class="colors" aria-label="车漆"><button aria-label="卡布里蓝" class="swatch on" data-color="#007BC8" style="background:#007BC8"></button><button aria-label="珍珠白" class="swatch" data-color="#DFE3DF" style="background:#DFE3DF"></button><button aria-label="海湾绿" class="swatch" data-color="#286D63" style="background:#286D63"></button><button aria-label="熔岩红" class="swatch" data-color="#A91F2E" style="background:#A91F2E"></button></div></div>
+ <div class="line"></div>
+ <div class="row controls"><label class="toggle"><input id="rotate" type="checkbox">自动环绕</label><label class="toggle"><input id="wheels" type="checkbox">车轮演示</label><label class="toggle">转向<input id="steer" type="range" min="-30" max="30" value="0" aria-label="转向角度"></label><label class="toggle"><input id="lightweight" type="checkbox">轻量模型</label><span id="stats" class="stats"></span><div class="links"><a href="comparison.html">实车对照</a><a href="xiaomi-su7.blend" download>Blender 源文件</a><a href="xiaomi-su7.high.glb" download>下载模型</a></div></div>
+</section><div id="load" class="load">正在打开 SU7 模型…</div>
+<aside class="telemetry-panel" aria-label="动态仪表演示">
+ <div class="telemetry-heading"><span>动态赛车仪表</span><small id="telemetry-source">停驻</small></div>
+ <div class="row"><button id="telemetry-demo" aria-pressed="false">开始演示</button><button id="telemetry-reset">复位</button><select id="telemetry-gear" aria-label="行驶挡位"><option>P</option><option>R</option><option>N</option><option>D</option></select></div>
+ <label>车速 <input id="telemetry-speed" type="range" min="0" max="260" value="0" aria-label="模拟车速"><output id="telemetry-speed-value">0</output> km/h</label>
+ <p>演示与滑杆为模拟输入；仪表支持接入赛车实时数据。</p>
+</aside>
+<script src="telemetry.js"></script>
+<script src="../../../club/vendor/babylon-9.26.0.js"></script><script src="../../../club/vendor/babylonjs.loaders-9.26.0.min.js"></script>
+<script>
+'use strict';
+const B=BABYLON, $=s=>document.querySelector(s), canvas=$('#view');
+const engine=new B.Engine(canvas,true,{preserveDrawingBuffer:true,stencil:true});
+function resizeRenderer(){
+ // Babylon divides the CSS dimensions by this value. Use the inverse DPR;
+ // cap at 2x so high-density phones do not render an unnecessarily large frame.
+ engine.setHardwareScalingLevel(1/Math.min(2,Math.max(1,window.devicePixelRatio||1)));
+}
+let densityQuery;
+function trackDisplayDensity(){
+ if(densityQuery)densityQuery.removeEventListener('change',trackDisplayDensity);
+ resizeRenderer();
+ densityQuery=matchMedia(`(resolution: ${window.devicePixelRatio||1}dppx)`);
+ densityQuery.addEventListener('change',trackDisplayDensity,{once:true});
+}
+trackDisplayDensity();
+const scene=new B.Scene(engine);scene.useRightHandedSystem=true;scene.clearColor=new B.Color4(.88,.9,.88,1);
+scene.imageProcessingConfiguration.toneMappingEnabled=true;scene.imageProcessingConfiguration.toneMappingType=B.ImageProcessingConfiguration.TONEMAPPING_ACES;scene.imageProcessingConfiguration.exposure=1.05;
+const env=new B.HDRCubeTexture('../../../assets/showroom/studio.hdr',scene,256,false,true,false,true);scene.environmentTexture=env;scene.environmentIntensity=.60;scene.fogMode=B.Scene.FOGMODE_LINEAR;scene.fogStart=12;scene.fogEnd=40;scene.fogColor=new B.Color3(.88,.90,.88);
+const orbit=new B.ArcRotateCamera('orbit',-2.32,1.22,8.1,new B.Vector3(0,.68,0),scene);orbit.minZ=.03;orbit.lowerRadiusLimit=3;orbit.upperRadiusLimit=24;orbit.lowerBetaLimit=.18;orbit.upperBetaLimit=1.51;orbit.wheelDeltaPercentage=.012;orbit.panningSensibility=0;orbit.attachControl(canvas,true);
+const cockpit=new B.UniversalCamera('cockpit',new B.Vector3(-.38,1.125,.46),scene);cockpit.minZ=.015;cockpit.fov=1.30;cockpit.setTarget(new B.Vector3(-.04,.83,-.78));cockpit.inputs.clear();
+const instruments=new B.UniversalCamera('instruments',new B.Vector3(-.37,1.04,.22),scene);instruments.minZ=.01;instruments.fov=.91;instruments.setTarget(new B.Vector3(-.21,.90,-.50));instruments.inputs.clear();
+function fitInteriorCameras(){
+ const aspect=canvas.clientWidth/canvas.clientHeight;
+ cockpit.fov=Math.min(2.5,2*Math.atan(Math.tan(1.30/2)*Math.max(1,1.5/aspect)));
+ instruments.fov=Math.min(2.5,2*Math.atan(Math.tan(.91/2)*Math.max(1,1.5/aspect)));
+}
+fitInteriorCameras();
+scene.activeCamera=orbit;
+const sun=new B.DirectionalLight('softbox',new B.Vector3(.5,-1,.4),scene);sun.position=new B.Vector3(-4,8,-4);sun.intensity=1.35;
+const fill=new B.HemisphericLight('fill',new B.Vector3(0,1,0),scene);fill.intensity=.22;fill.groundColor=new B.Color3(.37,.41,.40);
+const shadow=new B.ShadowGenerator(2048,sun);shadow.useBlurExponentialShadowMap=true;shadow.blurKernel=24;shadow.setDarkness(.22);shadow.normalBias=.003;
+const floor=B.MeshBuilder.CreateGround('floor',{width:200,height:200},scene);floor.position.y=-.013;floor.receiveShadows=true;
+const floorMat=new B.PBRMaterial('warm neutral',scene);floorMat.albedoColor=B.Color3.FromHexString('#BEC7C5').toLinearSpace();floorMat.roughness=.82;floorMat.metallic=0;floor.material=floorMat;
+const pipeline=new B.DefaultRenderingPipeline('finish',true,scene,[orbit,cockpit,instruments]);
+pipeline.samples=Math.min(4,engine.getCaps().maxMSAASamples||1);
+// Preserve fine trim and wheel spokes; only use FXAA when MSAA is unavailable.
+pipeline.fxaaEnabled=pipeline.samples===1;
+function framingRadius(){return Math.max(7.4,6.2/(canvas.clientWidth/canvas.clientHeight));}
+const telemetry=SU7Telemetry.create(scene,B);
+let telemetryPaints=-1;
+let container=null,joints=[],paints=[],rot=0,turn=0,loading=false,current='front',color='#007BC8',frameRadius=framingRadius();
+function paint(){paints.forEach(m=>m.albedoColor=B.Color3.FromHexString(color).toLinearSpace());}
+async function load(lod='high'){
+ if(loading)return;loading=true;window.__su7.ready=false;$('#load').style.display='grid';$('#load').classList.remove('error');$('#load').textContent='正在打开 SU7 模型…';$('#lightweight').disabled=true;
+ try{
+  const next=await B.SceneLoader.LoadAssetContainerAsync('./','xiaomi-su7.'+lod+'.glb?v=0.7',scene);
+  telemetry.detach();
+  if(container){container.meshes.forEach(m=>shadow.removeShadowCaster(m));container.dispose();}
+  container=next;container.addAllToScene();telemetry.attach(container);
+  // The source uses millimetre-thick tinted glazing. Supply its absorption
+  // distance explicitly for the real-time renderer's refraction model.
+  container.materials.filter(m=>/^(14 |15 |22 )/.test(m.name)).forEach(m=>{
+   m.subSurface.tintColor=m.albedoColor.clone();m.subSurface.tintColorAtDistance=.0032;
+   m.subSurface.minimumThickness=.0032;m.subSurface.maximumThickness=.0032;
+  });
+  joints=container.transformNodes.filter(n=>n.name.startsWith('joint:'));paints=container.materials.filter(m=>m.name.startsWith('01 '));paint();
+  container.meshes.forEach(m=>{if(m.geometry){m.applyFog=false;m.receiveShadows=true;shadow.addShadowCaster(m);}});
+  const triangles=container.meshes.reduce((n,m)=>n+(m.getTotalIndices?.()||0)/3,0);
+  $('#stats').textContent=Math.round(triangles/1000)+'k 面';window.__su7.ready=true;window.__su7.lod=lod;window.__su7.triangles=triangles;$('#load').style.display='none';
+ }catch(e){$('#load').classList.add('error');$('#load').textContent='模型打开失败：'+e.message;window.__su7.error=e.message;console.error(e);}
+ finally{loading=false;$('#lightweight').disabled=false;}
+}
+function view(name){
+ current=name;document.body.classList.toggle('cockpit',name==='cockpit'||name==='instruments');document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('on',b.dataset.view===name));
+ if(name==='cockpit'||name==='instruments'){scene.activeCamera=name==='cockpit'?cockpit:instruments;$('#rotate').checked=false;}
+ else{scene.activeCamera=orbit;orbit.setTarget(new B.Vector3(0,.68,0));frameRadius=framingRadius();orbit.radius=frameRadius;const poses={front:[-2.26,1.37],side:[-Math.PI,1.48],rear:[.80,1.25]};[orbit.alpha,orbit.beta]=poses[name];}
+ window.__su7.view=name;
+}
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>view(b.dataset.view));
+document.querySelectorAll('[data-color]').forEach(b=>b.onclick=()=>{color=b.dataset.color;paint();document.querySelectorAll('[data-color]').forEach(c=>c.classList.toggle('on',c===b));});
+$('#lightweight').onchange=()=>load($('#lightweight').checked?'low':'high');
+$('#steer').oninput=()=>turn=Number($('#steer').value)*Math.PI/180;
+$('#rotate').onchange=()=>{if((current==='cockpit'||current==='instruments')&&$('#rotate').checked)view('front');};
+window.__su7={telemetry,setTelemetry:(data)=>telemetry.setTelemetry(data),version:'0.7',ready:false,scene,engine,view:'front',lod:'high',error:null,joints:()=>joints.map(n=>n.name),pose:()=>joints.map(n=>({name:n.name,q:n.rotationQuaternion?.asArray()}))};
+$('#telemetry-demo').onclick=()=>telemetry.setDemo(!telemetry.getState().demo);
+$('#telemetry-reset').onclick=()=>telemetry.reset();
+$('#telemetry-speed').oninput=()=>{const speed=Number($('#telemetry-speed').value);telemetry.setTelemetry({speedKph:speed,motorRpm:speed*88,gear:speed>0?'D':'P',powerKw:speed>0?150:0,throttle:speed>0?.5:0,brake:0});};
+$('#telemetry-gear').onchange=()=>telemetry.setTelemetry({gear:$('#telemetry-gear').value});
+function syncTelemetryControls(){
+ const n=telemetry.stats().updates;if(n===telemetryPaints)return;telemetryPaints=n;
+ const s=telemetry.getState();$('#telemetry-demo').textContent=s.demo?'暂停演示':'开始演示';$('#telemetry-demo').setAttribute('aria-pressed',String(s.demo));
+ $('#telemetry-source').textContent=s.source==='demo'?(s.demo?'演示数据':'演示已暂停'):s.source==='external'?'外部 / 手动输入':'停驻';
+ if(document.activeElement!==$('#telemetry-speed'))$('#telemetry-speed').value=s.speedKph;
+ $('#telemetry-speed-value').value=Math.round(s.speedKph);$('#telemetry-gear').value=s.gear;
+}
+engine.runRenderLoop(()=>{
+ const dt=Math.min(.05,engine.getDeltaTime()/1000);telemetry.tick(dt);syncTelemetryControls();
+ if($('#rotate').checked&&scene.activeCamera===orbit)orbit.alpha+=dt*.14;
+ if($('#wheels').checked)rot-=dt*2.5;
+ for(const j of joints){const name=j.name.slice(6);if(name.startsWith('wheel-'))j.rotationQuaternion=B.Quaternion.RotationAxis(B.Axis.Y,name.includes('front')?turn:0).multiply(B.Quaternion.RotationAxis(B.Axis.X,rot));if(name==='steering')j.rotationQuaternion=B.Quaternion.RotationAxis(B.Axis.Z,-turn*2.4);}
+ scene.render();
+});
+addEventListener('resize',()=>{
+ resizeRenderer();fitInteriorCameras();
+ // Preserve the user's zoom while fitting the new window or phone orientation.
+ const nextRadius=framingRadius();
+ orbit.radius=B.Scalar.Clamp(orbit.radius*nextRadius/frameRadius,orbit.lowerRadiusLimit,orbit.upperRadiusLimit);
+ frameRadius=nextRadius;
+});load();view(new URLSearchParams(location.search).get('view')==='cockpit'?'cockpit':new URLSearchParams(location.search).get('view')==='instruments'?'instruments':'front');
+</script></html>

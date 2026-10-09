@@ -1,0 +1,68 @@
+Generated studio.hdr: 529,503 bytes
+Generated sunset.hdr: 529,503 bytes
+01:31:19 | INFO: Data are loaded, start creating Blender stuff
+01:31:19 | INFO: Blender create Mesh node Cube.047
+01:31:19 | INFO: Blender create Mesh node Cylinder
+01:31:19 | INFO: Blender create Mesh node Cube.004
+01:31:19 | INFO: Blender create Mesh node Cube.042
+01:31:19 | INFO: Blender create Mesh node Cube.003
+01:31:19 | INFO: Blender create Mesh node Cylinder.002
+01:31:19 | INFO: Blender create Mesh node Cube.006
+01:31:19 | INFO: Blender create Mesh node Cube.037
+01:31:19 | INFO: Blender create Mesh node Cube.038
+01:31:19 | INFO: Blender create Mesh node Cube.039
+01:31:19 | INFO: Blender create Mesh node Cube.040
+01:31:19 | INFO: Blender create Mesh node Cube.041
+01:31:19 | INFO: Blender create Mesh node Cylinder.001
+01:31:19 | INFO: Blender create Mesh node Cube.018
+01:31:19 | INFO: Blender create Mesh node Cube.019
+01:31:19 | INFO: Blender create Mesh node Cube.020
+01:31:19 | INFO: Blender create Mesh node Cube.021
+01:31:19 | INFO: Blender create Mesh node Cube.022
+01:31:19 | INFO: Blender create Mesh node Cube.023
+01:31:19 | INFO: Blender create Mesh node Cube.024
+01:31:19 | INFO: Blender create Mesh node Cube.025
+01:31:19 | INFO: Blender create Mesh node Cube.026
+01:31:19 | INFO: Blender create Mesh node Cube.027
+01:31:19 | INFO: Blender create Mesh node Cube.028
+01:31:19 | INFO: Blender create Mesh node Cube.029
+01:31:19 | INFO: Blender create Mesh node Cube.030
+01:31:19 | INFO: Blender create Mesh node Cube.031
+01:31:19 | INFO: Blender create Mesh node Cube.032
+01:31:19 | INFO: Blender create Mesh node Cube.033
+01:31:19 | INFO: Blender create Mesh node Cube.034
+01:31:19 | INFO: Blender create Mesh node Cube.035
+01:31:19 | INFO: Blender create Mesh node Cylinder.003
+01:31:19 | INFO: Blender create Mesh node Cylinder.004
+01:31:19 | INFO: Blender create Mesh node Cylinder.005
+01:31:19 | INFO: Blender create Mesh node Cylinder.006
+01:31:19 | INFO: Blender create Mesh node Cube.044
+01:31:19 | INFO: Blender create Mesh node Cube.046
+01:31:19 | INFO: Blender create Mesh node Cube.045
+01:31:19 | INFO: Blender create Mesh node Cube.043
+01:31:19 | INFO: Blender create Mesh node Cube.036
+01:31:19 | INFO: Blender create Mesh node Cube.002
+01:31:19 | INFO: Blender create Mesh node Sculpted shoulder stock
+01:31:19 | INFO: Blender create Mesh node Cube
+01:31:19 | INFO: Blender create Mesh node Cube.001
+01:31:19 | INFO: Blender create Mesh node Trigger guard
+01:31:19 | INFO: Blender create Mesh node Cube.005
+01:31:19 | INFO: Blender create Mesh node Cube.008
+01:31:19 | INFO: Blender create Mesh node Cube.009
+01:31:19 | INFO: Blender create Mesh node Cube.010
+01:31:19 | INFO: Blender create Mesh node Cube.011
+01:31:19 | INFO: Blender create Mesh node Cube.012
+01:31:19 | INFO: Blender create Mesh node Cube.013
+01:31:19 | INFO: Blender create Mesh node Cube.014
+01:31:19 | INFO: Blender create Mesh node Cube.015
+01:31:19 | INFO: Blender create Mesh node Cube.016
+01:31:19 | INFO: Blender create Mesh node Cube.017
+01:31:19 | INFO: Blender create Mesh node Cube.007
+01:31:19 | INFO: glTF import finished in 0.03s
+/Users/liuwei53/Desktop/sunset-harbor-stories/tools/build_showroom_assets.py:75: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Showroom studio');scene.world.use_nodes=True
+00:10.427  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/assets/showroom/ar7-blender.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit
+Captured current game renderer {'software': False, 'glError': 0, 'triangles': 784796}

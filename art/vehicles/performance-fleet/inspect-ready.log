@@ -1,0 +1,1237 @@
+18:07:18 | INFO: Data are loaded, start creating Blender stuff
+18:07:18 | INFO: Blender create Mesh node Object_0
+18:07:18 | INFO: Blender create Mesh node Object_1
+18:07:18 | INFO: Blender create Mesh node Object_2
+18:07:19 | INFO: Blender create Mesh node Object_3
+18:07:19 | INFO: Blender create Mesh node Object_4
+18:07:19 | INFO: Blender create Mesh node Object_5
+18:07:19 | INFO: Blender create Mesh node Object_6
+18:07:19 | INFO: Blender create Mesh node Object_7
+18:07:19 | INFO: Blender create Mesh node Object_8
+18:07:19 | INFO: Blender create Mesh node Object_9
+18:07:19 | INFO: Blender create Mesh node Object_10
+18:07:19 | INFO: Blender create Mesh node Object_11
+18:07:19 | INFO: Blender create Mesh node Object_12
+18:07:19 | INFO: Blender create Mesh node Object_13
+18:07:19 | INFO: Blender create Mesh node Object_14
+18:07:19 | INFO: Blender create Mesh node Object_15
+18:07:19 | INFO: Blender create Mesh node Object_16
+18:07:19 | INFO: Blender create Mesh node Object_17
+18:07:19 | INFO: Blender create Mesh node Object_18
+18:07:19 | INFO: Blender create Mesh node Object_19
+18:07:19 | INFO: Blender create Mesh node Object_20
+18:07:19 | INFO: Blender create Mesh node Object_21
+18:07:19 | INFO: Blender create Mesh node Object_22
+18:07:19 | INFO: Blender create Mesh node Object_23
+18:07:19 | INFO: Blender create Mesh node Object_24
+18:07:19 | INFO: Blender create Mesh node Object_25
+18:07:19 | INFO: Blender create Mesh node Object_26
+18:07:19 | INFO: Blender create Mesh node Object_27
+18:07:19 | INFO: Blender create Mesh node Object_28
+18:07:19 | INFO: Blender create Mesh node Object_29
+18:07:19 | INFO: Blender create Mesh node Object_30
+18:07:19 | INFO: Blender create Mesh node Object_31
+18:07:19 | INFO: Blender create Mesh node Object_32
+18:07:19 | INFO: glTF import finished in 0.73s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/inspect_sources.py:49: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Inspection world');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.55,.55,.55,1);scene.world.node_tree.nodes['Background'].inputs[1].default_value=.7
+00:04.027  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/amg-gt/renders/source-front.png'
+00:06.139  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/amg-gt/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED amg-gt meshes 32 bounds [[-1.0767804384231567, -2.2730000019073486, 0.0], [1.0767805576324463, 2.2730000019073486, 1.2776601314544678]]
+18:07:24 | INFO: Data are loaded, start creating Blender stuff
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material5
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:24 | INFO: Blender create Mesh node Material4
+18:07:24 | INFO: Blender create Mesh node Material3
+18:07:24 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material5
+18:07:25 | INFO: Blender create Mesh node Material4
+18:07:25 | INFO: Blender create Mesh node Material3
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: Blender create Mesh node Material2
+18:07:25 | INFO: glTF import finished in 0.57s
+00:09.148  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/source-front.png'
+00:11.252  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED bmw-m4 meshes 801 bounds [[-1.0322239398956299, -2.3354992866516113, 4.875339243426424e-08], [1.0322242975234985, 2.335500717163086, 1.4140619039535522]]
+18:07:29 | INFO: Data are loaded, start creating Blender stuff
+18:07:29 | INFO: Blender create Mesh node window_rear_0
+18:07:29 | INFO: Blender create Mesh node windshield_0
+18:07:29 | INFO: Blender create Mesh node windshield_1
+18:07:29 | INFO: Blender create Mesh node Plane.002_0
+18:07:29 | INFO: Blender create Mesh node Plane.003_0
+18:07:29 | INFO: Blender create Mesh node Plane.004_0
+18:07:29 | INFO: Blender create Mesh node boot_0
+18:07:29 | INFO: Blender create Mesh node underbody_0
+18:07:29 | INFO: Blender create Mesh node Cylinder.000_0
+18:07:29 | INFO: Blender create Mesh node Cylinder.000_1
+18:07:29 | INFO: Blender create Mesh node Cylinder.000_2
+18:07:29 | INFO: Blender create Mesh node Cylinder.000_3
+18:07:29 | INFO: Blender create Mesh node Plane_0
+18:07:29 | INFO: Blender create Mesh node Cube.001_0
+18:07:29 | INFO: Blender create Mesh node bumper_front.004_0
+18:07:29 | INFO: Blender create Mesh node bumper_front.004_1
+18:07:29 | INFO: Blender create Mesh node bumper_front.004_2
+18:07:29 | INFO: Blender create Mesh node bumper_front.007_0
+18:07:29 | INFO: Blender create Mesh node bumper_front.009_0
+18:07:29 | INFO: Blender create Mesh node bumper_front.001_0
+18:07:29 | INFO: Blender create Mesh node bumper_front.001_1
+18:07:29 | INFO: Blender create Mesh node bumper_front.001_2
+18:07:29 | INFO: Blender create Mesh node bumper_front.003_0
+18:07:29 | INFO: Blender create Mesh node bumper_front.003_1
+18:07:29 | INFO: Blender create Mesh node boot.001_0
+18:07:29 | INFO: Blender create Mesh node boot.002_0
+18:07:29 | INFO: Blender create Mesh node Plane.001_0
+18:07:29 | INFO: Blender create Mesh node boot.003_0
+18:07:29 | INFO: Blender create Mesh node boot.004_0
+18:07:29 | INFO: Blender create Mesh node Cylinder.001_0
+18:07:29 | INFO: Blender create Mesh node Cylinder.001_1
+18:07:29 | INFO: Blender create Mesh node Cylinder.001_2
+18:07:29 | INFO: Blender create Mesh node Cylinder.001_3
+18:07:29 | INFO: Blender create Mesh node boot.005_0
+18:07:30 | INFO: Blender create Mesh node boot.006_0
+18:07:30 | INFO: Blender create Mesh node window_rear.001_0
+18:07:30 | INFO: Blender create Mesh node boot.007_0
+18:07:30 | INFO: Blender create Mesh node Plane.005_0
+18:07:30 | INFO: Blender create Mesh node Plane.006_0
+18:07:30 | INFO: Blender create Mesh node boot.008_0
+18:07:30 | INFO: Blender create Mesh node boot.009_0
+18:07:30 | INFO: Blender create Mesh node boot.010_0
+18:07:30 | INFO: Blender create Mesh node boot.011_0
+18:07:30 | INFO: Blender create Mesh node boot.011_0
+18:07:30 | INFO: Blender create Mesh node Cube.002_0
+18:07:30 | INFO: glTF import finished in 0.72s
+00:14.541  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/porsche-911/renders/source-front.png'
+00:16.847  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/porsche-911/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED porsche-911 meshes 44 bounds [[-1.015309453010559, -2.245499849319458, 0.0], [1.015309453010559, 2.245500087738037, 1.2897812128067017]]
+18:07:35 | INFO: Data are loaded, start creating Blender stuff
+18:07:35 | INFO: Blender create Mesh node Object_0
+18:07:35 | INFO: Blender create Mesh node Object_1
+18:07:35 | INFO: Blender create Mesh node Object_2
+18:07:35 | INFO: Blender create Mesh node Object_3
+18:07:35 | INFO: Blender create Mesh node Object_4
+18:07:35 | INFO: Blender create Mesh node Object_5
+18:07:35 | INFO: Blender create Mesh node Object_6
+18:07:35 | INFO: Blender create Mesh node Object_7
+18:07:35 | INFO: Blender create Mesh node Object_8
+18:07:35 | INFO: Blender create Mesh node Object_9
+18:07:35 | INFO: Blender create Mesh node Object_10
+18:07:35 | INFO: Blender create Mesh node Object_11
+18:07:35 | INFO: Blender create Mesh node Object_12
+18:07:35 | INFO: Blender create Mesh node Object_13
+18:07:35 | INFO: Blender create Mesh node Object_14
+18:07:35 | INFO: Blender create Mesh node Object_15
+18:07:35 | INFO: Blender create Mesh node Object_16
+18:07:35 | INFO: Blender create Mesh node Object_17
+18:07:35 | INFO: Blender create Mesh node Object_18
+18:07:35 | INFO: Blender create Mesh node Object_19
+18:07:35 | INFO: Blender create Mesh node Object_20
+18:07:35 | INFO: Blender create Mesh node Object_21
+18:07:35 | INFO: Blender create Mesh node Object_22
+18:07:35 | INFO: Blender create Mesh node Object_23
+18:07:35 | INFO: Blender create Mesh node Object_24
+18:07:35 | INFO: Blender create Mesh node Object_25
+18:07:35 | INFO: Blender create Mesh node Object_26
+18:07:35 | INFO: Blender create Mesh node Object_27
+18:07:35 | INFO: Blender create Mesh node Object_28
+18:07:35 | INFO: Blender create Mesh node Object_29
+18:07:35 | INFO: Blender create Mesh node Object_30
+18:07:35 | INFO: Blender create Mesh node Object_31
+18:07:35 | INFO: Blender create Mesh node Object_32
+18:07:35 | INFO: Blender create Mesh node Object_33
+18:07:35 | INFO: Blender create Mesh node Object_34
+18:07:35 | INFO: Blender create Mesh node Object_35
+18:07:35 | INFO: Blender create Mesh node Object_36
+18:07:35 | INFO: Blender create Mesh node Object_37
+18:07:35 | INFO: Blender create Mesh node Object_38
+18:07:35 | INFO: Blender create Mesh node Object_39
+18:07:35 | INFO: Blender create Mesh node Object_40
+18:07:35 | INFO: Blender create Mesh node Object_41
+18:07:35 | INFO: Blender create Mesh node Object_42
+18:07:35 | INFO: Blender create Mesh node Object_43
+18:07:35 | INFO: Blender create Mesh node Object_44
+18:07:35 | INFO: Blender create Mesh node Object_45
+18:07:35 | INFO: Blender create Mesh node Object_46
+18:07:35 | INFO: Blender create Mesh node Object_47
+18:07:35 | INFO: Blender create Mesh node Object_48
+18:07:35 | INFO: Blender create Mesh node Object_49
+18:07:35 | INFO: Blender create Mesh node Object_50
+18:07:35 | INFO: Blender create Mesh node Object_51
+18:07:35 | INFO: Blender create Mesh node Object_52
+18:07:35 | INFO: Blender create Mesh node Object_53
+18:07:35 | INFO: Blender create Mesh node Object_54
+18:07:35 | INFO: Blender create Mesh node Object_55
+18:07:35 | INFO: Blender create Mesh node Object_56
+18:07:35 | INFO: Blender create Mesh node Object_57
+18:07:35 | INFO: Blender create Mesh node Object_58
+18:07:35 | INFO: Blender create Mesh node Object_59
+18:07:35 | INFO: Blender create Mesh node Object_60
+18:07:35 | INFO: Blender create Mesh node Object_61
+18:07:35 | INFO: Blender create Mesh node Object_62
+18:07:35 | INFO: Blender create Mesh node Object_63
+18:07:35 | INFO: Blender create Mesh node Object_64
+18:07:35 | INFO: Blender create Mesh node Object_65
+18:07:35 | INFO: Blender create Mesh node Object_66
+18:07:35 | INFO: Blender create Mesh node Object_67
+18:07:35 | INFO: Blender create Mesh node Object_68
+18:07:35 | INFO: Blender create Mesh node Object_69
+18:07:35 | INFO: Blender create Mesh node Object_70
+18:07:35 | INFO: Blender create Mesh node Object_71
+18:07:35 | INFO: Blender create Mesh node Object_72
+18:07:35 | INFO: Blender create Mesh node Object_73
+18:07:35 | INFO: Blender create Mesh node Object_74
+18:07:35 | INFO: Blender create Mesh node Object_75
+18:07:35 | INFO: Blender create Mesh node Object_76
+18:07:35 | INFO: Blender create Mesh node Object_77
+18:07:35 | INFO: Blender create Mesh node Object_78
+18:07:35 | INFO: Blender create Mesh node Object_79
+18:07:35 | INFO: Blender create Mesh node Object_80
+18:07:35 | INFO: glTF import finished in 0.58s
+00:19.807  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/lamborghini-centenario/renders/source-front.png'
+00:22.103  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/lamborghini-centenario/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED lamborghini-centenario meshes 81 bounds [[-1.1226391792297363, -2.4619998931884766, 0.0], [1.1226391792297363, 2.4619998931884766, 1.1450666189193726]]
+18:07:40 | INFO: Data are loaded, start creating Blender stuff
+18:07:40 | INFO: Blender create Mesh node Object_0
+18:07:40 | INFO: Blender create Mesh node Object_1
+18:07:40 | INFO: Blender create Mesh node Object_2
+18:07:40 | INFO: Blender create Mesh node Object_3
+18:07:40 | INFO: Blender create Mesh node Object_4
+18:07:40 | INFO: Blender create Mesh node Object_5
+18:07:40 | INFO: Blender create Mesh node Object_6
+18:07:40 | INFO: Blender create Mesh node Object_7
+18:07:40 | INFO: Blender create Mesh node Object_8
+18:07:40 | INFO: Blender create Mesh node Object_9
+18:07:40 | INFO: Blender create Mesh node Object_10
+18:07:40 | INFO: Blender create Mesh node Object_11
+18:07:40 | INFO: Blender create Mesh node Object_12
+18:07:40 | INFO: Blender create Mesh node Object_13
+18:07:40 | INFO: Blender create Mesh node Object_14
+18:07:40 | INFO: Blender create Mesh node Object_15
+18:07:40 | INFO: Blender create Mesh node Object_16
+18:07:40 | INFO: Blender create Mesh node Object_17
+18:07:40 | INFO: Blender create Mesh node Object_18
+18:07:40 | INFO: Blender create Mesh node Object_19
+18:07:40 | INFO: Blender create Mesh node Object_20
+18:07:40 | INFO: Blender create Mesh node Object_21
+18:07:40 | INFO: Blender create Mesh node Object_22
+18:07:40 | INFO: glTF import finished in 0.16s
+00:24.549  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/renders/source-front.png'
+00:26.789  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED bugatti-veyron meshes 23 bounds [[-1.060208797454834, -2.2310001850128174, 0.0], [1.0602086782455444, 2.2310001850128174, 1.2599455118179321]]
+18:07:45 | INFO: Data are loaded, start creating Blender stuff
+18:07:45 | INFO: Blender create Mesh node trim
+18:07:45 | INFO: Draco Decoder: Decode primitive trim
+18:07:45 | INFO: Blender create Mesh node lights_red
+18:07:45 | INFO: Draco Decoder: Decode primitive lights_red
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node plastic_gray
+18:07:45 | INFO: Draco Decoder: Decode primitive plastic_gray
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node metal
+18:07:45 | INFO: Draco Decoder: Decode primitive metal
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node lights
+18:07:45 | INFO: Draco Decoder: Decode primitive lights
+18:07:45 | INFO: Blender create Mesh node leds
+18:07:45 | INFO: Draco Decoder: Decode primitive leds
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node leather
+18:07:45 | INFO: Draco Decoder: Decode primitive leather
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node interior_light
+18:07:45 | INFO: Draco Decoder: Decode primitive interior_light
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node grills
+18:07:45 | INFO: Draco Decoder: Decode primitive grills
+18:07:45 | INFO: Blender create Mesh node glass
+18:07:45 | INFO: Draco Decoder: Decode primitive glass
+18:07:45 | INFO: Blender create Mesh node chrome
+18:07:45 | INFO: Draco Decoder: Decode primitive chrome
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node carpet
+18:07:45 | INFO: Draco Decoder: Decode primitive carpet
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node carbon_fibre_trim
+18:07:45 | INFO: Draco Decoder: Decode primitive carbon_fibre_trim
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node carbon fibre
+18:07:45 | INFO: Draco Decoder: Decode primitive carbon fibre
+18:07:45 | INFO: Blender create Mesh node brakes
+18:07:45 | INFO: Draco Decoder: Decode primitive brakes
+18:07:45 | INFO: Blender create Mesh node interior_dark
+18:07:45 | INFO: Draco Decoder: Decode primitive interior_dark
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node body
+18:07:45 | INFO: Draco Decoder: Decode primitive body
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node blue
+18:07:45 | INFO: Draco Decoder: Decode primitive blue
+18:07:45 | INFO: Blender create Mesh node wipers
+18:07:45 | INFO: Draco Decoder: Decode primitive wipers
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node yellow_trim
+18:07:45 | INFO: Draco Decoder: Decode primitive yellow_trim
+18:07:45 | INFO: Blender create Mesh node wheel
+18:07:45 | INFO: Draco Decoder: Decode primitive wheel
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node tire
+18:07:45 | INFO: Draco Decoder: Decode primitive tire
+18:07:45 | INFO: Blender create Mesh node rim_rr
+18:07:45 | INFO: Draco Decoder: Decode primitive rim_rr
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node centre
+18:07:45 | INFO: Draco Decoder: Decode primitive centre
+18:07:45 | INFO: Blender create Mesh node brake
+18:07:45 | INFO: Draco Decoder: Decode primitive brake
+18:07:45 | INFO: Blender create Mesh node nuts
+18:07:45 | INFO: Draco Decoder: Decode primitive nuts
+18:07:45 | INFO: Blender create Mesh node tire
+18:07:45 | INFO: Draco Decoder: Decode primitive tire
+18:07:45 | INFO: Blender create Mesh node brake
+18:07:45 | INFO: Draco Decoder: Decode primitive brake
+18:07:45 | INFO: Blender create Mesh node centre
+18:07:45 | INFO: Draco Decoder: Decode primitive centre
+18:07:45 | INFO: Blender create Mesh node wheel
+18:07:45 | INFO: Draco Decoder: Decode primitive wheel
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node rim_rl
+18:07:45 | INFO: Draco Decoder: Decode primitive rim_rl
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node nuts
+18:07:45 | INFO: Draco Decoder: Decode primitive nuts
+18:07:45 | INFO: Blender create Mesh node rim_fl
+18:07:45 | INFO: Draco Decoder: Decode primitive rim_fl
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node brake
+18:07:45 | INFO: Draco Decoder: Decode primitive brake
+18:07:45 | INFO: Blender create Mesh node centre
+18:07:45 | INFO: Draco Decoder: Decode primitive centre
+18:07:45 | INFO: Blender create Mesh node nuts
+18:07:45 | INFO: Draco Decoder: Decode primitive nuts
+18:07:45 | INFO: Blender create Mesh node wheel
+18:07:45 | INFO: Draco Decoder: Decode primitive wheel
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node tire
+18:07:45 | INFO: Draco Decoder: Decode primitive tire
+18:07:45 | INFO: Blender create Mesh node brake
+18:07:45 | INFO: Draco Decoder: Decode primitive brake
+18:07:45 | INFO: Blender create Mesh node centre
+18:07:45 | INFO: Draco Decoder: Decode primitive centre
+18:07:45 | INFO: Blender create Mesh node wheel
+18:07:45 | INFO: Draco Decoder: Decode primitive wheel
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node rim_fr
+18:07:45 | INFO: Draco Decoder: Decode primitive rim_fr
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:07:45 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:07:45 | INFO: Blender create Mesh node tire
+18:07:45 | INFO: Draco Decoder: Decode primitive tire
+18:07:45 | INFO: Blender create Mesh node nuts
+18:07:45 | INFO: Draco Decoder: Decode primitive nuts
+18:07:45 | INFO: Blender create Mesh node steering_carbon
+18:07:45 | INFO: Draco Decoder: Decode primitive steering_carbon
+18:07:46 | INFO: Blender create Mesh node steering_centre
+18:07:46 | INFO: Draco Decoder: Decode primitive steering_centre
+18:07:46 | INFO: Blender create Mesh node steering_column
+18:07:46 | INFO: Draco Decoder: Decode primitive steering_column
+18:07:46 | INFO: Blender create Mesh node steering_leather
+18:07:46 | INFO: Draco Decoder: Decode primitive steering_leather
+18:07:46 | INFO: Blender create Mesh node steering_metal
+18:07:46 | INFO: Draco Decoder: Decode primitive steering_metal
+18:07:46 | INFO: Blender create Mesh node steering_red_lights
+18:07:46 | INFO: Draco Decoder: Decode primitive steering_red_lights
+18:07:46 | INFO: Blender create Mesh node steering_trim
+18:07:46 | INFO: Draco Decoder: Decode primitive steering_trim
+18:07:46 | INFO: glTF import finished in 0.84s
+00:30.413  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/source-front.png'
+00:33.460  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED ferrari-458 meshes 51 bounds [[-1.1269216537475586, -2.2634999752044678, 5.960464477539063e-08], [1.126921534538269, 2.2634999752044678, 1.234095573425293]]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoDecoder | Decoded 3478 vertices, 9762 indices
+DracoDecoder | Decoded 15312 vertices, 36060 indices
+DracoDecoder | Decoded 13320 vertices, 41760 indices
+DracoDecoder | Decoded 6122 vertices, 16032 indices
+DracoDecoder | Decoded 404 vertices, 1920 indices
+DracoDecoder | Decoded 1816 vertices, 5436 indices
+DracoDecoder | Decoded 20434 vertices, 65880 indices
+DracoDecoder | Decoded 50748 vertices, 157602 indices
+DracoDecoder | Decoded 1348 vertices, 4704 indices
+DracoDecoder | Decoded 7954 vertices, 26856 indices
+DracoDecoder | Decoded 26246 vertices, 55704 indices
+DracoDecoder | Decoded 631 vertices, 1572 indices
+DracoDecoder | Decoded 7916 vertices, 29268 indices
+DracoDecoder | Decoded 1208 vertices, 3444 indices
+DracoDecoder | Decoded 19218 vertices, 42516 indices
+DracoDecoder | Decoded 20565 vertices, 59817 indices
+DracoDecoder | Decoded 51404 vertices, 241698 indices
+DracoDecoder | Decoded 72 vertices, 216 indices
+DracoDecoder | Decoded 1896 vertices, 4254 indices
+DracoDecoder | Decoded 228 vertices, 654 indices
+DracoDecoder | Decoded 9628 vertices, 27360 indices
+DracoDecoder | Decoded 1000 vertices, 3600 indices
+DracoDecoder | Decoded 3010 vertices, 10470 indices
+DracoDecoder | Decoded 60 vertices, 168 indices
+DracoDecoder | Decoded 4120 vertices, 11016 indices
+DracoDecoder | Decoded 559 vertices, 1266 indices
+DracoDecoder | Decoded 1000 vertices, 3600 indices
+DracoDecoder | Decoded 4120 vertices, 11016 indices
+DracoDecoder | Decoded 60 vertices, 168 indices
+DracoDecoder | Decoded 9660 vertices, 27360 indices
+DracoDecoder | Decoded 3010 vertices, 10470 indices
+DracoDecoder | Decoded 559 vertices, 1266 indices
+DracoDecoder | Decoded 2994 vertices, 10470 indices
+DracoDecoder | Decoded 4120 vertices, 11016 indices
+DracoDecoder | Decoded 60 vertices, 168 indices
+DracoDecoder | Decoded 559 vertices, 1266 indices
+DracoDecoder | Decoded 9656 vertices, 27360 indices
+DracoDecoder | Decoded 1000 vertices, 3600 indices
+DracoDecoder | Decoded 4120 vertices, 11016 indices
+DracoDecoder | Decoded 60 vertices, 168 indices
+DracoDecoder | Decoded 9640 vertices, 27360 indices
+DracoDecoder | Decoded 2994 vertices, 10470 indices
+DracoDecoder | Decoded 1000 vertices, 3600 indices
+DracoDecoder | Decoded 559 vertices, 1266 indices
+DracoDecoder | Decoded 4134 vertices, 16896 indices
+DracoDecoder | Decoded 73 vertices, 324 indices
+DracoDecoder | Decoded 3408 vertices, 12330 indices
+DracoDecoder | Decoded 5838 vertices, 24432 indices
+DracoDecoder | Decoded 21 vertices, 57 indices
+DracoDecoder | Decoded 444 vertices, 1512 indices
+DracoDecoder | Decoded 48 vertices, 138 indices
+
+Blender quit

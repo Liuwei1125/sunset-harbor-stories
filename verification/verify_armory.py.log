@@ -1,0 +1,21 @@
+PASS Offline game starts with authored armory
+PASS Each weapon spends one round and observes cooldown
+PASS Scope / crouch / pitched muzzle matches rendered model root
+PASS Near wall stops protruding barrel and does not damage target behind it
+PASS Shotgun range attenuation and aggregate pellet hits
+PASS Shotgun inserts actual shells and firing can interrupt without free ammo
+PASS Magazine reload cancellation and completion conserve ammunition
+PASS Magazine, bolt and pump visibly move while meshes remain finite
+PASS Metal, wood, concrete, water and armor produce different hit responses
+PASS Death feedback leaves collision disabled and rewards only once
+PASS Unfired guards and collapsing bodies render finite vertices
+PASS Blast damage respects cover while smoke outlives the flash
+PASS Incendiaries extinguish in water and fire cannot damage through cover
+PASS Grenade wall bounce reflects its normal without reversing tangential travel
+PASS Sniper scope zoom eases toward 4x and 8x
+PASS Low quality bounds all cosmetic pools without removing projectiles
+PASS Pause freezes cosmetic physics; reset clears transient effects
+PASS Feathered effects reach the WebGL vertex stream
+PASS WebGL armory draws without GL errors
+PASS Phone-sized CPU renderer draws authored weapons and effects
+PASS No browser errors

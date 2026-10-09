@@ -1,0 +1,235 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "AR-7 GLB renders visible pixels with all runtime network restricted to loopback",
+      "pass": true,
+      "detail": {
+        "count": 68248,
+        "mean": 112.64575274489395,
+        "hash": 791427599,
+        "width": 1021,
+        "height": 638,
+        "bounds": [
+          167,
+          170,
+          812,
+          470
+        ]
+      }
+    },
+    {
+      "name": "Exposure changes actual model luminance",
+      "pass": true,
+      "detail": {
+        "default": 112.64575274489395,
+        "bright": 133.59579279490856
+      }
+    },
+    {
+      "name": "AgX / Neutral switch changes rendered material pixels",
+      "pass": true,
+      "detail": {
+        "agx": 112.64575274489395,
+        "neutral": 90.04962294377944
+      }
+    },
+    {
+      "name": "All three local light presets produce different model renders",
+      "pass": true,
+      "detail": {
+        "studio": 791427599,
+        "neutral": -1798101713,
+        "sunset": -504422624
+      }
+    },
+    {
+      "name": "ACES option remains usable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Shadow can be disabled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Camera presets move the real camera and zoom into the receiver",
+      "pass": true,
+      "detail": {
+        "side": {
+          "theta": 1.5707963267948966,
+          "phi": 1.5707963267948966,
+          "radius": 2.65,
+          "toString": null
+        },
+        "detail": {
+          "theta": 1.2566370614359172,
+          "phi": 1.1344640137963142,
+          "radius": 0.85,
+          "toString": null
+        }
+      }
+    },
+    {
+      "name": "Automatic rotation starts and stops",
+      "pass": true,
+      "detail": {
+        "advance": 0.15605337907931713,
+        "stoppedAdvance": 0.0
+      }
+    },
+    {
+      "name": "Reset restores comparison lighting, camera and turntable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native mouse drag and wheel rotate and zoom",
+      "pass": true,
+      "detail": {
+        "before": {
+          "theta": 1.3089969389957472,
+          "phi": 1.2217304763960306,
+          "radius": 2.65,
+          "toString": null
+        },
+        "dragged": {
+          "theta": 0.03000832167540929,
+          "phi": 1.4676898258807118,
+          "radius": 2.65,
+          "toString": null
+        },
+        "zoomed": {
+          "theta": 0.03000832167540929,
+          "phi": 1.4676898258807118,
+          "radius": 1.2512784737011664,
+          "toString": null
+        }
+      }
+    },
+    {
+      "name": "Both real renderer references load at full resolution",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop layout has no horizontal overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Portrait framing keeps the entire model away from both horizontal edges",
+      "pass": true,
+      "detail": {
+        "count": 8095,
+        "mean": 113.08375540457054,
+        "hash": 2000555998,
+        "width": 358,
+        "height": 520,
+        "bounds": [
+          62,
+          209,
+          285,
+          312
+        ]
+      }
+    },
+    {
+      "name": "Native emulated touch drag and two-finger pinch change the camera",
+      "pass": true,
+      "detail": {
+        "before": {
+          "theta": 1.3089969389957472,
+          "phi": 1.2217304763960306,
+          "radius": 4.27585278022123,
+          "toString": null
+        },
+        "dragged": {
+          "theta": 0.4631835322600335,
+          "phi": 1.2217304763960306,
+          "radius": 4.27585278022123,
+          "toString": null
+        },
+        "pinched": {
+          "theta": 0.4631835322600335,
+          "phi": 1.2217304763960306,
+          "radius": 1.77448556413027,
+          "toString": null
+        }
+      }
+    },
+    {
+      "name": "Mobile controls fit without horizontal scrolling",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Orientation change reframes the model",
+      "pass": true,
+      "detail": {
+        "count": 16772,
+        "mean": 113.19544478893332,
+        "hash": 484156132,
+        "width": 512,
+        "height": 600,
+        "bounds": [
+          89,
+          227,
+          409,
+          375
+        ]
+      }
+    },
+    {
+      "name": "Missing model displays a useful failure state",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Retry recovers after the asset becomes available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Missing component reports the dependency failure",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Direct file opening explains the local HTTP requirement",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No external runtime requests or uncaught application errors",
+      "pass": true,
+      "detail": {
+        "external": [],
+        "errors": []
+      }
+    },
+    {
+      "name": "References match the current GLB and game build",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "physicalMobileTested": false,
+  "runtimeNetwork": "Only loopback HTTP allowed; every external request blocked and recorded",
+  "files": {
+    "showroom.html": "06cbf388e3c103b8946d4e8f666ae6205594234aff77e93b3d68f73425b02ecb",
+    "showroom.css": "4ac7de70baf9ded0bf35e6c28c597f6f12fc77f13ba3aa80b9a4f2c1734defaa",
+    "showroom.js": "f63969e2f6a432873044764fe2f18cf5730ccf779334c4d87d0703d30d94d125",
+    "assets/showroom/studio.hdr": "25140006aa8b4980de5b321c269b2be8c11747fe3e740ea01b2504b2fcc36554",
+    "assets/showroom/ar7-game.png": "29849c5d1957258bed42ea158baebac2a17e1c3539ceb6569336d248db8840c4",
+    "assets/showroom/ar7-blender.png": "8d0621f4bc719015e8b9ca84118de20771578a6d32f1a355dac19b15b0b20f9e",
+    "assets/showroom/manifest.json": "9fbc2fe13bd361c61151ee4eaac578483bd4fe57f5ea7ac09ae7bc86aab41c6b",
+    "assets/showroom/sunset.hdr": "f7fd1953d243a5440b63511ae9350e80a42ecae3435e09a0f6ea2c03734b5119",
+    "assets/vendor/model-viewer/LICENSE-three.txt": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+    "assets/vendor/model-viewer/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "assets/vendor/model-viewer/model-viewer.min.js": "283b0672384614b4847636c306fc93fe4b1fcadc76d668b4e47f0ca76bcf033b",
+    "assets/vendor/model-viewer/manifest.json": "e2fc5af76c1edc7b38c29204b5c6a6adf516de199ee41dd39a8be8ed5a02d737",
+    "assets/vendor/model-viewer/LICENSE-lit.txt": "c94b94b40b85a5083dea825ae844b1cedb40dd425685362c135e143265dd6cd4"
+  }
+}

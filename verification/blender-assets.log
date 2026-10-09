@@ -1,0 +1,19 @@
+┌─────────┬───────────────────┬───────┬──────┬──────────┐
+│ (index) │ id                │ high  │ low  │ glbBytes │
+├─────────┼───────────────────┼───────┼──────┼──────────┤
+│ 0       │ 'comet-sport'     │ 16249 │ 2797 │ 625932   │
+│ 1       │ 'dock-forklift'   │ 9212  │ 2179 │ 310564   │
+│ 2       │ 'dock-pallet'     │ 836   │ 190  │ 57052    │
+│ 3       │ 'fuel-drum'       │ 2516  │ 578  │ 66384    │
+│ 4       │ 'mission-case'    │ 712   │ 176  │ 52836    │
+│ 5       │ 'mooring-bollard' │ 1548  │ 408  │ 40928    │
+│ 6       │ 'oak-crate'       │ 2480  │ 410  │ 147916   │
+│ 7       │ 'osprey-heli'     │ 6736  │ 870  │ 273360   │
+│ 8       │ 'quay-barrier'    │ 916   │ 224  │ 44176    │
+│ 9       │ 'quay-container'  │ 8680  │ 1240 │ 474904   │
+│ 10      │ 'quay-lamp'       │ 748   │ 188  │ 42576    │
+│ 11      │ 'relay-terminal'  │ 1336  │ 318  │ 91764    │
+│ 12      │ 'stingray-boat'   │ 4935  │ 697  │ 253804   │
+│ 13      │ 'trail-jeep'      │ 24260 │ 2468 │ 1056612  │
+└─────────┴───────────────────┴───────┴──────┴──────────┘
+PASS: 14 Blender models, independent GLBs, indexed geometry, LODs, materials and articulated parts.

@@ -1,0 +1,5 @@
+PASS race/high 60.00 FPS, p95 18.40 ms
+PASS shooting/high 60.00 FPS, p95 18.30 ms
+PASS darts/high 60.00 FPS, p95 18.40 ms
+PASS archery/high 60.00 FPS, p95 18.40 ms
+PASS race/low 60.01 FPS, p95 18.30 ms

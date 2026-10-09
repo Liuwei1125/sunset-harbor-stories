@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-18",
+  "browser": "Codex in-app browser / Chromium",
+  "url": "http://127.0.0.1:62597/art/vehicles/tesla-fleet/preview.html",
+  "viewport": [
+    1280,
+    720
+  ],
+  "passed": true,
+  "count": 84,
+  "script": "browser_checks.js",
+  "covered": [
+    "All 4 models, both GLB LODs load",
+    "All 5 camera views per model render with finite camera positions",
+    "Telemetry persists across model and LOD changes",
+    "Exactly one dynamic display texture and runtime material after each replacement",
+    "Wheel rolling and Ackermann steering on every model and LOD",
+    "Paint and interior persist across same-model LOD changes",
+    "Invalid telemetry, paint and steering input handling",
+    "Demo advances, pauses and resets",
+    "Paused demo stops wheel motion and refreshes UI",
+    "External telemetry overrides demo",
+    "Reverse wheel direction and parked wheel stop",
+    "Invalid selection retains current model",
+    "Concurrent requests select latest and dispose stale asset"
+  ],
+  "consoleErrors": [],
+  "visualReview": [
+    "Model Y cockpit display and white front lights",
+    "Roadster original steering and unobstructed display",
+    "Cybertruck newly authored cabin and display",
+    "Model S original study remains approximate, visibly less detailed"
+  ]
+}

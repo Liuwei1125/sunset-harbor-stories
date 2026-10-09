@@ -1,0 +1,4293 @@
+{
+  "timestamp": "2026-09-11T15:44:55+0800",
+  "conditions": "Normal requestAnimationFrame and the production FixedClock. A controller supplies only gameplay inputs before each ordinary physics step. No time acceleration. 6-second warm-up excludes first-use shader compilation; sequential cases, no parallel benchmark browser. Browser cache is explicitly cleared then compared with a reload. Local HTTP server filesystem cache is not cleared. Touch profiles use the same desktop Apple M2 GPU and do not measure phone hardware.",
+  "targets": "Desktop aims for 60 FPS; 55 FPS mean is the report acceptance band. Emulated touch aims for >=30 FPS; 28 FPS mean is the acceptance band. Reported P95/P99 expose stalls independently of the mean.",
+  "sourceFingerprint": {
+    "src/app.js": "f6285f7032318cf9cd01fee04345c6b9bacaa9ab5cab4249f1be84cad9d4cb6a",
+    "src/core/camera.js": "1c82d3cd54a82701b0419c418ec0ec6a1d549fb3ae6a08d406ff4e10e8e16488",
+    "src/core/clock.js": "9e2fc68d31268b64071315a2df2be645a5e3e353432c197e25236eaceacfef48",
+    "src/core/math.js": "345ad4f42c7a023cd53de4fc7b0c3eabe5c19814d51c58e3d5f05e88aa7983d0",
+    "src/core/progress.js": "8af5bf3d221605c4ba0426efd11fbaa8a6a061f381dd95a120e51599851bacb0",
+    "src/core/track.js": "0aa30f0c5f48de34e6f67c8fc7ecd6446a8eb5e994db132fec293a97f6d0798d",
+    "src/games/catalog.js": "6f8c07df0e027dbf92613cb51e64fe962b29d5c2fe0d29b5f1966d04eee0efa7",
+    "src/games/darts.js": "a05719351db0fc1c5bb0fcaf27b5a9b09fbcaadb334c78d93259329297afe816",
+    "src/games/racing.js": "fce7872f9b16047e371027d8f7ff3edd3489c482c9e8b069cee19d089b16cb24",
+    "src/games/shooting.js": "3a41f345ec930fab8a2c4c530c337ffbe87e52ee8b152ef41fad4cfc0018a15f",
+    "src/games/simulation.js": "dcf6df1493befcef616881c72fb57e6b004b0f690a0ae9405419478b737ce400",
+    "src/games/throwing.js": "982f81509475d293c73404f91736fccd9342fc4145a988d478647b1a9fd998d0",
+    "src/platform/audio.js": "8d5e2cf1aad603747be47839289dee3a55296e15c25526264dac8ab673c6c530",
+    "src/platform/diagnostics.js": "48d0ab36d15340fef09ef6a55163a65d9dede901b331423a3c8c62d801e2d9a1",
+    "src/platform/input.js": "6d83163e84605faec14793beb00a733077b465b6473283ff1772bc12713af3d4",
+    "src/platform/storage.js": "eaa13049b1fe5da1f71ef7aac77e380abc34ab1d605d8d46274cdaa0a1f340d2",
+    "src/presentation/babylon.js": "7a4fe714a1b591d151b86cce0e1eed5df0d01b9ed9b18b87e4c1faf45ced408f",
+    "src/presentation/engine.js": "b6c47f4f1df4e7f55b2b1f073ac5602c856589677a6936e7d44324299dac59da",
+    "src/presentation/frame.js": "d25a7f96940a11b22cc2c064c8e6165ca4a73491373fa0a233e60d4f3429edfe",
+    "src/presentation/geometry.js": "e4b54a566108ab2334b30083bfd7557543d0e107a8d1ac6d715598a95b54708a",
+    "src/presentation/playcanvas-lifetime.js": "d8411647b9deddac589c25c602ce2cedc0a4fb59d6f19f828586bc308594fdf2",
+    "src/presentation/playcanvas.js": "715ce2150aa629dcae23e2b989504121b86bda00955385ba8de51d6ec71e7310",
+    "src/presentation/scene.js": "9580b7e4178efe3a8240c46d3f336a541ad4dd0c673ecebb99905b543a67d489",
+    "src/ui.js": "70067d618e742977b2d4644b84bc34b4f3f08fa9a717802b8ab82569f3967a4a",
+    "index.html": "e77ebaa973762ae6e7181af624319c35ea94362f68097d430c855d2df4e3aa1e",
+    "style.css": "28085e6c0470bf8fb3c1b2d7c05e29e5fc329baf14b1d5f365733c8853371958",
+    "assets/manifest.json": "25187db5b0a6e76d09e8f6a5ab143634d37a911f1e9b6534623975776369ad86",
+    "vendor/manifest.json": "875d4e394580f6cbb487721c142f0ac47d40bdbdf83f0e66a08b21c72d5e457b"
+  },
+  "firstInteractive": [
+    {
+      "firstInteractiveMs": 720.8999999985099,
+      "navigation": {
+        "name": "http://127.0.0.1:8012/club/?verify=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 228.30000000074506,
+        "navigationId": 3895,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.30000000074505806,
+        "domainLookupStart": 0.30000000074505806,
+        "domainLookupEnd": 0.30000000074505806,
+        "connectStart": 0.30000000074505806,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.30000000074505806,
+        "requestStart": 0.6999999992549419,
+        "responseStart": 1.5,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 1.5,
+        "responseEnd": 1.8999999985098839,
+        "transferSize": 4181,
+        "encodedBodySize": 3881,
+        "decodedBodySize": 3881,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 9.699999999254942,
+        "domContentLoadedEventStart": 67.19999999925494,
+        "domContentLoadedEventEnd": 67.30000000074506,
+        "domComplete": 228.30000000074506,
+        "loadEventStart": 228.30000000074506,
+        "loadEventEnd": 228.30000000074506,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "resources": [
+        {
+          "name": "style.css",
+          "transferSize": 15869,
+          "encodedBodySize": 15569,
+          "duration": 4.399999998509884
+        },
+        {
+          "name": "src/app.js",
+          "transferSize": 9975,
+          "encodedBodySize": 9675,
+          "duration": 4.399999998509884
+        },
+        {
+          "name": "src/games/simulation.js",
+          "transferSize": 12244,
+          "encodedBodySize": 11944,
+          "duration": 1.699999999254942
+        },
+        {
+          "name": "src/games/catalog.js",
+          "transferSize": 5270,
+          "encodedBodySize": 4970,
+          "duration": 2.599999997764826
+        },
+        {
+          "name": "src/platform/storage.js",
+          "transferSize": 1568,
+          "encodedBodySize": 1268,
+          "duration": 5.5
+        },
+        {
+          "name": "src/platform/audio.js",
+          "transferSize": 2241,
+          "encodedBodySize": 1941,
+          "duration": 6.900000002235174
+        },
+        {
+          "name": "src/platform/input.js",
+          "transferSize": 6173,
+          "encodedBodySize": 5873,
+          "duration": 7.600000001490116
+        },
+        {
+          "name": "src/core/clock.js",
+          "transferSize": 994,
+          "encodedBodySize": 694,
+          "duration": 9.400000002235174
+        },
+        {
+          "name": "src/platform/diagnostics.js",
+          "transferSize": 1550,
+          "encodedBodySize": 1250,
+          "duration": 9.900000002235174
+        },
+        {
+          "name": "src/core/progress.js",
+          "transferSize": 5488,
+          "encodedBodySize": 5188,
+          "duration": 10.800000000745058
+        },
+        {
+          "name": "src/presentation/engine.js",
+          "transferSize": 1360,
+          "encodedBodySize": 1060,
+          "duration": 13
+        },
+        {
+          "name": "src/ui.js",
+          "transferSize": 18430,
+          "encodedBodySize": 18130,
+          "duration": 13.099999997764826
+        },
+        {
+          "name": "src/core/math.js",
+          "transferSize": 2398,
+          "encodedBodySize": 2098,
+          "duration": 12
+        },
+        {
+          "name": "src/core/track.js",
+          "transferSize": 1807,
+          "encodedBodySize": 1507,
+          "duration": 13.099999997764826
+        },
+        {
+          "name": "src/core/camera.js",
+          "transferSize": 1829,
+          "encodedBodySize": 1529,
+          "duration": 22.300000000745058
+        },
+        {
+          "name": "src/games/shooting.js",
+          "transferSize": 5005,
+          "encodedBodySize": 4705,
+          "duration": 23.699999999254942
+        },
+        {
+          "name": "src/games/racing.js",
+          "transferSize": 5836,
+          "encodedBodySize": 5536,
+          "duration": 24.699999999254942
+        },
+        {
+          "name": "src/games/darts.js",
+          "transferSize": 6540,
+          "encodedBodySize": 6240,
+          "duration": 25.800000000745058
+        },
+        {
+          "name": "src/games/throwing.js",
+          "transferSize": 6432,
+          "encodedBodySize": 6132,
+          "duration": 49.600000001490116
+        },
+        {
+          "name": "vendor/babylon-9.26.0.js",
+          "transferSize": 8330758,
+          "encodedBodySize": 8330458,
+          "duration": 52.100000001490116
+        },
+        {
+          "name": "vendor/babylonjs.loaders-9.26.0.min.js",
+          "transferSize": 609012,
+          "encodedBodySize": 608712,
+          "duration": 2.5
+        },
+        {
+          "name": "src/presentation/babylon.js",
+          "transferSize": 14143,
+          "encodedBodySize": 13843,
+          "duration": 1.199999999254942
+        },
+        {
+          "name": "src/presentation/frame.js",
+          "transferSize": 5957,
+          "encodedBodySize": 5657,
+          "duration": 1.4000000022351742
+        },
+        {
+          "name": "src/presentation/scene.js",
+          "transferSize": 8952,
+          "encodedBodySize": 8652,
+          "duration": 1.6000000014901161
+        },
+        {
+          "name": "src/presentation/geometry.js",
+          "transferSize": 4452,
+          "encodedBodySize": 4152,
+          "duration": 1.6000000014901161
+        },
+        {
+          "name": "assets/textures/sky.png",
+          "transferSize": 114837,
+          "encodedBodySize": 114537,
+          "duration": 4
+        },
+        {
+          "name": "assets/manifest.json",
+          "transferSize": 53762,
+          "encodedBodySize": 53462,
+          "duration": 3.5
+        },
+        {
+          "name": "assets/textures/road.png",
+          "transferSize": 437825,
+          "encodedBodySize": 437525,
+          "duration": 10.300000000745058
+        },
+        {
+          "name": "assets/textures/grass.png",
+          "transferSize": 341801,
+          "encodedBodySize": 341501,
+          "duration": 15.699999999254942
+        },
+        {
+          "name": "assets/textures/road-normal.png",
+          "transferSize": 551676,
+          "encodedBodySize": 551376,
+          "duration": 17.699999999254942
+        },
+        {
+          "name": "assets/textures/rock.png",
+          "transferSize": 321795,
+          "encodedBodySize": 321495,
+          "duration": 18.599999997764826
+        },
+        {
+          "name": "assets/models/club-meadow.low.glb",
+          "transferSize": 15808,
+          "encodedBodySize": 15508,
+          "duration": 1.8999999985098839
+        },
+        {
+          "name": "assets/models/club-canopy-tree.low.glb",
+          "transferSize": 23592,
+          "encodedBodySize": 23292,
+          "duration": 2.100000001490116
+        },
+        {
+          "name": "assets/models/club-race-gate.high.glb",
+          "transferSize": 202032,
+          "encodedBodySize": 201732,
+          "duration": 4.300000000745058
+        },
+        {
+          "name": "assets/models/comet-sport.high.glb",
+          "transferSize": 826204,
+          "encodedBodySize": 825904,
+          "duration": 5.199999999254942
+        },
+        {
+          "name": "assets/models/club-cockpit.high.glb",
+          "transferSize": 415976,
+          "encodedBodySize": 415676,
+          "duration": 4.400000002235174
+        },
+        {
+          "name": "assets/models/club-race-gate.low.glb",
+          "transferSize": 59676,
+          "encodedBodySize": 59376,
+          "duration": 1.8999999985098839
+        },
+        {
+          "name": "assets/models/comet-sport.low.glb",
+          "transferSize": 178448,
+          "encodedBodySize": 178148,
+          "duration": 3.5
+        },
+        {
+          "name": "assets/models/club-cockpit.low.glb",
+          "transferSize": 99504,
+          "encodedBodySize": 99204,
+          "duration": 1.300000000745058
+        }
+      ],
+      "engine": "babylon",
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "cacheCondition": "browser-cache-cleared"
+    },
+    {
+      "firstInteractiveMs": 506.79999999701977,
+      "navigation": {
+        "name": "http://127.0.0.1:8012/club/?verify=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 71,
+        "navigationId": 6371,
+        "initiatorType": "navigation",
+        "deliveryType": "cache",
+        "nextHopProtocol": "",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.3999999985098839,
+        "domainLookupStart": 0.3999999985098839,
+        "domainLookupEnd": 0.3999999985098839,
+        "connectStart": 0.3999999985098839,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.3999999985098839,
+        "requestStart": 0.8999999985098839,
+        "responseStart": 3,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 3,
+        "responseEnd": 3.2999999970197678,
+        "transferSize": 300,
+        "encodedBodySize": 3881,
+        "decodedBodySize": 3881,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 13.599999997764826,
+        "unloadEventEnd": 13.599999997764826,
+        "domInteractive": 22,
+        "domContentLoadedEventStart": 24,
+        "domContentLoadedEventEnd": 24,
+        "domComplete": 71,
+        "loadEventStart": 71,
+        "loadEventEnd": 71,
+        "type": "reload",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "resources": [
+        {
+          "name": "style.css",
+          "transferSize": 0,
+          "encodedBodySize": 15569,
+          "duration": 0
+        },
+        {
+          "name": "src/app.js",
+          "transferSize": 0,
+          "encodedBodySize": 9675,
+          "duration": 0
+        },
+        {
+          "name": "src/games/simulation.js",
+          "transferSize": 0,
+          "encodedBodySize": 11944,
+          "duration": 0
+        },
+        {
+          "name": "src/games/catalog.js",
+          "transferSize": 0,
+          "encodedBodySize": 4970,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/storage.js",
+          "transferSize": 0,
+          "encodedBodySize": 1268,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/audio.js",
+          "transferSize": 0,
+          "encodedBodySize": 1941,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/input.js",
+          "transferSize": 0,
+          "encodedBodySize": 5873,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/diagnostics.js",
+          "transferSize": 0,
+          "encodedBodySize": 1250,
+          "duration": 0
+        },
+        {
+          "name": "src/core/clock.js",
+          "transferSize": 0,
+          "encodedBodySize": 694,
+          "duration": 0
+        },
+        {
+          "name": "src/core/progress.js",
+          "transferSize": 0,
+          "encodedBodySize": 5188,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/engine.js",
+          "transferSize": 0,
+          "encodedBodySize": 1060,
+          "duration": 0
+        },
+        {
+          "name": "src/ui.js",
+          "transferSize": 0,
+          "encodedBodySize": 18130,
+          "duration": 0
+        },
+        {
+          "name": "src/core/math.js",
+          "transferSize": 0,
+          "encodedBodySize": 2098,
+          "duration": 0
+        },
+        {
+          "name": "src/core/track.js",
+          "transferSize": 0,
+          "encodedBodySize": 1507,
+          "duration": 0
+        },
+        {
+          "name": "src/core/camera.js",
+          "transferSize": 0,
+          "encodedBodySize": 1529,
+          "duration": 0
+        },
+        {
+          "name": "src/games/racing.js",
+          "transferSize": 0,
+          "encodedBodySize": 5536,
+          "duration": 0
+        },
+        {
+          "name": "src/games/shooting.js",
+          "transferSize": 0,
+          "encodedBodySize": 4705,
+          "duration": 0
+        },
+        {
+          "name": "src/games/darts.js",
+          "transferSize": 0,
+          "encodedBodySize": 6240,
+          "duration": 0
+        },
+        {
+          "name": "src/games/throwing.js",
+          "transferSize": 0,
+          "encodedBodySize": 6132,
+          "duration": 0
+        },
+        {
+          "name": "vendor/babylon-9.26.0.js",
+          "transferSize": 0,
+          "encodedBodySize": 8330458,
+          "duration": 0
+        },
+        {
+          "name": "vendor/babylonjs.loaders-9.26.0.min.js",
+          "transferSize": 0,
+          "encodedBodySize": 608712,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/babylon.js",
+          "transferSize": 0,
+          "encodedBodySize": 13843,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/scene.js",
+          "transferSize": 0,
+          "encodedBodySize": 8652,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/frame.js",
+          "transferSize": 0,
+          "encodedBodySize": 5657,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/geometry.js",
+          "transferSize": 0,
+          "encodedBodySize": 4152,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/sky.png",
+          "transferSize": 0,
+          "encodedBodySize": 114537,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/road.png",
+          "transferSize": 0,
+          "encodedBodySize": 437525,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/road-normal.png",
+          "transferSize": 0,
+          "encodedBodySize": 551376,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/grass.png",
+          "transferSize": 0,
+          "encodedBodySize": 341501,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/rock.png",
+          "transferSize": 0,
+          "encodedBodySize": 321495,
+          "duration": 0
+        },
+        {
+          "name": "assets/manifest.json",
+          "transferSize": 0,
+          "encodedBodySize": 53462,
+          "duration": 0.6999999992549419
+        },
+        {
+          "name": "assets/models/club-meadow.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 15508,
+          "duration": 0.30000000074505806
+        },
+        {
+          "name": "assets/models/club-canopy-tree.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 23292,
+          "duration": 0.3999999985098839
+        },
+        {
+          "name": "assets/models/club-race-gate.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 201732,
+          "duration": 0.3999999985098839
+        },
+        {
+          "name": "assets/models/comet-sport.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 825904,
+          "duration": 0.9000000022351742
+        },
+        {
+          "name": "assets/models/club-cockpit.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 415676,
+          "duration": 1.199999999254942
+        },
+        {
+          "name": "assets/models/club-race-gate.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 59376,
+          "duration": 0.29999999701976776
+        },
+        {
+          "name": "assets/models/comet-sport.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 178148,
+          "duration": 0.4000000022351742
+        },
+        {
+          "name": "assets/models/club-cockpit.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 99204,
+          "duration": 0.20000000298023224
+        }
+      ],
+      "engine": "babylon",
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "cacheCondition": "same-context-reload"
+    },
+    {
+      "firstInteractiveMs": 534.3999999985099,
+      "navigation": {
+        "name": "http://127.0.0.1:8012/club/?verify=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 193.89999999850988,
+        "navigationId": 956,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.29999999701976776,
+        "domainLookupStart": 0.29999999701976776,
+        "domainLookupEnd": 0.29999999701976776,
+        "connectStart": 0.29999999701976776,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.29999999701976776,
+        "requestStart": 0.7999999970197678,
+        "responseStart": 2.199999999254942,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.199999999254942,
+        "responseEnd": 2.5,
+        "transferSize": 4181,
+        "encodedBodySize": 3881,
+        "decodedBodySize": 3881,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 11.699999999254942,
+        "domContentLoadedEventStart": 96.89999999850988,
+        "domContentLoadedEventEnd": 97,
+        "domComplete": 193.79999999701977,
+        "loadEventStart": 193.89999999850988,
+        "loadEventEnd": 193.89999999850988,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "resources": [
+        {
+          "name": "style.css",
+          "transferSize": 15869,
+          "encodedBodySize": 15569,
+          "duration": 7.900000002235174
+        },
+        {
+          "name": "src/app.js",
+          "transferSize": 9975,
+          "encodedBodySize": 9675,
+          "duration": 9.800000000745058
+        },
+        {
+          "name": "src/games/simulation.js",
+          "transferSize": 12244,
+          "encodedBodySize": 11944,
+          "duration": 5.300000000745058
+        },
+        {
+          "name": "src/games/catalog.js",
+          "transferSize": 5270,
+          "encodedBodySize": 4970,
+          "duration": 6
+        },
+        {
+          "name": "src/platform/storage.js",
+          "transferSize": 1568,
+          "encodedBodySize": 1268,
+          "duration": 6.899999998509884
+        },
+        {
+          "name": "src/platform/audio.js",
+          "transferSize": 2241,
+          "encodedBodySize": 1941,
+          "duration": 7.199999999254942
+        },
+        {
+          "name": "src/platform/input.js",
+          "transferSize": 6173,
+          "encodedBodySize": 5873,
+          "duration": 7.300000000745058
+        },
+        {
+          "name": "src/platform/diagnostics.js",
+          "transferSize": 1550,
+          "encodedBodySize": 1250,
+          "duration": 8
+        },
+        {
+          "name": "src/core/clock.js",
+          "transferSize": 994,
+          "encodedBodySize": 694,
+          "duration": 12.800000000745058
+        },
+        {
+          "name": "src/core/progress.js",
+          "transferSize": 5488,
+          "encodedBodySize": 5188,
+          "duration": 14.199999999254942
+        },
+        {
+          "name": "src/ui.js",
+          "transferSize": 18430,
+          "encodedBodySize": 18130,
+          "duration": 18.199999999254942
+        },
+        {
+          "name": "src/presentation/engine.js",
+          "transferSize": 1360,
+          "encodedBodySize": 1060,
+          "duration": 24.5
+        },
+        {
+          "name": "src/core/math.js",
+          "transferSize": 2398,
+          "encodedBodySize": 2098,
+          "duration": 9.400000002235174
+        },
+        {
+          "name": "src/core/track.js",
+          "transferSize": 1807,
+          "encodedBodySize": 1507,
+          "duration": 15.300000000745058
+        },
+        {
+          "name": "src/core/camera.js",
+          "transferSize": 1829,
+          "encodedBodySize": 1529,
+          "duration": 23.399999998509884
+        },
+        {
+          "name": "src/games/racing.js",
+          "transferSize": 5836,
+          "encodedBodySize": 5536,
+          "duration": 16.699999999254942
+        },
+        {
+          "name": "src/games/shooting.js",
+          "transferSize": 5005,
+          "encodedBodySize": 4705,
+          "duration": 22
+        },
+        {
+          "name": "src/games/darts.js",
+          "transferSize": 6540,
+          "encodedBodySize": 6240,
+          "duration": 25.399999998509884
+        },
+        {
+          "name": "src/games/throwing.js",
+          "transferSize": 6432,
+          "encodedBodySize": 6132,
+          "duration": 26.699999999254942
+        },
+        {
+          "name": "vendor/playcanvas-2.22.1.js",
+          "transferSize": 2466554,
+          "encodedBodySize": 2466254,
+          "duration": 47.30000000074506
+        },
+        {
+          "name": "src/presentation/playcanvas.js",
+          "transferSize": 15504,
+          "encodedBodySize": 15204,
+          "duration": 5.399999998509884
+        },
+        {
+          "name": "src/presentation/scene.js",
+          "transferSize": 8952,
+          "encodedBodySize": 8652,
+          "duration": 10
+        },
+        {
+          "name": "src/presentation/frame.js",
+          "transferSize": 5957,
+          "encodedBodySize": 5657,
+          "duration": 26.100000001490116
+        },
+        {
+          "name": "src/presentation/geometry.js",
+          "transferSize": 4452,
+          "encodedBodySize": 4152,
+          "duration": 33.5
+        },
+        {
+          "name": "src/presentation/playcanvas-lifetime.js",
+          "transferSize": 1987,
+          "encodedBodySize": 1687,
+          "duration": 37.69999999925494
+        },
+        {
+          "name": "assets/textures/road.png",
+          "transferSize": 437825,
+          "encodedBodySize": 437525,
+          "duration": 28.599999997764826
+        },
+        {
+          "name": "assets/textures/road-normal.png",
+          "transferSize": 551676,
+          "encodedBodySize": 551376,
+          "duration": 42.30000000074506
+        },
+        {
+          "name": "assets/textures/grass.png",
+          "transferSize": 341801,
+          "encodedBodySize": 341501,
+          "duration": 51.19999999925494
+        },
+        {
+          "name": "assets/textures/rock.png",
+          "transferSize": 321795,
+          "encodedBodySize": 321495,
+          "duration": 52.5
+        },
+        {
+          "name": "assets/textures/sky.png",
+          "transferSize": 114837,
+          "encodedBodySize": 114537,
+          "duration": 53.80000000074506
+        },
+        {
+          "name": "assets/manifest.json",
+          "transferSize": 53762,
+          "encodedBodySize": 53462,
+          "duration": 1.8999999985098839
+        },
+        {
+          "name": "assets/models/club-meadow.low.glb",
+          "transferSize": 15808,
+          "encodedBodySize": 15508,
+          "duration": 3
+        },
+        {
+          "name": "assets/models/club-canopy-tree.low.glb",
+          "transferSize": 23592,
+          "encodedBodySize": 23292,
+          "duration": 5.5
+        },
+        {
+          "name": "assets/models/club-race-gate.high.glb",
+          "transferSize": 202032,
+          "encodedBodySize": 201732,
+          "duration": 6.5
+        },
+        {
+          "name": "assets/models/comet-sport.high.glb",
+          "transferSize": 826204,
+          "encodedBodySize": 825904,
+          "duration": 9.900000002235174
+        },
+        {
+          "name": "assets/models/club-cockpit.high.glb",
+          "transferSize": 415976,
+          "encodedBodySize": 415676,
+          "duration": 10.300000000745058
+        },
+        {
+          "name": "assets/models/club-race-gate.low.glb",
+          "transferSize": 59676,
+          "encodedBodySize": 59376,
+          "duration": 6.200000002980232
+        },
+        {
+          "name": "assets/models/comet-sport.low.glb",
+          "transferSize": 178448,
+          "encodedBodySize": 178148,
+          "duration": 3.899999998509884
+        },
+        {
+          "name": "assets/models/club-cockpit.low.glb",
+          "transferSize": 99504,
+          "encodedBodySize": 99204,
+          "duration": 1.5
+        }
+      ],
+      "engine": "playcanvas",
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "cacheCondition": "browser-cache-cleared"
+    },
+    {
+      "firstInteractiveMs": 261,
+      "navigation": {
+        "name": "http://127.0.0.1:8012/club/?verify=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 45.19999999925494,
+        "navigationId": 2972,
+        "initiatorType": "navigation",
+        "deliveryType": "cache",
+        "nextHopProtocol": "",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.19999999925494194,
+        "domainLookupStart": 0.19999999925494194,
+        "domainLookupEnd": 0.19999999925494194,
+        "connectStart": 0.19999999925494194,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.19999999925494194,
+        "requestStart": 0.5999999977648258,
+        "responseStart": 1.199999999254942,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 1.199999999254942,
+        "responseEnd": 1.3999999985098839,
+        "transferSize": 300,
+        "encodedBodySize": 3881,
+        "decodedBodySize": 3881,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 7.300000000745058,
+        "unloadEventEnd": 7.300000000745058,
+        "domInteractive": 15.199999999254942,
+        "domContentLoadedEventStart": 17.199999999254942,
+        "domContentLoadedEventEnd": 17.199999999254942,
+        "domComplete": 45.19999999925494,
+        "loadEventStart": 45.19999999925494,
+        "loadEventEnd": 45.19999999925494,
+        "type": "reload",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "resources": [
+        {
+          "name": "style.css",
+          "transferSize": 0,
+          "encodedBodySize": 15569,
+          "duration": 0
+        },
+        {
+          "name": "src/app.js",
+          "transferSize": 0,
+          "encodedBodySize": 9675,
+          "duration": 0
+        },
+        {
+          "name": "src/games/simulation.js",
+          "transferSize": 0,
+          "encodedBodySize": 11944,
+          "duration": 0
+        },
+        {
+          "name": "src/games/catalog.js",
+          "transferSize": 0,
+          "encodedBodySize": 4970,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/storage.js",
+          "transferSize": 0,
+          "encodedBodySize": 1268,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/audio.js",
+          "transferSize": 0,
+          "encodedBodySize": 1941,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/input.js",
+          "transferSize": 0,
+          "encodedBodySize": 5873,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/diagnostics.js",
+          "transferSize": 0,
+          "encodedBodySize": 1250,
+          "duration": 0
+        },
+        {
+          "name": "src/core/clock.js",
+          "transferSize": 0,
+          "encodedBodySize": 694,
+          "duration": 0
+        },
+        {
+          "name": "src/core/progress.js",
+          "transferSize": 0,
+          "encodedBodySize": 5188,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/engine.js",
+          "transferSize": 0,
+          "encodedBodySize": 1060,
+          "duration": 0
+        },
+        {
+          "name": "src/ui.js",
+          "transferSize": 0,
+          "encodedBodySize": 18130,
+          "duration": 0
+        },
+        {
+          "name": "src/core/math.js",
+          "transferSize": 0,
+          "encodedBodySize": 2098,
+          "duration": 0
+        },
+        {
+          "name": "src/core/track.js",
+          "transferSize": 0,
+          "encodedBodySize": 1507,
+          "duration": 0
+        },
+        {
+          "name": "src/core/camera.js",
+          "transferSize": 0,
+          "encodedBodySize": 1529,
+          "duration": 0
+        },
+        {
+          "name": "src/games/racing.js",
+          "transferSize": 0,
+          "encodedBodySize": 5536,
+          "duration": 0
+        },
+        {
+          "name": "src/games/shooting.js",
+          "transferSize": 0,
+          "encodedBodySize": 4705,
+          "duration": 0
+        },
+        {
+          "name": "src/games/darts.js",
+          "transferSize": 0,
+          "encodedBodySize": 6240,
+          "duration": 0
+        },
+        {
+          "name": "src/games/throwing.js",
+          "transferSize": 0,
+          "encodedBodySize": 6132,
+          "duration": 0
+        },
+        {
+          "name": "vendor/playcanvas-2.22.1.js",
+          "transferSize": 0,
+          "encodedBodySize": 2466254,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/playcanvas.js",
+          "transferSize": 0,
+          "encodedBodySize": 15204,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/scene.js",
+          "transferSize": 0,
+          "encodedBodySize": 8652,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/frame.js",
+          "transferSize": 0,
+          "encodedBodySize": 5657,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/geometry.js",
+          "transferSize": 0,
+          "encodedBodySize": 4152,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/playcanvas-lifetime.js",
+          "transferSize": 0,
+          "encodedBodySize": 1687,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/road.png",
+          "transferSize": 0,
+          "encodedBodySize": 437525,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/road-normal.png",
+          "transferSize": 0,
+          "encodedBodySize": 551376,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/grass.png",
+          "transferSize": 0,
+          "encodedBodySize": 341501,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/rock.png",
+          "transferSize": 0,
+          "encodedBodySize": 321495,
+          "duration": 0
+        },
+        {
+          "name": "assets/textures/sky.png",
+          "transferSize": 0,
+          "encodedBodySize": 114537,
+          "duration": 0
+        },
+        {
+          "name": "assets/manifest.json",
+          "transferSize": 0,
+          "encodedBodySize": 53462,
+          "duration": 0.5
+        },
+        {
+          "name": "assets/models/club-meadow.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 15508,
+          "duration": 0.19999999925494194
+        },
+        {
+          "name": "assets/models/club-canopy-tree.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 23292,
+          "duration": 0.8000000007450581
+        },
+        {
+          "name": "assets/models/club-race-gate.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 201732,
+          "duration": 1
+        },
+        {
+          "name": "assets/models/comet-sport.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 825904,
+          "duration": 1.800000000745058
+        },
+        {
+          "name": "assets/models/club-cockpit.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 415676,
+          "duration": 2.100000001490116
+        },
+        {
+          "name": "assets/models/club-race-gate.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 59376,
+          "duration": 0.4000000022351742
+        },
+        {
+          "name": "assets/models/comet-sport.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 178148,
+          "duration": 0.3999999985098839
+        },
+        {
+          "name": "assets/models/club-cockpit.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 99204,
+          "duration": 0.09999999776482582
+        }
+      ],
+      "engine": "playcanvas",
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "cacheCondition": "same-context-reload"
+    },
+    {
+      "firstInteractiveMs": 680.5,
+      "navigation": {
+        "name": "http://127.0.0.1:8012/club/?verify=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 189.60000000149012,
+        "navigationId": 4288,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.19999999925494194,
+        "domainLookupStart": 0.19999999925494194,
+        "domainLookupEnd": 0.19999999925494194,
+        "connectStart": 0.19999999925494194,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.19999999925494194,
+        "requestStart": 1,
+        "responseStart": 1.9000000022351742,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 1.9000000022351742,
+        "responseEnd": 3,
+        "transferSize": 4181,
+        "encodedBodySize": 3881,
+        "decodedBodySize": 3881,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 9.5,
+        "domContentLoadedEventStart": 53.80000000074506,
+        "domContentLoadedEventEnd": 53.80000000074506,
+        "domComplete": 189.60000000149012,
+        "loadEventStart": 189.60000000149012,
+        "loadEventEnd": 189.60000000149012,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "name": "style.css",
+          "transferSize": 15869,
+          "encodedBodySize": 15569,
+          "duration": 3.899999998509884
+        },
+        {
+          "name": "src/app.js",
+          "transferSize": 9975,
+          "encodedBodySize": 9675,
+          "duration": 4.199999999254942
+        },
+        {
+          "name": "src/games/simulation.js",
+          "transferSize": 12244,
+          "encodedBodySize": 11944,
+          "duration": 1.800000000745058
+        },
+        {
+          "name": "src/games/catalog.js",
+          "transferSize": 5270,
+          "encodedBodySize": 4970,
+          "duration": 1.9000000022351742
+        },
+        {
+          "name": "src/platform/storage.js",
+          "transferSize": 1568,
+          "encodedBodySize": 1268,
+          "duration": 4.800000000745058
+        },
+        {
+          "name": "src/platform/audio.js",
+          "transferSize": 2241,
+          "encodedBodySize": 1941,
+          "duration": 5.100000001490116
+        },
+        {
+          "name": "src/platform/input.js",
+          "transferSize": 6173,
+          "encodedBodySize": 5873,
+          "duration": 6.600000001490116
+        },
+        {
+          "name": "src/platform/diagnostics.js",
+          "transferSize": 1550,
+          "encodedBodySize": 1250,
+          "duration": 7.200000002980232
+        },
+        {
+          "name": "src/core/clock.js",
+          "transferSize": 994,
+          "encodedBodySize": 694,
+          "duration": 8.100000001490116
+        },
+        {
+          "name": "src/core/progress.js",
+          "transferSize": 5488,
+          "encodedBodySize": 5188,
+          "duration": 8.5
+        },
+        {
+          "name": "src/presentation/engine.js",
+          "transferSize": 1360,
+          "encodedBodySize": 1060,
+          "duration": 9.5
+        },
+        {
+          "name": "src/ui.js",
+          "transferSize": 18430,
+          "encodedBodySize": 18130,
+          "duration": 10.100000001490116
+        },
+        {
+          "name": "src/core/math.js",
+          "transferSize": 2398,
+          "encodedBodySize": 2098,
+          "duration": 7.399999998509884
+        },
+        {
+          "name": "src/core/track.js",
+          "transferSize": 1807,
+          "encodedBodySize": 1507,
+          "duration": 9.100000001490116
+        },
+        {
+          "name": "src/core/camera.js",
+          "transferSize": 1829,
+          "encodedBodySize": 1529,
+          "duration": 9.300000000745058
+        },
+        {
+          "name": "src/games/racing.js",
+          "transferSize": 5836,
+          "encodedBodySize": 5536,
+          "duration": 9.800000000745058
+        },
+        {
+          "name": "src/games/shooting.js",
+          "transferSize": 5005,
+          "encodedBodySize": 4705,
+          "duration": 10
+        },
+        {
+          "name": "src/games/darts.js",
+          "transferSize": 6540,
+          "encodedBodySize": 6240,
+          "duration": 10.399999998509884
+        },
+        {
+          "name": "src/games/throwing.js",
+          "transferSize": 6432,
+          "encodedBodySize": 6132,
+          "duration": 35.30000000074506
+        },
+        {
+          "name": "vendor/babylon-9.26.0.js",
+          "transferSize": 8330758,
+          "encodedBodySize": 8330458,
+          "duration": 35.600000001490116
+        },
+        {
+          "name": "vendor/babylonjs.loaders-9.26.0.min.js",
+          "transferSize": 609012,
+          "encodedBodySize": 608712,
+          "duration": 2.599999997764826
+        },
+        {
+          "name": "src/presentation/babylon.js",
+          "transferSize": 14143,
+          "encodedBodySize": 13843,
+          "duration": 2.5
+        },
+        {
+          "name": "src/presentation/frame.js",
+          "transferSize": 5957,
+          "encodedBodySize": 5657,
+          "duration": 2.5
+        },
+        {
+          "name": "src/presentation/geometry.js",
+          "transferSize": 4452,
+          "encodedBodySize": 4152,
+          "duration": 2.699999999254942
+        },
+        {
+          "name": "src/presentation/scene.js",
+          "transferSize": 8952,
+          "encodedBodySize": 8652,
+          "duration": 2.399999998509884
+        },
+        {
+          "name": "assets/textures/sky.png",
+          "transferSize": 114837,
+          "encodedBodySize": 114537,
+          "duration": 6.599999997764826
+        },
+        {
+          "name": "assets/manifest.json",
+          "transferSize": 53762,
+          "encodedBodySize": 53462,
+          "duration": 5.699999999254942
+        },
+        {
+          "name": "assets/textures/road.png",
+          "transferSize": 437825,
+          "encodedBodySize": 437525,
+          "duration": 6.899999998509884
+        },
+        {
+          "name": "assets/textures/grass.png",
+          "transferSize": 341801,
+          "encodedBodySize": 341501,
+          "duration": 9.399999998509884
+        },
+        {
+          "name": "assets/textures/rock.png",
+          "transferSize": 321795,
+          "encodedBodySize": 321495,
+          "duration": 9.299999997019768
+        },
+        {
+          "name": "assets/textures/road-normal.png",
+          "transferSize": 551676,
+          "encodedBodySize": 551376,
+          "duration": 9.899999998509884
+        },
+        {
+          "name": "assets/models/club-meadow.low.glb",
+          "transferSize": 15808,
+          "encodedBodySize": 15508,
+          "duration": 2.5
+        },
+        {
+          "name": "assets/models/club-canopy-tree.low.glb",
+          "transferSize": 23592,
+          "encodedBodySize": 23292,
+          "duration": 5.100000001490116
+        },
+        {
+          "name": "assets/models/club-race-gate.high.glb",
+          "transferSize": 202032,
+          "encodedBodySize": 201732,
+          "duration": 6.299999997019768
+        },
+        {
+          "name": "assets/models/comet-sport.high.glb",
+          "transferSize": 826204,
+          "encodedBodySize": 825904,
+          "duration": 6.699999999254942
+        },
+        {
+          "name": "assets/models/club-cockpit.high.glb",
+          "transferSize": 415976,
+          "encodedBodySize": 415676,
+          "duration": 5.5
+        },
+        {
+          "name": "assets/models/comet-sport.low.glb",
+          "transferSize": 178448,
+          "encodedBodySize": 178148,
+          "duration": 2.7999999970197678
+        },
+        {
+          "name": "assets/models/club-race-gate.low.glb",
+          "transferSize": 59676,
+          "encodedBodySize": 59376,
+          "duration": 1.5
+        },
+        {
+          "name": "assets/models/club-cockpit.low.glb",
+          "transferSize": 99504,
+          "encodedBodySize": 99204,
+          "duration": 1
+        }
+      ],
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "cacheCondition": "browser-cache-cleared"
+    },
+    {
+      "firstInteractiveMs": 510.9000000022352,
+      "navigation": {
+        "name": "http://127.0.0.1:8012/club/?verify=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 62.30000000074506,
+        "navigationId": 7605,
+        "initiatorType": "navigation",
+        "deliveryType": "cache",
+        "nextHopProtocol": "",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.20000000298023224,
+        "domainLookupStart": 0.20000000298023224,
+        "domainLookupEnd": 0.20000000298023224,
+        "connectStart": 0.20000000298023224,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.20000000298023224,
+        "requestStart": 0.6000000014901161,
+        "responseStart": 1.1000000014901161,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 1.1000000014901161,
+        "responseEnd": 1.2000000029802322,
+        "transferSize": 300,
+        "encodedBodySize": 3881,
+        "decodedBodySize": 3881,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 11.100000001490116,
+        "unloadEventEnd": 11.100000001490116,
+        "domInteractive": 18.800000000745058,
+        "domContentLoadedEventStart": 20.700000002980232,
+        "domContentLoadedEventEnd": 20.700000002980232,
+        "domComplete": 62.30000000074506,
+        "loadEventStart": 62.30000000074506,
+        "loadEventEnd": 62.30000000074506,
+        "type": "reload",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "name": "style.css",
+          "transferSize": 0,
+          "encodedBodySize": 15569,
+          "duration": 0
+        },
+        {
+          "name": "src/app.js",
+          "transferSize": 0,
+          "encodedBodySize": 9675,
+          "duration": 0
+        },
+        {
+          "name": "src/games/simulation.js",
+          "transferSize": 0,
+          "encodedBodySize": 11944,
+          "duration": 0
+        },
+        {
+          "name": "src/games/catalog.js",
+          "transferSize": 0,
+          "encodedBodySize": 4970,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/storage.js",
+          "transferSize": 0,
+          "encodedBodySize": 1268,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/audio.js",
+          "transferSize": 0,
+          "encodedBodySize": 1941,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/input.js",
+          "transferSize": 0,
+          "encodedBodySize": 5873,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/diagnostics.js",
+          "transferSize": 0,
+          "encodedBodySize": 1250,
+          "duration": 0
+        },
+        {
+          "name": "src/core/clock.js",
+          "transferSize": 0,
+          "encodedBodySize": 694,
+          "duration": 0
+        },
+        {
+          "name": "src/core/progress.js",
+          "transferSize": 0,
+          "encodedBodySize": 5188,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/engine.js",
+          "transferSize": 0,
+          "encodedBodySize": 1060,
+          "duration": 0
+        },
+        {
+          "name": "src/ui.js",
+          "transferSize": 0,
+          "encodedBodySize": 18130,
+          "duration": 0
+        },
+        {
+          "name": "src/core/math.js",
+          "transferSize": 0,
+          "encodedBodySize": 2098,
+          "duration": 0
+        },
+        {
+          "name": "src/core/track.js",
+          "transferSize": 0,
+          "encodedBodySize": 1507,
+          "duration": 0
+        },
+        {
+          "name": "src/core/camera.js",
+          "transferSize": 0,
+          "encodedBodySize": 1529,
+          "duration": 0
+        },
+        {
+          "name": "src/games/racing.js",
+          "transferSize": 0,
+          "encodedBodySize": 5536,
+          "duration": 0
+        },
+        {
+          "name": "src/games/shooting.js",
+          "transferSize": 0,
+          "encodedBodySize": 4705,
+          "duration": 0
+        },
+        {
+          "name": "src/games/darts.js",
+          "transferSize": 0,
+          "encodedBodySize": 6240,
+          "duration": 0
+        },
+        {
+          "name": "src/games/throwing.js",
+          "transferSize": 0,
+          "encodedBodySize": 6132,
+          "duration": 0
+        },
+        {
+          "name": "vendor/babylon-9.26.0.js",
+          "transferSize": 0,
+          "encodedBodySize": 8330458,
+          "duration": 0
+        },
+        {
+          "name": "vendor/babylonjs.loaders-9.26.0.min.js",
+          "transferSize": 0,
+          "encodedBodySize": 608712,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/babylon.js",
+          "transferSize": 0,
+          "encodedBodySize": 13843,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/scene.js",
+          "transferSize": 0,
+          "encodedBodySize": 8652,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/frame.js",
+          "transferSize": 0,
+          "encodedBodySize": 5657,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/geometry.js",
+          "transferSize": 0,
+          "encodedBodySize": 4152,
+          "duration": 0
+        },
+        {
+          "name": "assets/manifest.json",
+          "transferSize": 0,
+          "encodedBodySize": 53462,
+          "duration": 0.8999999985098839
+        },
+        {
+          "name": "assets/textures/sky.png",
+          "transferSize": 0,
+          "encodedBodySize": 114537,
+          "duration": 0.9000000022351742
+        },
+        {
+          "name": "assets/textures/road.png",
+          "transferSize": 0,
+          "encodedBodySize": 437525,
+          "duration": 1.3999999985098839
+        },
+        {
+          "name": "assets/textures/road-normal.png",
+          "transferSize": 0,
+          "encodedBodySize": 551376,
+          "duration": 2
+        },
+        {
+          "name": "assets/textures/grass.png",
+          "transferSize": 0,
+          "encodedBodySize": 341501,
+          "duration": 2.600000001490116
+        },
+        {
+          "name": "assets/textures/rock.png",
+          "transferSize": 0,
+          "encodedBodySize": 321495,
+          "duration": 2.7999999970197678
+        },
+        {
+          "name": "assets/models/club-meadow.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 15508,
+          "duration": 3
+        },
+        {
+          "name": "assets/models/club-canopy-tree.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 23292,
+          "duration": 2.899999998509884
+        },
+        {
+          "name": "assets/models/club-race-gate.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 201732,
+          "duration": 3
+        },
+        {
+          "name": "assets/models/comet-sport.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 825904,
+          "duration": 3.099999997764826
+        },
+        {
+          "name": "assets/models/club-cockpit.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 415676,
+          "duration": 3.2000000029802322
+        },
+        {
+          "name": "assets/models/club-race-gate.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 59376,
+          "duration": 0.19999999925494194
+        },
+        {
+          "name": "assets/models/comet-sport.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 178148,
+          "duration": 0.9000000022351742
+        },
+        {
+          "name": "assets/models/club-cockpit.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 99204,
+          "duration": 0.30000000074505806
+        }
+      ],
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "cacheCondition": "same-context-reload"
+    },
+    {
+      "firstInteractiveMs": 672.8999999985099,
+      "navigation": {
+        "name": "http://127.0.0.1:8012/club/?verify=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 186.39999999850988,
+        "navigationId": 1253,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.09999999776482582,
+        "domainLookupStart": 0.09999999776482582,
+        "domainLookupEnd": 0.09999999776482582,
+        "connectStart": 0.09999999776482582,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.09999999776482582,
+        "requestStart": 0.6999999992549419,
+        "responseStart": 2.199999999254942,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.199999999254942,
+        "responseEnd": 3.399999998509884,
+        "transferSize": 4181,
+        "encodedBodySize": 3881,
+        "decodedBodySize": 3881,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 11.5,
+        "domContentLoadedEventStart": 45.79999999701977,
+        "domContentLoadedEventEnd": 45.79999999701977,
+        "domComplete": 186.39999999850988,
+        "loadEventStart": 186.39999999850988,
+        "loadEventEnd": 186.39999999850988,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "name": "style.css",
+          "transferSize": 15869,
+          "encodedBodySize": 15569,
+          "duration": 3.699999999254942
+        },
+        {
+          "name": "src/app.js",
+          "transferSize": 9975,
+          "encodedBodySize": 9675,
+          "duration": 4.300000000745058
+        },
+        {
+          "name": "src/games/catalog.js",
+          "transferSize": 5270,
+          "encodedBodySize": 4970,
+          "duration": 3.699999999254942
+        },
+        {
+          "name": "src/platform/storage.js",
+          "transferSize": 1568,
+          "encodedBodySize": 1268,
+          "duration": 4.199999999254942
+        },
+        {
+          "name": "src/games/simulation.js",
+          "transferSize": 12244,
+          "encodedBodySize": 11944,
+          "duration": 4.100000001490116
+        },
+        {
+          "name": "src/platform/audio.js",
+          "transferSize": 2241,
+          "encodedBodySize": 1941,
+          "duration": 6.5
+        },
+        {
+          "name": "src/platform/diagnostics.js",
+          "transferSize": 1550,
+          "encodedBodySize": 1250,
+          "duration": 7.899999998509884
+        },
+        {
+          "name": "src/platform/input.js",
+          "transferSize": 6173,
+          "encodedBodySize": 5873,
+          "duration": 10.300000000745058
+        },
+        {
+          "name": "src/core/clock.js",
+          "transferSize": 994,
+          "encodedBodySize": 694,
+          "duration": 12.300000000745058
+        },
+        {
+          "name": "src/presentation/engine.js",
+          "transferSize": 1360,
+          "encodedBodySize": 1060,
+          "duration": 12.800000000745058
+        },
+        {
+          "name": "src/core/progress.js",
+          "transferSize": 5488,
+          "encodedBodySize": 5188,
+          "duration": 13.300000000745058
+        },
+        {
+          "name": "src/ui.js",
+          "transferSize": 18430,
+          "encodedBodySize": 18130,
+          "duration": 14.300000000745058
+        },
+        {
+          "name": "src/core/math.js",
+          "transferSize": 2398,
+          "encodedBodySize": 2098,
+          "duration": 5.5
+        },
+        {
+          "name": "src/core/track.js",
+          "transferSize": 1807,
+          "encodedBodySize": 1507,
+          "duration": 4.700000002980232
+        },
+        {
+          "name": "src/core/camera.js",
+          "transferSize": 1829,
+          "encodedBodySize": 1529,
+          "duration": 5.300000000745058
+        },
+        {
+          "name": "src/games/racing.js",
+          "transferSize": 5836,
+          "encodedBodySize": 5536,
+          "duration": 5
+        },
+        {
+          "name": "src/games/shooting.js",
+          "transferSize": 5005,
+          "encodedBodySize": 4705,
+          "duration": 5.600000001490116
+        },
+        {
+          "name": "src/games/darts.js",
+          "transferSize": 6540,
+          "encodedBodySize": 6240,
+          "duration": 5.800000000745058
+        },
+        {
+          "name": "src/games/throwing.js",
+          "transferSize": 6432,
+          "encodedBodySize": 6132,
+          "duration": 6.600000001490116
+        },
+        {
+          "name": "vendor/babylon-9.26.0.js",
+          "transferSize": 8330758,
+          "encodedBodySize": 8330458,
+          "duration": 39
+        },
+        {
+          "name": "vendor/babylonjs.loaders-9.26.0.min.js",
+          "transferSize": 609012,
+          "encodedBodySize": 608712,
+          "duration": 2.899999998509884
+        },
+        {
+          "name": "src/presentation/babylon.js",
+          "transferSize": 14143,
+          "encodedBodySize": 13843,
+          "duration": 2.2000000029802322
+        },
+        {
+          "name": "src/presentation/frame.js",
+          "transferSize": 5957,
+          "encodedBodySize": 5657,
+          "duration": 1.3999999985098839
+        },
+        {
+          "name": "src/presentation/geometry.js",
+          "transferSize": 4452,
+          "encodedBodySize": 4152,
+          "duration": 1.699999999254942
+        },
+        {
+          "name": "src/presentation/scene.js",
+          "transferSize": 8952,
+          "encodedBodySize": 8652,
+          "duration": 1.7999999970197678
+        },
+        {
+          "name": "assets/manifest.json",
+          "transferSize": 53762,
+          "encodedBodySize": 53462,
+          "duration": 5.399999998509884
+        },
+        {
+          "name": "assets/textures/sky.png",
+          "transferSize": 114837,
+          "encodedBodySize": 114537,
+          "duration": 6
+        },
+        {
+          "name": "assets/textures/road-normal.png",
+          "transferSize": 551676,
+          "encodedBodySize": 551376,
+          "duration": 8.699999999254942
+        },
+        {
+          "name": "assets/textures/road.png",
+          "transferSize": 437825,
+          "encodedBodySize": 437525,
+          "duration": 12.5
+        },
+        {
+          "name": "assets/textures/grass.png",
+          "transferSize": 341801,
+          "encodedBodySize": 341501,
+          "duration": 10.399999998509884
+        },
+        {
+          "name": "assets/textures/rock.png",
+          "transferSize": 321795,
+          "encodedBodySize": 321495,
+          "duration": 13
+        },
+        {
+          "name": "assets/models/club-meadow.low.glb",
+          "transferSize": 15808,
+          "encodedBodySize": 15508,
+          "duration": 3.2000000029802322
+        },
+        {
+          "name": "assets/models/club-canopy-tree.low.glb",
+          "transferSize": 23592,
+          "encodedBodySize": 23292,
+          "duration": 3.099999997764826
+        },
+        {
+          "name": "assets/models/club-race-gate.high.glb",
+          "transferSize": 202032,
+          "encodedBodySize": 201732,
+          "duration": 4.399999998509884
+        },
+        {
+          "name": "assets/models/comet-sport.high.glb",
+          "transferSize": 826204,
+          "encodedBodySize": 825904,
+          "duration": 5.099999997764826
+        },
+        {
+          "name": "assets/models/club-cockpit.high.glb",
+          "transferSize": 415976,
+          "encodedBodySize": 415676,
+          "duration": 5.800000000745058
+        },
+        {
+          "name": "assets/models/club-race-gate.low.glb",
+          "transferSize": 59676,
+          "encodedBodySize": 59376,
+          "duration": 1.800000000745058
+        },
+        {
+          "name": "assets/models/comet-sport.low.glb",
+          "transferSize": 178448,
+          "encodedBodySize": 178148,
+          "duration": 4
+        },
+        {
+          "name": "assets/models/club-cockpit.low.glb",
+          "transferSize": 99504,
+          "encodedBodySize": 99204,
+          "duration": 2
+        }
+      ],
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "cacheCondition": "browser-cache-cleared"
+    },
+    {
+      "firstInteractiveMs": 498.9000000022352,
+      "navigation": {
+        "name": "http://127.0.0.1:8012/club/?verify=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 69.40000000223517,
+        "navigationId": 6465,
+        "initiatorType": "navigation",
+        "deliveryType": "cache",
+        "nextHopProtocol": "",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.6000000014901161,
+        "domainLookupStart": 0.6000000014901161,
+        "domainLookupEnd": 0.6000000014901161,
+        "connectStart": 0.6000000014901161,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.6000000014901161,
+        "requestStart": 1.1000000014901161,
+        "responseStart": 1.7000000029802322,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 1.7000000029802322,
+        "responseEnd": 2.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 3881,
+        "decodedBodySize": 3881,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 12.600000001490116,
+        "unloadEventEnd": 12.600000001490116,
+        "domInteractive": 22.100000001490116,
+        "domContentLoadedEventStart": 24,
+        "domContentLoadedEventEnd": 24,
+        "domComplete": 69.30000000074506,
+        "loadEventStart": 69.40000000223517,
+        "loadEventEnd": 69.40000000223517,
+        "type": "reload",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "name": "style.css",
+          "transferSize": 0,
+          "encodedBodySize": 15569,
+          "duration": 0
+        },
+        {
+          "name": "src/app.js",
+          "transferSize": 0,
+          "encodedBodySize": 9675,
+          "duration": 0
+        },
+        {
+          "name": "src/games/simulation.js",
+          "transferSize": 0,
+          "encodedBodySize": 11944,
+          "duration": 0
+        },
+        {
+          "name": "src/games/catalog.js",
+          "transferSize": 0,
+          "encodedBodySize": 4970,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/storage.js",
+          "transferSize": 0,
+          "encodedBodySize": 1268,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/audio.js",
+          "transferSize": 0,
+          "encodedBodySize": 1941,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/input.js",
+          "transferSize": 0,
+          "encodedBodySize": 5873,
+          "duration": 0
+        },
+        {
+          "name": "src/platform/diagnostics.js",
+          "transferSize": 0,
+          "encodedBodySize": 1250,
+          "duration": 0
+        },
+        {
+          "name": "src/core/clock.js",
+          "transferSize": 0,
+          "encodedBodySize": 694,
+          "duration": 0
+        },
+        {
+          "name": "src/core/progress.js",
+          "transferSize": 0,
+          "encodedBodySize": 5188,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/engine.js",
+          "transferSize": 0,
+          "encodedBodySize": 1060,
+          "duration": 0
+        },
+        {
+          "name": "src/ui.js",
+          "transferSize": 0,
+          "encodedBodySize": 18130,
+          "duration": 0
+        },
+        {
+          "name": "src/core/math.js",
+          "transferSize": 0,
+          "encodedBodySize": 2098,
+          "duration": 0
+        },
+        {
+          "name": "src/core/track.js",
+          "transferSize": 0,
+          "encodedBodySize": 1507,
+          "duration": 0
+        },
+        {
+          "name": "src/core/camera.js",
+          "transferSize": 0,
+          "encodedBodySize": 1529,
+          "duration": 0
+        },
+        {
+          "name": "src/games/racing.js",
+          "transferSize": 0,
+          "encodedBodySize": 5536,
+          "duration": 0
+        },
+        {
+          "name": "src/games/shooting.js",
+          "transferSize": 0,
+          "encodedBodySize": 4705,
+          "duration": 0
+        },
+        {
+          "name": "src/games/darts.js",
+          "transferSize": 0,
+          "encodedBodySize": 6240,
+          "duration": 0
+        },
+        {
+          "name": "src/games/throwing.js",
+          "transferSize": 0,
+          "encodedBodySize": 6132,
+          "duration": 0
+        },
+        {
+          "name": "vendor/babylon-9.26.0.js",
+          "transferSize": 0,
+          "encodedBodySize": 8330458,
+          "duration": 0
+        },
+        {
+          "name": "vendor/babylonjs.loaders-9.26.0.min.js",
+          "transferSize": 0,
+          "encodedBodySize": 608712,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/babylon.js",
+          "transferSize": 0,
+          "encodedBodySize": 13843,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/scene.js",
+          "transferSize": 0,
+          "encodedBodySize": 8652,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/frame.js",
+          "transferSize": 0,
+          "encodedBodySize": 5657,
+          "duration": 0
+        },
+        {
+          "name": "src/presentation/geometry.js",
+          "transferSize": 0,
+          "encodedBodySize": 4152,
+          "duration": 0
+        },
+        {
+          "name": "assets/manifest.json",
+          "transferSize": 0,
+          "encodedBodySize": 53462,
+          "duration": 1.3999999985098839
+        },
+        {
+          "name": "assets/textures/sky.png",
+          "transferSize": 0,
+          "encodedBodySize": 114537,
+          "duration": 1.4000000022351742
+        },
+        {
+          "name": "assets/textures/road.png",
+          "transferSize": 0,
+          "encodedBodySize": 437525,
+          "duration": 2.100000001490116
+        },
+        {
+          "name": "assets/textures/road-normal.png",
+          "transferSize": 0,
+          "encodedBodySize": 551376,
+          "duration": 2.600000001490116
+        },
+        {
+          "name": "assets/textures/grass.png",
+          "transferSize": 0,
+          "encodedBodySize": 341501,
+          "duration": 3.199999999254942
+        },
+        {
+          "name": "assets/textures/rock.png",
+          "transferSize": 0,
+          "encodedBodySize": 321495,
+          "duration": 3.800000000745058
+        },
+        {
+          "name": "assets/models/club-meadow.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 15508,
+          "duration": 0.6999999992549419
+        },
+        {
+          "name": "assets/models/club-canopy-tree.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 23292,
+          "duration": 0.7000000029802322
+        },
+        {
+          "name": "assets/models/club-race-gate.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 201732,
+          "duration": 1
+        },
+        {
+          "name": "assets/models/comet-sport.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 825904,
+          "duration": 1.199999999254942
+        },
+        {
+          "name": "assets/models/club-cockpit.high.glb",
+          "transferSize": 0,
+          "encodedBodySize": 415676,
+          "duration": 1.5
+        },
+        {
+          "name": "assets/models/club-race-gate.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 59376,
+          "duration": 0.30000000074505806
+        },
+        {
+          "name": "assets/models/comet-sport.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 178148,
+          "duration": 0.3999999985098839
+        },
+        {
+          "name": "assets/models/club-cockpit.low.glb",
+          "transferSize": 0,
+          "encodedBodySize": 99204,
+          "duration": 0.30000000074505806
+        }
+      ],
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "cacheCondition": "same-context-reload"
+    }
+  ],
+  "runs": [
+    {
+      "timestamp": "2026-09-11T07:39:32.188Z",
+      "firstInteractiveMs": 506.79999999701977,
+      "frames": 1797,
+      "meanFrameMs": 16.684585420144685,
+      "p95FrameMs": 16.700000000004366,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        1440,
+        900
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 60.00000000000002,
+        "activeMeshes": 152,
+        "triangles": 181254,
+        "drawCalls": 672,
+        "meshes": 541,
+        "materials": 142,
+        "textures": 19,
+        "dynamicInstances": 7,
+        "effectPool": 2
+      },
+      "samples": [
+        {
+          "t": 10,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 60.012002400658965,
+          "activeMeshes": 280,
+          "triangles": 290546,
+          "drawCalls": 799,
+          "meshes": 469,
+          "materials": 72,
+          "textures": 19,
+          "dynamicInstances": 5,
+          "effectPool": 2,
+          "heap": 113902168,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 20,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 60.00000000000002,
+          "activeMeshes": 208,
+          "triangles": 228664,
+          "drawCalls": 727,
+          "meshes": 505,
+          "materials": 107,
+          "textures": 19,
+          "dynamicInstances": 6,
+          "effectPool": 2,
+          "heap": 120981769,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 30,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 60.06006006006017,
+          "activeMeshes": 236,
+          "triangles": 197882,
+          "drawCalls": 755,
+          "meshes": 541,
+          "materials": 142,
+          "textures": 19,
+          "dynamicInstances": 7,
+          "effectPool": 2,
+          "heap": 132333901,
+          "droppedSeconds": 0.10010000000000016
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 30010.699999999255,
+      "simulationElapsed": 29.99999999999877,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 0,
+      "shots": 0,
+      "checkpoints": 11,
+      "live": {
+        "Buffer": 2002,
+        "Texture": 25,
+        "Framebuffer": 8,
+        "Renderbuffer": 1,
+        "VertexArray": 617
+      },
+      "gl": 0,
+      "mode": "race",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "high",
+      "engine": "babylon",
+      "profile": "desktop",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          1440,
+          900
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 7.9333597778190335,
+          "activeMeshes": 126,
+          "triangles": 164265,
+          "drawCalls": 365,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 25,
+          "Framebuffer": 8,
+          "Renderbuffer": 1,
+          "VertexArray": 242
+        }
+      },
+      "measuredFps": 59.93556176664821,
+      "targetFps": 60,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:40:08.895Z",
+      "firstInteractiveMs": 506.79999999701977,
+      "frames": 1800,
+      "meanFrameMs": 16.665944444444442,
+      "p95FrameMs": 16.70000000001164,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        1440,
+        900
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 60.00000000000039,
+        "activeMeshes": 132,
+        "triangles": 137616,
+        "drawCalls": 296,
+        "meshes": 167,
+        "materials": 94,
+        "textures": 35,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "samples": [
+        {
+          "t": 44,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 60.096153846243546,
+          "activeMeshes": 132,
+          "triangles": 137616,
+          "drawCalls": 296,
+          "meshes": 167,
+          "materials": 94,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 10,
+          "heap": 146652202,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 54,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 60.000000000000085,
+          "activeMeshes": 132,
+          "triangles": 137616,
+          "drawCalls": 296,
+          "meshes": 167,
+          "materials": 94,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 10,
+          "heap": 154638962,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 64,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 59.97600959580444,
+          "activeMeshes": 132,
+          "triangles": 137616,
+          "drawCalls": 296,
+          "meshes": 167,
+          "materials": 94,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 10,
+          "heap": 162564604,
+          "droppedSeconds": 0.10010000000000016
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 30016,
+      "simulationElapsed": 30.016666666665444,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 6420,
+      "shots": 26,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 830,
+        "Texture": 41,
+        "Framebuffer": 8,
+        "Renderbuffer": 1,
+        "VertexArray": 172
+      },
+      "gl": 0,
+      "mode": "shooting",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "high",
+      "engine": "babylon",
+      "profile": "desktop",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          1440,
+          900
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 7.9333597778190335,
+          "activeMeshes": 126,
+          "triangles": 164265,
+          "drawCalls": 365,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 25,
+          "Framebuffer": 8,
+          "Renderbuffer": 1,
+          "VertexArray": 242
+        }
+      },
+      "measuredFps": 60.00260011267156,
+      "targetFps": 60,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:40:45.487Z",
+      "firstInteractiveMs": 506.79999999701977,
+      "frames": 1802,
+      "meanFrameMs": 16.666037735849063,
+      "p95FrameMs": 16.79999999998836,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        1440,
+        900
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 59.892194050886886,
+        "activeMeshes": 75,
+        "triangles": 225346,
+        "drawCalls": 203,
+        "meshes": 96,
+        "materials": 70,
+        "textures": 11,
+        "dynamicInstances": 11,
+        "effectPool": 4
+      },
+      "samples": [
+        {
+          "t": 81,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 60.02400960419964,
+          "activeMeshes": 33,
+          "triangles": 175030,
+          "drawCalls": 98,
+          "meshes": 54,
+          "materials": 35,
+          "textures": 11,
+          "dynamicInstances": 4,
+          "effectPool": 4,
+          "heap": 162775050,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 91,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 59.96402158695858,
+          "activeMeshes": 55,
+          "triangles": 197362,
+          "drawCalls": 147,
+          "meshes": 78,
+          "materials": 55,
+          "textures": 11,
+          "dynamicInstances": 8,
+          "effectPool": 4,
+          "heap": 68485074,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 101,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 60.01200240065907,
+          "activeMeshes": 75,
+          "triangles": 225346,
+          "drawCalls": 203,
+          "meshes": 96,
+          "materials": 70,
+          "textures": 11,
+          "dynamicInstances": 11,
+          "effectPool": 4,
+          "heap": 70644624,
+          "droppedSeconds": 0.10010000000000016
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 30035.5,
+      "simulationElapsed": 30.049999999998775,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 681,
+      "shots": 12,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 248,
+        "Texture": 17,
+        "Framebuffer": 8,
+        "Renderbuffer": 1,
+        "VertexArray": 56
+      },
+      "gl": 0,
+      "mode": "darts",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "high",
+      "engine": "babylon",
+      "profile": "desktop",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          1440,
+          900
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 7.9333597778190335,
+          "activeMeshes": 126,
+          "triangles": 164265,
+          "drawCalls": 365,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 25,
+          "Framebuffer": 8,
+          "Renderbuffer": 1,
+          "VertexArray": 242
+        }
+      },
+      "measuredFps": 60.00226423638625,
+      "targetFps": 60,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:41:22.267Z",
+      "firstInteractiveMs": 506.79999999701977,
+      "frames": 1803,
+      "meanFrameMs": 16.666001109262336,
+      "p95FrameMs": 16.70000000001164,
+      "p99FrameMs": 16.800000000017462,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        1440,
+        900
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 59.976009595804236,
+        "activeMeshes": 189,
+        "triangles": 176025,
+        "drawCalls": 419,
+        "meshes": 220,
+        "materials": 147,
+        "textures": 35,
+        "dynamicInstances": 22,
+        "effectPool": 8
+      },
+      "samples": [
+        {
+          "t": 117,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 59.964021587405085,
+          "activeMeshes": 121,
+          "triangles": 167621,
+          "drawCalls": 253,
+          "meshes": 145,
+          "materials": 87,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 8,
+          "heap": 79261137,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 127,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 59.95203836948306,
+          "activeMeshes": 145,
+          "triangles": 170565,
+          "drawCalls": 312,
+          "meshes": 175,
+          "materials": 111,
+          "textures": 35,
+          "dynamicInstances": 13,
+          "effectPool": 8,
+          "heap": 61991309,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 137,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 60.00000000000002,
+          "activeMeshes": 171,
+          "triangles": 174233,
+          "drawCalls": 366,
+          "meshes": 200,
+          "materials": 131,
+          "textures": 35,
+          "dynamicInstances": 18,
+          "effectPool": 8,
+          "heap": 74836406,
+          "droppedSeconds": 0.10010000000000016
+        },
+        {
+          "t": 147,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 59.976009595804236,
+          "activeMeshes": 189,
+          "triangles": 176025,
+          "drawCalls": 419,
+          "meshes": 220,
+          "materials": 147,
+          "textures": 35,
+          "dynamicInstances": 22,
+          "effectPool": 8,
+          "heap": 74912969,
+          "droppedSeconds": 0.10010000000000016
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 30076.10000000149,
+      "simulationElapsed": 30.06666666666544,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 150,
+      "shots": 15,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 642,
+        "Texture": 41,
+        "Framebuffer": 8,
+        "Renderbuffer": 1,
+        "VertexArray": 172
+      },
+      "gl": 0,
+      "mode": "archery",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "high",
+      "engine": "babylon",
+      "profile": "desktop",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          1440,
+          900
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 1440,
+          "height": 900,
+          "fps": 7.9333597778190335,
+          "activeMeshes": 126,
+          "triangles": 164265,
+          "drawCalls": 365,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 25,
+          "Framebuffer": 8,
+          "Renderbuffer": 1,
+          "VertexArray": 242
+        }
+      },
+      "measuredFps": 60.002396102340214,
+      "targetFps": 60,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:41:59.809Z",
+      "firstInteractiveMs": 261,
+      "frames": 1800,
+      "meanFrameMs": 16.666,
+      "p95FrameMs": 16.700000000004366,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        1440,
+        900
+      ],
+      "renderer": {
+        "engine": "PlayCanvas 2.22.1",
+        "backend": "webgl2",
+        "width": 1440,
+        "height": 900,
+        "fps": 60,
+        "activeMeshes": null,
+        "triangles": null,
+        "triangleNote": "Pinned production build omits triangle profiling counters",
+        "drawCalls": 417,
+        "meshes": 229,
+        "materials": 140,
+        "textures": 19,
+        "dynamicInstances": 7,
+        "effectPool": 2
+      },
+      "samples": [
+        {
+          "t": 10,
+          "phase": "playing",
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1440,
+          "height": 900,
+          "fps": 59,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 621,
+          "meshes": 227,
+          "materials": 70,
+          "textures": 19,
+          "dynamicInstances": 5,
+          "effectPool": 2,
+          "heap": 43877700,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 20,
+          "phase": "playing",
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1440,
+          "height": 900,
+          "fps": 59,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 511,
+          "meshes": 229,
+          "materials": 140,
+          "textures": 19,
+          "dynamicInstances": 7,
+          "effectPool": 2,
+          "heap": 47946817,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 30,
+          "phase": "playing",
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1440,
+          "height": 900,
+          "fps": 59,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 528,
+          "meshes": 229,
+          "materials": 140,
+          "textures": 19,
+          "dynamicInstances": 7,
+          "effectPool": 2,
+          "heap": 52349637,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 30012.400000002235,
+      "simulationElapsed": 30.016666666665444,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 0,
+      "shots": 0,
+      "checkpoints": 11,
+      "live": {
+        "Buffer": 642,
+        "Texture": 39,
+        "Framebuffer": 9,
+        "Renderbuffer": 4,
+        "VertexArray": 395
+      },
+      "gl": 0,
+      "mode": "race",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "high",
+      "engine": "playcanvas",
+      "profile": "desktop",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          1440,
+          900
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1440,
+          "height": 900,
+          "fps": 0,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 294,
+          "meshes": 143,
+          "materials": 27,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/playcanvas-2.22.1.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 508,
+          "Texture": 39,
+          "Framebuffer": 9,
+          "Renderbuffer": 4,
+          "VertexArray": 160
+        }
+      },
+      "measuredFps": 60.00240009600384,
+      "targetFps": 60,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:42:23.042Z",
+      "firstInteractiveMs": 510.9000000022352,
+      "frames": 898,
+      "meanFrameMs": 16.703006681514474,
+      "p95FrameMs": 16.700000000000728,
+      "p99FrameMs": 16.80000000000109,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        390,
+        844
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 343,
+        "height": 742,
+        "fps": 60.000000000000085,
+        "activeMeshes": 241,
+        "triangles": 195987,
+        "drawCalls": 756,
+        "meshes": 541,
+        "materials": 142,
+        "textures": 19,
+        "dynamicInstances": 7,
+        "effectPool": 2
+      },
+      "samples": [
+        {
+          "t": 10,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 60.10819475082015,
+          "activeMeshes": 208,
+          "triangles": 266972,
+          "drawCalls": 724,
+          "meshes": 469,
+          "materials": 72,
+          "textures": 19,
+          "dynamicInstances": 5,
+          "effectPool": 2,
+          "heap": 108244191,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 20,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 57.9934274114765,
+          "activeMeshes": 100,
+          "triangles": 172549,
+          "drawCalls": 617,
+          "meshes": 541,
+          "materials": 142,
+          "textures": 19,
+          "dynamicInstances": 7,
+          "effectPool": 2,
+          "heap": 109307088,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 15020,
+      "simulationElapsed": 15.016666666666293,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 0,
+      "shots": 0,
+      "checkpoints": 6,
+      "live": {
+        "Buffer": 2002,
+        "Texture": 21,
+        "Framebuffer": 4,
+        "Renderbuffer": 1,
+        "VertexArray": 587
+      },
+      "gl": 0,
+      "mode": "race",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "medium",
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          390,
+          844
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 11.682242990620313,
+          "activeMeshes": 93,
+          "triangles": 152752,
+          "drawCalls": 328,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 21,
+          "Framebuffer": 4,
+          "Renderbuffer": 1,
+          "VertexArray": 209
+        }
+      },
+      "measuredFps": 59.86946057482684,
+      "targetFps": 30,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:42:44.615Z",
+      "firstInteractiveMs": 510.9000000022352,
+      "frames": 900,
+      "meanFrameMs": 16.665999999999997,
+      "p95FrameMs": 16.700000000004366,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        390,
+        844
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 343,
+        "height": 742,
+        "fps": 60.01200240021191,
+        "activeMeshes": 106,
+        "triangles": 127560,
+        "drawCalls": 269,
+        "meshes": 167,
+        "materials": 94,
+        "textures": 35,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "samples": [
+        {
+          "t": 29,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 60.02400960375211,
+          "activeMeshes": 99,
+          "triangles": 126910,
+          "drawCalls": 261,
+          "meshes": 167,
+          "materials": 94,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 10,
+          "heap": 133799273,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 39,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 59.96402158695861,
+          "activeMeshes": 112,
+          "triangles": 134200,
+          "drawCalls": 274,
+          "meshes": 167,
+          "materials": 94,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 10,
+          "heap": 134581237,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 15017.60000000149,
+      "simulationElapsed": 15.016666666666293,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 3150,
+      "shots": 14,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 830,
+        "Texture": 37,
+        "Framebuffer": 4,
+        "Renderbuffer": 1,
+        "VertexArray": 168
+      },
+      "gl": 0,
+      "mode": "shooting",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "medium",
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          390,
+          844
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 11.682242990620313,
+          "activeMeshes": 93,
+          "triangles": 152752,
+          "drawCalls": 328,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 21,
+          "Framebuffer": 4,
+          "Renderbuffer": 1,
+          "VertexArray": 209
+        }
+      },
+      "measuredFps": 60.00240009600385,
+      "targetFps": 30,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:43:06.125Z",
+      "firstInteractiveMs": 510.9000000022352,
+      "frames": 899,
+      "meanFrameMs": 16.666073414905455,
+      "p95FrameMs": 16.799999999995634,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        390,
+        844
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 343,
+        "height": 742,
+        "fps": 59.86828976278939,
+        "activeMeshes": 53,
+        "triangles": 203738,
+        "drawCalls": 151,
+        "meshes": 78,
+        "materials": 55,
+        "textures": 11,
+        "dynamicInstances": 8,
+        "effectPool": 4
+      },
+      "samples": [
+        {
+          "t": 50,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 60.02400960375217,
+          "activeMeshes": 29,
+          "triangles": 174986,
+          "drawCalls": 91,
+          "meshes": 54,
+          "materials": 35,
+          "textures": 11,
+          "dynamicInstances": 4,
+          "effectPool": 4,
+          "heap": 154315163,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 60,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 59.99999999999999,
+          "activeMeshes": 55,
+          "triangles": 197362,
+          "drawCalls": 143,
+          "meshes": 78,
+          "materials": 55,
+          "textures": 11,
+          "dynamicInstances": 8,
+          "effectPool": 4,
+          "heap": 168042299,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 15009.300000000745,
+      "simulationElapsed": 14.999999999999627,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 360,
+      "shots": 6,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 248,
+        "Texture": 13,
+        "Framebuffer": 4,
+        "Renderbuffer": 1,
+        "VertexArray": 45
+      },
+      "gl": 0,
+      "mode": "darts",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "medium",
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          390,
+          844
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 11.682242990620313,
+          "activeMeshes": 93,
+          "triangles": 152752,
+          "drawCalls": 328,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 21,
+          "Framebuffer": 4,
+          "Renderbuffer": 1,
+          "VertexArray": 209
+        }
+      },
+      "measuredFps": 60.00213578236376,
+      "targetFps": 30,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:43:27.637Z",
+      "firstInteractiveMs": 510.9000000022352,
+      "frames": 900,
+      "meanFrameMs": 16.66611111111111,
+      "p95FrameMs": 16.70000000001164,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        390,
+        844
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 343,
+        "height": 742,
+        "fps": 59.96402158695851,
+        "activeMeshes": 143,
+        "triangles": 170270,
+        "drawCalls": 320,
+        "meshes": 185,
+        "materials": 119,
+        "textures": 35,
+        "dynamicInstances": 15,
+        "effectPool": 8
+      },
+      "samples": [
+        {
+          "t": 72,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 59.999999999999815,
+          "activeMeshes": 108,
+          "triangles": 165680,
+          "drawCalls": 236,
+          "meshes": 145,
+          "materials": 87,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 8,
+          "heap": 181884131,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 82,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 59.95203836948311,
+          "activeMeshes": 123,
+          "triangles": 163107,
+          "drawCalls": 286,
+          "meshes": 175,
+          "materials": 111,
+          "textures": 35,
+          "dynamicInstances": 13,
+          "effectPool": 8,
+          "heap": 75510100,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 15014.39999999851,
+      "simulationElapsed": 15.016666666666293,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 80,
+      "shots": 8,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 642,
+        "Texture": 37,
+        "Framebuffer": 4,
+        "Renderbuffer": 1,
+        "VertexArray": 164
+      },
+      "gl": 0,
+      "mode": "archery",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "medium",
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          390,
+          844
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 343,
+          "height": 742,
+          "fps": 11.682242990620313,
+          "activeMeshes": 93,
+          "triangles": 152752,
+          "drawCalls": 328,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 21,
+          "Framebuffer": 4,
+          "Renderbuffer": 1,
+          "VertexArray": 209
+        }
+      },
+      "measuredFps": 60.00200006666889,
+      "targetFps": 30,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:43:50.801Z",
+      "firstInteractiveMs": 498.9000000022352,
+      "frames": 899,
+      "meanFrameMs": 16.684538375973304,
+      "p95FrameMs": 16.700000000000728,
+      "p99FrameMs": 16.80000000000109,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        844,
+        390
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 742,
+        "height": 343,
+        "fps": 59.90415335454349,
+        "activeMeshes": 343,
+        "triangles": 229508,
+        "drawCalls": 858,
+        "meshes": 541,
+        "materials": 142,
+        "textures": 19,
+        "dynamicInstances": 7,
+        "effectPool": 2
+      },
+      "samples": [
+        {
+          "t": 10,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 59.98800239934144,
+          "activeMeshes": 284,
+          "triangles": 290712,
+          "drawCalls": 799,
+          "meshes": 469,
+          "materials": 72,
+          "textures": 19,
+          "dynamicInstances": 5,
+          "effectPool": 2,
+          "heap": 95174957,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 20,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 60.000000000000036,
+          "activeMeshes": 239,
+          "triangles": 194688,
+          "drawCalls": 754,
+          "meshes": 541,
+          "materials": 142,
+          "textures": 19,
+          "dynamicInstances": 7,
+          "effectPool": 2,
+          "heap": 93417514,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 15016.5,
+      "simulationElapsed": 15.016666666666293,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 0,
+      "shots": 0,
+      "checkpoints": 6,
+      "live": {
+        "Buffer": 2002,
+        "Texture": 21,
+        "Framebuffer": 4,
+        "Renderbuffer": 1,
+        "VertexArray": 617
+      },
+      "gl": 0,
+      "mode": "race",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "medium",
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          844,
+          390
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 11.806375442669841,
+          "activeMeshes": 147,
+          "triangles": 173764,
+          "drawCalls": 382,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 21,
+          "Framebuffer": 4,
+          "Renderbuffer": 1,
+          "VertexArray": 263
+        }
+      },
+      "measuredFps": 59.935730762563836,
+      "targetFps": 30,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:44:12.389Z",
+      "firstInteractiveMs": 498.9000000022352,
+      "frames": 900,
+      "meanFrameMs": 16.665999999999997,
+      "p95FrameMs": 16.799999999995634,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        844,
+        390
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 742,
+        "height": 343,
+        "fps": 59.98800239978826,
+        "activeMeshes": 141,
+        "triangles": 139154,
+        "drawCalls": 301,
+        "meshes": 167,
+        "materials": 94,
+        "textures": 35,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "samples": [
+        {
+          "t": 29,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 60.072086503983726,
+          "activeMeshes": 133,
+          "triangles": 137618,
+          "drawCalls": 293,
+          "meshes": 167,
+          "materials": 94,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 10,
+          "heap": 122816341,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 39,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 59.90415335454348,
+          "activeMeshes": 133,
+          "triangles": 137618,
+          "drawCalls": 293,
+          "meshes": 167,
+          "materials": 94,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 10,
+          "heap": 130739037,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 15013.39999999851,
+      "simulationElapsed": 15.016666666666293,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 3150,
+      "shots": 14,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 830,
+        "Texture": 37,
+        "Framebuffer": 4,
+        "Renderbuffer": 1,
+        "VertexArray": 172
+      },
+      "gl": 0,
+      "mode": "shooting",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "medium",
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          844,
+          390
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 11.806375442669841,
+          "activeMeshes": 147,
+          "triangles": 173764,
+          "drawCalls": 382,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 21,
+          "Framebuffer": 4,
+          "Renderbuffer": 1,
+          "VertexArray": 263
+        }
+      },
+      "measuredFps": 60.00240009600385,
+      "targetFps": 30,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:44:33.874Z",
+      "firstInteractiveMs": 498.9000000022352,
+      "frames": 900,
+      "meanFrameMs": 16.666,
+      "p95FrameMs": 16.700000000004366,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        844,
+        390
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 742,
+        "height": 343,
+        "fps": 59.976009596250854,
+        "activeMeshes": 59,
+        "triangles": 203786,
+        "drawCalls": 156,
+        "meshes": 78,
+        "materials": 55,
+        "textures": 11,
+        "dynamicInstances": 8,
+        "effectPool": 4
+      },
+      "samples": [
+        {
+          "t": 50,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 59.96402158695851,
+          "activeMeshes": 35,
+          "triangles": 175034,
+          "drawCalls": 96,
+          "meshes": 54,
+          "materials": 35,
+          "textures": 11,
+          "dynamicInstances": 4,
+          "effectPool": 4,
+          "heap": 160176819,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 60,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 60.03602161305739,
+          "activeMeshes": 57,
+          "triangles": 197366,
+          "drawCalls": 145,
+          "meshes": 78,
+          "materials": 55,
+          "textures": 11,
+          "dynamicInstances": 8,
+          "effectPool": 4,
+          "heap": 52249511,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 15011.60000000149,
+      "simulationElapsed": 15.016666666666293,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 360,
+      "shots": 6,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 248,
+        "Texture": 13,
+        "Framebuffer": 4,
+        "Renderbuffer": 1,
+        "VertexArray": 56
+      },
+      "gl": 0,
+      "mode": "darts",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "medium",
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          844,
+          390
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 11.806375442669841,
+          "activeMeshes": 147,
+          "triangles": 173764,
+          "drawCalls": 382,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 21,
+          "Framebuffer": 4,
+          "Renderbuffer": 1,
+          "VertexArray": 263
+        }
+      },
+      "measuredFps": 60.00240009600384,
+      "targetFps": 30,
+      "targetBandReached": true
+    },
+    {
+      "timestamp": "2026-09-11T07:44:55.397Z",
+      "firstInteractiveMs": 498.9000000022352,
+      "frames": 899,
+      "meanFrameMs": 16.665962180200218,
+      "p95FrameMs": 16.70000000001164,
+      "p99FrameMs": 16.80000000000291,
+      "over50ms": 0,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "viewport": [
+        844,
+        390
+      ],
+      "renderer": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 742,
+        "height": 343,
+        "fps": 59.952038369036835,
+        "activeMeshes": 156,
+        "triangles": 172211,
+        "drawCalls": 333,
+        "meshes": 185,
+        "materials": 119,
+        "textures": 35,
+        "dynamicInstances": 15,
+        "effectPool": 8
+      },
+      "samples": [
+        {
+          "t": 72,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 59.988002399341426,
+          "activeMeshes": 121,
+          "triangles": 167621,
+          "drawCalls": 249,
+          "meshes": 145,
+          "materials": 87,
+          "textures": 35,
+          "dynamicInstances": 7,
+          "effectPool": 8,
+          "heap": 75153060,
+          "droppedSeconds": 0
+        },
+        {
+          "t": 82,
+          "phase": "playing",
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 60.01200240065906,
+          "activeMeshes": 147,
+          "triangles": 170759,
+          "drawCalls": 310,
+          "meshes": 175,
+          "materials": 111,
+          "textures": 35,
+          "dynamicInstances": 13,
+          "effectPool": 8,
+          "heap": 72866436,
+          "droppedSeconds": 0
+        }
+      ],
+      "errors": [],
+      "wallElapsedMs": 15002.5,
+      "simulationElapsed": 14.999999999999627,
+      "droppedSeconds": 0,
+      "phase": "playing",
+      "score": 80,
+      "shots": 8,
+      "checkpoints": null,
+      "live": {
+        "Buffer": 642,
+        "Texture": 37,
+        "Framebuffer": 4,
+        "Renderbuffer": 1,
+        "VertexArray": 173
+      },
+      "gl": 0,
+      "mode": "archery",
+      "level": 5,
+      "playlist": "endless",
+      "quality": "medium",
+      "engine": "babylon",
+      "profile": "touch-emulation-on-M2",
+      "device": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "cores": 8,
+        "memory": 16,
+        "viewport": [
+          844,
+          390
+        ],
+        "dpr": 1,
+        "renderer": {
+          "engine": "Babylon.js 9.26.0",
+          "backend": "WebGL 2",
+          "width": 742,
+          "height": 343,
+          "fps": 11.806375442669841,
+          "activeMeshes": 147,
+          "triangles": 173764,
+          "drawCalls": 382,
+          "meshes": 238,
+          "materials": 29,
+          "textures": 19,
+          "dynamicInstances": 1,
+          "effectPool": 0
+        },
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+        "remoteScripts": [
+          "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+          "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+          "http://127.0.0.1:8012/club/src/app.js"
+        ],
+        "live": {
+          "Buffer": 1472,
+          "Texture": 21,
+          "Framebuffer": 4,
+          "Renderbuffer": 1,
+          "VertexArray": 263
+        }
+      },
+      "measuredFps": 60.0025362584848,
+      "targetFps": 30,
+      "targetBandReached": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

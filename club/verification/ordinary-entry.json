@@ -1,0 +1,9 @@
+{
+  "testInterfaceAbsent": true,
+  "campaignAbsent": true,
+  "onlyBabylon": true,
+  "modes": 4,
+  "startEnabled": true,
+  "errors": [],
+  "passed": true
+}

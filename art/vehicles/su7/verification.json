@@ -1,0 +1,610 @@
+{
+  "checks": [
+    {
+      "name": "high / GLB header",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / embedded assets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / matching manifest version",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / matching manifest hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / all animation pivots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / no cameras or lights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / no construction meshes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / optical transmission preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / windscreen and side glazing transmission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / independent UV display display-cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / independent UV display display-center",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / pivot body",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "high / pivot spoiler",
+      "passed": true,
+      "detail": [
+        0,
+        0.9940000176429749,
+        2.2699999809265137
+      ]
+    },
+    {
+      "name": "high / pivot wheel-front-left",
+      "passed": true,
+      "detail": [
+        -0.8410000205039978,
+        0.35499998927116394,
+        -1.5499999523162842
+      ]
+    },
+    {
+      "name": "high / pivot wheel-rear-left",
+      "passed": true,
+      "detail": [
+        -0.8410000205039978,
+        0.35499998927116394,
+        1.4500000476837158
+      ]
+    },
+    {
+      "name": "high / pivot wheel-front-right",
+      "passed": true,
+      "detail": [
+        0.8410000205039978,
+        0.35499998927116394,
+        -1.5499999523162842
+      ]
+    },
+    {
+      "name": "high / pivot wheel-rear-right",
+      "passed": true,
+      "detail": [
+        0.8410000205039978,
+        0.35499998927116394,
+        1.4500000476837158
+      ]
+    },
+    {
+      "name": "high / pivot interior",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "high / pivot steering",
+      "passed": true,
+      "detail": [
+        -0.4300000071525574,
+        0.8080000281333923,
+        -0.28600001335144043
+      ]
+    },
+    {
+      "name": "high / pivot display-cluster",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "high / pivot display-center",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "high / finite vertices and valid indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / finite unit surface normals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / GLB header",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / embedded assets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / matching manifest version",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / matching manifest hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / all animation pivots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / no cameras or lights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / no construction meshes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / optical transmission preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / windscreen and side glazing transmission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / independent UV display display-cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / independent UV display display-center",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / pivot body",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "low / pivot spoiler",
+      "passed": true,
+      "detail": [
+        0,
+        0.9940000176429749,
+        2.2699999809265137
+      ]
+    },
+    {
+      "name": "low / pivot wheel-front-left",
+      "passed": true,
+      "detail": [
+        -0.8410000205039978,
+        0.35499998927116394,
+        -1.5499999523162842
+      ]
+    },
+    {
+      "name": "low / pivot wheel-rear-left",
+      "passed": true,
+      "detail": [
+        -0.8410000205039978,
+        0.35499998927116394,
+        1.4500000476837158
+      ]
+    },
+    {
+      "name": "low / pivot wheel-front-right",
+      "passed": true,
+      "detail": [
+        0.8410000205039978,
+        0.35499998927116394,
+        -1.5499999523162842
+      ]
+    },
+    {
+      "name": "low / pivot wheel-rear-right",
+      "passed": true,
+      "detail": [
+        0.8410000205039978,
+        0.35499998927116394,
+        1.4500000476837158
+      ]
+    },
+    {
+      "name": "low / pivot interior",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "low / pivot steering",
+      "passed": true,
+      "detail": [
+        -0.4300000071525574,
+        0.8080000281333923,
+        -0.28600001335144043
+      ]
+    },
+    {
+      "name": "low / pivot display-cluster",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "low / pivot display-center",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "low / finite vertices and valid indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / finite unit surface normals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOD reduces geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Geometry / component tessellation area",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / native high GLB loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / current revision",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / wheels animate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / steering pivot rotates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / side view",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / rear view",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / cockpit view",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / instruments view",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / two live display bindings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / both in-world screen textures change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / rendered screen regions actually change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / external packet and units preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / reverse and regenerative braking",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / invalid and partial packets stay finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / range limits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / synthetic demo advances",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / pause holds all input values",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / external packet takes over demo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / manual input drives the component",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / reset restores parked state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / parked screens avoid redundant uploads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / disposal releases textures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / paint changes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / low LOD preserves bindings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / LOD switch preserves input and textures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / native low GLB loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / no runtime errors or missing files",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "failures": []
+      }
+    },
+    {
+      "name": "Comparison / official / front",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / official / side",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / official / rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / official / rear-flat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / official / headlight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / official / wheel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / official / cockpit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / official / clay-side",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / official / reflection-rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / front",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / side",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / rear-flat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / headlight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / wheel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / cockpit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / clay-side",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / previous / reflection-rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reference / transparent full-resolution render",
+      "passed": true,
+      "detail": {
+        "width": 2048,
+        "height": 1152,
+        "minAlpha": 0,
+        "maxAlpha": 255
+      }
+    },
+    {
+      "name": "Comparison / overlay opacity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Comparison / no runtime errors or missing files",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "failures": []
+      }
+    },
+    {
+      "name": "Mobile emulation / controls fit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile emulation / cockpit touch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile emulation / telemetry controls",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "models": {
+    "high": {
+      "bytes": 18841064,
+      "triangles": 704821,
+      "drawPrimitives": 68,
+      "sha256": "efb980d323496617d7f5de1d5cf630ffa736e172b043133ed8d28b3bf94f66ea"
+    },
+    "low": {
+      "bytes": 7582648,
+      "triangles": 285157,
+      "drawPrimitives": 68,
+      "sha256": "56c49b4c05d7c8ceba287a5070ef77c8c3b43d82a9beb250c59fc26e579dec77"
+    }
+  },
+  "browser": {
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+    "engine": 2,
+    "meshes": 70
+  },
+  "passed": true
+}

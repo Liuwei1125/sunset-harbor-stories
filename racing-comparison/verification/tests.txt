@@ -1,0 +1,18 @@
+✔ same seed and fixed-step replay produce identical full 90-second results (82.212375ms)
+✔ steering has inertia; releasing it damps lateral velocity (0.299083ms)
+✔ nitro increases speed and consumes charge; releasing does not snap speed (0.217083ms)
+✔ braking slows the car and blocks boost (0.18925ms)
+✔ collision damages once inside invulnerability window and breaks combo (0.132333ms)
+✔ a clean close pass grants score, combo and nitro only once (0.218667ms)
+✔ rail damage cannot make health negative, and end state stops simulation (0.084625ms)
+✔ retry clears run state and reconstructs the original traffic (10.725334ms)
+✔ all difficulty profiles retain a finite, bounded state for full runs (82.481166ms)
+✔ every shared vehicle index references a valid nonempty quantized vertex buffer (5.30125ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 262.208542

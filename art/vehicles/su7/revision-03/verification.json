@@ -1,0 +1,240 @@
+{
+  "checks": [
+    {
+      "name": "high / GLB header",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / embedded assets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / all animation pivots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / no cameras or lights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / pivot body",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "high / pivot spoiler",
+      "passed": true,
+      "detail": [
+        0,
+        0.9940000176429749,
+        2.2699999809265137
+      ]
+    },
+    {
+      "name": "high / pivot wheel-front-left",
+      "passed": true,
+      "detail": [
+        -0.8410000205039978,
+        0.35499998927116394,
+        -1.5499999523162842
+      ]
+    },
+    {
+      "name": "high / pivot wheel-rear-left",
+      "passed": true,
+      "detail": [
+        -0.8410000205039978,
+        0.35499998927116394,
+        1.4500000476837158
+      ]
+    },
+    {
+      "name": "high / pivot wheel-front-right",
+      "passed": true,
+      "detail": [
+        0.8410000205039978,
+        0.35499998927116394,
+        -1.5499999523162842
+      ]
+    },
+    {
+      "name": "high / pivot wheel-rear-right",
+      "passed": true,
+      "detail": [
+        0.8410000205039978,
+        0.35499998927116394,
+        1.4500000476837158
+      ]
+    },
+    {
+      "name": "high / pivot interior",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "high / pivot steering",
+      "passed": true,
+      "detail": [
+        -0.4300000071525574,
+        0.8080000281333923,
+        -0.28600001335144043
+      ]
+    },
+    {
+      "name": "high / finite vertices and valid indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / GLB header",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / embedded assets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / all animation pivots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / no cameras or lights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / pivot body",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "low / pivot spoiler",
+      "passed": true,
+      "detail": [
+        0,
+        0.9940000176429749,
+        2.2699999809265137
+      ]
+    },
+    {
+      "name": "low / pivot wheel-front-left",
+      "passed": true,
+      "detail": [
+        -0.8410000205039978,
+        0.35499998927116394,
+        -1.5499999523162842
+      ]
+    },
+    {
+      "name": "low / pivot wheel-rear-left",
+      "passed": true,
+      "detail": [
+        -0.8410000205039978,
+        0.35499998927116394,
+        1.4500000476837158
+      ]
+    },
+    {
+      "name": "low / pivot wheel-front-right",
+      "passed": true,
+      "detail": [
+        0.8410000205039978,
+        0.35499998927116394,
+        -1.5499999523162842
+      ]
+    },
+    {
+      "name": "low / pivot wheel-rear-right",
+      "passed": true,
+      "detail": [
+        0.8410000205039978,
+        0.35499998927116394,
+        1.4500000476837158
+      ]
+    },
+    {
+      "name": "low / pivot interior",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "low / pivot steering",
+      "passed": true,
+      "detail": [
+        -0.4300000071525574,
+        0.8080000281333923,
+        -0.28600001335144043
+      ]
+    },
+    {
+      "name": "low / finite vertices and valid indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Low LOD triangle reduction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / current version and hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / current version and hash",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "models": {
+    "high": {
+      "bytes": 3949100,
+      "triangles": 144669,
+      "drawPrimitives": 62,
+      "sha256": "6c0f56c2beae2bf9c1ee89f7ef56b6e78e60aed8f8b4d71a0cdfc6be3bb7b8aa"
+    },
+    "low": {
+      "bytes": 1298812,
+      "triangles": 40497,
+      "drawPrimitives": 62,
+      "sha256": "a8875e08b728fcd5c71b918a3c661a2cf3dddcf22b4b1bcb695777c4aa1bd55b"
+    }
+  },
+  "browser": {
+    "method": "Native Codex browser, UI and screenshots via CUA",
+    "passed": [
+      "High model visible, 145k displayed",
+      "Low model visible, 40k displayed",
+      "Green paint applied and blue restored",
+      "Front and rear views visible",
+      "Wheel demonstration enabled and steering set to 18 degrees, then reset",
+      "Comparison page: official reference and revision 3 front and headlamp images visible"
+    ],
+    "limitations": "No pixel-similarity or photo-fidelity score. Mobile was not rechecked in this revision."
+  },
+  "version": "0.3"
+}

@@ -1,0 +1,68 @@
+RECESS Central front intake 27650 -> 27337
+RECESS Front corner brake cooling duct 27337 -> 27315
+RECESS Vertical front air curtain 27315 -> 27361
+RECESS Front corner brake cooling duct 27361 -> 27340
+RECESS Vertical front air curtain 27340 -> 27382
+RECESS Smoked rear light recess 27382 -> 27321
+RECESS Rear quarter pressure relief 27321 -> 27332
+RECESS Rear quarter pressure relief 27332 -> 27342
+REVISION 3 GEOMETRY 877
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+18:23:26 | INFO: Starting glTF 2.0 export
+18:23:26 | INFO: Extracting primitive: SU7 continuous sculpted exterior.001
+18:23:26 | INFO: Primitives created: 18
+18:23:26 | INFO: Extracting primitive: Cube.104
+18:23:26 | INFO: Primitives created: 11
+18:23:26 | INFO: Extracting primitive: Flush deck spoiler upper skin.001
+18:23:26 | INFO: Primitives created: 2
+18:23:26 | INFO: Extracting primitive: Flat bottom leather steering rim
+18:23:26 | INFO: Primitives created: 3
+18:23:26 | INFO: Extracting primitive: Performance radial tire.004
+18:23:26 | INFO: Primitives created: 7
+18:23:26 | INFO: Extracting primitive: Performance radial tire.006
+18:23:26 | INFO: Primitives created: 7
+18:23:26 | INFO: Extracting primitive: Performance radial tire.005
+18:23:26 | INFO: Primitives created: 7
+18:23:26 | INFO: Extracting primitive: Performance radial tire.007
+18:23:26 | INFO: Primitives created: 7
+18:23:26 | INFO: Finished glTF 2.0 export in 0.4689509868621826 s
+
+18:23:26 | INFO: Starting glTF 2.0 export
+18:23:27 | INFO: Extracting primitive: SU7 continuous sculpted exterior.001
+18:23:27 | INFO: Primitives created: 18
+18:23:27 | INFO: Extracting primitive: Cube.104
+18:23:27 | INFO: Primitives created: 11
+18:23:27 | INFO: Extracting primitive: Flush deck spoiler upper skin.001
+18:23:27 | INFO: Primitives created: 2
+18:23:27 | INFO: Extracting primitive: Flat bottom leather steering rim
+18:23:27 | INFO: Primitives created: 3
+18:23:27 | INFO: Extracting primitive: Performance radial tire.004
+18:23:27 | INFO: Primitives created: 7
+18:23:27 | INFO: Extracting primitive: Performance radial tire.006
+18:23:27 | INFO: Primitives created: 7
+18:23:27 | INFO: Extracting primitive: Performance radial tire.005
+18:23:27 | INFO: Primitives created: 7
+18:23:27 | INFO: Extracting primitive: Performance radial tire.007
+18:23:27 | INFO: Primitives created: 7
+18:23:27 | INFO: Finished glTF 2.0 export in 0.6024289131164551 s
+
+Info: Saved as "xiaomi-su7.blend"
+RENDER front
+00:27.922  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v3-front.png'
+RENDER rear
+00:39.455  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v3-rear.png'
+RENDER side
+00:52.745  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v3-side.png'
+RENDER headlight
+01:10.307  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v3-headlight.png'
+RENDER wheel
+01:28.505  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v3-wheel.png'
+RENDER front-flat
+01:43.229  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v3-front-flat.png'
+RENDER rear-flat
+01:56.536  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v3-rear-flat.png'
+REVISION 3 COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

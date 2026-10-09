@@ -1,0 +1,690 @@
+{
+  "passed": true,
+  "count": 171,
+  "checks": [
+    {
+      "name": "model-y: license allows attribution use",
+      "passed": true
+    },
+    {
+      "name": "model-y: pinned upstream SHA256",
+      "passed": true
+    },
+    {
+      "name": "model-y.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: one UV display",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: complete display UV corners",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "model-y/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "model-y.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: one UV display",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: complete display UV corners",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "model-y/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "model-y: meaningful LOD reduction",
+      "passed": true
+    },
+    {
+      "name": "model-s: marked as original study",
+      "passed": true
+    },
+    {
+      "name": "model-s.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: one UV display",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: complete display UV corners",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "model-s/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "model-s.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: one UV display",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: complete display UV corners",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "model-s/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "model-s: meaningful LOD reduction",
+      "passed": true
+    },
+    {
+      "name": "roadster: license allows attribution use",
+      "passed": true
+    },
+    {
+      "name": "roadster: pinned upstream SHA256",
+      "passed": true
+    },
+    {
+      "name": "roadster.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: one UV display",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: complete display UV corners",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "roadster/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "roadster.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: one UV display",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: complete display UV corners",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "roadster/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "roadster: meaningful LOD reduction",
+      "passed": true
+    },
+    {
+      "name": "cybertruck: license allows attribution use",
+      "passed": true
+    },
+    {
+      "name": "cybertruck: pinned upstream SHA256",
+      "passed": true
+    },
+    {
+      "name": "cybertruck.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: one UV display",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: complete display UV corners",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "cybertruck.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: one UV display",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: complete display UV corners",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "cybertruck/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "cybertruck: meaningful LOD reduction",
+      "passed": true
+    }
+  ]
+}

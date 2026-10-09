@@ -1,0 +1,102 @@
+{
+  "title": "Bugatti Veyron",
+  "brand": "Bugatti",
+  "edition": "Veyron · David_Holiday",
+  "paint": "6595B9",
+  "paintMaterials": [],
+  "tireMaterials": [],
+  "steering": [
+    -0.36,
+    0.3,
+    0.85
+  ],
+  "eye": [
+    -0.36,
+    -0.2,
+    1.1
+  ],
+  "aim": [
+    0,
+    0.55,
+    0.83
+  ],
+  "screen": [
+    0,
+    0.3,
+    0.85,
+    0.22,
+    0.14,
+    0.1
+  ],
+  "layout": "landscape",
+  "cabin": false,
+  "notes": "选用免费署名外观网格；原作没有完整可用座舱，保留原始双色车身。",
+  "id": "bugatti-veyron",
+  "license": "CC BY 4.0",
+  "source": "https://sketchfab.com/3d-models/bugatti-veyron-653d089ba9304657ab7f0e3552a8f87b",
+  "author": "David_Holiday",
+  "coordinates": "metres; glTF Y up; -Z forward",
+  "paintable": false,
+  "dimensions": {
+    "width": 2.1204174757003784,
+    "length": 4.462000370025635,
+    "height": 1.2599455118179321
+  },
+  "wheelFront": 1.2952759861946106,
+  "wheelRear": -1.5067274570465088,
+  "track": 0.8942231237888336,
+  "radius": 0.35570669919252396,
+  "joints": {
+    "front-left": [
+      -0.9129407107830048,
+      0.36625078320503235,
+      -1.2952590882778168
+    ],
+    "front-right": [
+      0.9122952520847321,
+      0.36608898639678955,
+      -1.2952928841114044
+    ],
+    "rear-left": [
+      -0.876139760017395,
+      0.38431936502456665,
+      1.506949543952942
+    ],
+    "rear-right": [
+      0.8755167722702026,
+      0.38431936502456665,
+      1.5065053701400757
+    ]
+  },
+  "steeringPivot": [
+    -0.36,
+    0.85,
+    -0.3
+  ],
+  "views": {},
+  "display": {
+    "material": "display:front",
+    "layout": "landscape",
+    "size": [
+      1536,
+      960
+    ],
+    "enabled": false
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "bugatti-veyron.high.glb",
+      "bytes": 3544564,
+      "triangles": 81501,
+      "sha256": "accfc0c271012e336f730e7f88bfc83cc8ec107488d9585aa3e08e5985b39ad0"
+    },
+    {
+      "lod": "low",
+      "file": "bugatti-veyron.low.glb",
+      "bytes": 2052556,
+      "triangles": 40748,
+      "sha256": "34f3f8b3f30469316d780ffad652bb76700c3112ab50f9fe82dbb3c8b47c90a5"
+    }
+  ]
+}

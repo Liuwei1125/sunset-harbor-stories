@@ -1,0 +1,81 @@
+PASS Four complete six-event catalogs and three difficulty choices
+PASS Club owns lifecycle and never initializes campaign actors or saving
+PASS race event 1: all three difficulties complete
+PASS race event 2: all three difficulties complete
+PASS race event 3: all three difficulties complete
+PASS race event 4: all three difficulties complete
+PASS race event 5: all three difficulties complete
+PASS race event 6: all three difficulties complete
+PASS shooting event 1: all three difficulties complete
+PASS shooting event 2: all three difficulties complete
+PASS shooting event 3: all three difficulties complete
+PASS shooting event 4: all three difficulties complete
+PASS shooting event 5: all three difficulties complete
+PASS shooting event 6: all three difficulties complete
+PASS darts event 1: all three difficulties complete
+PASS darts event 2: all three difficulties complete
+PASS darts event 3: all three difficulties complete
+PASS darts event 4: all three difficulties complete
+PASS darts event 5: all three difficulties complete
+PASS darts event 6: all three difficulties complete
+PASS archery event 1: all three difficulties complete
+PASS archery event 2: all three difficulties complete
+PASS archery event 3: all three difficulties complete
+PASS archery event 4: all three difficulties complete
+PASS archery event 5: all three difficulties complete
+PASS archery event 6: all three difficulties complete
+PASS Campaign save survives every club game and pagehide
+PASS Dartboard geometry: all 60 scoring sectors, bulls and outside
+PASS Checkout routes obey three darts and legal double finishes
+PASS Bust restores the entire three-dart turn, including earlier scoring
+PASS 501 rejects a single-segment finish
+PASS Inner bull is a valid double checkout and records actual darts used
+PASS Archery has ten rings, higher-ring line calls and zero outside
+PASS Difficulty changes actual opponent pace, target window/size and wind
+PASS No-shoot targets penalize score and never count as a valid hit
+PASS Sustained fire depletes magazines and completes timed automatic reloads
+PASS Training movement is bounded to the shooting apron
+PASS Pistol, rifle and scoped precision rifle render with usable aiming views
+PASS Skipping across the circuit cannot award later checkpoints
+PASS Recovery returns to the last valid gate and applies a time penalty
+PASS Nitro consumes charge and accelerates; braking slows the vehicle
+PASS race pause freezes clocks and clears held input
+PASS shooting pause freezes clocks and clears held input
+PASS darts pause freezes clocks and clears held input
+PASS archery pause freezes clocks and clears held input
+PASS race daily challenge repeats its scene and conditions
+PASS race endless session stays playable and banks progress
+PASS shooting daily challenge repeats its scene and conditions
+PASS shooting endless session stays playable and banks progress
+PASS darts daily challenge repeats its scene and conditions
+PASS darts endless session stays playable and banks progress
+PASS archery daily challenge repeats its scene and conditions
+PASS archery endless session stays playable and banks progress
+PASS Every game renders first-person equipment without calling character drawing
+PASS classic / low renders all four games
+PASS classic / medium renders all four games
+PASS classic / high renders all four games
+PASS photo / low renders all four games
+PASS photo / medium renders all four games
+PASS photo / high renders all four games
+PASS Changing to classic frees photographic framebuffers and textures
+PASS Export contains independent club records and settings
+PASS Import restores a validated club save
+PASS Malformed imports do not replace working progress
+PASS Reload retains completed challenges and selected effect
+PASS Damaged local club save recovers without touching the campaign slot
+PASS Native touch 390×844 / race
+PASS Native touch 390×844 / shooting
+PASS Native touch 390×844 / darts
+PASS Native touch 390×844 / archery
+PASS Native touch 844×390 / race
+PASS Native touch 844×390 / shooting
+PASS Native touch 844×390 / darts
+PASS Native touch 844×390 / archery
+PASS race CPU fallback keeps simulation, inputs and 3D geometry
+PASS shooting CPU fallback keeps simulation, inputs and 3D geometry
+PASS darts CPU fallback keeps simulation, inputs and 3D geometry
+PASS archery CPU fallback keeps simulation, inputs and 3D geometry
+PASS Offline gameplay makes no remote asset requests
+PASS No application exceptions in desktop, touch or compatibility paths
+80/80 checks passed

@@ -1,0 +1,142 @@
+{
+  "passed": 8,
+  "total": 8,
+  "checks": [
+    {
+      "name": "Midnight daily rollover rebuilds the venue before entering",
+      "pass": true,
+      "detail": {
+        "before": {
+          "day": "2026-09-11",
+          "level": 3,
+          "seed": 1351165714
+        },
+        "after": {
+          "day": "2026-09-12",
+          "level": 4,
+          "seed": 3905394118,
+          "renderedLevel": 4,
+          "rendererDay": "2026-09-12"
+        }
+      }
+    },
+    {
+      "name": "GPU context loss recovers through Retry with functioning native input",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Countdown retains intended throttle and releases it cleanly at GO",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native pointer lock or its drag fallback supports aim and pause",
+      "pass": true,
+      "detail": {
+        "nativeLockAcquired": false,
+        "rejection": {
+          "name": "WrongDocumentError",
+          "message": "The root document of this element is not valid for pointer lock."
+        }
+      }
+    },
+    {
+      "name": "A user gesture unlocks audio and volume remains controllable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PlayCanvas circuit rebuilds stabilize native GPU resource counts",
+      "pass": true,
+      "detail": [
+        {
+          "live": {
+            "Buffer": 508,
+            "Texture": 39,
+            "Framebuffer": 9,
+            "Renderbuffer": 4,
+            "VertexArray": 160
+          },
+          "stats": {
+            "engine": "PlayCanvas 2.22.1",
+            "backend": "webgl2",
+            "width": 1440,
+            "height": 900,
+            "fps": 0,
+            "activeMeshes": null,
+            "triangles": null,
+            "triangleNote": "Pinned production build omits triangle profiling counters",
+            "drawCalls": 294,
+            "meshes": 143,
+            "materials": 27,
+            "textures": 19,
+            "dynamicInstances": 1,
+            "effectPool": 0
+          }
+        },
+        {
+          "live": {
+            "Buffer": 508,
+            "Texture": 39,
+            "Framebuffer": 9,
+            "Renderbuffer": 4,
+            "VertexArray": 160
+          },
+          "stats": {
+            "engine": "PlayCanvas 2.22.1",
+            "backend": "webgl2",
+            "width": 1440,
+            "height": 900,
+            "fps": 0,
+            "activeMeshes": null,
+            "triangles": null,
+            "triangleNote": "Pinned production build omits triangle profiling counters",
+            "drawCalls": 294,
+            "meshes": 143,
+            "materials": 27,
+            "textures": 19,
+            "dynamicInstances": 1,
+            "effectPool": 0
+          }
+        },
+        {
+          "live": {
+            "Buffer": 508,
+            "Texture": 39,
+            "Framebuffer": 9,
+            "Renderbuffer": 4,
+            "VertexArray": 160
+          },
+          "stats": {
+            "engine": "PlayCanvas 2.22.1",
+            "backend": "webgl2",
+            "width": 1440,
+            "height": 900,
+            "fps": 32,
+            "activeMeshes": null,
+            "triangles": null,
+            "triangleNote": "Pinned production build omits triangle profiling counters",
+            "drawCalls": 294,
+            "meshes": 143,
+            "materials": 27,
+            "textures": 19,
+            "dynamicInstances": 1,
+            "effectPool": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Blocked localStorage does not prevent a playable session",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No uncaught exceptions in failure recovery paths",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

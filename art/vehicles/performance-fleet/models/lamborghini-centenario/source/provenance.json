@@ -1,0 +1,38 @@
+{
+  "retrieved": "2026-09-18",
+  "uid": "d679af35b5694301a185c7454a700c73",
+  "title": "Lamborghini Centenario",
+  "sourcePage": "https://sketchfab.com/3d-models/lamborghini-centenario-lp-770-interior-sdc-d679af35b5694301a185c7454a700c73",
+  "author": {
+    "username": "Lambo_SC04",
+    "displayName": "SDC PERFORMANCE™️",
+    "profileUrl": "https://sketchfab.com/Lambo_SC04"
+  },
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "description": "***“THIS WAS THE MOMENT I FINALLY DECIDED TO CREATE A PERFECT CAR”***\nFerrucio Lamborghini\nHere is the Lamborghini Centenario, one of the most powerful Lamborghini ever built. It was entirely made of carbon fiber worked by hand, in addition it has a 6.5L V12 of 770 horsepower.\n\nNEW VERSION: \n\nhttps://sketchfab.com/3d-models/lamborghini-centenario-roadster-sdc-938d3e3642cf4ea895c62c2a4bf6fc08\n\nIt was present at the Geneva Motor Show in 2017, limited to 40 copies, (no need to run, they have already been sold for a very long time) prices start from 3 million dollars …\n\nBlender 2.9 +ANIMATION and TEXTURES 4K + SOUND - Free dowload ; )\n\n\n**NB :** the interior may be different from the \"real\" Centenario.\nTo change the color of the interior you just need to change the color of the textures.\nDo not hesitate to subscribe!\nFor more models, click here: (all is free!) :\n\nhttps://sketchfab.com/3Duae",
+  "archive": "allenai/objaverse",
+  "archiveUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-131/d679af35b5694301a185c7454a700c73.glb",
+  "downloadUrl": "https://hf-mirror.com/datasets/allenai/objaverse/resolve/main/glbs/000-131/d679af35b5694301a185c7454a700c73.glb",
+  "assetMetadata": {
+    "extras": {
+      "author": "SDC PERFORMANCE™️ (https://sketchfab.com/3Duae)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/lamborghini-centenario-lp-770-interior-sdc-d679af35b5694301a185c7454a700c73",
+      "title": "Lamborghini Centenario LP-770 Interior SDC"
+    },
+    "generator": "Sketchfab-13.28.0",
+    "version": "2.0"
+  },
+  "file": {
+    "name": "asset.glb",
+    "bytes": 19997196,
+    "sha256": "f9ea8fe321511d1a92f1b777d00bf9c22a64e5efdccbdab40546a964dec9d793"
+  }
+}

@@ -1,0 +1,72 @@
+REFERENCE CAMERA FIT {"eye": [-7.324459101805844, 6.684781341591007, 1.2789300625510598], "target": [0.0, 0.0, 0.74], "lens": 40.06852003886259, "shift": [-0.026421539058195723, 0.038756969060208], "resolution": [2048, 1152]} LANDMARK RMS PIXELS 6.771374913238636
+LAMP REFERENCE SURFACE XZ [(0.5113544464111328, 0.606677770614624), (0.5734238624572754, 0.6584563255310059), (0.7627496719360352, 0.732573926448822), (0.8839230537414551, 0.7653385996818542), (0.9298090934753418, 0.7687434554100037), (0.9602885246276855, 0.7521758675575256), (0.9630861282348633, 0.7140886187553406), (0.9620351791381836, 0.6524767279624939), (0.9567294120788574, 0.6157417893409729), (0.9439201354980469, 0.601773738861084), (0.8501114845275879, 0.5908223390579224), (0.6785116195678711, 0.5876737236976624), (0.5651845932006836, 0.5926966071128845)]
+REVISION 5 GEOMETRY 1805 BODY FACES 111699 SURFACE FIT {"front": 12136, "rear": 10791, "side": 2362, "misses": []}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:27:28 | INFO: Starting glTF 2.0 export
+11:27:28 | INFO: Extracting primitive: SU7 continuous curvature body / revision 5.003
+11:27:29 | INFO: Primitives created: 20
+11:27:29 | INFO: Extracting primitive: Cube.164
+11:27:29 | INFO: Primitives created: 11
+11:27:29 | INFO: Extracting primitive: Flush active deck spoiler.002
+11:27:29 | INFO: Primitives created: 1
+11:27:29 | INFO: Extracting primitive: Flat bottom leather steering rim.001
+11:27:29 | INFO: Primitives created: 3
+11:27:29 | INFO: Extracting primitive: Performance radial tire.008
+11:27:29 | INFO: Primitives created: 7
+11:27:29 | INFO: Extracting primitive: Performance radial tire.010
+11:27:29 | INFO: Primitives created: 7
+11:27:29 | INFO: Extracting primitive: Performance radial tire.009
+11:27:29 | INFO: Primitives created: 7
+11:27:29 | INFO: Extracting primitive: Performance radial tire.011
+11:27:29 | INFO: Primitives created: 7
+11:27:29 | INFO: Finished glTF 2.0 export in 0.5961339473724365 s
+
+11:33:30 | INFO: Starting glTF 2.0 export
+11:33:30 | INFO: Extracting primitive: SU7 continuous curvature body / revision 5.004
+11:33:30 | INFO: Primitives created: 20
+11:33:30 | INFO: Extracting primitive: Cube.234
+11:33:30 | INFO: Primitives created: 11
+11:33:30 | INFO: Extracting primitive: Flush active deck spoiler.003
+11:33:30 | INFO: Primitives created: 1
+11:33:30 | INFO: Extracting primitive: Flat bottom leather steering rim.002
+11:33:30 | INFO: Primitives created: 3
+11:33:30 | INFO: Extracting primitive: Performance radial tire.012
+11:33:30 | INFO: Primitives created: 7
+11:33:30 | INFO: Extracting primitive: Performance radial tire.014
+11:33:30 | INFO: Primitives created: 7
+11:33:30 | INFO: Extracting primitive: Performance radial tire.013
+11:33:30 | INFO: Primitives created: 7
+11:33:30 | INFO: Extracting primitive: Performance radial tire.015
+11:33:30 | INFO: Primitives created: 7
+11:33:30 | INFO: Finished glTF 2.0 export in 0.24752473831176758 s
+
+Info: Saved as "xiaomi-su7.blend"
+RENDER front
+13:17.769  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-front.png'
+RENDER rear
+13:50.697  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-rear.png'
+RENDER side
+14:07.238  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-side.png'
+RENDER front-flat
+14:31.993  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-front-flat.png'
+RENDER rear-flat
+14:53.942  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-rear-flat.png'
+RENDER headlight
+15:42.768  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-headlight.png'
+RENDER wheel
+16:30.245  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-wheel.png'
+RENDER cockpit
+17:19.990  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-cockpit.png'
+RENDER clay-front
+17:49.263  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-clay-front.png'
+RENDER clay-side
+18:04.539  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-clay-side.png'
+RENDER reflection-rear
+18:39.870  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-reflection-rear.png'
+RENDER reference-front
+18:56.146  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-reference-front.png'
+REVISION 5 COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

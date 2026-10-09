@@ -1,0 +1,154 @@
+{
+  "assetId": "xiaomi-su7-study",
+  "version": "0.7",
+  "status": "Independent visual reference study; not integrated into the shipped racing game.",
+  "coordinates": "meters; Y up; -Z forward in GLB",
+  "nominalDimensionsMeters": {
+    "length": 4.997,
+    "bodyWidth": 1.963,
+    "roofHeight": 1.445,
+    "wheelbase": 3.0
+  },
+  "joints": {
+    "body": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "static"
+    },
+    "spoiler": {
+      "pivot": [
+        0,
+        0.994,
+        2.27
+      ],
+      "motion": "spoiler"
+    },
+    "wheel-front-left": {
+      "pivot": [
+        -0.841,
+        0.355,
+        -1.55
+      ],
+      "motion": "wheel"
+    },
+    "wheel-rear-left": {
+      "pivot": [
+        -0.841,
+        0.355,
+        1.45
+      ],
+      "motion": "wheel"
+    },
+    "wheel-front-right": {
+      "pivot": [
+        0.841,
+        0.355,
+        -1.55
+      ],
+      "motion": "wheel"
+    },
+    "wheel-rear-right": {
+      "pivot": [
+        0.841,
+        0.355,
+        1.45
+      ],
+      "motion": "wheel"
+    },
+    "interior": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "static"
+    },
+    "steering": {
+      "pivot": [
+        -0.43,
+        0.808,
+        -0.286
+      ],
+      "motion": "steering"
+    },
+    "display-cluster": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "dynamic-display"
+    },
+    "display-center": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "dynamic-display"
+    }
+  },
+  "cameraSockets": {
+    "cockpit": [
+      -0.43,
+      1.12,
+      0.36
+    ]
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "xiaomi-su7.high.glb",
+      "bytes": 18841064,
+      "sha256": "efb980d323496617d7f5de1d5cf630ffa736e172b043133ed8d28b3bf94f66ea"
+    },
+    {
+      "lod": "low",
+      "file": "xiaomi-su7.low.glb",
+      "bytes": 7582648,
+      "sha256": "56c49b4c05d7c8ceba287a5070ef77c8c3b43d82a9beb250c59fc26e579dec77"
+    }
+  ],
+  "photoTexturesUsed": false,
+  "officialReference": "https://www.xiaomiev.com/su7",
+  "lodMethod": "Independent per-component reduction, source-normal transfer before articulation merge; higher surface budget for body and glazing.",
+  "dynamicDisplays": {
+    "cluster": {
+      "partId": "display-cluster",
+      "mesh": "geometry:display-cluster",
+      "material": "40 Instrument dynamic display",
+      "textureSize": [
+        1024,
+        320
+      ],
+      "units": {
+        "speedKph": "km/h",
+        "motorRpm": "rpm",
+        "powerKw": "kW"
+      }
+    },
+    "center": {
+      "partId": "display-center",
+      "mesh": "geometry:display-center",
+      "material": "41 Center dynamic display",
+      "textureSize": [
+        1280,
+        720
+      ]
+    }
+  },
+  "telemetry": {
+    "module": "telemetry.js",
+    "factory": "SU7Telemetry.create",
+    "method": "setTelemetry",
+    "schemaVersion": 1,
+    "rateHz": 20,
+    "demoIsSynthetic": true
+  },
+  "authoring": "Contoured front seats with perforation geometry, trimmed pillars and roof header, speaker grilles, sport pedals and two independent UV-mapped telemetry displays.",
+  "accuracy": "Official-photo approximation with fixed orthographic and perspective views; no CAD or numerical likeness claim.",
+  "referenceModel": "2026 SU7 Max, Capri blue, 20-inch plum-blossom wheel; ceramic interior reference study"
+}

@@ -1,0 +1,109 @@
+00:00.367  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/model-s/source/normalized.blend"
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=color(hex);n=m.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=color(hex);n.inputs['Metallic'].default_value=metal;n.inputs['Roughness'].default_value=rough;n.inputs['Alpha'].default_value=alpha
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:41: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('display:front');m.use_nodes=True;nt=m.node_tree;nt.nodes.clear();out=nt.nodes.new('ShaderNodeOutputMaterial');em=nt.nodes.new('ShaderNodeEmission');tex=nt.nodes.new('ShaderNodeTexImage');tex.image=bpy.data.images.load(str(HERE/'textures'/('display-'+cfg['layout']+'.png')));nt.links.new(tex.outputs['Color'],em.inputs['Color']);em.inputs['Strength'].default_value=.8;nt.links.new(em.outputs[0],out.inputs['Surface']);mesh.materials.append(m)
+GROUPS model-s {'body': 71, 'steering': 6, 'wheel-front-left': 15, 'brake-front-left': 1, 'wheel-front-right': 15, 'brake-front-right': 1, 'wheel-rear-left': 15, 'brake-rear-left': 1, 'wheel-rear-right': 15, 'brake-rear-right': 1}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+17:26:44 | INFO: Starting glTF 2.0 export
+17:26:44 | INFO: Extracting primitive: S:authored body loft
+17:26:44 | INFO: Primitives created: 8
+17:26:44 | INFO: Extracting primitive: display surface
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Cube.024
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Torus
+17:26:44 | INFO: Primitives created: 4
+17:26:44 | INFO: Extracting primitive: Cube.035
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Torus.001
+17:26:44 | INFO: Primitives created: 4
+17:26:44 | INFO: Extracting primitive: Cube.046
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Torus.002
+17:26:44 | INFO: Primitives created: 4
+17:26:44 | INFO: Extracting primitive: Cube.057
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Torus.003
+17:26:44 | INFO: Primitives created: 4
+17:26:44 | INFO: Extracting primitive: steering:leather rim
+17:26:44 | INFO: Primitives created: 2
+17:26:44 | INFO: Finished glTF 2.0 export in 0.07968378067016602 s
+
+17:26:44 | INFO: Starting glTF 2.0 export
+17:26:44 | INFO: Extracting primitive: S:authored body loft
+17:26:44 | INFO: Primitives created: 8
+17:26:44 | INFO: Extracting primitive: display surface
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Cube.024
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Torus
+17:26:44 | INFO: Primitives created: 4
+17:26:44 | INFO: Extracting primitive: Cube.035
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Torus.001
+17:26:44 | INFO: Primitives created: 4
+17:26:44 | INFO: Extracting primitive: Cube.046
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Torus.002
+17:26:44 | INFO: Primitives created: 4
+17:26:44 | INFO: Extracting primitive: Cube.057
+17:26:44 | INFO: Primitives created: 1
+17:26:44 | INFO: Extracting primitive: Torus.003
+17:26:44 | INFO: Primitives created: 4
+17:26:44 | INFO: Extracting primitive: steering:leather rim
+17:26:44 | INFO: Primitives created: 2
+17:26:44 | INFO: Finished glTF 2.0 export in 0.08519792556762695 s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:177: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Studio');scene.world.use_nodes=True;nt=scene.world.node_tree;env=nt.nodes.new('ShaderNodeTexEnvironment');env.image=bpy.data.images.load(str(ROOT/'assets/showroom/studio.hdr'));nt.links.new(env.outputs['Color'],nt.nodes['Background'].inputs['Color']);nt.nodes['Background'].inputs['Strength'].default_value=.28
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=color(hex);n=m.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=color(hex);n.inputs['Metallic'].default_value=metal;n.inputs['Roughness'].default_value=rough;n.inputs['Alpha'].default_value=alpha
+
+Info: Packed 2 file(s)
+Info: Saved as "model-s.blend"
+BUILT model-s [{"lod": "high", "file": "model-s.high.glb", "bytes": 964956, "triangles": 35988, "sha256": "5c4e742287d1b4d64c4d5ad115f154dbc1c994406e9c8693282d28deed211df8"}, {"lod": "low", "file": "model-s.low.glb", "bytes": 304820, "triangles": 7799, "sha256": "325427f8984a0290c71124aabf80586f5549270f122c0d9531577fec7c9581b8"}]
+00:00.893  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/cybertruck/source/normalized.blend"
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:41: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('display:front');m.use_nodes=True;nt=m.node_tree;nt.nodes.clear();out=nt.nodes.new('ShaderNodeOutputMaterial');em=nt.nodes.new('ShaderNodeEmission');tex=nt.nodes.new('ShaderNodeTexImage');tex.image=bpy.data.images.load(str(HERE/'textures'/('display-'+cfg['layout']+'.png')));nt.links.new(tex.outputs['Color'],em.inputs['Color']);em.inputs['Strength'].default_value=.8;nt.links.new(em.outputs[0],out.inputs['Surface']);mesh.materials.append(m)
+GROUPS cybertruck {'body': 43, 'steering': 6, 'wheel-front-left': 1, 'brake-front-left': 0, 'wheel-front-right': 1, 'brake-front-right': 0, 'wheel-rear-left': 1, 'brake-rear-left': 0, 'wheel-rear-right': 1, 'brake-rear-right': 0}
+17:26:45 | INFO: Starting glTF 2.0 export
+17:26:45 | INFO: Extracting primitive: Object_0.001
+17:26:45 | INFO: Primitives created: 9
+17:26:45 | INFO: Extracting primitive: display surface
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: Object_11 left
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: Object_11 right
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: Object_13 left
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: Object_13 right
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: steering:leather rim
+17:26:45 | INFO: Primitives created: 2
+17:26:45 | INFO: Finished glTF 2.0 export in 0.06501626968383789 s
+
+17:26:45 | INFO: Starting glTF 2.0 export
+17:26:45 | INFO: Extracting primitive: Object_0.001
+17:26:45 | INFO: Primitives created: 9
+17:26:45 | INFO: Extracting primitive: display surface
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: Object_11 left
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: Object_11 right
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: Object_13 left
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: Object_13 right
+17:26:45 | INFO: Primitives created: 1
+17:26:45 | INFO: Extracting primitive: steering:leather rim
+17:26:45 | INFO: Primitives created: 2
+17:26:45 | INFO: Finished glTF 2.0 export in 0.08126378059387207 s
+
+Info: Packed 2 file(s)
+Info: Saved as "cybertruck.blend"
+BUILT cybertruck [{"lod": "high", "file": "cybertruck.high.glb", "bytes": 2035048, "triangles": 36326, "sha256": "2dcbef2da6c190fefc89af62798ff73f994a7e26c91f462583fed14a5ff025d4"}, {"lod": "low", "file": "cybertruck.low.glb", "bytes": 1156988, "triangles": 18164, "sha256": "8304243d47a6c17d23850c97d15f8d3e43e0fd4c0f9121f92fb6e7f872c4f6b3"}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

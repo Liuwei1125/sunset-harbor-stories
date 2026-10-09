@@ -1,0 +1,14 @@
+PASS file:// boots with network disabled
+PASS All 14 authored assets are bundled
+PASS Public Start / road route loads campaign
+PASS All 10 harbor props are placed
+PASS Low quality uses only simplified authored models
+PASS Reduced shadow meshes registered
+PASS Blender roughness and metalness reach instance buffers
+PASS Wheels, door and both rotor groups move as real geometry
+PASS Rendering leaves simulation poses intact
+PASS World switching resets harbor placements without duplicates
+PASS WebGL rendered without GL errors
+PASS CPU fallback keeps the new models with low LOD
+PASS Live WebGL loop runs without runtime errors
+PASS No browser page errors

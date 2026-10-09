@@ -1,0 +1,6 @@
+{'car': 'bmw-m4', 'track': 'harbor', 'stats': {'fps': 60.00282953703787, 'p95': 16.799999999999272, 'meshes': 1091, 'textures': 18, 'materials': 127, 'drawCalls': 271473, 'frames': 721}}
+{'car': 'bmw-m4', 'track': 'coast', 'stats': {'fps': 60.002500104171006, 'p95': 16.799999999999272, 'meshes': 1395, 'textures': 16, 'materials': 125, 'drawCalls': 573830, 'frames': 720}}
+{'car': 'ferrari-458', 'track': 'harbor', 'stats': {'fps': 60.002500104171006, 'p95': 16.799999999995634, 'meshes': 1084, 'textures': 14, 'materials': 104, 'drawCalls': 846705, 'frames': 720}}
+{'car': 'ferrari-458', 'track': 'coast', 'stats': {'fps': 60.00200006666889, 'p95': 16.799999999995634, 'meshes': 1388, 'textures': 12, 'materials': 102, 'drawCalls': 1139718, 'frames': 720}}
+{'car': 'su7', 'track': 'harbor', 'stats': {'fps': 60.002829537037776, 'p95': 16.70000000001164, 'meshes': 1189, 'textures': 28, 'materials': 158, 'drawCalls': 1812255, 'frames': 721}}
+{'car': 'su7', 'track': 'coast', 'stats': {'fps': 60.002500104171006, 'p95': 16.79999999998836, 'meshes': 1493, 'textures': 26, 'materials': 156, 'drawCalls': 2486805, 'frames': 720}}

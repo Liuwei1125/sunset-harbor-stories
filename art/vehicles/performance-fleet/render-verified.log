@@ -1,0 +1,19 @@
+00:00.366  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/bmw-m4.blend"
+00:09.434  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/front.png'
+00:17.202  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/rear.png'
+00:28.215  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/cockpit.png'
+00:38.304  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/screen.png'
+RENDERED bmw-m4
+00:38.306  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/bugatti-veyron.blend"
+00:45.707  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/renders/front.png'
+00:53.416  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/renders/rear.png'
+RENDERED bugatti-veyron
+00:53.418  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/ferrari-458.blend"
+01:03.549  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/front.png'
+01:12.672  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/rear.png'
+01:25.832  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/cockpit.png'
+01:37.947  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/screen.png'
+RENDERED ferrari-458
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

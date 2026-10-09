@@ -1,0 +1,469 @@
+{
+  "version": "0.6",
+  "surfaceProjection": {
+    "front": 12136,
+    "rear": 11570,
+    "side": 2392,
+    "misses": []
+  },
+  "componentTessellation": [
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Wide forged plum blossom wheel spoke",
+      "relativeAreaError": 1.567168322763312e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    },
+    {
+      "component": "Deep graphite spoke channel",
+      "relativeAreaError": 1.8896639395567385e-08
+    }
+  ],
+  "sideWindowReferencePixels": [
+    [
+      770,
+      383
+    ],
+    [
+      815,
+      358
+    ],
+    [
+      872,
+      331
+    ],
+    [
+      927,
+      314
+    ],
+    [
+      977,
+      306
+    ],
+    [
+      1010,
+      306
+    ],
+    [
+      1070,
+      309
+    ],
+    [
+      1140,
+      318
+    ],
+    [
+      1200,
+      332
+    ],
+    [
+      1255,
+      346
+    ],
+    [
+      1275,
+      352
+    ],
+    [
+      1267,
+      361
+    ],
+    [
+      1225,
+      369
+    ],
+    [
+      1160,
+      375
+    ],
+    [
+      1080,
+      380
+    ],
+    [
+      1000,
+      382
+    ],
+    [
+      920,
+      384
+    ],
+    [
+      835,
+      385
+    ]
+  ],
+  "cameras": {
+    "front": {
+      "eye": [
+        -9.0,
+        7.4,
+        2.28
+      ],
+      "target": [
+        0,
+        0,
+        0.74
+      ],
+      "lens": 62
+    },
+    "rear": {
+      "eye": [
+        8.5,
+        -7.7,
+        2.2
+      ],
+      "target": [
+        0,
+        0,
+        0.72
+      ],
+      "lens": 62
+    },
+    "side": {
+      "eye": [
+        -10,
+        0,
+        0.74
+      ],
+      "target": [
+        0,
+        0,
+        0.74
+      ],
+      "lens": 60,
+      "ortho": 6.1
+    },
+    "front-flat": {
+      "eye": [
+        0,
+        10,
+        0.74
+      ],
+      "target": [
+        0,
+        0,
+        0.74
+      ],
+      "lens": 62,
+      "ortho": 3.15
+    },
+    "rear-flat": {
+      "eye": [
+        0,
+        -10,
+        0.74
+      ],
+      "target": [
+        0,
+        0,
+        0.74
+      ],
+      "lens": 62,
+      "ortho": 3.15
+    },
+    "headlight": {
+      "eye": [
+        -2.6,
+        4.0,
+        1.35
+      ],
+      "target": [
+        -0.7,
+        2.19,
+        0.72
+      ],
+      "lens": 78
+    },
+    "wheel": {
+      "eye": [
+        -3.05,
+        1.59,
+        0.68
+      ],
+      "target": [
+        -0.96,
+        1.55,
+        0.355
+      ],
+      "lens": 65
+    },
+    "cockpit": {
+      "eye": [
+        -0.38,
+        -0.46,
+        1.125
+      ],
+      "target": [
+        -0.04,
+        0.78,
+        0.86
+      ],
+      "lens": 18
+    },
+    "cabin-wide": {
+      "eye": [
+        0,
+        -1.06,
+        1.19
+      ],
+      "target": [
+        0,
+        0.57,
+        0.72
+      ],
+      "lens": 18
+    },
+    "reference-front": {
+      "eye": [
+        -7.324459101805844,
+        6.684781341591007,
+        1.2789300625510598
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.74
+      ],
+      "lens": 40.06852003886259,
+      "shift": [
+        -0.026421539058195723,
+        0.038756969060208
+      ],
+      "resolution": [
+        2048,
+        1152
+      ]
+    }
+  },
+  "note": "Projection counts and tessellation areas check geometry construction; they are not a photo-likeness score."
+}

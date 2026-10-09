@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-18",
+  "passed": true,
+  "count": 130,
+  "environment": "Codex in-app browser, actual Babylon.js WebGL preview",
+  "url": "http://127.0.0.1:62597/art/vehicles/performance-fleet/preview.html",
+  "script": "browser_checks.js",
+  "scriptSha256": "99016ee02eac4f1b0b4daa4508b1f1203c72acc53af293e4ceb638792864c55a",
+  "coverage": [
+    "All six models, high and low LOD",
+    "Optional display availability and no duplicate runtime textures/materials",
+    "Telemetry retained across model/LOD changes",
+    "Gear 1\u20138, fuel, engine RPM, bounded invalid input",
+    "Ackermann steering, spin direction, parked wheels",
+    "Five views including disabled unavailable cabin views",
+    "Paint validation, demo pause/reset, asynchronous last request wins"
+  ],
+  "assetSha256": {
+    "amg-gt": {
+      "high": "eceade488d4ac3069914ee0e2c315e1148c25b291716d9722322480b5d9d01d9",
+      "low": "8e95e4d400519ab7f4ee2d0f1850c1b98e24361dffa1936dd04bf3d47fa6ae7a"
+    },
+    "bmw-m4": {
+      "high": "6340afab773f334e0b7143942ccdafe0e665c58685e8d1b9d56e88230e969f0b",
+      "low": "3e223f6decf54fa5ef78e3194888fd5837c7c7267ff3b441c25ccf9fab686389"
+    },
+    "bugatti-veyron": {
+      "high": "accfc0c271012e336f730e7f88bfc83cc8ec107488d9585aa3e08e5985b39ad0",
+      "low": "34f3f8b3f30469316d780ffad652bb76700c3112ab50f9fe82dbb3c8b47c90a5"
+    },
+    "ferrari-458": {
+      "high": "4b92d39cfe106f0acbfa9ad1218ab7302a623c01b46548a4f17b8d8881e4a411",
+      "low": "cfaf95c6fcdb5d39d949d038d9449d457cf80d99f44bb50c7035b073818d0ea6"
+    },
+    "lamborghini-centenario": {
+      "high": "e5869f3c7e64aa571690119bd8839f6a0b6d90164e967739cb515943cc61205b",
+      "low": "e3f9f72eb4eff485e2ffd468567e6cc6da3dca251b6138b8244d928ab296dd60"
+    },
+    "porsche-911": {
+      "high": "20e00538f734e4e13b43335034939d5a9c4a837a20884043ccd309de7073b251",
+      "low": "0682fec098dabc763337829e947256a6ae102969bc58ff21dba56fb684279584"
+    }
+  }
+}

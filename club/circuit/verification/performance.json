@@ -1,0 +1,671 @@
+{
+  "device": "Actual local Chromium / 1440x900 / default GPU",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+  "wallSeconds": 410.5542264160031,
+  "samples": [
+    {
+      "phase": "running",
+      "time": 7.175000000000146,
+      "lap": 0,
+      "stats": {
+        "fps": 59.6013420169989,
+        "p95": 16.700000000000728,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 208363,
+        "frames": 604
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 17.174999999999667,
+      "lap": 0,
+      "stats": {
+        "fps": 59.800532443291615,
+        "p95": 16.700000000000728,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 410520,
+        "frames": 1204
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 27.26666666666576,
+      "lap": 0,
+      "stats": {
+        "fps": 59.86776170647118,
+        "p95": 16.700000000000728,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 612254,
+        "frames": 1810
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 37.266666666665195,
+      "lap": 0,
+      "stats": {
+        "fps": 59.9013740033083,
+        "p95": 16.700000000004366,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 817487,
+        "frames": 2410
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 47.28333333333129,
+      "lap": 0,
+      "stats": {
+        "fps": 59.92135198173098,
+        "p95": 16.700000000004366,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 1019800,
+        "frames": 3011
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 57.283333333330724,
+      "lap": 0,
+      "stats": {
+        "fps": 60.00250010417415,
+        "p95": 16.700000000004366,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 1220217,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 67.28333333333295,
+      "lap": 0,
+      "stats": {
+        "fps": 60.00250010417304,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 1421867,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 77.30000000000759,
+      "lap": 0,
+      "stats": {
+        "fps": 60.00230008817111,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 1622745,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 87.30000000001554,
+      "lap": 0,
+      "stats": {
+        "fps": 60.00240009600402,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 1822227,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 97.3000000000235,
+      "lap": 0,
+      "stats": {
+        "fps": 60.00240009600385,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 2024541,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 107.31666666669814,
+      "lap": 1,
+      "stats": {
+        "fps": 60.002300088170045,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 2231219,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 117.3166666667061,
+      "lap": 1,
+      "stats": {
+        "fps": 60.002300088170045,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 2432424,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 127.33333333338074,
+      "lap": 1,
+      "stats": {
+        "fps": 60.00230008817003,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 2633035,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 137.40000000003937,
+      "lap": 1,
+      "stats": {
+        "fps": 60.00240009600385,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 2839555,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 147.41666666669693,
+      "lap": 1,
+      "stats": {
+        "fps": 60.002500104171006,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 3041019,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 157.41666666668783,
+      "lap": 1,
+      "stats": {
+        "fps": 60.00230008817003,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 3241697,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 167.4333333333454,
+      "lap": 1,
+      "stats": {
+        "fps": 60.00240009600385,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 3443594,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 177.4333333333363,
+      "lap": 1,
+      "stats": {
+        "fps": 60.00240009600384,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 3643829,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 187.44999999999385,
+      "lap": 1,
+      "stats": {
+        "fps": 60.00240009600387,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 3843670,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 197.44999999998475,
+      "lap": 1,
+      "stats": {
+        "fps": 60.00240009600384,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 4047283,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 207.44999999997566,
+      "lap": 2,
+      "stats": {
+        "fps": 60.00240009600384,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 4252674,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 217.46666666663322,
+      "lap": 2,
+      "stats": {
+        "fps": 60.002500104171006,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 4436981,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 227.46666666662412,
+      "lap": 2,
+      "stats": {
+        "fps": 60.00240009600384,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 4613834,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 237.4583333332817,
+      "lap": 2,
+      "stats": {
+        "fps": 60.00240009600384,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 4793062,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 247.47499999993926,
+      "lap": 2,
+      "stats": {
+        "fps": 60.00240009600384,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 4965881,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 257.47499999993016,
+      "lap": 2,
+      "stats": {
+        "fps": 60.00240009600387,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 5141903,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 267.5416666665877,
+      "lap": 2,
+      "stats": {
+        "fps": 60.002500104171006,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 5319166,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 277.55833333324523,
+      "lap": 2,
+      "stats": {
+        "fps": 60.002500104171006,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 5493914,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 287.55833333323613,
+      "lap": 2,
+      "stats": {
+        "fps": 60.00250010417098,
+        "p95": 16.79999999998836,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 5668552,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 297.55833333322704,
+      "lap": 2,
+      "stats": {
+        "fps": 60.00230008817006,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 5849046,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 307.5749999998846,
+      "lap": 3,
+      "stats": {
+        "fps": 60.00240009600387,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 6027837,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 317.5749999998755,
+      "lap": 3,
+      "stats": {
+        "fps": 60.002400096003804,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 6199911,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 327.5749999998664,
+      "lap": 3,
+      "stats": {
+        "fps": 60.00240009600387,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 6379187,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 337.59166666652396,
+      "lap": 3,
+      "stats": {
+        "fps": 60.002500104171006,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 6557054,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 347.59166666651487,
+      "lap": 3,
+      "stats": {
+        "fps": 60.002400096003804,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 6731007,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 357.5916666665058,
+      "lap": 3,
+      "stats": {
+        "fps": 60.00240009600387,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 6907435,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 367.5916666664967,
+      "lap": 3,
+      "stats": {
+        "fps": 60.002500104171006,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 7082936,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 377.60833333315423,
+      "lap": 3,
+      "stats": {
+        "fps": 60.00240009600387,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 7257492,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 387.60833333314514,
+      "lap": 3,
+      "stats": {
+        "fps": 60.00240009600387,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 7433728,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "running",
+      "time": 397.60833333313604,
+      "lap": 4,
+      "stats": {
+        "fps": 60.002500104171006,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 7615065,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    },
+    {
+      "phase": "result",
+      "time": 403.55833333313063,
+      "lap": 4,
+      "stats": {
+        "fps": 60.00240009600387,
+        "p95": 16.70000000001164,
+        "meshes": 1091,
+        "textures": 18,
+        "materials": 127,
+        "drawCalls": 7792073,
+        "frames": 3600
+      },
+      "dropped": 0.13330000000000006
+    }
+  ],
+  "result": [
+    {
+      "id": 3,
+      "name": "阿岚",
+      "progress": 7115.522847579187,
+      "finished": true,
+      "finishTime": 389.8666666664764,
+      "penalty": 0,
+      "laps": 4,
+      "place": 1,
+      "classifiedTime": 389.8666666664764
+    },
+    {
+      "id": 2,
+      "name": "小夏",
+      "progress": 7115.521564109404,
+      "finished": true,
+      "finishTime": 392.1916666664743,
+      "penalty": 0,
+      "laps": 4,
+      "place": 2,
+      "classifiedTime": 392.1916666664743
+    },
+    {
+      "id": 0,
+      "name": "你",
+      "progress": 7115.479648803264,
+      "finished": true,
+      "finishTime": 395.5166666664713,
+      "penalty": 0,
+      "laps": 4,
+      "place": 3,
+      "classifiedTime": 395.5166666664713
+    },
+    {
+      "id": 1,
+      "name": "林舟",
+      "progress": 7115.362094313113,
+      "finished": true,
+      "finishTime": 403.55833333313063,
+      "penalty": 11.859621288245766,
+      "laps": 4,
+      "place": 4,
+      "classifiedTime": 415.4179546213764
+    }
+  ],
+  "errors": [],
+  "input": "Emulated standard gamepad API; no physical controller tested",
+  "timing": "Normal requestAnimationFrame, no manual tick or timescale"
+}

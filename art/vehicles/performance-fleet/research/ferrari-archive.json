@@ -1,0 +1,132 @@
+{
+  "uri": "https://api.sketchfab.com/v3/models/57bf6cc56931426e87494f554df1dab6",
+  "uid": "57bf6cc56931426e87494f554df1dab6",
+  "name": "Ferrari 458 Italia",
+  "staffpickedAt": null,
+  "viewCount": 15777,
+  "likeCount": 23,
+  "animationCount": 0,
+  "viewerUrl": "https://sketchfab.com/3d-models/57bf6cc56931426e87494f554df1dab6",
+  "embedUrl": "https://sketchfab.com/models/57bf6cc56931426e87494f554df1dab6/embed",
+  "commentCount": 2,
+  "isDownloadable": true,
+  "publishedAt": "2017-12-18T09:32:58.796172",
+  "tags": [],
+  "categories": [],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "d0ed762e888a4be5bedbbe0bcf2d5e88",
+        "size": 171014,
+        "width": 1920,
+        "url": "https://media.sketchfab.com/models/57bf6cc56931426e87494f554df1dab6/thumbnails/db17809c4d494a4bb4af07b95fe4fcee/e84fa25a17004d4d9c9c3752dc8264d5.jpeg",
+        "height": 1080
+      },
+      {
+        "uid": "fb7b6a4ac1c249b9a5e10527a5953cd2",
+        "size": 27318,
+        "width": 1024,
+        "url": "https://media.sketchfab.com/models/57bf6cc56931426e87494f554df1dab6/thumbnails/db17809c4d494a4bb4af07b95fe4fcee/09b56fb982894dcfab2563f3af52ba14.jpeg",
+        "height": 576
+      },
+      {
+        "uid": "9cd33e8c38304f958943e7419ebe2171",
+        "size": 15028,
+        "width": 720,
+        "url": "https://media.sketchfab.com/models/57bf6cc56931426e87494f554df1dab6/thumbnails/db17809c4d494a4bb4af07b95fe4fcee/890733563e514f71997f94674a0bcf39.jpeg",
+        "height": 405
+      },
+      {
+        "uid": "7a3f1945b6034854b5e3e9c34726b0d9",
+        "size": 3255,
+        "width": 256,
+        "url": "https://media.sketchfab.com/models/57bf6cc56931426e87494f554df1dab6/thumbnails/db17809c4d494a4bb4af07b95fe4fcee/1548055410a64b78965376d09a16137d.jpeg",
+        "height": 144
+      },
+      {
+        "uid": "656159f08e894701a44030fd07678631",
+        "size": 704,
+        "width": 64,
+        "url": "https://media.sketchfab.com/models/57bf6cc56931426e87494f554df1dab6/thumbnails/db17809c4d494a4bb4af07b95fe4fcee/ac97acd65f1d41bd8236626ae8550379.jpeg",
+        "height": 36
+      }
+    ]
+  },
+  "user": {
+    "uid": "155ad152c95a4e01bbfdeca22ea9c797",
+    "username": "vicent091036",
+    "displayName": "vicent091036",
+    "profileUrl": "https://sketchfab.com/vicent091036",
+    "account": "basic",
+    "avatar": {
+      "uri": "https://api.sketchfab.com/v3/avatars/51af6a870cce449eb75b0345feebaebb",
+      "images": [
+        {
+          "size": 5719,
+          "width": 90,
+          "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/2ef0f894055b4bb69123b2a27fa2d379.jpeg",
+          "height": 90
+        },
+        {
+          "size": 6496,
+          "width": 100,
+          "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/ab11eedf96374486acb544f71a23b165.jpeg",
+          "height": 100
+        },
+        {
+          "size": 1359,
+          "width": 32,
+          "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/35f6f9b6c9a14a548ce472582d8a9bb5.jpeg",
+          "height": 32
+        },
+        {
+          "size": 2584,
+          "width": 48,
+          "url": "https://media.sketchfab.com/avatars/51af6a870cce449eb75b0345feebaebb/a8072a51447c4d41ab177b357111b420.jpeg",
+          "height": 48
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/155ad152c95a4e01bbfdeca22ea9c797"
+  },
+  "description": "ferrari 458 Italia",
+  "faceCount": 377000,
+  "createdAt": "2017-12-15T12:51:43.117537",
+  "vertexCount": 211445,
+  "isAgeRestricted": false,
+  "archives": {
+    "glb": {
+      "textureCount": 0,
+      "size": 14398816,
+      "type": "glb",
+      "textureMaxResolution": 0,
+      "faceCount": 376992,
+      "vertexCount": 359151
+    },
+    "gltf": {
+      "textureCount": 0,
+      "size": 6769760,
+      "type": "gltf",
+      "textureMaxResolution": 0,
+      "faceCount": 376992,
+      "vertexCount": 359151
+    },
+    "source": {
+      "textureCount": null,
+      "size": 26892132,
+      "type": "source",
+      "textureMaxResolution": null,
+      "faceCount": null,
+      "vertexCount": null
+    },
+    "usdz": {
+      "textureCount": null,
+      "size": 8112997,
+      "type": "usdz",
+      "textureMaxResolution": null,
+      "faceCount": null,
+      "vertexCount": null
+    }
+  },
+  "license": "by"
+}

@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 8011 --bind 127.0.0.1 --directory ..",
+    "assets:world": "node tools/build_world.mjs",
+    "test": "node --test tools/simulation.test.mjs",
+    "compare": "python3 tools/compare_benchmarks.py"
+  }
+}

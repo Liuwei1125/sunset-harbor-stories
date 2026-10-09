@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SU7 · 实车与模型对照</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#10171d;color:#edf1f4;font-family:system-ui,-apple-system,"PingFang SC",sans-serif}main{max-width:1640px;margin:auto;padding:44px 32px 60px}header{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:30px}small{font-size:11px;letter-spacing:2px;color:#849aab}h1{font-size:34px;letter-spacing:-1px;font-weight:500;margin:12px 0}p{font-size:14px;line-height:1.8;color:#a2b3bf;max-width:850px;margin:0}a{color:#a9d6ee;text-underline-offset:4px}nav{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap}button{font:inherit;color:#b4c3ce;border:1px solid #364552;border-radius:7px;padding:10px 18px;background:transparent;cursor:pointer}button[aria-pressed=true]{background:#d1e6f0;color:#163444;border-color:#d1e6f0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;border:1px solid #35414b;border-radius:12px;overflow:hidden;background:#202c36}figcaption{padding:15px 18px;font-size:13px;display:flex;justify-content:space-between;color:#bccbd6}figcaption span{font-size:11px;color:#859ba9}figure img{width:100%;height:auto;aspect-ratio:1.6;object-fit:contain;display:block;background:#29353e}.notes{margin-top:24px;border-left:2px solid #70a9c7;padding-left:18px}.notes p+p{margin-top:7px}.old{margin-top:34px}.old summary{cursor:pointer;color:#a8becc;font-size:13px}.old img{display:block;width:min(760px,100%);margin-top:18px;border-radius:10px}footer{border-top:1px solid #283744;padding-top:22px;margin-top:34px;color:#7f94a3;font-size:12px;line-height:1.8}@media(max-width:800px){main{padding:26px 16px}.grid{grid-template-columns:1fr}header{display:block}header>a{display:inline-block;margin-top:14px}h1{font-size:29px}figcaption{padding:12px}}
+.compare-controls{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:0 0 18px;color:#a2b3bf;font-size:12px}.compare-controls select{font:inherit;background:#233543;color:#e2edf3;border:1px solid #405563;padding:7px 12px;border-radius:6px}.compare-controls span{line-height:1.8}</style>
+<main>
+<header><div><small>SU7 / SURFACE STUDY 04</small><h1>实车与模型，直接对照</h1><p>这一轮重建连续车身曲面、圆角侧窗、贴合车身的灯组及前后保险杠。切换左侧来源，可对照官方照片或第三版；灰模与反射检查图用于观察基础形状。</p></div><a href="preview.html">打开可旋转的 3D 模型 ↗</a></header>
+<nav aria-label="对照角度"><button data-view="front" aria-pressed="true">整体外形</button><button data-view="side" aria-pressed="false">正侧面</button><button data-view="rear" aria-pressed="false">车尾</button><button data-view="rear-flat" aria-pressed="false">车尾正面</button><button data-view="headlight" aria-pressed="false">大灯近景</button><button data-view="wheel" aria-pressed="false">轮毂近景</button><button data-view="clay-side" aria-pressed="false">灰模侧面</button><button data-view="reflection-rear" aria-pressed="false">曲面反射</button></nav>
+<div class="compare-controls"><label>左侧对照 <select id="source"><option value="official">官方照片</option><option value="previous">第三版模型</option></select></label><span id="view-note">照片与模型的焦距、机位、光照不同；用于观察形状，不代表像素级配准。</span></div><div class="grid"><figure><figcaption id="source-caption">实车参考<span>小米汽车官方图片</span></figcaption><img id="reference" src="references/6-1.png" alt="小米 SU7 官方多角度实车照片"></figure><figure><figcaption>第四版模型<span>Blender 渲染</span></figcaption><img id="model" src="renders/v4-front.png" alt="第四版 SU7 模型前侧渲染"></figure></div>
+<div class="notes"><p>已调整：连续肩部曲面；按官方侧面照片描绘的圆角侧窗；灯孔和进气口的连续表面法线；有深度的四单元灯腔；凹形后饰板的正确网格连接；圆角后风挡。</p><p>仍有差异：前翼子板与保险杠的曲率、真实灯腔光学结构、轮辐断面和座舱细节。未取得厂家 CAD 或扫描资料，未进行数值相似度评分。前侧与后侧的新旧渲染共用固定相机；正侧面第四版改用水平正交相机。</p></div>
+<details class="old"><summary>查看上一版，比较这轮改动</summary><img src="renders/v3-front.png" alt="上一轮 SU7 第三版模型"></details>
+<footer>参考来源：<a href="https://www.xiaomiev.com/su7" target="_blank" rel="noopener">小米 SU7 官方页面</a>。参考照片仅用于本地对照，未嵌入模型。<br>下载：<a href="xiaomi-su7.blend" download>Blender 源文件</a> · <a href="xiaomi-su7.high.glb" download>GLB 模型</a></footer>
+</main>
+<script>
+const views={front:['6-1.png','front','前侧'],side:['3-1.png','side','正侧面'],rear:['3-2.png','rear','后侧'],'rear-flat':['3-3.png','rear-flat','车尾正面'],headlight:['4-1.png','headlight','大灯近景'],wheel:['7-3-1.png','wheel','轮毂近景'],'clay-side':['3-1.png','clay-side','灰模侧面'],'reflection-rear':['3-2.png','reflection-rear','曲面反射']};
+let current='front';
+function update(){
+ const [ref,render,label]=views[current],previous=document.querySelector('#source').value==='previous';
+ const old=render.replace('clay-','').replace('reflection-','');
+ document.querySelector('#reference').src=previous?'renders/v3-'+old+'.png':'references/'+ref;
+ document.querySelector('#reference').alt=(previous?'第三版模型':'小米 SU7 官方')+label;
+ document.querySelector('#source-caption').innerHTML=previous?'第三版模型<span>修订前 · Blender 渲染</span>':'实车参考<span>小米汽车官方图片</span>';
+ document.querySelector('#model').src='renders/v4-'+render+'.png';
+ document.querySelector('#model').alt='第四版模型'+label+'渲染';
+ document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===current)));
+}
+document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{current=button.dataset.view;update();}));
+document.querySelector('#source').addEventListener('change',update);
+</script>
+</html>

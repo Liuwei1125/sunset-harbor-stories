@@ -1,0 +1,2 @@
+{"mobile": false, "passed": true, "sampling": "trilinear + mipmaps", "textures": 2, "runtimeErrors": []}
+{"mobile": true, "passed": true, "sampling": "trilinear + mipmaps", "textures": 2, "runtimeErrors": []}

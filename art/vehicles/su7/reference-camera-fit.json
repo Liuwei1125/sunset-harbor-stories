@@ -1,0 +1,156 @@
+{
+  "reference": "references/6-1.png",
+  "view": {
+    "eye": [
+      -7.324459101805844,
+      6.684781341591007,
+      1.2789300625510598
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.74
+    ],
+    "lens": 40.06852003886259,
+    "shift": [
+      -0.026421539058195723,
+      0.038756969060208
+    ],
+    "resolution": [
+      2048,
+      1152
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "front wheel centre",
+      "world": [
+        -0.978,
+        1.55,
+        0.355
+      ],
+      "referencePixel": [
+        943,
+        789
+      ],
+      "projectedPixel": [
+        942.9177284613003,
+        789.1078156187407
+      ]
+    },
+    {
+      "name": "front tire top",
+      "world": [
+        -0.978,
+        1.55,
+        0.71
+      ],
+      "referencePixel": [
+        943,
+        697
+      ],
+      "projectedPixel": [
+        942.598860462111,
+        690.498467766841
+      ]
+    },
+    {
+      "name": "front tire bottom",
+      "world": [
+        -0.978,
+        1.55,
+        0
+      ],
+      "referencePixel": [
+        943,
+        879
+      ],
+      "projectedPixel": [
+        943.2350993565628,
+        887.2541868087029
+      ]
+    },
+    {
+      "name": "rear wheel centre",
+      "world": [
+        -0.978,
+        -1.45,
+        0.355
+      ],
+      "referencePixel": [
+        1463,
+        742
+      ],
+      "projectedPixel": [
+        1464.5398735044157,
+        738.13850307474
+      ]
+    },
+    {
+      "name": "rear tire top",
+      "world": [
+        -0.978,
+        -1.45,
+        0.71
+      ],
+      "referencePixel": [
+        1463,
+        663
+      ],
+      "projectedPixel": [
+        1465.2706376854023,
+        658.9794852625001
+      ]
+    },
+    {
+      "name": "rear tire bottom",
+      "world": [
+        -0.978,
+        -1.45,
+        0
+      ],
+      "referencePixel": [
+        1463,
+        819
+      ],
+      "projectedPixel": [
+        1463.8118627646857,
+        816.9992581763349
+      ]
+    },
+    {
+      "name": "front plate centre",
+      "world": [
+        0,
+        2.497,
+        0.532
+      ],
+      "referencePixel": [
+        567,
+        742
+      ],
+      "projectedPixel": [
+        569.2317145310998,
+        737.8835375043209
+      ]
+    },
+    {
+      "name": "lidar centre",
+      "world": [
+        0,
+        0.326,
+        1.3694488194936372
+      ],
+      "referencePixel": [
+        1028,
+        498
+      ],
+      "projectedPixel": [
+        1021.394223141372,
+        510.13874597027177
+      ]
+    }
+  ],
+  "cameraLandmarkRmsPixels": 6.771374913238636,
+  "limitations": "Manually marked landmarks and nominal dimensions; no lens distortion calibration or photogrammetry. Camera-fit error is not a vehicle-shape accuracy score."
+}

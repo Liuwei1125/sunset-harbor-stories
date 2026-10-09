@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": 69,
+  "models": {
+    "high": {
+      "bytes": 15498016,
+      "triangles": 572694,
+      "drawPrimitives": 63,
+      "sha256": "73c03c14203ac2b2f338d42cd678bfda9708163009ddb9c8fd86076f78444278"
+    },
+    "low": {
+      "bytes": 6044300,
+      "triangles": 227298,
+      "drawPrimitives": 63,
+      "sha256": "b26867439db736d4d0554ca9f7a34d5a90a2fb58b71be83d432f4716cfe9ffa9"
+    }
+  },
+  "browser": {
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+    "engine": 2,
+    "meshes": 65
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "checks": [
+    {
+      "name": "garage and M4 loaded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "native keyboard acceleration and both camera switches",
+      "passed": true,
+      "details": {
+        "speed": 13.763028237244274,
+        "camera": 2,
+        "panel": {
+          "speedKph": 49.54690165407939,
+          "engineRpm": 6085.903057739128,
+          "gear": "1",
+          "powerKw": 146.60368466871162,
+          "fuelPct": 99.9746830483881,
+          "lap": 1,
+          "lapTimeMs": 2416.6666666666606,
+          "deltaMs": 0,
+          "throttle": 1,
+          "brake": 0,
+          "abs": false,
+          "tc": true,
+          "demo": false,
+          "source": "external"
+        }
+      }
+    },
+    {
+      "name": "real RPM and speed drive cabin display",
+      "passed": true,
+      "details": {
+        "speedKph": 49.54690165407939,
+        "engineRpm": 6085.903057739128,
+        "gear": "1",
+        "powerKw": 146.60368466871162,
+        "fuelPct": 99.9746830483881,
+        "lap": 1,
+        "lapTimeMs": 2416.6666666666606,
+        "deltaMs": 0,
+        "throttle": 1,
+        "brake": 0,
+        "abs": false,
+        "tc": true,
+        "demo": false,
+        "source": "external"
+      }
+    },
+    {
+      "name": "pause stops simulation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reset penalty visible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "practice result and retry actions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "su7 model switch 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "su7 live telemetry bound 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ferrari-458 model switch 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ferrari-458 live telemetry bound 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bmw-m4 model switch 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bmw-m4 live telemetry bound 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "su7 model switch 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "su7 live telemetry bound 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ferrari-458 model switch 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ferrari-458 live telemetry bound 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bmw-m4 model switch 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bmw-m4 live telemetry bound 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "GPU resource counts stable after repeated switching",
+      "passed": true,
+      "details": [
+        {
+          "gpu": {
+            "Buffer": 209,
+            "Texture": 7,
+            "Framebuffer": 1,
+            "Renderbuffer": 0,
+            "VertexArray": 48
+          },
+          "scene": {
+            "fps": 161.29032263878278,
+            "p95": 16.600000000000364,
+            "meshes": 944,
+            "textures": 6,
+            "materials": 49,
+            "drawCalls": 55396,
+            "frames": 2
+          }
+        },
+        {
+          "gpu": {
+            "Buffer": 201,
+            "Texture": 8,
+            "Framebuffer": 2,
+            "Renderbuffer": 0,
+            "VertexArray": 39
+          },
+          "scene": {
+            "fps": 333.33333383011956,
+            "p95": 2.999999995528924,
+            "meshes": 944,
+            "textures": 6,
+            "materials": 49,
+            "drawCalls": 76280,
+            "frames": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "legacy saves untouched",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "only selected runtime car assets loaded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "keyboard control path completes full race",
+      "passed": true,
+      "details": [
+        {
+          "id": 1,
+          "name": "林舟",
+          "progress": 7115.400521248931,
+          "finished": true,
+          "finishTime": 388.70833333314414,
+          "penalty": 0,
+          "laps": 4,
+          "place": 1,
+          "classifiedTime": 388.70833333314414
+        },
+        {
+          "id": 2,
+          "name": "小夏",
+          "progress": 7115.594589902149,
+          "finished": true,
+          "finishTime": 392.8083333331404,
+          "penalty": 0,
+          "laps": 4,
+          "place": 2,
+          "classifiedTime": 392.8083333331404
+        },
+        {
+          "id": 3,
+          "name": "阿岚",
+          "progress": 7115.528958694391,
+          "finished": true,
+          "finishTime": 398.58333333313516,
+          "penalty": 8.938920711450182,
+          "laps": 4,
+          "place": 3,
+          "classifiedTime": 407.52225404458534
+        },
+        {
+          "id": 0,
+          "name": "你",
+          "progress": 7115.395126496538,
+          "finished": true,
+          "finishTime": 404.56666666646305,
+          "penalty": 10.450000000000056,
+          "laps": 4,
+          "place": 4,
+          "classifiedTime": 415.0166666664631
+        }
+      ]
+    },
+    {
+      "name": "browser has no uncaught exceptions",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "keyboardRace": {
+    "steps": 48904,
+    "phase": "result",
+    "result": [
+      {
+        "id": 1,
+        "name": "林舟",
+        "progress": 7115.400521248931,
+        "finished": true,
+        "finishTime": 388.70833333314414,
+        "penalty": 0,
+        "laps": 4,
+        "place": 1,
+        "classifiedTime": 388.70833333314414
+      },
+      {
+        "id": 2,
+        "name": "小夏",
+        "progress": 7115.594589902149,
+        "finished": true,
+        "finishTime": 392.8083333331404,
+        "penalty": 0,
+        "laps": 4,
+        "place": 2,
+        "classifiedTime": 392.8083333331404
+      },
+      {
+        "id": 3,
+        "name": "阿岚",
+        "progress": 7115.528958694391,
+        "finished": true,
+        "finishTime": 398.58333333313516,
+        "penalty": 8.938920711450182,
+        "laps": 4,
+        "place": 3,
+        "classifiedTime": 407.52225404458534
+      },
+      {
+        "id": 0,
+        "name": "你",
+        "progress": 7115.395126496538,
+        "finished": true,
+        "finishTime": 404.56666666646305,
+        "penalty": 10.450000000000056,
+        "laps": 4,
+        "place": 4,
+        "classifiedTime": 415.0166666664631
+      }
+    ],
+    "pose": {
+      "p": {
+        "x": 0.5643966071896412,
+        "y": -0.003554602041352495,
+        "z": -0.3336394505277698
+      },
+      "q": {
+        "x": -0.0007434898870997131,
+        "y": 0.011050076223909855,
+        "z": 0.009565185755491257,
+        "w": -0.9998930096626282
+      },
+      "wheels": [
+        {
+          "spin": -20008.12655014614,
+          "steer": 0,
+          "dy": 0.016916258065185485,
+          "load": 4978.21296132884,
+          "contact": true
+        },
+        {
+          "spin": -20143.965144064914,
+          "steer": 0,
+          "dy": -0.013116495879211487,
+          "load": 3803.0072871320795,
+          "contact": true
+        },
+        {
+          "spin": -20018.225977134243,
+          "steer": 0,
+          "dy": 0.019762033751525854,
+          "load": 5026.1202194453035,
+          "contact": true
+        },
+        {
+          "spin": -20148.430844088623,
+          "steer": 0,
+          "dy": -0.010270720192871119,
+          "load": 3850.914545248543,
+          "contact": true
+        }
+      ],
+      "steer": 0
+    }
+  }
+}

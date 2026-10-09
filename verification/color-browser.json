@@ -1,0 +1,459 @@
+{
+  "sha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "baselineSha256": "ca3ea0336f7b36d4814649071519da95b4a244b2c15bdafd4326244bc774874f",
+  "passed": 7,
+  "total": 7,
+  "checks": [
+    {
+      "name": "Sky is less white and visibly bluer at unchanged exposure",
+      "pass": true,
+      "detail": {
+        "before": {
+          "luma": 174.42538196522491,
+          "saturation": 0.17051252559949723,
+          "rgb": [
+            160.0256985919177,
+            177.00758533501897,
+            191.24783120449888
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "after": {
+          "luma": 153.65094961857554,
+          "saturation": 0.38968889373146093,
+          "rgb": [
+            121.02380225816296,
+            159.19057064388159,
+            194.85032041501373
+          ],
+          "clipped": 0,
+          "dark": 0
+        }
+      }
+    },
+    {
+      "name": "Vehicle panel gains brightness and warm color at unchanged exposure",
+      "pass": true,
+      "detail": {
+        "before": {
+          "luma": 97.58224761904816,
+          "saturation": 0.3518665187391503,
+          "rgb": [
+            111.6984126984127,
+            95.92857142857143,
+            72.39682539682539
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "after": {
+          "luma": 125.449019047619,
+          "saturation": 0.5084456893418968,
+          "rgb": [
+            161.03333333333333,
+            119.54444444444445,
+            79.15714285714286
+          ],
+          "clipped": 0,
+          "dark": 0
+        }
+      }
+    },
+    {
+      "name": "Water restores blue-green color without losing its midtone detail",
+      "pass": true,
+      "detail": {
+        "before": {
+          "luma": 131.4722309205279,
+          "saturation": 0.33272857200422884,
+          "rgb": [
+            98.97329240497022,
+            139.47579222116022,
+            147.88673626939195
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "after": {
+          "luma": 124.17516385192255,
+          "saturation": 0.474112107890766,
+          "rgb": [
+            80.30973825454011,
+            134.40364679067716,
+            152.01974119550033
+          ],
+          "clipped": 0,
+          "dark": 0
+        }
+      }
+    },
+    {
+      "name": "Warehouse shadow fill avoids an excessive blue cast",
+      "pass": true,
+      "detail": {
+        "luma": 76.03559999999068,
+        "saturation": 0.29545454545451333,
+        "rgb": [
+          62,
+          79,
+          88
+        ],
+        "clipped": 0,
+        "dark": 0
+      }
+    },
+    {
+      "name": "Default exposure retains highlight and dark detail across the fixtures",
+      "pass": true,
+      "detail": {
+        "sport": {
+          "luma": 118.3760694954398,
+          "saturation": 0.2544128305062006,
+          "rgb": [
+            102.82294454312216,
+            121.57131438721137,
+            132.52226366686403
+          ],
+          "clipped": 1.9735543714229327e-06,
+          "dark": 0
+        },
+        "warehouse": {
+          "luma": 106.52166143210115,
+          "saturation": 0.24695548902748607,
+          "rgb": [
+            91.99189658575094,
+            110.1257943556345,
+            113.60410104598381
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "boat": {
+          "luma": 134.15639686799008,
+          "saturation": 0.41087538719972455,
+          "rgb": [
+            100.84379909216499,
+            141.50979080323663,
+            159.40724097098874
+          ],
+          "clipped": 1.9735543714229327e-06,
+          "dark": 0
+        }
+      }
+    },
+    {
+      "name": "Grading preserves a neutral, monotonically increasing HDR grey ramp",
+      "pass": true,
+      "detail": [
+        {
+          "linear": 0,
+          "rgb": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "linear": 0.018,
+          "rgb": [
+            31,
+            31,
+            31
+          ]
+        },
+        {
+          "linear": 0.05,
+          "rgb": [
+            67,
+            67,
+            67
+          ]
+        },
+        {
+          "linear": 0.18,
+          "rgb": [
+            129,
+            129,
+            129
+          ]
+        },
+        {
+          "linear": 0.5,
+          "rgb": [
+            178,
+            178,
+            178
+          ]
+        },
+        {
+          "linear": 1,
+          "rgb": [
+            206,
+            206,
+            206
+          ]
+        },
+        {
+          "linear": 2,
+          "rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "linear": 4,
+          "rgb": [
+            241,
+            241,
+            241
+          ]
+        },
+        {
+          "linear": 8,
+          "rgb": [
+            249,
+            249,
+            249
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Both builds render all measured regions without GL or application errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "measurements": {
+    "6.3": {
+      "sport": {
+        "sky": {
+          "luma": 174.42538196522491,
+          "saturation": 0.17051252559949723,
+          "rgb": [
+            160.0256985919177,
+            177.00758533501897,
+            191.24783120449888
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "vehicle": {
+          "luma": 97.58224761904816,
+          "saturation": 0.3518665187391503,
+          "rgb": [
+            111.6984126984127,
+            95.92857142857143,
+            72.39682539682539
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "whole": {
+          "luma": 125.78499293841048,
+          "saturation": 0.21767206979375336,
+          "rgb": [
+            113.23866982435366,
+            128.3029228340241,
+            137.78672192618907
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "glError": 0
+      },
+      "warehouse": {
+        "floor": {
+          "luma": 81.78972392455229,
+          "saturation": 0.4952176234585979,
+          "rgb": [
+            55.021279043018176,
+            87,
+            109
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "whole": {
+          "luma": 97.56566075387603,
+          "saturation": 0.3637599274975375,
+          "rgb": [
+            76.15746792974146,
+            102.12181961713046,
+            115.47171304519439
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "glError": 0
+      },
+      "boat": {
+        "water": {
+          "luma": 131.4722309205279,
+          "saturation": 0.33272857200422884,
+          "rgb": [
+            98.97329240497022,
+            139.47579222116022,
+            147.88673626939195
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "whole": {
+          "luma": 142.49170579957175,
+          "saturation": 0.26464260540696005,
+          "rgb": [
+            119.28597197552793,
+            147.94122360371028,
+            156.84134399052695
+          ],
+          "clipped": 1.9735543714229327e-06,
+          "dark": 0
+        },
+        "glError": 0
+      }
+    },
+    "current": {
+      "sport": {
+        "sky": {
+          "luma": 153.65094961857554,
+          "saturation": 0.38968889373146093,
+          "rgb": [
+            121.02380225816296,
+            159.19057064388159,
+            194.85032041501373
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "vehicle": {
+          "luma": 125.449019047619,
+          "saturation": 0.5084456893418968,
+          "rgb": [
+            161.03333333333333,
+            119.54444444444445,
+            79.15714285714286
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "whole": {
+          "luma": 118.3760694954398,
+          "saturation": 0.2544128305062006,
+          "rgb": [
+            102.82294454312216,
+            121.57131438721137,
+            132.52226366686403
+          ],
+          "clipped": 1.9735543714229327e-06,
+          "dark": 0
+        },
+        "glError": 0
+      },
+      "warehouse": {
+        "floor": {
+          "luma": 76.03559999999068,
+          "saturation": 0.29545454545451333,
+          "rgb": [
+            62,
+            79,
+            88
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "whole": {
+          "luma": 106.52166143210115,
+          "saturation": 0.24695548902748607,
+          "rgb": [
+            91.99189658575094,
+            110.1257943556345,
+            113.60410104598381
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "glError": 0
+      },
+      "boat": {
+        "water": {
+          "luma": 124.17516385192255,
+          "saturation": 0.474112107890766,
+          "rgb": [
+            80.30973825454011,
+            134.40364679067716,
+            152.01974119550033
+          ],
+          "clipped": 0,
+          "dark": 0
+        },
+        "whole": {
+          "luma": 134.15639686799008,
+          "saturation": 0.41087538719972455,
+          "rgb": [
+            100.84379909216499,
+            141.50979080323663,
+            159.40724097098874
+          ],
+          "clipped": 1.9735543714229327e-06,
+          "dark": 0
+        },
+        "glError": 0
+      }
+    }
+  },
+  "sampleRegions": {
+    "sport": {
+      "sky": [
+        450,
+        30,
+        1100,
+        210
+      ],
+      "vehicle": [
+        597,
+        463,
+        645,
+        497
+      ],
+      "whole": [
+        0,
+        0,
+        1440,
+        900
+      ]
+    },
+    "boat": {
+      "water": [
+        310,
+        625,
+        1060,
+        810
+      ],
+      "whole": [
+        0,
+        0,
+        1440,
+        900
+      ]
+    },
+    "warehouse": {
+      "floor": [
+        350,
+        660,
+        570,
+        760
+      ],
+      "whole": [
+        0,
+        0,
+        1440,
+        900
+      ]
+    }
+  },
+  "errors": [],
+  "method": "Paused matching camera/time, high quality, exposure 1, same source models; WebGL readPixels excludes HTML HUD. Luma is weighted display RGB, not a photometric measurement."
+}

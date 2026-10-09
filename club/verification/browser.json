@@ -1,0 +1,4206 @@
+{
+  "passed": 56,
+  "total": 56,
+  "checks": [
+    {
+      "name": "Same-origin legacy progress is copied and settings migrate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Babylon loads alone and no campaign global is initialized",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "race event 1: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 20.00833333333284,
+          "score": 20.00833333333284,
+          "frames": 11,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 20.00833333333284,
+          "score": 20.00833333333284,
+          "frames": 11,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 20.00833333333284,
+          "score": 20.00833333333284,
+          "frames": 11,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "race event 2: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 53.84166666666425,
+          "score": 54.34166666666425,
+          "frames": 28,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 53.874999999997584,
+          "score": 54.874999999997584,
+          "frames": 28,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 53.816666666664254,
+          "score": 53.816666666664254,
+          "frames": 28,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "race event 3: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 53.15833333333096,
+          "score": 53.15833333333096,
+          "frames": 28,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 53.12499999999763,
+          "score": 54.12499999999763,
+          "frames": 28,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 53.14166666666429,
+          "score": 53.64166666666429,
+          "frames": 28,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "race event 4: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 60.49999999999721,
+          "score": 60.49999999999721,
+          "frames": 31,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 60.61666666666387,
+          "score": 61.61666666666387,
+          "frames": 31,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 60.49999999999721,
+          "score": 60.49999999999721,
+          "frames": 31,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "race event 5: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 66.19166666666541,
+          "score": 70.39166666666542,
+          "frames": 34,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 66.10833333333201,
+          "score": 69.80833333333202,
+          "frames": 34,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 66.17499999999873,
+          "score": 69.87499999999874,
+          "frames": 34,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "race event 6: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 100.61666666669281,
+          "score": 101.11666666669281,
+          "frames": 51,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 100.70000000002621,
+          "score": 101.70000000002621,
+          "frames": 51,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 100.51666666669273,
+          "score": 100.51666666669273,
+          "frames": 51,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "shooting event 1: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 22.708333333332686,
+          "score": 1536,
+          "frames": 12,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 16.274999999999718,
+          "score": 1536,
+          "frames": 9,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 13.841666666666521,
+          "score": 1536,
+          "frames": 8,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "shooting event 2: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 23.258333333332654,
+          "score": 3660,
+          "frames": 13,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 16.724999999999692,
+          "score": 3660,
+          "frames": 9,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 14.258333333333164,
+          "score": 3660,
+          "frames": 8,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "shooting event 3: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 26.341666666665812,
+          "score": 4200,
+          "frames": 14,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 18.941666666666233,
+          "score": 4200,
+          "frames": 10,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 16.141666666666392,
+          "score": 4200,
+          "frames": 9,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "shooting event 4: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 34.04999999999871,
+          "score": 4260,
+          "frames": 18,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 24.483333333332585,
+          "score": 4260,
+          "frames": 13,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 20.849999999999458,
+          "score": 4260,
+          "frames": 11,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "shooting event 5: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 29.42499999999897,
+          "score": 4740,
+          "frames": 16,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 21.158333333332774,
+          "score": 4740,
+          "frames": 12,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 18.02499999999962,
+          "score": 4740,
+          "frames": 10,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "shooting event 6: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 49.4666666666645,
+          "score": 6960,
+          "frames": 26,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 35.56666666666529,
+          "score": 6960,
+          "frames": 19,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 30.26666666666559,
+          "score": 6960,
+          "frames": 16,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "darts event 1: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 22.80833333333268,
+          "score": 780,
+          "frames": 12,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 14.891666666666461,
+          "score": 540,
+          "frames": 8,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 13.383333333333214,
+          "score": 480,
+          "frames": 8,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "darts event 2: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 17.341666666666324,
+          "score": 10,
+          "frames": 10,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 17.341666666666324,
+          "score": 10,
+          "frames": 10,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 17.341666666666324,
+          "score": 10,
+          "frames": 10,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "darts event 3: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 29.783333333332283,
+          "score": 2040,
+          "frames": 16,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 20.35833333333282,
+          "score": 1440,
+          "frames": 11,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 18.84999999999957,
+          "score": 1320,
+          "frames": 10,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "darts event 4: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 9.425000000000106,
+          "score": 6,
+          "frames": 6,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 9.425000000000106,
+          "score": 6,
+          "frames": 6,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 9.425000000000106,
+          "score": 6,
+          "frames": 6,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "darts event 5: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 14.891666666666461,
+          "score": 9,
+          "frames": 8,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 14.891666666666461,
+          "score": 9,
+          "frames": 8,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 14.891666666666461,
+          "score": 9,
+          "frames": 8,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "darts event 6: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 21.716666666666075,
+          "score": 9,
+          "frames": 12,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 21.716666666666075,
+          "score": 9,
+          "frames": 12,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 21.716666666666075,
+          "score": 9,
+          "frames": 12,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "archery event 1: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 11.94166666666663,
+          "score": 60,
+          "frames": 7,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 11.94166666666663,
+          "score": 60,
+          "frames": 7,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 11.94166666666663,
+          "score": 60,
+          "frames": 7,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "archery event 2: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 18.449999999999594,
+          "score": 90,
+          "frames": 10,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 18.449999999999594,
+          "score": 90,
+          "frames": 10,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 18.449999999999594,
+          "score": 90,
+          "frames": 10,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "archery event 3: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 18.533333333332923,
+          "score": 90,
+          "frames": 10,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 18.533333333332923,
+          "score": 90,
+          "frames": 10,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 18.533333333332923,
+          "score": 90,
+          "frames": 10,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "archery event 4: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 25.124999999999215,
+          "score": 120,
+          "frames": 14,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 25.124999999999215,
+          "score": 120,
+          "frames": 14,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 25.124999999999215,
+          "score": 120,
+          "frames": 14,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "archery event 5: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 24.799999999999233,
+          "score": 120,
+          "frames": 13,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 24.799999999999233,
+          "score": 120,
+          "frames": 13,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 24.799999999999233,
+          "score": 120,
+          "frames": 13,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "archery event 6: three rendered completions",
+      "pass": true,
+      "detail": [
+        {
+          "difficulty": "casual",
+          "elapsed": 31.558333333332182,
+          "score": 150,
+          "frames": 17,
+          "gl": 0
+        },
+        {
+          "difficulty": "sport",
+          "elapsed": 31.558333333332182,
+          "score": 150,
+          "frames": 17,
+          "gl": 0
+        },
+        {
+          "difficulty": "expert",
+          "elapsed": 31.558333333332182,
+          "score": 150,
+          "frames": 17,
+          "gl": 0
+        }
+      ]
+    },
+    {
+      "name": "All 72 results and engine rules retain isolated saves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "race native pause/resume and endless banking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "shooting native pause/resume and endless banking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "darts native pause/resume and endless banking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "archery native pause/resume and endless banking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "race daily conditions repeat exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "shooting daily conditions repeat exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "darts daily conditions repeat exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "archery daily conditions repeat exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "race quality/effects render without changing rules",
+      "pass": true,
+      "detail": {
+        "sameState": true,
+        "renders": [
+          {
+            "look": "classic",
+            "quality": "low",
+            "gl": 0
+          },
+          {
+            "look": "classic",
+            "quality": "medium",
+            "gl": 0
+          },
+          {
+            "look": "classic",
+            "quality": "high",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "low",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "medium",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "high",
+            "gl": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "shooting quality/effects render without changing rules",
+      "pass": true,
+      "detail": {
+        "sameState": true,
+        "renders": [
+          {
+            "look": "classic",
+            "quality": "low",
+            "gl": 0
+          },
+          {
+            "look": "classic",
+            "quality": "medium",
+            "gl": 0
+          },
+          {
+            "look": "classic",
+            "quality": "high",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "low",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "medium",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "high",
+            "gl": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "darts quality/effects render without changing rules",
+      "pass": true,
+      "detail": {
+        "sameState": true,
+        "renders": [
+          {
+            "look": "classic",
+            "quality": "low",
+            "gl": 0
+          },
+          {
+            "look": "classic",
+            "quality": "medium",
+            "gl": 0
+          },
+          {
+            "look": "classic",
+            "quality": "high",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "low",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "medium",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "high",
+            "gl": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "archery quality/effects render without changing rules",
+      "pass": true,
+      "detail": {
+        "sameState": true,
+        "renders": [
+          {
+            "look": "classic",
+            "quality": "low",
+            "gl": 0
+          },
+          {
+            "look": "classic",
+            "quality": "medium",
+            "gl": 0
+          },
+          {
+            "look": "classic",
+            "quality": "high",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "low",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "medium",
+            "gl": 0
+          },
+          {
+            "look": "natural",
+            "quality": "high",
+            "gl": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "All three native GLB weapons have moving magazines and usable scope states",
+      "pass": true,
+      "detail": [
+        {
+          "id": "sidearm-pistol",
+          "magazineOffset": -0.2501860743897689,
+          "reload": 0.7500000000000011,
+          "scope": false
+        },
+        {
+          "id": "field-akm",
+          "magazineOffset": -0.17300506158579068,
+          "reload": 1.350000000000001,
+          "scope": false
+        },
+        {
+          "id": "longwatch-sniper",
+          "magazineOffset": -0.13884279651761813,
+          "reload": 1.8000000000000012,
+          "scope": true
+        }
+      ]
+    },
+    {
+      "name": "Native joints and independent thin-instance buffers preserve the source templates",
+      "pass": true,
+      "detail": {
+        "joints": [
+          "",
+          "steering",
+          "wheel-front",
+          "wheel-front",
+          "wheel",
+          "wheel"
+        ],
+        "dashboard": true,
+        "uniqueGeometry": true,
+        "templateHasThinBuffers": false
+      }
+    },
+    {
+      "name": "Scene disposal stabilizes live GPU resources after warm-up",
+      "pass": true,
+      "detail": [
+        {
+          "live": {
+            "Buffer": 1509,
+            "Texture": 52,
+            "Framebuffer": 8,
+            "Renderbuffer": 1,
+            "VertexArray": 260
+          },
+          "stats": {
+            "engine": "Babylon.js 9.26.0",
+            "backend": "WebGL 2",
+            "width": 1440,
+            "height": 900,
+            "fps": 22.218930528822767,
+            "activeMeshes": 288,
+            "triangles": 724458,
+            "drawCalls": 873,
+            "meshes": 468,
+            "materials": 153,
+            "textures": 254,
+            "dynamicInstances": 6,
+            "effectPool": 2
+          },
+          "events": 6
+        },
+        {
+          "live": {
+            "Buffer": 1509,
+            "Texture": 52,
+            "Framebuffer": 8,
+            "Renderbuffer": 1,
+            "VertexArray": 260
+          },
+          "stats": {
+            "engine": "Babylon.js 9.26.0",
+            "backend": "WebGL 2",
+            "width": 1440,
+            "height": 900,
+            "fps": 20.329335230748182,
+            "activeMeshes": 288,
+            "triangles": 724458,
+            "drawCalls": 873,
+            "meshes": 468,
+            "materials": 153,
+            "textures": 254,
+            "dynamicInstances": 6,
+            "effectPool": 2
+          },
+          "events": 6
+        },
+        {
+          "live": {
+            "Buffer": 1509,
+            "Texture": 52,
+            "Framebuffer": 8,
+            "Renderbuffer": 1,
+            "VertexArray": 260
+          },
+          "stats": {
+            "engine": "Babylon.js 9.26.0",
+            "backend": "WebGL 2",
+            "width": 1440,
+            "height": 900,
+            "fps": 21.86748305272434,
+            "activeMeshes": 288,
+            "triangles": 724458,
+            "drawCalls": 873,
+            "meshes": 468,
+            "materials": 153,
+            "textures": 254,
+            "dynamicInstances": 6,
+            "effectPool": 2
+          },
+          "events": 6
+        }
+      ]
+    },
+    {
+      "name": "Export contains versioned club records and settings",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Malformed import preserves working records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Reload retains settings and records without changing campaign progress",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Advanced engine switch starts PlayCanvas alone and preserves progress",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PlayCanvas race 1 shares the exact completed simulation",
+      "pass": true,
+      "detail": {
+        "level": 0,
+        "success": true,
+        "score": 20.00833333333284,
+        "elapsed": 20.00833333333284,
+        "checkpoints": 12,
+        "collisions": 0,
+        "gl": 0,
+        "stats": {
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1267,
+          "height": 792,
+          "fps": 0,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 146,
+          "meshes": 147,
+          "materials": 129,
+          "textures": 20,
+          "dynamicInstances": 5,
+          "effectPool": 2
+        }
+      }
+    },
+    {
+      "name": "PlayCanvas race 2 shares the exact completed simulation",
+      "pass": true,
+      "detail": {
+        "level": 1,
+        "success": true,
+        "score": 54.874999999997584,
+        "elapsed": 53.874999999997584,
+        "checkpoints": 24,
+        "collisions": 2,
+        "gl": 0,
+        "stats": {
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1267,
+          "height": 792,
+          "fps": 55,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 157,
+          "meshes": 193,
+          "materials": 173,
+          "textures": 20,
+          "dynamicInstances": 7,
+          "effectPool": 2
+        }
+      }
+    },
+    {
+      "name": "PlayCanvas race 3 shares the exact completed simulation",
+      "pass": true,
+      "detail": {
+        "level": 2,
+        "success": true,
+        "score": 54.12499999999763,
+        "elapsed": 53.12499999999763,
+        "checkpoints": 24,
+        "collisions": 2,
+        "gl": 0,
+        "stats": {
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1267,
+          "height": 792,
+          "fps": 55,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 81,
+          "meshes": 74,
+          "materials": 195,
+          "textures": 20,
+          "dynamicInstances": 8,
+          "effectPool": 2
+        }
+      }
+    },
+    {
+      "name": "PlayCanvas race 4 shares the exact completed simulation",
+      "pass": true,
+      "detail": {
+        "level": 3,
+        "success": true,
+        "score": 61.61666666666387,
+        "elapsed": 60.61666666666387,
+        "checkpoints": 24,
+        "collisions": 2,
+        "gl": 0,
+        "stats": {
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1267,
+          "height": 792,
+          "fps": 55,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 131,
+          "meshes": 79,
+          "materials": 173,
+          "textures": 20,
+          "dynamicInstances": 7,
+          "effectPool": 2
+        }
+      }
+    },
+    {
+      "name": "PlayCanvas race 5 shares the exact completed simulation",
+      "pass": true,
+      "detail": {
+        "level": 4,
+        "success": true,
+        "score": 69.80833333333202,
+        "elapsed": 66.10833333333201,
+        "checkpoints": 24,
+        "collisions": 5,
+        "gl": 0,
+        "stats": {
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1267,
+          "height": 792,
+          "fps": 91,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 115,
+          "meshes": 106,
+          "materials": 195,
+          "textures": 20,
+          "dynamicInstances": 8,
+          "effectPool": 2
+        }
+      }
+    },
+    {
+      "name": "PlayCanvas race 6 shares the exact completed simulation",
+      "pass": true,
+      "detail": {
+        "level": 5,
+        "success": true,
+        "score": 101.70000000002621,
+        "elapsed": 100.70000000002621,
+        "checkpoints": 36,
+        "collisions": 2,
+        "gl": 0,
+        "stats": {
+          "engine": "PlayCanvas 2.22.1",
+          "backend": "webgl2",
+          "width": 1267,
+          "height": 792,
+          "fps": 91,
+          "activeMeshes": null,
+          "triangles": null,
+          "triangleNote": "Pinned production build omits triangle profiling counters",
+          "drawCalls": 151,
+          "meshes": 230,
+          "materials": 195,
+          "textures": 20,
+          "dynamicInstances": 8,
+          "effectPool": 2
+        }
+      }
+    },
+    {
+      "name": "Selecting a non-racing mode reinitializes Babylon with progress intact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Failed native model load recovers through the visible Retry action",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No remote engine, decoder or model requests are made",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No application exceptions during all product flows",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "device": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "cores": 8,
+    "memory": 16,
+    "viewport": [
+      1440,
+      900
+    ],
+    "dpr": 1,
+    "renderer": {
+      "engine": "Babylon.js 9.26.0",
+      "backend": "WebGL 2",
+      "width": 1440,
+      "height": 900,
+      "fps": 17.079419299798143,
+      "activeMeshes": 134,
+      "triangles": 83346,
+      "drawCalls": 135,
+      "meshes": 246,
+      "materials": 41,
+      "textures": 58,
+      "dynamicInstances": 1,
+      "effectPool": 0
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+    "remoteScripts": [
+      "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+      "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+      "http://127.0.0.1:8012/club/src/app.js"
+    ],
+    "live": {
+      "Buffer": 1501,
+      "Texture": 47,
+      "Framebuffer": 4,
+      "Renderbuffer": 1,
+      "VertexArray": 133
+    }
+  },
+  "playthroughs": [
+    {
+      "mode": "race",
+      "level": 0,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 20.00833333333284,
+      "score": 20.00833333333284,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 12,
+      "collisions": 0,
+      "frames": 11,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 27.631942525578506,
+        "activeMeshes": 112,
+        "triangles": 314008,
+        "drawCalls": 611,
+        "meshes": 553,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 0,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 20.00833333333284,
+      "score": 20.00833333333284,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 12,
+      "collisions": 0,
+      "frames": 11,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 67.61325219754418,
+        "activeMeshes": 156,
+        "triangles": 517646,
+        "drawCalls": 660,
+        "meshes": 553,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 0,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 20.00833333333284,
+      "score": 20.00833333333284,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 12,
+      "collisions": 0,
+      "frames": 11,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 74.99999999999997,
+        "activeMeshes": 209,
+        "triangles": 432299,
+        "drawCalls": 708,
+        "meshes": 553,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 1,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 53.84166666666425,
+      "score": 54.34166666666425,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 1,
+      "frames": 28,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 57.647963105468726,
+        "activeMeshes": 104,
+        "triangles": 307670,
+        "drawCalls": 691,
+        "meshes": 611,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 1,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 53.874999999997584,
+      "score": 54.874999999997584,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 2,
+      "frames": 28,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 83.56545961002794,
+        "activeMeshes": 191,
+        "triangles": 417409,
+        "drawCalls": 778,
+        "meshes": 611,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 1,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 53.816666666664254,
+      "score": 53.816666666664254,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 0,
+      "frames": 28,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 88.52168781390358,
+        "activeMeshes": 104,
+        "triangles": 279532,
+        "drawCalls": 609,
+        "meshes": 611,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 2,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 53.15833333333096,
+      "score": 53.15833333333096,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 0,
+      "frames": 28,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 87.43806470473761,
+        "activeMeshes": 81,
+        "triangles": 237422,
+        "drawCalls": 428,
+        "meshes": 490,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 2,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 53.12499999999763,
+      "score": 54.12499999999763,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 2,
+      "frames": 28,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 92.3645320194927,
+        "activeMeshes": 81,
+        "triangles": 237422,
+        "drawCalls": 428,
+        "meshes": 490,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 2,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 53.14166666666429,
+      "score": 53.64166666666429,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 1,
+      "frames": 28,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 104.38413361087943,
+        "activeMeshes": 124,
+        "triangles": 305613,
+        "drawCalls": 472,
+        "meshes": 490,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 3,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 60.49999999999721,
+      "score": 60.49999999999721,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 0,
+      "frames": 31,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 76.20015240044911,
+        "activeMeshes": 79,
+        "triangles": 233870,
+        "drawCalls": 426,
+        "meshes": 539,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 3,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 60.61666666666387,
+      "score": 61.61666666666387,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 2,
+      "frames": 31,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 91.07468123902777,
+        "activeMeshes": 94,
+        "triangles": 314132,
+        "drawCalls": 443,
+        "meshes": 539,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 3,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 60.49999999999721,
+      "score": 60.49999999999721,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 0,
+      "frames": 31,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 98.97723523540927,
+        "activeMeshes": 79,
+        "triangles": 205732,
+        "drawCalls": 344,
+        "meshes": 539,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 4,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 66.19166666666541,
+      "score": 70.39166666666542,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 6,
+      "frames": 34,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 94.10288582161203,
+        "activeMeshes": 72,
+        "triangles": 325926,
+        "drawCalls": 603,
+        "meshes": 523,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 4,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 66.10833333333201,
+      "score": 69.80833333333202,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 5,
+      "frames": 34,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 108.14708002942025,
+        "activeMeshes": 90,
+        "triangles": 409795,
+        "drawCalls": 623,
+        "meshes": 523,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 4,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 66.17499999999873,
+      "score": 69.87499999999874,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 24,
+      "collisions": 5,
+      "frames": 34,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 95.8772770857875,
+        "activeMeshes": 72,
+        "triangles": 325926,
+        "drawCalls": 603,
+        "meshes": 523,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 5,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 100.61666666669281,
+      "score": 101.11666666669281,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 36,
+      "collisions": 1,
+      "frames": 51,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 101.1804384485669,
+        "activeMeshes": 103,
+        "triangles": 303605,
+        "drawCalls": 714,
+        "meshes": 655,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 5,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 100.70000000002621,
+      "score": 101.70000000002621,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 36,
+      "collisions": 2,
+      "frames": 51,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 98.91196834792744,
+        "activeMeshes": 146,
+        "triangles": 289628,
+        "drawCalls": 674,
+        "meshes": 655,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "race",
+      "level": 5,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 100.51666666669273,
+      "score": 100.51666666669273,
+      "shots": 0,
+      "hits": 0,
+      "throws": null,
+      "checkpoints": 36,
+      "collisions": 0,
+      "frames": 51,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 107.29613733848424,
+        "activeMeshes": 103,
+        "triangles": 275467,
+        "drawCalls": 632,
+        "meshes": 655,
+        "materials": 197,
+        "textures": 332,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 0,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 22.708333333332686,
+      "score": 1536,
+      "shots": 8,
+      "hits": 8,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 12,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 50.77860528091099,
+        "activeMeshes": 133,
+        "triangles": 152573,
+        "drawCalls": 281,
+        "meshes": 148,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 0,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 16.274999999999718,
+      "score": 1536,
+      "shots": 8,
+      "hits": 8,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 9,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 116.09907120810036,
+        "activeMeshes": 133,
+        "triangles": 152777,
+        "drawCalls": 283,
+        "meshes": 148,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 0,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 13.841666666666521,
+      "score": 1536,
+      "shots": 8,
+      "hits": 8,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 8,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 172.7115716760442,
+        "activeMeshes": 133,
+        "triangles": 152777,
+        "drawCalls": 283,
+        "meshes": 148,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 1,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 23.258333333332654,
+      "score": 3660,
+      "shots": 16,
+      "hits": 16,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 13,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 56.03287261875896,
+        "activeMeshes": 135,
+        "triangles": 153184,
+        "drawCalls": 275,
+        "meshes": 147,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 1,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 16.724999999999692,
+      "score": 3660,
+      "shots": 16,
+      "hits": 16,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 9,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 216.60649819494728,
+        "activeMeshes": 135,
+        "triangles": 153388,
+        "drawCalls": 277,
+        "meshes": 147,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 1,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 14.258333333333164,
+      "score": 3660,
+      "shots": 16,
+      "hits": 16,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 8,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 183.03843807366022,
+        "activeMeshes": 135,
+        "triangles": 153388,
+        "drawCalls": 277,
+        "meshes": 147,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 2,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 26.341666666665812,
+      "score": 4200,
+      "shots": 18,
+      "hits": 18,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 14,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 56.689342403708004,
+        "activeMeshes": 135,
+        "triangles": 151330,
+        "drawCalls": 283,
+        "meshes": 151,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 2,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.941666666666233,
+      "score": 4200,
+      "shots": 18,
+      "hits": 18,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 213.06818181705512,
+        "activeMeshes": 134,
+        "triangles": 151532,
+        "drawCalls": 284,
+        "meshes": 151,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 2,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 16.141666666666392,
+      "score": 4200,
+      "shots": 18,
+      "hits": 18,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 9,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 205.90253946570704,
+        "activeMeshes": 134,
+        "triangles": 151532,
+        "drawCalls": 284,
+        "meshes": 151,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 3,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 34.04999999999871,
+      "score": 4260,
+      "shots": 18,
+      "hits": 18,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 18,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 134.77088948696885,
+        "activeMeshes": 134,
+        "triangles": 153412,
+        "drawCalls": 276,
+        "meshes": 147,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 3,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 24.483333333332585,
+      "score": 4260,
+      "shots": 18,
+      "hits": 18,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 13,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 258.17555938203543,
+        "activeMeshes": 134,
+        "triangles": 153412,
+        "drawCalls": 276,
+        "meshes": 147,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 3,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 20.849999999999458,
+      "score": 4260,
+      "shots": 18,
+      "hits": 18,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 11,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 247.93388429752204,
+        "activeMeshes": 134,
+        "triangles": 153412,
+        "drawCalls": 276,
+        "meshes": 147,
+        "materials": 81,
+        "textures": 39,
+        "dynamicInstances": 6,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 4,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 29.42499999999897,
+      "score": 4740,
+      "shots": 20,
+      "hits": 20,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 16,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 56.274620146156785,
+        "activeMeshes": 135,
+        "triangles": 146968,
+        "drawCalls": 275,
+        "meshes": 156,
+        "materials": 89,
+        "textures": 39,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 4,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 21.158333333332774,
+      "score": 4740,
+      "shots": 20,
+      "hits": 20,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 12,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 251.46689019122206,
+        "activeMeshes": 135,
+        "triangles": 147172,
+        "drawCalls": 277,
+        "meshes": 156,
+        "materials": 89,
+        "textures": 39,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 4,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.02499999999962,
+      "score": 4740,
+      "shots": 20,
+      "hits": 20,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 245.09803921121176,
+        "activeMeshes": 135,
+        "triangles": 147172,
+        "drawCalls": 277,
+        "meshes": 156,
+        "materials": 89,
+        "textures": 39,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 5,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 49.4666666666645,
+      "score": 6960,
+      "shots": 28,
+      "hits": 28,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 26,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 262.4671915993417,
+        "activeMeshes": 135,
+        "triangles": 146502,
+        "drawCalls": 285,
+        "meshes": 160,
+        "materials": 89,
+        "textures": 39,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 5,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 35.56666666666529,
+      "score": 6960,
+      "shots": 28,
+      "hits": 28,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 19,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 252.5252525236712,
+        "activeMeshes": 135,
+        "triangles": 146502,
+        "drawCalls": 285,
+        "meshes": 160,
+        "materials": 89,
+        "textures": 39,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "shooting",
+      "level": 5,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 30.26666666666559,
+      "score": 6960,
+      "shots": 28,
+      "hits": 28,
+      "throws": null,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 16,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 247.52475247677143,
+        "activeMeshes": 135,
+        "triangles": 146502,
+        "drawCalls": 285,
+        "meshes": 160,
+        "materials": 89,
+        "textures": 39,
+        "dynamicInstances": 7,
+        "effectPool": 10
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 0,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 22.80833333333268,
+      "score": 780,
+      "shots": 13,
+      "hits": 13,
+      "throws": 13,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 12,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 59.7609561752989,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 0,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 14.891666666666461,
+      "score": 540,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 8,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 140.0560224094513,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 0,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 13.383333333333214,
+      "score": 480,
+      "shots": 8,
+      "hits": 8,
+      "throws": 8,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 8,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 160.94420600665444,
+        "activeMeshes": 67,
+        "triangles": 211738,
+        "drawCalls": 177,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 1,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 17.341666666666324,
+      "score": 10,
+      "shots": 10,
+      "hits": 10,
+      "throws": 10,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 60.02400960375217,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 1,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 17.341666666666324,
+      "score": 10,
+      "shots": 10,
+      "hits": 10,
+      "throws": 10,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 183.59853120923975,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 1,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 17.341666666666324,
+      "score": 10,
+      "shots": 10,
+      "hits": 10,
+      "throws": 10,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 241.93548387096934,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 2,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 29.783333333332283,
+      "score": 2040,
+      "shots": 17,
+      "hits": 17,
+      "throws": 17,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 16,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 57.90387955976407,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 2,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 20.35833333333282,
+      "score": 1440,
+      "shots": 12,
+      "hits": 12,
+      "throws": 12,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 11,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 245.90163934426403,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 2,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.84999999999957,
+      "score": 1320,
+      "shots": 11,
+      "hits": 11,
+      "throws": 11,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 257.5107296137358,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 3,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 9.425000000000106,
+      "score": 6,
+      "shots": 6,
+      "hits": 6,
+      "throws": 6,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 6,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 61.02522375896894,
+        "activeMeshes": 55,
+        "triangles": 197362,
+        "drawCalls": 147,
+        "meshes": 72,
+        "materials": 50,
+        "textures": 11,
+        "dynamicInstances": 7,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 3,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 9.425000000000106,
+      "score": 6,
+      "shots": 6,
+      "hits": 6,
+      "throws": 6,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 6,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 64.06149903897575,
+        "activeMeshes": 55,
+        "triangles": 197362,
+        "drawCalls": 147,
+        "meshes": 72,
+        "materials": 50,
+        "textures": 11,
+        "dynamicInstances": 7,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 3,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 9.425000000000106,
+      "score": 6,
+      "shots": 6,
+      "hits": 6,
+      "throws": 6,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 6,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 166.66666666666768,
+        "activeMeshes": 55,
+        "triangles": 197362,
+        "drawCalls": 147,
+        "meshes": 72,
+        "materials": 50,
+        "textures": 11,
+        "dynamicInstances": 7,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 4,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 14.891666666666461,
+      "score": 9,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 8,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 56.14823133063491,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 4,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 14.891666666666461,
+      "score": 9,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 8,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 146.0564751714595,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 4,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 14.891666666666461,
+      "score": 9,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 8,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 180.7228915662661,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 5,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 21.716666666666075,
+      "score": 9,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 12,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 59.95203836948321,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 5,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 21.716666666666075,
+      "score": 9,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 12,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 206.18556701031068,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "darts",
+      "level": 5,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 21.716666666666075,
+      "score": 9,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 12,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 280.3738317757036,
+        "activeMeshes": 73,
+        "triangles": 218926,
+        "drawCalls": 192,
+        "meshes": 90,
+        "materials": 65,
+        "textures": 11,
+        "dynamicInstances": 10,
+        "effectPool": 4
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 0,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 11.94166666666663,
+      "score": 60,
+      "shots": 6,
+      "hits": 6,
+      "throws": 6,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 7,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 59.48839976195865,
+        "activeMeshes": 129,
+        "triangles": 120631,
+        "drawCalls": 267,
+        "meshes": 151,
+        "materials": 87,
+        "textures": 35,
+        "dynamicInstances": 9,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 0,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 11.94166666666663,
+      "score": 60,
+      "shots": 6,
+      "hits": 6,
+      "throws": 6,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 7,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 115.29592621093781,
+        "activeMeshes": 129,
+        "triangles": 120631,
+        "drawCalls": 267,
+        "meshes": 151,
+        "materials": 87,
+        "textures": 35,
+        "dynamicInstances": 9,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 0,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 11.94166666666663,
+      "score": 60,
+      "shots": 6,
+      "hits": 6,
+      "throws": 6,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 7,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 122.29922543972529,
+        "activeMeshes": 129,
+        "triangles": 120631,
+        "drawCalls": 267,
+        "meshes": 151,
+        "materials": 87,
+        "textures": 35,
+        "dynamicInstances": 9,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 1,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.449999999999594,
+      "score": 90,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 56.24296962895365,
+        "activeMeshes": 143,
+        "triangles": 123888,
+        "drawCalls": 294,
+        "meshes": 162,
+        "materials": 99,
+        "textures": 35,
+        "dynamicInstances": 12,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 1,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.449999999999594,
+      "score": 90,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 184.72906404110503,
+        "activeMeshes": 143,
+        "triangles": 123888,
+        "drawCalls": 294,
+        "meshes": 162,
+        "materials": 99,
+        "textures": 35,
+        "dynamicInstances": 12,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 1,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.449999999999594,
+      "score": 90,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 219.94134897601143,
+        "activeMeshes": 143,
+        "triangles": 123888,
+        "drawCalls": 294,
+        "meshes": 162,
+        "materials": 99,
+        "textures": 35,
+        "dynamicInstances": 12,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 2,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.533333333332923,
+      "score": 90,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 57.43825387700029,
+        "activeMeshes": 143,
+        "triangles": 124666,
+        "drawCalls": 294,
+        "meshes": 162,
+        "materials": 99,
+        "textures": 35,
+        "dynamicInstances": 12,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 2,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.533333333332923,
+      "score": 90,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 184.95684340405634,
+        "activeMeshes": 143,
+        "triangles": 124666,
+        "drawCalls": 294,
+        "meshes": 162,
+        "materials": 99,
+        "textures": 35,
+        "dynamicInstances": 12,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 2,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 18.533333333332923,
+      "score": 90,
+      "shots": 9,
+      "hits": 9,
+      "throws": 9,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 10,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 218.340611350161,
+        "activeMeshes": 143,
+        "triangles": 124666,
+        "drawCalls": 294,
+        "meshes": 162,
+        "materials": 99,
+        "textures": 35,
+        "dynamicInstances": 12,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 3,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 25.124999999999215,
+      "score": 120,
+      "shots": 12,
+      "hits": 12,
+      "throws": 12,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 14,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 57.74783445620792,
+        "activeMeshes": 158,
+        "triangles": 91108,
+        "drawCalls": 330,
+        "meshes": 187,
+        "materials": 119,
+        "textures": 35,
+        "dynamicInstances": 17,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 3,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 25.124999999999215,
+      "score": 120,
+      "shots": 12,
+      "hits": 12,
+      "throws": 12,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 14,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 197.62845849705423,
+        "activeMeshes": 158,
+        "triangles": 91108,
+        "drawCalls": 330,
+        "meshes": 187,
+        "materials": 119,
+        "textures": 35,
+        "dynamicInstances": 17,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 3,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 25.124999999999215,
+      "score": 120,
+      "shots": 12,
+      "hits": 12,
+      "throws": 12,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 14,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 241.15755626576427,
+        "activeMeshes": 158,
+        "triangles": 91108,
+        "drawCalls": 330,
+        "meshes": 187,
+        "materials": 119,
+        "textures": 35,
+        "dynamicInstances": 17,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 4,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 24.799999999999233,
+      "score": 120,
+      "shots": 12,
+      "hits": 12,
+      "throws": 12,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 13,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 56.88282138769978,
+        "activeMeshes": 159,
+        "triangles": 127216,
+        "drawCalls": 331,
+        "meshes": 177,
+        "materials": 111,
+        "textures": 35,
+        "dynamicInstances": 15,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 4,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 24.799999999999233,
+      "score": 120,
+      "shots": 12,
+      "hits": 12,
+      "throws": 12,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 13,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 186.33540372670825,
+        "activeMeshes": 159,
+        "triangles": 127216,
+        "drawCalls": 331,
+        "meshes": 177,
+        "materials": 111,
+        "textures": 35,
+        "dynamicInstances": 15,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 4,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 24.799999999999233,
+      "score": 120,
+      "shots": 12,
+      "hits": 12,
+      "throws": 12,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 13,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 234.1920374680021,
+        "activeMeshes": 159,
+        "triangles": 127216,
+        "drawCalls": 331,
+        "meshes": 177,
+        "materials": 111,
+        "textures": 35,
+        "dynamicInstances": 15,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 5,
+      "difficulty": "casual",
+      "success": true,
+      "phase": "result",
+      "elapsed": 31.558333333332182,
+      "score": 150,
+      "shots": 15,
+      "hits": 15,
+      "throws": 15,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 17,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 54.80453050800454,
+        "activeMeshes": 194,
+        "triangles": 176853,
+        "drawCalls": 424,
+        "meshes": 215,
+        "materials": 143,
+        "textures": 35,
+        "dynamicInstances": 21,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 5,
+      "difficulty": "sport",
+      "success": true,
+      "phase": "result",
+      "elapsed": 31.558333333332182,
+      "score": 150,
+      "shots": 15,
+      "hits": 15,
+      "throws": 15,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 17,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 198.28155981396125,
+        "activeMeshes": 194,
+        "triangles": 176853,
+        "drawCalls": 424,
+        "meshes": 215,
+        "materials": 143,
+        "textures": 35,
+        "dynamicInstances": 21,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    },
+    {
+      "mode": "archery",
+      "level": 5,
+      "difficulty": "expert",
+      "success": true,
+      "phase": "result",
+      "elapsed": 31.558333333332182,
+      "score": 150,
+      "shots": 15,
+      "hits": 15,
+      "throws": 15,
+      "checkpoints": null,
+      "collisions": null,
+      "frames": 17,
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 228.13688212927806,
+        "activeMeshes": 194,
+        "triangles": 176853,
+        "drawCalls": 424,
+        "meshes": 215,
+        "materials": 143,
+        "textures": 35,
+        "dynamicInstances": 21,
+        "effectPool": 8
+      },
+      "resultRecorded": true
+    }
+  ],
+  "playcanvasRaces": [
+    {
+      "level": 0,
+      "success": true,
+      "score": 20.00833333333284,
+      "elapsed": 20.00833333333284,
+      "checkpoints": 12,
+      "collisions": 0,
+      "gl": 0,
+      "stats": {
+        "engine": "PlayCanvas 2.22.1",
+        "backend": "webgl2",
+        "width": 1267,
+        "height": 792,
+        "fps": 0,
+        "activeMeshes": null,
+        "triangles": null,
+        "triangleNote": "Pinned production build omits triangle profiling counters",
+        "drawCalls": 146,
+        "meshes": 147,
+        "materials": 129,
+        "textures": 20,
+        "dynamicInstances": 5,
+        "effectPool": 2
+      }
+    },
+    {
+      "level": 1,
+      "success": true,
+      "score": 54.874999999997584,
+      "elapsed": 53.874999999997584,
+      "checkpoints": 24,
+      "collisions": 2,
+      "gl": 0,
+      "stats": {
+        "engine": "PlayCanvas 2.22.1",
+        "backend": "webgl2",
+        "width": 1267,
+        "height": 792,
+        "fps": 55,
+        "activeMeshes": null,
+        "triangles": null,
+        "triangleNote": "Pinned production build omits triangle profiling counters",
+        "drawCalls": 157,
+        "meshes": 193,
+        "materials": 173,
+        "textures": 20,
+        "dynamicInstances": 7,
+        "effectPool": 2
+      }
+    },
+    {
+      "level": 2,
+      "success": true,
+      "score": 54.12499999999763,
+      "elapsed": 53.12499999999763,
+      "checkpoints": 24,
+      "collisions": 2,
+      "gl": 0,
+      "stats": {
+        "engine": "PlayCanvas 2.22.1",
+        "backend": "webgl2",
+        "width": 1267,
+        "height": 792,
+        "fps": 55,
+        "activeMeshes": null,
+        "triangles": null,
+        "triangleNote": "Pinned production build omits triangle profiling counters",
+        "drawCalls": 81,
+        "meshes": 74,
+        "materials": 195,
+        "textures": 20,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      }
+    },
+    {
+      "level": 3,
+      "success": true,
+      "score": 61.61666666666387,
+      "elapsed": 60.61666666666387,
+      "checkpoints": 24,
+      "collisions": 2,
+      "gl": 0,
+      "stats": {
+        "engine": "PlayCanvas 2.22.1",
+        "backend": "webgl2",
+        "width": 1267,
+        "height": 792,
+        "fps": 55,
+        "activeMeshes": null,
+        "triangles": null,
+        "triangleNote": "Pinned production build omits triangle profiling counters",
+        "drawCalls": 131,
+        "meshes": 79,
+        "materials": 173,
+        "textures": 20,
+        "dynamicInstances": 7,
+        "effectPool": 2
+      }
+    },
+    {
+      "level": 4,
+      "success": true,
+      "score": 69.80833333333202,
+      "elapsed": 66.10833333333201,
+      "checkpoints": 24,
+      "collisions": 5,
+      "gl": 0,
+      "stats": {
+        "engine": "PlayCanvas 2.22.1",
+        "backend": "webgl2",
+        "width": 1267,
+        "height": 792,
+        "fps": 91,
+        "activeMeshes": null,
+        "triangles": null,
+        "triangleNote": "Pinned production build omits triangle profiling counters",
+        "drawCalls": 115,
+        "meshes": 106,
+        "materials": 195,
+        "textures": 20,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      }
+    },
+    {
+      "level": 5,
+      "success": true,
+      "score": 101.70000000002621,
+      "elapsed": 100.70000000002621,
+      "checkpoints": 36,
+      "collisions": 2,
+      "gl": 0,
+      "stats": {
+        "engine": "PlayCanvas 2.22.1",
+        "backend": "webgl2",
+        "width": 1267,
+        "height": 792,
+        "fps": 91,
+        "activeMeshes": null,
+        "triangles": null,
+        "triangleNote": "Pinned production build omits triangle profiling counters",
+        "drawCalls": 151,
+        "meshes": 230,
+        "materials": 195,
+        "textures": 20,
+        "dynamicInstances": 8,
+        "effectPool": 2
+      }
+    }
+  ],
+  "renderVariants": [
+    {
+      "mode": "race",
+      "look": "classic",
+      "quality": "low",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1036,
+        "height": 648,
+        "fps": 17.396346767178876,
+        "activeMeshes": 240,
+        "triangles": 80289,
+        "drawCalls": 215,
+        "meshes": 596,
+        "materials": 219,
+        "textures": 372,
+        "dynamicInstances": 9,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "race",
+      "look": "classic",
+      "quality": "medium",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1267,
+        "height": 791,
+        "fps": 15.536796312582343,
+        "activeMeshes": 244,
+        "triangles": 198362,
+        "drawCalls": 242,
+        "meshes": 596,
+        "materials": 219,
+        "textures": 372,
+        "dynamicInstances": 9,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "race",
+      "look": "classic",
+      "quality": "high",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 18.25261620830663,
+        "activeMeshes": 244,
+        "triangles": 198362,
+        "drawCalls": 242,
+        "meshes": 596,
+        "materials": 219,
+        "textures": 372,
+        "dynamicInstances": 9,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "race",
+      "look": "natural",
+      "quality": "low",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1036,
+        "height": 648,
+        "fps": 17.66680407512729,
+        "activeMeshes": 240,
+        "triangles": 88814,
+        "drawCalls": 238,
+        "meshes": 596,
+        "materials": 219,
+        "textures": 372,
+        "dynamicInstances": 9,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "race",
+      "look": "natural",
+      "quality": "medium",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1267,
+        "height": 791,
+        "fps": 17.46216530849824,
+        "activeMeshes": 244,
+        "triangles": 600742,
+        "drawCalls": 742,
+        "meshes": 596,
+        "materials": 219,
+        "textures": 372,
+        "dynamicInstances": 9,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "race",
+      "look": "natural",
+      "quality": "high",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 20.857957310757236,
+        "activeMeshes": 244,
+        "triangles": 600742,
+        "drawCalls": 746,
+        "meshes": 596,
+        "materials": 219,
+        "textures": 372,
+        "dynamicInstances": 9,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "shooting",
+      "look": "classic",
+      "quality": "low",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1036,
+        "height": 648,
+        "fps": 21.164021164021143,
+        "activeMeshes": 125,
+        "triangles": 55107,
+        "drawCalls": 78,
+        "meshes": 187,
+        "materials": 112,
+        "textures": 43,
+        "dynamicInstances": 12,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "shooting",
+      "look": "classic",
+      "quality": "medium",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1267,
+        "height": 791,
+        "fps": 20.87101711425565,
+        "activeMeshes": 125,
+        "triangles": 74349,
+        "drawCalls": 121,
+        "meshes": 187,
+        "materials": 112,
+        "textures": 43,
+        "dynamicInstances": 12,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "shooting",
+      "look": "classic",
+      "quality": "high",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 28.01120448179268,
+        "activeMeshes": 125,
+        "triangles": 74349,
+        "drawCalls": 121,
+        "meshes": 187,
+        "materials": 112,
+        "textures": 43,
+        "dynamicInstances": 12,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "shooting",
+      "look": "natural",
+      "quality": "low",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1036,
+        "height": 648,
+        "fps": 29.75009916693124,
+        "activeMeshes": 125,
+        "triangles": 61772,
+        "drawCalls": 121,
+        "meshes": 187,
+        "materials": 112,
+        "textures": 43,
+        "dynamicInstances": 12,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "shooting",
+      "look": "natural",
+      "quality": "medium",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1267,
+        "height": 791,
+        "fps": 30.066145520121818,
+        "activeMeshes": 125,
+        "triangles": 151421,
+        "drawCalls": 271,
+        "meshes": 187,
+        "materials": 112,
+        "textures": 43,
+        "dynamicInstances": 12,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "shooting",
+      "look": "natural",
+      "quality": "high",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 32.63707571804206,
+        "activeMeshes": 125,
+        "triangles": 151421,
+        "drawCalls": 275,
+        "meshes": 187,
+        "materials": 112,
+        "textures": 43,
+        "dynamicInstances": 12,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "darts",
+      "look": "classic",
+      "quality": "low",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1036,
+        "height": 648,
+        "fps": 32.26500322660368,
+        "activeMeshes": 21,
+        "triangles": 39610,
+        "drawCalls": 17,
+        "meshes": 38,
+        "materials": 21,
+        "textures": 11,
+        "dynamicInstances": 2,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "darts",
+      "look": "classic",
+      "quality": "medium",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1267,
+        "height": 791,
+        "fps": 42.33700254013103,
+        "activeMeshes": 21,
+        "triangles": 42006,
+        "drawCalls": 22,
+        "meshes": 38,
+        "materials": 21,
+        "textures": 11,
+        "dynamicInstances": 2,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "darts",
+      "look": "classic",
+      "quality": "high",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 42.14667041321375,
+        "activeMeshes": 21,
+        "triangles": 42006,
+        "drawCalls": 22,
+        "meshes": 38,
+        "materials": 21,
+        "textures": 11,
+        "dynamicInstances": 2,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "darts",
+      "look": "natural",
+      "quality": "low",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1036,
+        "height": 648,
+        "fps": 46.583850931676906,
+        "activeMeshes": 21,
+        "triangles": 40260,
+        "drawCalls": 22,
+        "meshes": 38,
+        "materials": 21,
+        "textures": 11,
+        "dynamicInstances": 2,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "darts",
+      "look": "natural",
+      "quality": "medium",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1267,
+        "height": 791,
+        "fps": 46.274872744046654,
+        "activeMeshes": 21,
+        "triangles": 160654,
+        "drawCalls": 64,
+        "meshes": 38,
+        "materials": 21,
+        "textures": 11,
+        "dynamicInstances": 2,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "darts",
+      "look": "natural",
+      "quality": "high",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 45.468323734413524,
+        "activeMeshes": 21,
+        "triangles": 160654,
+        "drawCalls": 68,
+        "meshes": 38,
+        "materials": 21,
+        "textures": 11,
+        "dynamicInstances": 2,
+        "effectPool": 0
+      }
+    },
+    {
+      "mode": "archery",
+      "look": "classic",
+      "quality": "low",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1036,
+        "height": 648,
+        "fps": 51.1945392491466,
+        "activeMeshes": 98,
+        "triangles": 52153,
+        "drawCalls": 97,
+        "meshes": 144,
+        "materials": 83,
+        "textures": 35,
+        "dynamicInstances": 6,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "archery",
+      "look": "classic",
+      "quality": "medium",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1267,
+        "height": 791,
+        "fps": 52.06525511981725,
+        "activeMeshes": 98,
+        "triangles": 63111,
+        "drawCalls": 97,
+        "meshes": 144,
+        "materials": 83,
+        "textures": 35,
+        "dynamicInstances": 6,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "archery",
+      "look": "classic",
+      "quality": "high",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 52.48425472378799,
+        "activeMeshes": 98,
+        "triangles": 63111,
+        "drawCalls": 97,
+        "meshes": 144,
+        "materials": 83,
+        "textures": 35,
+        "dynamicInstances": 6,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "archery",
+      "look": "natural",
+      "quality": "low",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1036,
+        "height": 648,
+        "fps": 52.61311820386374,
+        "activeMeshes": 98,
+        "triangles": 52153,
+        "drawCalls": 97,
+        "meshes": 144,
+        "materials": 83,
+        "textures": 35,
+        "dynamicInstances": 6,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "archery",
+      "look": "natural",
+      "quality": "medium",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1267,
+        "height": 791,
+        "fps": 51.77770106987258,
+        "activeMeshes": 98,
+        "triangles": 115369,
+        "drawCalls": 197,
+        "meshes": 144,
+        "materials": 83,
+        "textures": 35,
+        "dynamicInstances": 6,
+        "effectPool": 2
+      }
+    },
+    {
+      "mode": "archery",
+      "look": "natural",
+      "quality": "high",
+      "gl": 0,
+      "stats": {
+        "engine": "Babylon.js 9.26.0",
+        "backend": "WebGL 2",
+        "width": 1440,
+        "height": 900,
+        "fps": 53.10674455634838,
+        "activeMeshes": 98,
+        "triangles": 115369,
+        "drawCalls": 201,
+        "meshes": 144,
+        "materials": 83,
+        "textures": 35,
+        "dynamicInstances": 6,
+        "effectPool": 2
+      }
+    }
+  ],
+  "method": "Real Chromium, native Babylon GLB assets, 72 production-control playthroughs with fixed 120 Hz stepping and periodic rendering; PlayCanvas consumes the same simulation for six additional race checks. Native input and normal-RAF performance are reported separately."
+}

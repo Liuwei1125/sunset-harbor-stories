@@ -1,0 +1,15 @@
+{
+  "babylon": {
+    "file": "babylon/vendor/babylon.js",
+    "engineBytes": 8330458,
+    "gzipBytesEstimate": 1791002,
+    "sha256": "f4d7e6800fa23a969f970dcdfacdf015d18a220fa9e589800a24f2dd531fe677"
+  },
+  "playcanvas": {
+    "file": "playcanvas/vendor/playcanvas.js",
+    "engineBytes": 2466254,
+    "gzipBytesEstimate": 632081,
+    "sha256": "115983998d6cdea9126a7a782f2579a3b98401531abd06e852ad415438508d17"
+  },
+  "note": "Uncompressed vendor script bytes; gzip is an offline size estimate, not measured HTTP transfer."
+}

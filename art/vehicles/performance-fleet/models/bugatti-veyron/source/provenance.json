@@ -1,0 +1,38 @@
+{
+  "retrieved": "2026-09-18",
+  "uid": "653d089ba9304657ab7f0e3552a8f87b",
+  "title": "Bugatti Veyron",
+  "sourcePage": "https://sketchfab.com/3d-models/bugatti-veyron-653d089ba9304657ab7f0e3552a8f87b",
+  "author": {
+    "username": "David_Holiday",
+    "displayName": "David_Holiday",
+    "profileUrl": "https://sketchfab.com/David_Holiday"
+  },
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "description": "***Bugatti Veyron***",
+  "archive": "allenai/objaverse",
+  "archiveUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-140/653d089ba9304657ab7f0e3552a8f87b.glb",
+  "downloadUrl": "https://hf-mirror.com/datasets/allenai/objaverse/resolve/main/glbs/000-140/653d089ba9304657ab7f0e3552a8f87b.glb",
+  "assetMetadata": {
+    "extras": {
+      "author": "David_Holiday (https://sketchfab.com/David_Holiday)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bugatti-veyron-653d089ba9304657ab7f0e3552a8f87b",
+      "title": "Bugatti Veyron"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "file": {
+    "name": "asset.glb",
+    "bytes": 3865932,
+    "sha256": "ee8e17805d045f12295d3895f7880e2004e944f14207d7a141037af477c4e903"
+  }
+}

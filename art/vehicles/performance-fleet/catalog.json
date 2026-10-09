@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "amg-gt",
+      "title": "Mercedes-AMG GT",
+      "license": "CC BY 4.0",
+      "cabin": true,
+      "blend": "models/amg-gt/amg-gt.blend",
+      "files": [
+        {
+          "lod": "high",
+          "file": "amg-gt.high.glb",
+          "bytes": 17306848,
+          "triangles": 175719,
+          "sha256": "eceade488d4ac3069914ee0e2c315e1148c25b291716d9722322480b5d9d01d9"
+        },
+        {
+          "lod": "low",
+          "file": "amg-gt.low.glb",
+          "bytes": 8336020,
+          "triangles": 85138,
+          "sha256": "8e95e4d400519ab7f4ee2d0f1850c1b98e24361dffa1936dd04bf3d47fa6ae7a"
+        }
+      ]
+    },
+    {
+      "id": "bmw-m4",
+      "title": "BMW M4",
+      "license": "CC BY 4.0",
+      "cabin": true,
+      "blend": "models/bmw-m4/bmw-m4.blend",
+      "files": [
+        {
+          "lod": "high",
+          "file": "bmw-m4.high.glb",
+          "bytes": 2495304,
+          "triangles": 90255,
+          "sha256": "6340afab773f334e0b7143942ccdafe0e665c58685e8d1b9d56e88230e969f0b"
+        },
+        {
+          "lod": "low",
+          "file": "bmw-m4.low.glb",
+          "bytes": 1480652,
+          "triangles": 46260,
+          "sha256": "3e223f6decf54fa5ef78e3194888fd5837c7c7267ff3b441c25ccf9fab686389"
+        }
+      ]
+    },
+    {
+      "id": "bugatti-veyron",
+      "title": "Bugatti Veyron",
+      "license": "CC BY 4.0",
+      "cabin": false,
+      "blend": "models/bugatti-veyron/bugatti-veyron.blend",
+      "files": [
+        {
+          "lod": "high",
+          "file": "bugatti-veyron.high.glb",
+          "bytes": 3544564,
+          "triangles": 81501,
+          "sha256": "accfc0c271012e336f730e7f88bfc83cc8ec107488d9585aa3e08e5985b39ad0"
+        },
+        {
+          "lod": "low",
+          "file": "bugatti-veyron.low.glb",
+          "bytes": 2052556,
+          "triangles": 40748,
+          "sha256": "34f3f8b3f30469316d780ffad652bb76700c3112ab50f9fe82dbb3c8b47c90a5"
+        }
+      ]
+    },
+    {
+      "id": "ferrari-458",
+      "title": "Ferrari 458",
+      "license": "CC BY 4.0",
+      "cabin": true,
+      "blend": "models/ferrari-458/ferrari-458.blend",
+      "files": [
+        {
+          "lod": "high",
+          "file": "ferrari-458.high.glb",
+          "bytes": 9989044,
+          "triangles": 240119,
+          "sha256": "4b92d39cfe106f0acbfa9ad1218ab7302a623c01b46548a4f17b8d8881e4a411"
+        },
+        {
+          "lod": "low",
+          "file": "ferrari-458.low.glb",
+          "bytes": 4155340,
+          "triangles": 85163,
+          "sha256": "cfaf95c6fcdb5d39d949d038d9449d457cf80d99f44bb50c7035b073818d0ea6"
+        }
+      ]
+    },
+    {
+      "id": "lamborghini-centenario",
+      "title": "Lamborghini Centenario",
+      "license": "CC BY 4.0",
+      "cabin": true,
+      "blend": "models/lamborghini-centenario/lamborghini-centenario.blend",
+      "files": [
+        {
+          "lod": "high",
+          "file": "lamborghini-centenario.high.glb",
+          "bytes": 15251092,
+          "triangles": 240112,
+          "sha256": "e5869f3c7e64aa571690119bd8839f6a0b6d90164e967739cb515943cc61205b"
+        },
+        {
+          "lod": "low",
+          "file": "lamborghini-centenario.low.glb",
+          "bytes": 7479372,
+          "triangles": 85160,
+          "sha256": "e3f9f72eb4eff485e2ffd468567e6cc6da3dca251b6138b8244d928ab296dd60"
+        }
+      ]
+    },
+    {
+      "id": "porsche-911",
+      "title": "Porsche 911",
+      "license": "CC BY-SA 4.0",
+      "cabin": false,
+      "blend": "models/porsche-911/porsche-911.blend",
+      "files": [
+        {
+          "lod": "high",
+          "file": "porsche-911.high.glb",
+          "bytes": 9306700,
+          "triangles": 239989,
+          "sha256": "20e00538f734e4e13b43335034939d5a9c4a837a20884043ccd309de7073b251"
+        },
+        {
+          "lod": "low",
+          "file": "porsche-911.low.glb",
+          "bytes": 4591784,
+          "triangles": 84993,
+          "sha256": "0682fec098dabc763337829e947256a6ae102969bc58ff21dba56fb684279584"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+garage and M4 loaded True
+native keyboard acceleration and both camera switches True
+real RPM and speed drive cabin display True
+pause stops simulation True
+reset penalty visible True
+practice result and retry actions True
+su7 model switch 0 True
+su7 live telemetry bound 0 True
+ferrari-458 model switch 0 True
+ferrari-458 live telemetry bound 0 True
+bmw-m4 model switch 0 True
+bmw-m4 live telemetry bound 0 True
+su7 model switch 1 True
+su7 live telemetry bound 1 True
+ferrari-458 model switch 1 True
+ferrari-458 live telemetry bound 1 True
+bmw-m4 model switch 1 True
+bmw-m4 live telemetry bound 1 True
+GPU resource counts stable after repeated switching True
+legacy saves untouched True
+only selected runtime car assets loaded True
+keyboard control path completes full race True
+browser has no uncaught exceptions True

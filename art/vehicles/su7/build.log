@@ -1,0 +1,60 @@
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/build_su7.py:30: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+AUTHORING COMPLETE 646
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+16:56:57 | INFO: Starting glTF 2.0 export
+16:56:57 | INFO: Extracting primitive: Sculpted continuous body shell.001
+16:56:57 | INFO: Primitives created: 13
+16:56:57 | INFO: Extracting primitive: Cube.116
+16:56:57 | INFO: Primitives created: 11
+16:56:57 | INFO: Extracting primitive: Active rear spoiler.001
+16:56:57 | INFO: Primitives created: 1
+16:56:57 | INFO: Extracting primitive: Flat bottom leather steering rim
+16:56:57 | INFO: Primitives created: 3
+16:56:57 | INFO: Extracting primitive: Performance radial tire.004
+16:56:57 | INFO: Primitives created: 6
+16:56:57 | INFO: Extracting primitive: Performance radial tire.006
+16:56:57 | INFO: Primitives created: 6
+16:56:57 | INFO: Extracting primitive: Performance radial tire.005
+16:56:57 | INFO: Primitives created: 6
+16:56:57 | INFO: Extracting primitive: Performance radial tire.007
+16:56:57 | INFO: Primitives created: 6
+16:56:57 | INFO: Finished glTF 2.0 export in 0.28882575035095215 s
+
+16:56:57 | INFO: Starting glTF 2.0 export
+16:56:58 | INFO: Extracting primitive: Sculpted continuous body shell.001
+16:56:58 | INFO: Primitives created: 13
+16:56:58 | INFO: Extracting primitive: Cube.116
+16:56:58 | INFO: Primitives created: 11
+16:56:58 | INFO: Extracting primitive: Active rear spoiler.001
+16:56:58 | INFO: Primitives created: 1
+16:56:58 | INFO: Extracting primitive: Flat bottom leather steering rim
+16:56:58 | INFO: Primitives created: 3
+16:56:58 | INFO: Extracting primitive: Performance radial tire.004
+16:56:58 | INFO: Primitives created: 6
+16:56:58 | INFO: Extracting primitive: Performance radial tire.006
+16:56:58 | INFO: Primitives created: 6
+16:56:58 | INFO: Extracting primitive: Performance radial tire.005
+16:56:58 | INFO: Primitives created: 6
+16:56:58 | INFO: Extracting primitive: Performance radial tire.007
+16:56:58 | INFO: Primitives created: 6
+16:56:58 | INFO: Finished glTF 2.0 export in 0.3438441753387451 s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/build_su7.py:674: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/build_su7.py:30: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+
+Info: Saved as "xiaomi-su7.blend"
+RENDER front
+00:39.921  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/front.png'
+RENDER rear
+01:09.685  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/rear.png'
+RENDER side
+01:44.462  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/side.png'
+RENDER cockpit
+02:34.801  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/cockpit.png'
+SU7 BUILD COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

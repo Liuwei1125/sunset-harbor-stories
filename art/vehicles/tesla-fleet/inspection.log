@@ -1,0 +1,533 @@
+16:56:44 | INFO: Data are loaded, start creating Blender stuff
+16:56:44 | INFO: Blender create Mesh node MY-001
+16:56:44 | INFO: Blender create Mesh node MY-002
+16:56:44 | INFO: Blender create Mesh node MY-003
+16:56:44 | INFO: Blender create Mesh node MY-004
+16:56:44 | INFO: Blender create Mesh node MY-005
+16:56:44 | INFO: Blender create Mesh node MY-006
+16:56:44 | INFO: Blender create Mesh node MY-007
+16:56:44 | INFO: Blender create Mesh node MY-008
+16:56:44 | INFO: Blender create Mesh node MY-009
+16:56:44 | INFO: Blender create Mesh node MY-010
+16:56:44 | INFO: Blender create Mesh node MY-011
+16:56:44 | INFO: Blender create Mesh node MY-012
+16:56:44 | INFO: Blender create Mesh node MY-013
+16:56:44 | INFO: Blender create Mesh node MY-014
+16:56:44 | INFO: Blender create Mesh node MY-015
+16:56:44 | INFO: Blender create Mesh node MY-016
+16:56:44 | INFO: Blender create Mesh node MY-017
+16:56:44 | INFO: Blender create Mesh node MY-018
+16:56:44 | INFO: Blender create Mesh node MY-019
+16:56:44 | INFO: Blender create Mesh node MY-020
+16:56:44 | INFO: Blender create Mesh node MY-021
+16:56:44 | INFO: Blender create Mesh node MY-022
+16:56:44 | INFO: Blender create Mesh node MY-023
+16:56:44 | INFO: Blender create Mesh node MY-024
+16:56:44 | INFO: Blender create Mesh node MY-025
+16:56:44 | INFO: Blender create Mesh node MY-026
+16:56:44 | INFO: Blender create Mesh node MY-027
+16:56:44 | INFO: Blender create Mesh node MY-028
+16:56:44 | INFO: Blender create Mesh node MY-029
+16:56:44 | INFO: Blender create Mesh node MY-030
+16:56:44 | INFO: Blender create Mesh node MY-031
+16:56:44 | INFO: Blender create Mesh node MY-032
+16:56:44 | INFO: Blender create Mesh node MY-033
+16:56:44 | INFO: Blender create Mesh node MY-034
+16:56:44 | INFO: Blender create Mesh node MY-035
+16:56:44 | INFO: Blender create Mesh node MY-036
+16:56:44 | INFO: Blender create Mesh node MY-037
+16:56:44 | INFO: Blender create Mesh node MY-038
+16:56:44 | INFO: Blender create Mesh node MY-039
+16:56:44 | INFO: Blender create Mesh node MY-040
+16:56:44 | INFO: Blender create Mesh node MY-041
+16:56:44 | INFO: Blender create Mesh node MY-042
+16:56:44 | INFO: Blender create Mesh node MY-043
+16:56:44 | INFO: Blender create Mesh node MY-044
+16:56:44 | INFO: Blender create Mesh node MY-045
+16:56:44 | INFO: Blender create Mesh node MY-046
+16:56:44 | INFO: Blender create Mesh node MY-047
+16:56:44 | INFO: Blender create Mesh node MY-048
+16:56:44 | INFO: Blender create Mesh node MY-049
+16:56:44 | INFO: Blender create Mesh node MY-050
+16:56:44 | INFO: Blender create Mesh node MY-051
+16:56:44 | INFO: Blender create Mesh node MY-052
+16:56:44 | INFO: Blender create Mesh node MY-053
+16:56:44 | INFO: Blender create Mesh node MY-054
+16:56:44 | INFO: Blender create Mesh node MY-055
+16:56:44 | INFO: Blender create Mesh node MY-056
+16:56:44 | INFO: Blender create Mesh node MY-057
+16:56:44 | INFO: Blender create Mesh node MY-058
+16:56:44 | INFO: Blender create Mesh node MY-059
+16:56:44 | INFO: Blender create Mesh node MY-060
+16:56:44 | INFO: Blender create Mesh node MY-061
+16:56:44 | INFO: Blender create Mesh node MY-062
+16:56:44 | INFO: Blender create Mesh node MY-063
+16:56:44 | INFO: Blender create Mesh node MY-064
+16:56:44 | INFO: Blender create Mesh node MY-065
+16:56:44 | INFO: Blender create Mesh node MY-066
+16:56:44 | INFO: Blender create Mesh node MY-067
+16:56:44 | INFO: Blender create Mesh node MY-068
+16:56:44 | INFO: Blender create Mesh node MY-069
+16:56:44 | INFO: Blender create Mesh node MY-070
+16:56:44 | INFO: Blender create Mesh node MY-071
+16:56:44 | INFO: Blender create Mesh node MY-072
+16:56:44 | INFO: Blender create Mesh node MY-073
+16:56:44 | INFO: Blender create Mesh node MY-074
+16:56:44 | INFO: Blender create Mesh node MY-075
+16:56:44 | INFO: Blender create Mesh node MY-076
+16:56:44 | INFO: Blender create Mesh node MY-077
+16:56:44 | INFO: Blender create Mesh node MY-078
+16:56:44 | INFO: Blender create Mesh node MY-079
+16:56:44 | INFO: Blender create Mesh node MY-080
+16:56:44 | INFO: Blender create Mesh node MY-081
+16:56:44 | INFO: Blender create Mesh node MY-082
+16:56:44 | INFO: Blender create Mesh node MY-083
+16:56:44 | INFO: Blender create Mesh node MY-084
+16:56:44 | INFO: Blender create Mesh node MY-085
+16:56:44 | INFO: Blender create Mesh node MY-086
+16:56:44 | INFO: Blender create Mesh node MY-087
+16:56:44 | INFO: Blender create Mesh node MY-088
+16:56:44 | INFO: Blender create Mesh node MY-089
+16:56:44 | INFO: Blender create Mesh node MY-090
+16:56:44 | INFO: Blender create Mesh node MY-091
+16:56:44 | INFO: Blender create Mesh node MY-092
+16:56:44 | INFO: Blender create Mesh node MY-093
+16:56:44 | INFO: Blender create Mesh node MY-094
+16:56:44 | INFO: Blender create Mesh node MY-095
+16:56:44 | INFO: Blender create Mesh node MY-096
+16:56:44 | INFO: Blender create Mesh node MY-097
+16:56:44 | INFO: Blender create Mesh node MY-098
+16:56:44 | INFO: Blender create Mesh node MY-099
+16:56:44 | INFO: Blender create Mesh node MY-100
+16:56:44 | INFO: Blender create Mesh node MY-101
+16:56:44 | INFO: Blender create Mesh node MY-102
+16:56:44 | INFO: Blender create Mesh node MY-103
+16:56:44 | INFO: Blender create Mesh node MY-104
+16:56:44 | INFO: Blender create Mesh node MY-105
+16:56:44 | INFO: Blender create Mesh node MY-106
+16:56:44 | INFO: Blender create Mesh node MY-107
+16:56:44 | INFO: Blender create Mesh node MY-108
+16:56:44 | INFO: Blender create Mesh node MY-109
+16:56:44 | INFO: Blender create Mesh node MY-110
+16:56:44 | INFO: Blender create Mesh node MY-111
+16:56:44 | INFO: Blender create Mesh node MY-112
+16:56:44 | INFO: Blender create Mesh node MY-113
+16:56:44 | INFO: Blender create Mesh node MY-114
+16:56:44 | INFO: Blender create Mesh node MY-115
+16:56:44 | INFO: Blender create Mesh node MY-116
+16:56:44 | INFO: Blender create Mesh node MY-117
+16:56:44 | INFO: Blender create Mesh node MY-118
+16:56:44 | INFO: Blender create Mesh node MY-119
+16:56:44 | INFO: Blender create Mesh node MY-120
+16:56:44 | INFO: Blender create Mesh node MY-121
+16:56:44 | INFO: Blender create Mesh node MY-122
+16:56:44 | INFO: Blender create Mesh node MY-123
+16:56:44 | INFO: Blender create Mesh node MY-124
+16:56:44 | INFO: Blender create Mesh node MY-125
+16:56:44 | INFO: Blender create Mesh node MY-126
+16:56:44 | INFO: Blender create Mesh node MY-127
+16:56:44 | INFO: Blender create Mesh node MY-128
+16:56:44 | INFO: Blender create Mesh node MY-129
+16:56:44 | INFO: Blender create Mesh node MY-130
+16:56:44 | INFO: Blender create Mesh node MY-131
+16:56:44 | INFO: Blender create Mesh node MY-132
+16:56:44 | INFO: Blender create Mesh node MY-133
+16:56:44 | INFO: Blender create Mesh node MY-134
+16:56:44 | INFO: Blender create Mesh node MY-135
+16:56:44 | INFO: Blender create Mesh node MY-136
+16:56:44 | INFO: Blender create Mesh node MY-137
+16:56:44 | INFO: Blender create Mesh node MY-138
+16:56:44 | INFO: Blender create Mesh node MY-139
+16:56:44 | INFO: Blender create Mesh node MY-140
+16:56:44 | INFO: Blender create Mesh node MY-141
+16:56:44 | INFO: Blender create Mesh node MY-142
+16:56:44 | INFO: Blender create Mesh node MY-143
+16:56:44 | INFO: Blender create Mesh node MY-144
+16:56:44 | INFO: Blender create Mesh node MY-145
+16:56:44 | INFO: Blender create Mesh node MY-146
+16:56:44 | INFO: Blender create Mesh node MY-147
+16:56:44 | INFO: Blender create Mesh node MY-148
+16:56:44 | INFO: Blender create Mesh node MY-149
+16:56:44 | INFO: Blender create Mesh node MY-150
+16:56:44 | INFO: Blender create Mesh node MY-151
+16:56:44 | INFO: Blender create Mesh node MY-152
+16:56:44 | INFO: Blender create Mesh node MY-153
+16:56:44 | INFO: Blender create Mesh node MY-154
+16:56:44 | INFO: Blender create Mesh node MY-155
+16:56:44 | INFO: Blender create Mesh node MY-156
+16:56:44 | INFO: Blender create Mesh node MY-157
+16:56:44 | INFO: Blender create Mesh node MY-158
+16:56:44 | INFO: Blender create Mesh node MY-159
+16:56:44 | INFO: Blender create Mesh node MY-160
+16:56:44 | INFO: Blender create Mesh node MY-161
+16:56:44 | INFO: Blender create Mesh node MY-162
+16:56:44 | INFO: Blender create Mesh node MY-163
+16:56:44 | INFO: Blender create Mesh node MY-164
+16:56:44 | INFO: Blender create Mesh node MY-165
+16:56:44 | INFO: Blender create Mesh node MY-166
+16:56:44 | INFO: Blender create Mesh node MY-167
+16:56:44 | INFO: Blender create Mesh node MY-168
+16:56:44 | INFO: Blender create Mesh node MY-169
+16:56:44 | INFO: Blender create Mesh node MY-170
+16:56:44 | INFO: Blender create Mesh node MY-171
+16:56:44 | INFO: Blender create Mesh node MY-172
+16:56:44 | INFO: Blender create Mesh node MY-173
+16:56:44 | INFO: Blender create Mesh node MY-174
+16:56:44 | INFO: Blender create Mesh node MY-175
+16:56:44 | INFO: Blender create Mesh node MY-176
+16:56:44 | INFO: Blender create Mesh node MY-177
+16:56:44 | INFO: Blender create Mesh node MY-178
+16:56:44 | INFO: Blender create Mesh node MY-179
+16:56:44 | INFO: Blender create Mesh node MY-180
+16:56:44 | INFO: Blender create Mesh node MY-181
+16:56:44 | INFO: Blender create Mesh node MY-182
+16:56:44 | INFO: Blender create Mesh node MY-183
+16:56:44 | INFO: Blender create Mesh node MY-184
+16:56:44 | INFO: Blender create Mesh node MY-185
+16:56:44 | INFO: Blender create Mesh node MY-186
+16:56:44 | INFO: Blender create Mesh node MY-187
+16:56:44 | INFO: Blender create Mesh node MY-188
+16:56:44 | INFO: Blender create Mesh node MY-189
+16:56:44 | INFO: Blender create Mesh node MY-190
+16:56:44 | INFO: Blender create Mesh node MY-191
+16:56:44 | INFO: Blender create Mesh node MY-192
+16:56:44 | INFO: Blender create Mesh node MY-193
+16:56:44 | INFO: Blender create Mesh node MY-194
+16:56:44 | INFO: Blender create Mesh node MY-195
+16:56:44 | INFO: Blender create Mesh node MY-196
+16:56:44 | INFO: Blender create Mesh node MY-197
+16:56:44 | INFO: Blender create Mesh node MY-198
+16:56:44 | INFO: Blender create Mesh node MY-199
+16:56:44 | INFO: Blender create Mesh node MY-200
+16:56:44 | INFO: Blender create Mesh node MY-201
+16:56:44 | INFO: Blender create Mesh node MY-202
+16:56:44 | INFO: Blender create Mesh node MY-203
+16:56:44 | INFO: Blender create Mesh node MY-204
+16:56:44 | INFO: Blender create Mesh node MY-205
+16:56:44 | INFO: Blender create Mesh node MY-206
+16:56:44 | INFO: Blender create Mesh node MY-207
+16:56:44 | INFO: Blender create Mesh node MY-208
+16:56:44 | INFO: Blender create Mesh node MY-209
+16:56:44 | INFO: Blender create Mesh node MY-210
+16:56:44 | INFO: Blender create Mesh node MY-211
+16:56:44 | INFO: Blender create Mesh node MY-212
+16:56:44 | INFO: Blender create Mesh node MY-213
+16:56:44 | INFO: Blender create Mesh node MY-214
+16:56:44 | INFO: Blender create Mesh node MY-215
+16:56:44 | INFO: Blender create Mesh node MY-216
+16:56:44 | INFO: Blender create Mesh node MY-217
+16:56:44 | INFO: Blender create Mesh node MY-218
+16:56:44 | INFO: Blender create Mesh node MY-219
+16:56:44 | INFO: Blender create Mesh node MY-220
+16:56:44 | INFO: Blender create Mesh node MY-221
+16:56:44 | INFO: Blender create Mesh node MY-222
+16:56:44 | INFO: Blender create Mesh node MY-223
+16:56:44 | INFO: Blender create Mesh node MY-224
+16:56:44 | INFO: Blender create Mesh node MY-225
+16:56:44 | INFO: Blender create Mesh node MY-226
+16:56:44 | INFO: Blender create Mesh node MY-227
+16:56:44 | INFO: Blender create Mesh node MY-228
+16:56:44 | INFO: Blender create Mesh node MY-229
+16:56:44 | INFO: Blender create Mesh node MY-230
+16:56:44 | INFO: Blender create Mesh node MY-231
+16:56:44 | INFO: Blender create Mesh node MY-232
+16:56:44 | INFO: Blender create Mesh node MY-233
+16:56:44 | INFO: Blender create Mesh node MY-234
+16:56:44 | INFO: Blender create Mesh node MY-235
+16:56:44 | INFO: Blender create Mesh node MY-236
+16:56:44 | INFO: Blender create Mesh node MY-237
+16:56:44 | INFO: Blender create Mesh node MY-238
+16:56:44 | INFO: Blender create Mesh node MY-239
+16:56:44 | INFO: Blender create Mesh node MY-240
+16:56:44 | INFO: Blender create Mesh node MY-241
+16:56:44 | INFO: Blender create Mesh node MY-242
+16:56:44 | INFO: Blender create Mesh node MY-243
+16:56:44 | INFO: Blender create Mesh node MY-244
+16:56:44 | INFO: Blender create Mesh node MY-245
+16:56:44 | INFO: Blender create Mesh node MY-246
+16:56:44 | INFO: Blender create Mesh node MY-247
+16:56:44 | INFO: Blender create Mesh node MY-248
+16:56:44 | INFO: Blender create Mesh node MY-249
+16:56:44 | INFO: Blender create Mesh node MY-250
+16:56:44 | INFO: Blender create Mesh node MY-251
+16:56:44 | INFO: Blender create Mesh node MY-252
+16:56:44 | INFO: Blender create Mesh node MY-253
+16:56:44 | INFO: Blender create Mesh node MY-254
+16:56:44 | INFO: Blender create Mesh node MY-255
+16:56:44 | INFO: Blender create Mesh node MY-256
+16:56:44 | INFO: Blender create Mesh node MY-257
+16:56:44 | INFO: Blender create Mesh node MY-258
+16:56:44 | INFO: Blender create Mesh node MY-259
+16:56:44 | INFO: Blender create Mesh node MY-260
+16:56:44 | INFO: Blender create Mesh node MY-261
+16:56:44 | INFO: Blender create Mesh node MY-262
+16:56:44 | INFO: Blender create Mesh node MY-263
+16:56:44 | INFO: Blender create Mesh node MY-264
+16:56:44 | INFO: Blender create Mesh node MY-265
+16:56:44 | INFO: Blender create Mesh node MY-266
+16:56:44 | INFO: Blender create Mesh node MY-267
+16:56:44 | INFO: Blender create Mesh node MY-268
+16:56:44 | INFO: Blender create Mesh node MY-269
+16:56:44 | INFO: Blender create Mesh node MY-270
+16:56:44 | INFO: Blender create Mesh node MY-271
+16:56:44 | INFO: Blender create Mesh node MY-272
+16:56:44 | INFO: Blender create Mesh node MY-273
+16:56:44 | INFO: Blender create Mesh node MY-274
+16:56:44 | INFO: Blender create Mesh node MY-275
+16:56:44 | INFO: Blender create Mesh node MY-276
+16:56:44 | INFO: Blender create Mesh node MY-277
+16:56:44 | INFO: Blender create Mesh node MY-278
+16:56:44 | INFO: Blender create Mesh node MY-279
+16:56:44 | INFO: Blender create Mesh node MY-280
+16:56:44 | INFO: Blender create Mesh node MY-281
+16:56:44 | INFO: Blender create Mesh node MY-282
+16:56:44 | INFO: Blender create Mesh node MY-283
+16:56:44 | INFO: Blender create Mesh node MY-284
+16:56:44 | INFO: Blender create Mesh node MY-285
+16:56:44 | INFO: Blender create Mesh node MY-286
+16:56:44 | INFO: Blender create Mesh node MY-287
+16:56:44 | INFO: Blender create Mesh node MY-288
+16:56:44 | INFO: Blender create Mesh node MY-289
+16:56:44 | INFO: Blender create Mesh node MY-290
+16:56:44 | INFO: Blender create Mesh node MY-291
+16:56:44 | INFO: Blender create Mesh node MY-292
+16:56:44 | INFO: Blender create Mesh node MY-293
+16:56:44 | INFO: Blender create Mesh node MY-294
+16:56:44 | INFO: Blender create Mesh node MY-295
+16:56:44 | INFO: Blender create Mesh node MY-296
+16:56:44 | INFO: Blender create Mesh node MY-297
+16:56:44 | INFO: Blender create Mesh node MY-298
+16:56:44 | INFO: Blender create Mesh node MY-299
+16:56:44 | INFO: Blender create Mesh node MY-300
+16:56:44 | INFO: Blender create Mesh node MY-301
+16:56:44 | INFO: Blender create Mesh node MY-302
+16:56:44 | INFO: Blender create Mesh node MY-303
+16:56:44 | INFO: Blender create Mesh node MY-304
+16:56:44 | INFO: Blender create Mesh node MY-305
+16:56:44 | INFO: Blender create Mesh node MY-306
+16:56:44 | INFO: Blender create Mesh node MY-307
+16:56:44 | INFO: Blender create Mesh node MY-308
+16:56:44 | INFO: Blender create Mesh node MY-309
+16:56:44 | INFO: Blender create Mesh node MY-310
+16:56:44 | INFO: Blender create Mesh node MY-311
+16:56:44 | INFO: Blender create Mesh node MY-312
+16:56:44 | INFO: Blender create Mesh node MY-313
+16:56:44 | INFO: Blender create Mesh node MY-314
+16:56:44 | INFO: Blender create Mesh node MY-315
+16:56:44 | INFO: Blender create Mesh node MY-316
+16:56:44 | INFO: Blender create Mesh node MY-317
+16:56:44 | INFO: Blender create Mesh node MY-318
+16:56:44 | INFO: Blender create Mesh node MY-319
+16:56:44 | INFO: Blender create Mesh node MY-320
+16:56:44 | INFO: Blender create Mesh node MY-321
+16:56:44 | INFO: Blender create Mesh node MY-322
+16:56:44 | INFO: Blender create Mesh node MY-323
+16:56:44 | INFO: Blender create Mesh node MY-324
+16:56:44 | INFO: Blender create Mesh node MY-325
+16:56:44 | INFO: Blender create Mesh node MY-326
+16:56:44 | INFO: Blender create Mesh node MY-327
+16:56:44 | INFO: Blender create Mesh node MY-328
+16:56:44 | INFO: Blender create Mesh node MY-329
+16:56:44 | INFO: Blender create Mesh node MY-330
+16:56:44 | INFO: Blender create Mesh node MY-331
+16:56:44 | INFO: Blender create Mesh node MY-332
+16:56:44 | INFO: Blender create Mesh node MY-333
+16:56:44 | INFO: Blender create Mesh node MY-334
+16:56:44 | INFO: Blender create Mesh node MY-335
+16:56:44 | INFO: Blender create Mesh node MY-336
+16:56:44 | INFO: Blender create Mesh node MY-337
+16:56:44 | INFO: Blender create Mesh node MY-338
+16:56:44 | INFO: Blender create Mesh node MY-339
+16:56:44 | INFO: Blender create Mesh node MY-340
+16:56:44 | INFO: Blender create Mesh node MY-341
+16:56:44 | INFO: Blender create Mesh node MY-342
+16:56:44 | INFO: Blender create Mesh node MY-343
+16:56:44 | INFO: Blender create Mesh node MY-344
+16:56:44 | INFO: Blender create Mesh node MY-345
+16:56:44 | INFO: Blender create Mesh node MY-346
+16:56:44 | INFO: Blender create Mesh node MY-347
+16:56:44 | INFO: Blender create Mesh node MY-348
+16:56:44 | INFO: Blender create Mesh node MY-349
+16:56:44 | INFO: Blender create Mesh node MY-350
+16:56:44 | INFO: Blender create Mesh node MY-351
+16:56:44 | INFO: Blender create Mesh node MY-352
+16:56:44 | INFO: Blender create Mesh node MY-353
+16:56:44 | INFO: Blender create Mesh node MY-354
+16:56:44 | INFO: Blender create Mesh node MY-355
+16:56:44 | INFO: Blender create Mesh node MY-356
+16:56:44 | INFO: Blender create Mesh node MY-357
+16:56:44 | INFO: Blender create Mesh node MY-358
+16:56:44 | INFO: Blender create Mesh node MY-359
+16:56:44 | INFO: Blender create Mesh node MY-360
+16:56:44 | INFO: Blender create Mesh node MY-361
+16:56:44 | INFO: Blender create Mesh node MY-362
+16:56:44 | INFO: Blender create Mesh node MY-363
+16:56:44 | INFO: Blender create Mesh node MY-364
+16:56:44 | INFO: Blender create Mesh node MY-365
+16:56:44 | INFO: Blender create Mesh node MY-366
+16:56:44 | INFO: Blender create Mesh node MY-367
+16:56:44 | INFO: Blender create Mesh node MY-368
+16:56:44 | INFO: Blender create Mesh node MY-369
+16:56:44 | INFO: Blender create Mesh node MY-370
+16:56:44 | INFO: Blender create Mesh node MY-371
+16:56:44 | INFO: Blender create Mesh node MY-372
+16:56:45 | INFO: Blender create Mesh node MY-373
+16:56:45 | INFO: Blender create Mesh node MY-374
+16:56:45 | INFO: Blender create Mesh node MY-375
+16:56:45 | INFO: Blender create Mesh node MY-376
+16:56:45 | INFO: Blender create Mesh node MY-377
+16:56:45 | INFO: Blender create Mesh node MY-378
+16:56:45 | INFO: Blender create Mesh node MY-379
+16:56:45 | INFO: Blender create Mesh node MY-380
+16:56:45 | INFO: Blender create Mesh node MY-381
+16:56:45 | INFO: Blender create Mesh node MY-382
+16:56:45 | INFO: Blender create Mesh node MY-383
+16:56:45 | INFO: Blender create Mesh node MY-384
+16:56:45 | INFO: Blender create Mesh node MY-385
+16:56:45 | INFO: Blender create Mesh node MY-386
+16:56:45 | INFO: Blender create Mesh node MY-387
+16:56:45 | INFO: Blender create Mesh node MY-388
+16:56:45 | INFO: Blender create Mesh node MY-389
+16:56:45 | INFO: Blender create Mesh node MY-390
+16:56:45 | INFO: Blender create Mesh node MY-391
+16:56:45 | INFO: Blender create Mesh node MY-392
+16:56:45 | INFO: Blender create Mesh node MY-393
+16:56:45 | INFO: Blender create Mesh node MY-394
+16:56:45 | INFO: Blender create Mesh node MY-395
+16:56:45 | INFO: Blender create Mesh node MY-396
+16:56:45 | INFO: Blender create Mesh node MY-397
+16:56:45 | INFO: glTF import finished in 1.04s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/inspect_sources.py:35: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Inspection world');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.55,.55,.55,1);scene.world.node_tree.nodes['Background'].inputs[1].default_value=.7
+00:07.797  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/model-y/renders/source-front.png'
+00:11.788  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/model-y/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED model-y meshes 397 bounds [[-1.014660120010376, -2.375499963760376, 0.0], [1.0146600008010864, 2.375500202178955, 1.6094334125518799]]
+16:56:55 | INFO: Data are loaded, start creating Blender stuff
+16:56:55 | INFO: Blender create Mesh node roadster.005_grill_0
+16:56:55 | INFO: Blender create Mesh node roadster.007_Glass mid tint_0
+16:56:55 | INFO: Blender create Mesh node roadster.082_car main paint_0
+16:56:55 | INFO: Blender create Mesh node roadster.008_interior_0
+16:56:55 | INFO: Blender create Mesh node roadster.009_seats_0
+16:56:55 | INFO: Blender create Mesh node roadster.010_seats_0
+16:56:55 | INFO: Blender create Mesh node roadster.011_mirror_0
+16:56:55 | INFO: Blender create Mesh node roadster.012_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.013_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.014_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.015_car main paint_0
+16:56:55 | INFO: Blender create Mesh node roadster.016_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.017_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.018_non lustrous metal_0
+16:56:55 | INFO: Blender create Mesh node roadster.019_Glass mid tint_0
+16:56:55 | INFO: Blender create Mesh node roadster.020_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.021_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.022_grill_0
+16:56:55 | INFO: Blender create Mesh node roadster.022_non lustrous metal_0
+16:56:55 | INFO: Blender create Mesh node roadster.024_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.025_Glass Amber_0
+16:56:55 | INFO: Blender create Mesh node roadster.026_indicator left_0
+16:56:55 | INFO: Blender create Mesh node roadster.026_indicator right_0
+16:56:55 | INFO: Blender create Mesh node roadster.026_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.027_chrome_0
+16:56:55 | INFO: Blender create Mesh node roadster.028_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.029_Glass Clear_0
+16:56:55 | INFO: Blender create Mesh node roadster.030_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.031_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.032_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.032_headlights AHO_0
+16:56:55 | INFO: Blender create Mesh node roadster.033_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.033_headlights AHO_0
+16:56:55 | INFO: Blender create Mesh node roadster.034_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.035_headlights main_0
+16:56:55 | INFO: Blender create Mesh node roadster.036_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.037_Glass Clear_0
+16:56:55 | INFO: Blender create Mesh node roadster.038_chrome_0
+16:56:55 | INFO: Blender create Mesh node roadster.039_chrome_0
+16:56:55 | INFO: Blender create Mesh node roadster.040_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.041_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.042_mirror_0
+16:56:55 | INFO: Blender create Mesh node roadster.043_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.044_Glass Clear_0
+16:56:55 | INFO: Blender create Mesh node roadster.045_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.046_Glass Tint max_0
+16:56:55 | INFO: Blender create Mesh node roadster.047_non lustrous metal_0
+16:56:55 | INFO: Blender create Mesh node roadster.048_Glass Clear_0
+16:56:55 | INFO: Blender create Mesh node roadster.049_licence plate light_0
+16:56:55 | INFO: Blender create Mesh node roadster.049_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.050_Glass rear lights main_0
+16:56:55 | INFO: Blender create Mesh node roadster.051_Glass Amber_0
+16:56:55 | INFO: Blender create Mesh node roadster.052_indicator left_0
+16:56:55 | INFO: Blender create Mesh node roadster.052_indicator right_0
+16:56:55 | INFO: Blender create Mesh node roadster.052_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.053_Glass mid tint_0
+16:56:55 | INFO: Blender create Mesh node roadster.054_Glass mid tint_0
+16:56:55 | INFO: Blender create Mesh node roadster.055_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.056_Glass Tint max_0
+16:56:55 | INFO: Blender create Mesh node roadster.057_Glass Tint max_0
+16:56:55 | INFO: Blender create Mesh node roadster.058_car main paint_0
+16:56:55 | INFO: Blender create Mesh node roadster.059_Glass mid tint_0
+16:56:55 | INFO: Blender create Mesh node roadster.060_car main paint_0
+16:56:55 | INFO: Blender create Mesh node roadster.061_ior 1_0
+16:56:55 | INFO: Blender create Mesh node roadster.062_car main paint_0
+16:56:55 | INFO: Blender create Mesh node roadster.063_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.064_Glass rear lights main_0
+16:56:55 | INFO: Blender create Mesh node roadster.065_Glass rear lights DHO_0
+16:56:55 | INFO: Blender create Mesh node roadster.066_Glass Clear_0
+16:56:55 | INFO: Blender create Mesh node roadster.067_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.068_carbon fibre_0
+16:56:55 | INFO: Blender create Mesh node roadster.069_Glass rear lights main_0
+16:56:55 | INFO: Blender create Mesh node roadster.070_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node roadster.071_mirror_0
+16:56:55 | INFO: Blender create Mesh node roadster.077_mirror_0
+16:56:55 | INFO: Blender create Mesh node roadster.079_mirror_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Body_car main paint_0
+16:56:55 | INFO: Blender create Mesh node roadster.003_Sidewall_0
+16:56:55 | INFO: Blender create Mesh node roadster.003_Thread_0
+16:56:55 | INFO: Blender create Mesh node roadster.074_Brake Disc_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Bk.L_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Bk.L_mirror_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Bk.L_Rims_0
+16:56:55 | INFO: Blender create Mesh node roadster.004_Sidewall_0
+16:56:55 | INFO: Blender create Mesh node roadster.004_Thread_0
+16:56:55 | INFO: Blender create Mesh node roadster.076_Brake Disc_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Bk.R_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Bk.R_mirror_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Bk.R_Rims_0
+16:56:55 | INFO: Blender create Mesh node roadster.001_Sidewall_0
+16:56:55 | INFO: Blender create Mesh node roadster.001_Thread_0
+16:56:55 | INFO: Blender create Mesh node roadster.072_Brake Disc_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Ft.L_Metal - Black rough_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Ft.L_mirror_0
+16:56:55 | INFO: Blender create Mesh node TR.DEF-Wheel.Ft.L_Rims_0
+16:56:56 | INFO: Blender create Mesh node roadster.002_Sidewall_0
+16:56:56 | INFO: Blender create Mesh node roadster.002_Thread_0
+16:56:56 | INFO: Blender create Mesh node roadster.080_Brake Disc_0
+16:56:56 | INFO: Blender create Mesh node TR.DEF-Wheel.Ft.R_Metal - Black rough_0
+16:56:56 | INFO: Blender create Mesh node TR.DEF-Wheel.Ft.R_mirror_0
+16:56:56 | INFO: Blender create Mesh node TR.DEF-Wheel.Ft.R_Rims_0
+16:56:56 | INFO: Blender create Mesh node TR.DEF-WheelBrake.Bk.L_calipers_0
+16:56:56 | INFO: Blender create Mesh node TR.DEF-WheelBrake.Bk.R_calipers_0
+16:56:56 | INFO: Blender create Mesh node TR.DEF-WheelBrake.Ft.L_calipers_0
+16:56:56 | INFO: Blender create Mesh node TR.DEF-WheelBrake.Ft.R_calipers_0
+16:56:56 | INFO: glTF import finished in 1.04s
+00:17.166  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/roadster/renders/source-front.png'
+00:21.510  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/roadster/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED roadster meshes 105 bounds [[-0.9401834011077881, -2.299999952316284, 8.940696716308594e-08], [0.9401831030845642, 2.299999713897705, 1.1728595495224]]
+16:57:04 | INFO: Data are loaded, start creating Blender stuff
+16:57:04 | INFO: Blender create Mesh node Object_0
+16:57:04 | INFO: Blender create Mesh node Object_1
+16:57:04 | INFO: Blender create Mesh node Object_2
+16:57:04 | INFO: Blender create Mesh node Object_3
+16:57:04 | INFO: Blender create Mesh node Object_4
+16:57:04 | INFO: Blender create Mesh node Object_5
+16:57:04 | INFO: Blender create Mesh node Object_6
+16:57:04 | INFO: Blender create Mesh node Object_7
+16:57:04 | INFO: glTF import finished in 0.09s
+00:25.684  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/cybertruck/renders/source-front.png'
+00:29.988  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/cybertruck/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED cybertruck meshes 8 bounds [[-1.0922269821166992, -2.942499876022339, 0.10847026109695435], [1.0922271013259888, 2.942499876022339, 2.008535385131836]]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

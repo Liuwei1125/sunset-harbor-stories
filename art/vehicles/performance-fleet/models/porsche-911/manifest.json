@@ -1,0 +1,107 @@
+{
+  "title": "Porsche 911",
+  "brand": "Porsche",
+  "edition": "Carrera 4S · Lionsharp / Karol Miklas",
+  "paint": "B9BEC2",
+  "paintMaterials": [
+    "paint",
+    "coat"
+  ],
+  "tireMaterials": [
+    "rubber"
+  ],
+  "steering": [
+    -0.36,
+    0.38,
+    0.88
+  ],
+  "eye": [
+    -0.36,
+    -0.06,
+    1.1
+  ],
+  "aim": [
+    0,
+    0.68,
+    0.88
+  ],
+  "screen": [
+    0,
+    0.38,
+    0.92,
+    0.22,
+    0.135,
+    0.1
+  ],
+  "layout": "landscape",
+  "cabin": false,
+  "notes": "本资源以外观为主，没有完整可用座舱。模型及改编继续采用 CC BY-SA 4.0。",
+  "id": "porsche-911",
+  "license": "CC BY-SA 4.0",
+  "source": "https://sketchfab.com/3d-models/free-porsche-911-carrera-4s-d01b254483794de3819786d93e0e1ebf",
+  "author": "Lionsharp Studios",
+  "coordinates": "metres; glTF Y up; -Z forward",
+  "paintable": true,
+  "dimensions": {
+    "width": 2.030618906021118,
+    "length": 4.490999937057495,
+    "height": 1.2897812128067017
+  },
+  "wheelFront": 1.2276204526424408,
+  "wheelRear": -1.274030476808548,
+  "track": 0.7663423344492912,
+  "radius": 0.33641312924879774,
+  "joints": {
+    "front-left": [
+      -0.7589922249317169,
+      0.33641317781734514,
+      -1.2654351592063904
+    ],
+    "front-right": [
+      0.7672116160392761,
+      0.3364131450653076,
+      -1.1898057460784912
+    ],
+    "rear-left": [
+      -0.7695828378200531,
+      0.3364187631589175,
+      1.2740304172039032
+    ],
+    "rear-right": [
+      0.7695826590061188,
+      0.3364187631589175,
+      1.2740305364131927
+    ]
+  },
+  "steeringPivot": [
+    -0.36,
+    0.88,
+    -0.38
+  ],
+  "views": {},
+  "display": {
+    "material": "display:front",
+    "layout": "landscape",
+    "size": [
+      1536,
+      960
+    ],
+    "enabled": false
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "porsche-911.high.glb",
+      "bytes": 9306700,
+      "triangles": 239989,
+      "sha256": "20e00538f734e4e13b43335034939d5a9c4a837a20884043ccd309de7073b251"
+    },
+    {
+      "lod": "low",
+      "file": "porsche-911.low.glb",
+      "bytes": 4591784,
+      "triangles": 84993,
+      "sha256": "0682fec098dabc763337829e947256a6ae102969bc58ff21dba56fb684279584"
+    }
+  ]
+}

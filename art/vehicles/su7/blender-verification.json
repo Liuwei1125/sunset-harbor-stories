@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "part": "wheel-front-left",
+      "passed": true,
+      "center": [
+        -0.840999960899353,
+        1.5499999523162842,
+        0.35499998927116394
+      ]
+    },
+    {
+      "part": "wheel-rear-left",
+      "passed": true,
+      "center": [
+        -0.840999960899353,
+        -1.4500000476837158,
+        0.35499998927116394
+      ]
+    },
+    {
+      "part": "wheel-front-right",
+      "passed": true,
+      "center": [
+        0.840999960899353,
+        1.5499999523162842,
+        0.35499998927116394
+      ]
+    },
+    {
+      "part": "wheel-rear-right",
+      "passed": true,
+      "center": [
+        0.840999960899353,
+        -1.4500000476837158,
+        0.35499998927116394
+      ]
+    },
+    {
+      "part": "steering",
+      "passed": true
+    },
+    {
+      "part": "single outward roof surface with glazing thickness",
+      "passed": true
+    },
+    {
+      "part": "two cup wells have actual recessed geometry",
+      "passed": true
+    },
+    {
+      "part": "reference and lighting images packed in source",
+      "passed": true
+    },
+    {
+      "part": "fine curves retained after editable grouping",
+      "passed": true,
+      "groups": 9
+    },
+    {
+      "part": "independent UV screen cluster",
+      "passed": true
+    },
+    {
+      "part": "independent UV screen center",
+      "passed": true
+    },
+    {
+      "part": "sculpted seats and no fixed instrument lettering",
+      "passed": true
+    },
+    {
+      "part": "reference camera projection implementation",
+      "passed": true,
+      "maxPixelDifference": 0.0002729575167846423
+    }
+  ],
+  "rigs": 10,
+  "blender": "5.2.1 LTS"
+}

@@ -1,0 +1,224 @@
+18:10:39 | INFO: Data are loaded, start creating Blender stuff
+18:10:39 | INFO: Blender create Mesh node trim
+18:10:39 | INFO: Draco Decoder: Decode primitive trim
+18:10:39 | INFO: Blender create Mesh node lights_red
+18:10:39 | INFO: Draco Decoder: Decode primitive lights_red
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:39 | INFO: Blender create Mesh node plastic_gray
+18:10:39 | INFO: Draco Decoder: Decode primitive plastic_gray
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:39 | INFO: Blender create Mesh node metal
+18:10:39 | INFO: Draco Decoder: Decode primitive metal
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:39 | INFO: Blender create Mesh node lights
+18:10:39 | INFO: Draco Decoder: Decode primitive lights
+18:10:39 | INFO: Blender create Mesh node leds
+18:10:39 | INFO: Draco Decoder: Decode primitive leds
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:39 | INFO: Blender create Mesh node leather
+18:10:39 | INFO: Draco Decoder: Decode primitive leather
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:39 | INFO: Blender create Mesh node interior_light
+18:10:39 | INFO: Draco Decoder: Decode primitive interior_light
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:39 | INFO: Blender create Mesh node grills
+18:10:39 | INFO: Draco Decoder: Decode primitive grills
+18:10:39 | INFO: Blender create Mesh node glass
+18:10:39 | INFO: Draco Decoder: Decode primitive glass
+18:10:39 | INFO: Blender create Mesh node chrome
+18:10:39 | INFO: Draco Decoder: Decode primitive chrome
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:39 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node carpet
+18:10:40 | INFO: Draco Decoder: Decode primitive carpet
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node carbon_fibre_trim
+18:10:40 | INFO: Draco Decoder: Decode primitive carbon_fibre_trim
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node carbon fibre
+18:10:40 | INFO: Draco Decoder: Decode primitive carbon fibre
+18:10:40 | INFO: Blender create Mesh node brakes
+18:10:40 | INFO: Draco Decoder: Decode primitive brakes
+18:10:40 | INFO: Blender create Mesh node interior_dark
+18:10:40 | INFO: Draco Decoder: Decode primitive interior_dark
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node body
+18:10:40 | INFO: Draco Decoder: Decode primitive body
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node blue
+18:10:40 | INFO: Draco Decoder: Decode primitive blue
+18:10:40 | INFO: Blender create Mesh node wipers
+18:10:40 | INFO: Draco Decoder: Decode primitive wipers
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node yellow_trim
+18:10:40 | INFO: Draco Decoder: Decode primitive yellow_trim
+18:10:40 | INFO: Blender create Mesh node wheel
+18:10:40 | INFO: Draco Decoder: Decode primitive wheel
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node tire
+18:10:40 | INFO: Draco Decoder: Decode primitive tire
+18:10:40 | INFO: Blender create Mesh node rim_rr
+18:10:40 | INFO: Draco Decoder: Decode primitive rim_rr
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node centre
+18:10:40 | INFO: Draco Decoder: Decode primitive centre
+18:10:40 | INFO: Blender create Mesh node brake
+18:10:40 | INFO: Draco Decoder: Decode primitive brake
+18:10:40 | INFO: Blender create Mesh node nuts
+18:10:40 | INFO: Draco Decoder: Decode primitive nuts
+18:10:40 | INFO: Blender create Mesh node tire
+18:10:40 | INFO: Draco Decoder: Decode primitive tire
+18:10:40 | INFO: Blender create Mesh node brake
+18:10:40 | INFO: Draco Decoder: Decode primitive brake
+18:10:40 | INFO: Blender create Mesh node centre
+18:10:40 | INFO: Draco Decoder: Decode primitive centre
+18:10:40 | INFO: Blender create Mesh node wheel
+18:10:40 | INFO: Draco Decoder: Decode primitive wheel
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node rim_rl
+18:10:40 | INFO: Draco Decoder: Decode primitive rim_rl
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node nuts
+18:10:40 | INFO: Draco Decoder: Decode primitive nuts
+18:10:40 | INFO: Blender create Mesh node rim_fl
+18:10:40 | INFO: Draco Decoder: Decode primitive rim_fl
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node brake
+18:10:40 | INFO: Draco Decoder: Decode primitive brake
+18:10:40 | INFO: Blender create Mesh node centre
+18:10:40 | INFO: Draco Decoder: Decode primitive centre
+18:10:40 | INFO: Blender create Mesh node nuts
+18:10:40 | INFO: Draco Decoder: Decode primitive nuts
+18:10:40 | INFO: Blender create Mesh node wheel
+18:10:40 | INFO: Draco Decoder: Decode primitive wheel
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node tire
+18:10:40 | INFO: Draco Decoder: Decode primitive tire
+18:10:40 | INFO: Blender create Mesh node brake
+18:10:40 | INFO: Draco Decoder: Decode primitive brake
+18:10:40 | INFO: Blender create Mesh node centre
+18:10:40 | INFO: Draco Decoder: Decode primitive centre
+18:10:40 | INFO: Blender create Mesh node wheel
+18:10:40 | INFO: Draco Decoder: Decode primitive wheel
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node rim_fr
+18:10:40 | INFO: Draco Decoder: Decode primitive rim_fr
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute NORMAL. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute POSITION. Updating accessor.
+18:10:40 | WARNING: Draco Decoder: Vertex count of accessor and decoded vertex count does not match for attribute TEXCOORD_0. Updating accessor.
+18:10:40 | INFO: Blender create Mesh node tire
+18:10:40 | INFO: Draco Decoder: Decode primitive tire
+18:10:40 | INFO: Blender create Mesh node nuts
+18:10:40 | INFO: Draco Decoder: Decode primitive nuts
+18:10:40 | INFO: Blender create Mesh node steering_carbon
+18:10:40 | INFO: Draco Decoder: Decode primitive steering_carbon
+18:10:40 | INFO: Blender create Mesh node steering_centre
+18:10:40 | INFO: Draco Decoder: Decode primitive steering_centre
+18:10:40 | INFO: Blender create Mesh node steering_column
+18:10:40 | INFO: Draco Decoder: Decode primitive steering_column
+18:10:40 | INFO: Blender create Mesh node steering_leather
+18:10:40 | INFO: Draco Decoder: Decode primitive steering_leather
+18:10:40 | INFO: Blender create Mesh node steering_metal
+18:10:40 | INFO: Draco Decoder: Decode primitive steering_metal
+18:10:40 | INFO: Blender create Mesh node steering_red_lights
+18:10:40 | INFO: Draco Decoder: Decode primitive steering_red_lights
+18:10:40 | INFO: Blender create Mesh node steering_trim
+18:10:40 | INFO: Draco Decoder: Decode primitive steering_trim
+18:10:40 | INFO: glTF import finished in 0.72s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/inspect_sources.py:49: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Inspection world');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.55,.55,.55,1);scene.world.node_tree.nodes['Background'].inputs[1].default_value=.7
+00:04.978  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/source-front.png'
+00:07.145  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/source-rear.png'
+Info: Saved as "normalized.blend"
+INSPECTED ferrari-458 meshes 51 bounds [[-1.126921534538269, -2.2634999752044678, 5.960464477539063e-08], [1.1269216537475586, 2.2634999752044678, 1.234095573425293]]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoDecoder | Decoded 3478 vertices, 9762 indices
+DracoDecoder | Decoded 15312 vertices, 36060 indices
+DracoDecoder | Decoded 13320 vertices, 41760 indices
+DracoDecoder | Decoded 6122 vertices, 16032 indices
+DracoDecoder | Decoded 404 vertices, 1920 indices
+DracoDecoder | Decoded 1816 vertices, 5436 indices
+DracoDecoder | Decoded 20434 vertices, 65880 indices
+DracoDecoder | Decoded 50748 vertices, 157602 indices
+DracoDecoder | Decoded 1348 vertices, 4704 indices
+DracoDecoder | Decoded 7954 vertices, 26856 indices
+DracoDecoder | Decoded 26246 vertices, 55704 indices
+DracoDecoder | Decoded 631 vertices, 1572 indices
+DracoDecoder | Decoded 7916 vertices, 29268 indices
+DracoDecoder | Decoded 1208 vertices, 3444 indices
+DracoDecoder | Decoded 19218 vertices, 42516 indices
+DracoDecoder | Decoded 20565 vertices, 59817 indices
+DracoDecoder | Decoded 51404 vertices, 241698 indices
+DracoDecoder | Decoded 72 vertices, 216 indices
+DracoDecoder | Decoded 1896 vertices, 4254 indices
+DracoDecoder | Decoded 228 vertices, 654 indices
+DracoDecoder | Decoded 9628 vertices, 27360 indices
+DracoDecoder | Decoded 1000 vertices, 3600 indices
+DracoDecoder | Decoded 3010 vertices, 10470 indices
+DracoDecoder | Decoded 60 vertices, 168 indices
+DracoDecoder | Decoded 4120 vertices, 11016 indices
+DracoDecoder | Decoded 559 vertices, 1266 indices
+DracoDecoder | Decoded 1000 vertices, 3600 indices
+DracoDecoder | Decoded 4120 vertices, 11016 indices
+DracoDecoder | Decoded 60 vertices, 168 indices
+DracoDecoder | Decoded 9660 vertices, 27360 indices
+DracoDecoder | Decoded 3010 vertices, 10470 indices
+DracoDecoder | Decoded 559 vertices, 1266 indices
+DracoDecoder | Decoded 2994 vertices, 10470 indices
+DracoDecoder | Decoded 4120 vertices, 11016 indices
+DracoDecoder | Decoded 60 vertices, 168 indices
+DracoDecoder | Decoded 559 vertices, 1266 indices
+DracoDecoder | Decoded 9656 vertices, 27360 indices
+DracoDecoder | Decoded 1000 vertices, 3600 indices
+DracoDecoder | Decoded 4120 vertices, 11016 indices
+DracoDecoder | Decoded 60 vertices, 168 indices
+DracoDecoder | Decoded 9640 vertices, 27360 indices
+DracoDecoder | Decoded 2994 vertices, 10470 indices
+DracoDecoder | Decoded 1000 vertices, 3600 indices
+DracoDecoder | Decoded 559 vertices, 1266 indices
+DracoDecoder | Decoded 4134 vertices, 16896 indices
+DracoDecoder | Decoded 73 vertices, 324 indices
+DracoDecoder | Decoded 3408 vertices, 12330 indices
+DracoDecoder | Decoded 5838 vertices, 24432 indices
+DracoDecoder | Decoded 21 vertices, 57 indices
+DracoDecoder | Decoded 444 vertices, 1512 indices
+DracoDecoder | Decoded 48 vertices, 138 indices
+
+Blender quit

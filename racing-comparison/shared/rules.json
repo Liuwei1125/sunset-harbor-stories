@@ -1,0 +1,46 @@
+{
+  "seed": 731,
+  "duration": 90,
+  "roadWidth": 15.4,
+  "laneWidth": 3.6,
+  "lanes": [
+    -5.4,
+    -1.8,
+    1.8,
+    5.4
+  ],
+  "fixedStep": 0.008333333333333333,
+  "roadLength": 8000,
+  "maxSpeed": 64,
+  "boostSpeed": 77,
+  "acceleration": 9.5,
+  "braking": 24,
+  "drag": 0.0022,
+  "steerResponse": 6,
+  "lateralDamping": 4.8,
+  "lateralAcceleration": 26,
+  "collisionHalfWidth": 1.75,
+  "collisionHalfLength": 4.6,
+  "nearMissWidth": 2.85,
+  "collisionDamage": 27,
+  "difficulties": [
+    {
+      "name": "巡航",
+      "traffic": 18,
+      "target": 3000,
+      "speed": 1
+    },
+    {
+      "name": "疾驰",
+      "traffic": 25,
+      "target": 3700,
+      "speed": 1.08
+    },
+    {
+      "name": "极限",
+      "traffic": 32,
+      "target": 4300,
+      "speed": 1.16
+    }
+  ]
+}

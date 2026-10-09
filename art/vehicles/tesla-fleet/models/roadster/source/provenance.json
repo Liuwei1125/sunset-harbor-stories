@@ -1,0 +1,41 @@
+{
+  "retrieved": "2026-09-18",
+  "source": {
+    "repo": "gwesseling/Tesla-app",
+    "revision": "a03a55533adcf0f45a610b7bc4e1a9e03277c13c",
+    "path": "assets/test4.glb",
+    "uid": "1fbf29e297bd4a17ac39a00a378441d8"
+  },
+  "files": [
+    {
+      "file": "asset.glb",
+      "url": "https://raw.githubusercontent.com/gwesseling/Tesla-app/a03a55533adcf0f45a610b7bc4e1a9e03277c13c/assets/test4.glb",
+      "bytes": 20199468,
+      "sha256": "f0d70024ed306213b8587950c53af35a97b74c4f3fdf60aa4849bebfa5296c60"
+    }
+  ],
+  "embeddedAsset": {
+    "generator": "Khronos glTF Blender I/O v3.4.50",
+    "version": "2.0"
+  },
+  "listing": {
+    "uid": "1fbf29e297bd4a17ac39a00a378441d8",
+    "name": "Tesla Roadster 2020",
+    "description": "The Tesla Roadster 2020.\nThe quickest car in the world, with record-setting acceleration, range and performance.\nIt is an upcoming all-electric battery-powered four-seater sports car concept in development by Tesla, Inc. Tesla has claimed that it will be capable of 0 to 60 mph (0 to 97 km/h) in 1.9 seconds,which would be quicker than any street legal production car as of the announcement in 2017.The Roadster is the successor to Tesla's first production car, which was the 2008 Roadster.\n\nThe main meshes are correctly named for easier rigging in blender using the free addon rigacar. I would love to see the stuffs you do with the model. So make sure to tag me.\nmy socials:\n\nInstagram : www.instagram.com/metarex.4d\n\nArtstation : www.artstation.com/metarex4d\n\nThe model was made avaiable to download for free on 10 August, 2021",
+    "license": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    },
+    "faceCount": 608850,
+    "isDownloadable": true
+  },
+  "author": {
+    "username": "metarex.4d",
+    "displayName": "metarex.4d",
+    "profileUrl": "https://sketchfab.com/metarex.4d"
+  }
+}

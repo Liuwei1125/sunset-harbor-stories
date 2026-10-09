@@ -1,0 +1,57 @@
+PASS Same-origin legacy progress is copied and settings migrate
+PASS Babylon loads alone and no campaign global is initialized
+PASS race event 1: three rendered completions
+PASS race event 2: three rendered completions
+PASS race event 3: three rendered completions
+PASS race event 4: three rendered completions
+PASS race event 5: three rendered completions
+PASS race event 6: three rendered completions
+PASS shooting event 1: three rendered completions
+PASS shooting event 2: three rendered completions
+PASS shooting event 3: three rendered completions
+PASS shooting event 4: three rendered completions
+PASS shooting event 5: three rendered completions
+PASS shooting event 6: three rendered completions
+PASS darts event 1: three rendered completions
+PASS darts event 2: three rendered completions
+PASS darts event 3: three rendered completions
+PASS darts event 4: three rendered completions
+PASS darts event 5: three rendered completions
+PASS darts event 6: three rendered completions
+PASS archery event 1: three rendered completions
+PASS archery event 2: three rendered completions
+PASS archery event 3: three rendered completions
+PASS archery event 4: three rendered completions
+PASS archery event 5: three rendered completions
+PASS archery event 6: three rendered completions
+PASS All 72 results and engine rules retain isolated saves
+PASS race native pause/resume and endless banking
+PASS shooting native pause/resume and endless banking
+PASS darts native pause/resume and endless banking
+PASS archery native pause/resume and endless banking
+PASS race daily conditions repeat exactly
+PASS shooting daily conditions repeat exactly
+PASS darts daily conditions repeat exactly
+PASS archery daily conditions repeat exactly
+PASS race quality/effects render without changing rules
+PASS shooting quality/effects render without changing rules
+PASS darts quality/effects render without changing rules
+PASS archery quality/effects render without changing rules
+PASS All three native GLB weapons have moving magazines and usable scope states
+PASS Native joints and independent thin-instance buffers preserve the source templates
+PASS Scene disposal stabilizes live GPU resources after warm-up
+PASS Export contains versioned club records and settings
+PASS Malformed import preserves working records
+PASS Reload retains settings and records without changing campaign progress
+PASS Advanced engine switch starts PlayCanvas alone and preserves progress
+PASS PlayCanvas race 1 shares the exact completed simulation
+PASS PlayCanvas race 2 shares the exact completed simulation
+PASS PlayCanvas race 3 shares the exact completed simulation
+PASS PlayCanvas race 4 shares the exact completed simulation
+PASS PlayCanvas race 5 shares the exact completed simulation
+PASS PlayCanvas race 6 shares the exact completed simulation
+PASS Selecting a non-racing mode reinitializes Babylon with progress intact
+PASS Failed native model load recovers through the visible Retry action
+PASS No remote engine, decoder or model requests are made
+PASS No application exceptions during all product flows
+56/56 checks passed

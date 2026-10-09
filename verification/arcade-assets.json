@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "sha256": "365c5786084ff445a7cf8b212091ea49d9c81079a686788838fe3b0b915c0079",
+  "packSha256": "d17b90bc1f3a7ecce5566d8909fcf868beea986c55fcbac1b3c828f415f21350",
+  "assets": [
+    {
+      "id": "club-archery-target",
+      "high": 13228,
+      "low": 3548,
+      "glbBytes": 201948
+    },
+    {
+      "id": "club-arrow",
+      "high": 280,
+      "low": 80,
+      "glbBytes": 13788
+    },
+    {
+      "id": "club-canopy-tree",
+      "high": 1372,
+      "low": 443,
+      "glbBytes": 58360
+    },
+    {
+      "id": "club-cockpit",
+      "high": 7640,
+      "low": 1568,
+      "glbBytes": 338376
+    },
+    {
+      "id": "club-dart",
+      "high": 2404,
+      "low": 650,
+      "glbBytes": 46308
+    },
+    {
+      "id": "club-dartboard",
+      "high": 18976,
+      "low": 5658,
+      "glbBytes": 717132
+    },
+    {
+      "id": "club-meadow",
+      "high": 324,
+      "low": 108,
+      "glbBytes": 33160
+    },
+    {
+      "id": "club-race-gate",
+      "high": 4072,
+      "low": 1084,
+      "glbBytes": 139200
+    },
+    {
+      "id": "club-recurve",
+      "high": 1552,
+      "low": 400,
+      "glbBytes": 43720
+    },
+    {
+      "id": "club-shooting-target",
+      "high": 2784,
+      "low": 748,
+      "glbBytes": 73996
+    }
+  ],
+  "uniqueMeshes": 142,
+  "maxNormalError": 0.00002428030103973633,
+  "runtimeBytes": 1348431
+}

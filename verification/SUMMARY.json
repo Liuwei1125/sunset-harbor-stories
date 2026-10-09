@@ -1,0 +1,66 @@
+{
+  "release": "HARBOR STORIES 6.0.0",
+  "htmlSha256": "8376fade52fbe31d9b340cb240f78de5af948376c76b83ed23feee089fa426f5",
+  "fixtureChecks": {
+    "passed": 29,
+    "total": 29
+  },
+  "emulatedTouchChecks": {
+    "passed": 15,
+    "total": 15
+  },
+  "inputOnlyCampaigns": {
+    "road": {
+      "passed": true,
+      "simulatedSeconds": 90.2,
+      "cargo": 100,
+      "reward": 3150,
+      "inputEvents": 520
+    },
+    "sea": {
+      "passed": true,
+      "simulatedSeconds": 161.2,
+      "cargo": 100,
+      "reward": 3150,
+      "inputEvents": 1184
+    },
+    "air": {
+      "passed": true,
+      "simulatedSeconds": 115.4,
+      "cargo": 100,
+      "reward": 3150,
+      "inputEvents": 549
+    }
+  },
+  "liveLoop": {
+    "passed": true,
+    "actualWallSeconds": 121.05,
+    "samples": 120,
+    "sampledRollingFPSMedian": 48.5,
+    "sampledRollingFPSRange": [
+      20,
+      53.1
+    ],
+    "environment": {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36",
+      "renderer": "CPU software compatibility",
+      "gpuTimerAvailable": false,
+      "viewport": [
+        1280,
+        800
+      ],
+      "devicePixelRatio": 1,
+      "hardwareConcurrency": 5,
+      "touch": false
+    },
+    "errors": [],
+    "scope": "Live requestAnimationFrame, 120+ seconds idle exploration with input turns; CPU compatibility renderer, not real-phone, sustained combat or thermal qualification."
+  },
+  "pending": [
+    "Physical Android and iPhone",
+    "Browser WebGL image and GPU frame pacing",
+    "Novice human player sessions",
+    "20-30 minute thermal and battery run",
+    "Persistent storage on a real deployment origin"
+  ]
+}

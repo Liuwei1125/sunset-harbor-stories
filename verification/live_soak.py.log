@@ -1,0 +1,13 @@
+heartbeat 1 {'t': 10.816666666666784, 'paused': False, 'dead': False, 'fps': 44.72105243543399, 'projectiles': 0}
+heartbeat 2 {'t': 20.866666666666763, 'paused': False, 'dead': False, 'fps': 50.35035455041331, 'projectiles': 0}
+heartbeat 3 {'t': 30.933333333332858, 'paused': False, 'dead': False, 'fps': 47.36904432953066, 'projectiles': 0}
+heartbeat 4 {'t': 40.98333333333229, 'paused': False, 'dead': False, 'fps': 48.98159108535054, 'projectiles': 0}
+heartbeat 5 {'t': 51.03333333333172, 'paused': False, 'dead': False, 'fps': 50.352467270896184, 'projectiles': 0}
+heartbeat 6 {'t': 61.08333333333115, 'paused': False, 'dead': False, 'fps': 48.981591085350395, 'projectiles': 0}
+heartbeat 7 {'t': 71.13333333333058, 'paused': False, 'dead': False, 'fps': 49.31979778882924, 'projectiles': 0}
+heartbeat 8 {'t': 81.21666666666334, 'paused': False, 'dead': False, 'fps': 51.80228793438377, 'projectiles': 0}
+heartbeat 9 {'t': 91.2499999999961, 'paused': False, 'dead': False, 'fps': 48.98159108535054, 'projectiles': 0}
+heartbeat 10 {'t': 101.29999999999553, 'paused': False, 'dead': False, 'fps': 49.65654224944154, 'projectiles': 0}
+heartbeat 11 {'t': 111.08333333332831, 'paused': False, 'dead': False, 'fps': 50.35246727089634, 'projectiles': 0}
+heartbeat 12 {'t': 120.88333333332776, 'paused': False, 'dead': False, 'fps': 53.732145255899276, 'projectiles': 0}
+LIVE True 121.05 120

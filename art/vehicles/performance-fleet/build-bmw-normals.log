@@ -1,0 +1,67 @@
+00:00.604  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/source/normalized.blend"
+BMW removed coincident triangles: 90717
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/build_assets.py:92: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes:continue
+GROUPS bmw-m4 {'body': 64, 'steering': 5, 'wheel-front-left': 48, 'brake-front-left': 1, 'wheel-front-right': 48, 'brake-front-right': 1, 'wheel-rear-left': 48, 'brake-rear-left': 1, 'wheel-rear-right': 3, 'brake-rear-right': 1} WHEELS {'front-left': {'pivot': [-0.7992967069149017, 1.554946780204773, 0.3537009114807006], 'radius': 0.3529871349746827, 'halfWidth': 0.13459500670433044}, 'front-right': {'pivot': [0.7999500930309296, 1.5615060925483704, 0.35370091747608967], 'radius': 0.35298712897929363, 'halfWidth': 0.13459494709968567}, 'rear-left': {'pivot': [-0.7780307829380035, -1.321624368429184, 0.3635767942054926], 'radius': 0.36357674545210017, 'halfWidth': 0.15424016118049622}, 'rear-right': {'pivot': [0.7786807829380036, -1.3148643684291839, 0.3635767942054926], 'radius': 0.36357674545210017, 'halfWidth': 0.15424016118049622}}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+18:24:18 | INFO: Starting glTF 2.0 export
+18:24:18 | INFO: Extracting primitive: Cube
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3 clean
+18:24:18 | INFO: Primitives created: 19
+18:24:18 | INFO: Extracting primitive: display surface
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.329
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.328
+18:24:18 | INFO: Primitives created: 3
+18:24:18 | INFO: Extracting primitive: Material3.252
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.251
+18:24:18 | INFO: Primitives created: 3
+18:24:18 | INFO: Extracting primitive: Material3.379
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.378
+18:24:18 | INFO: Primitives created: 3
+18:24:18 | INFO: Extracting primitive: Material3.236
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.012 clean / wheel-rear-right
+18:24:18 | INFO: Primitives created: 3
+18:24:18 | INFO: Extracting primitive: Material3.012 clean / steering
+18:24:18 | INFO: Primitives created: 5
+18:24:18 | INFO: Finished glTF 2.0 export in 0.18193602561950684 s
+
+18:24:18 | INFO: Starting glTF 2.0 export
+18:24:18 | INFO: Extracting primitive: Cube
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3 clean
+18:24:18 | INFO: Primitives created: 19
+18:24:18 | INFO: Extracting primitive: display surface
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.329
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.328
+18:24:18 | INFO: Primitives created: 3
+18:24:18 | INFO: Extracting primitive: Material3.252
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.251
+18:24:18 | INFO: Primitives created: 3
+18:24:18 | INFO: Extracting primitive: Material3.379
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.378
+18:24:18 | INFO: Primitives created: 3
+18:24:18 | INFO: Extracting primitive: Material3.236
+18:24:18 | INFO: Primitives created: 1
+18:24:18 | INFO: Extracting primitive: Material3.012 clean / wheel-rear-right
+18:24:18 | INFO: Primitives created: 3
+18:24:18 | INFO: Extracting primitive: Material3.012 clean / steering
+18:24:18 | INFO: Primitives created: 5
+18:24:18 | INFO: Finished glTF 2.0 export in 0.17916512489318848 s
+
+Info: Packed 2 file(s)
+Info: Saved as "bmw-m4.blend"
+BUILT bmw-m4 [{"lod": "high", "file": "bmw-m4.high.glb", "bytes": 2981892, "triangles": 90617, "sha256": "4cb514daa96c8b91ffe72cf394dd1dba1b5726608a1ccdde0f7ad4084201c5d6"}, {"lod": "low", "file": "bmw-m4.low.glb", "bytes": 1873908, "triangles": 46438, "sha256": "397c07770d63d145eb93e2ad415b8956e46184e784fe01bf3aacea91953311c2"}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

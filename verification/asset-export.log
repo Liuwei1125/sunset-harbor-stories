@@ -1,0 +1,146 @@
+{
+  "format": "glTF 2.0 / GLB",
+  "provenance": "Original procedural meshes authored for this game; no Rockstar assets.",
+  "assets": [
+    {
+      "file": "comet-gt.glb",
+      "bytes": 619984,
+      "triangles": 8256,
+      "materials": 40,
+      "static": true
+    },
+    {
+      "file": "atlas-cargo.glb",
+      "bytes": 618188,
+      "triangles": 8232,
+      "materials": 40,
+      "static": true
+    },
+    {
+      "file": "city-runner.glb",
+      "bytes": 390424,
+      "triangles": 5232,
+      "materials": 21,
+      "static": true
+    },
+    {
+      "file": "patrol-drone.glb",
+      "bytes": 115876,
+      "triangles": 1472,
+      "materials": 15,
+      "static": true
+    },
+    {
+      "file": "sedan.glb",
+      "bytes": 607368,
+      "triangles": 8116,
+      "materials": 36,
+      "static": true
+    },
+    {
+      "file": "jeep.glb",
+      "bytes": 661452,
+      "triangles": 8824,
+      "materials": 41,
+      "static": true
+    },
+    {
+      "file": "interceptor.glb",
+      "bytes": 613356,
+      "triangles": 8164,
+      "materials": 40,
+      "static": true
+    },
+    {
+      "file": "trainer.glb",
+      "bytes": 234196,
+      "triangles": 3108,
+      "materials": 16,
+      "static": true
+    },
+    {
+      "file": "twin.glb",
+      "bytes": 347376,
+      "triangles": 4680,
+      "materials": 16,
+      "static": true
+    },
+    {
+      "file": "heli.glb",
+      "bytes": 133420,
+      "triangles": 1736,
+      "materials": 13,
+      "static": true
+    },
+    {
+      "file": "speedboat.glb",
+      "bytes": 164376,
+      "triangles": 2156,
+      "materials": 14,
+      "static": true
+    },
+    {
+      "file": "yacht.glb",
+      "bytes": 155104,
+      "triangles": 1992,
+      "materials": 18,
+      "static": true
+    },
+    {
+      "file": "tug.glb",
+      "bytes": 317292,
+      "triangles": 4236,
+      "materials": 19,
+      "static": true
+    },
+    {
+      "file": "fighter.glb",
+      "bytes": 205112,
+      "triangles": 2660,
+      "materials": 21,
+      "static": true
+    },
+    {
+      "file": "assault-rifle.glb",
+      "bytes": 22804,
+      "triangles": 232,
+      "materials": 9,
+      "static": true
+    },
+    {
+      "file": "sniper-rifle.glb",
+      "bytes": 34232,
+      "triangles": 364,
+      "materials": 12,
+      "static": true
+    },
+    {
+      "file": "grenade.glb",
+      "bytes": 17852,
+      "triangles": 216,
+      "materials": 3,
+      "static": true
+    },
+    {
+      "file": "molotov.glb",
+      "bytes": 23364,
+      "triangles": 284,
+      "materials": 4,
+      "static": true
+    },
+    {
+      "file": "rocket-launcher.glb",
+      "bytes": 13940,
+      "triangles": 144,
+      "materials": 5,
+      "static": true
+    },
+    {
+      "file": "greycrow-rifleman.glb",
+      "bytes": 391400,
+      "triangles": 5228,
+      "materials": 23,
+      "static": true
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "assetId": "xiaomi-su7-study",
+  "version": "0.3",
+  "status": "Independent visual reference study; not integrated into the shipped racing game.",
+  "referenceModel": "2026 SU7 Max, Capri blue, 20-inch plum-blossom wheel; ceramic interior approximation",
+  "coordinates": "meters; Y up; -Z forward in GLB",
+  "nominalDimensionsMeters": {
+    "length": 4.997,
+    "bodyWidth": 1.963,
+    "roofHeight": 1.445,
+    "wheelbase": 3.0
+  },
+  "joints": {
+    "body": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "static"
+    },
+    "spoiler": {
+      "pivot": [
+        0,
+        0.994,
+        2.27
+      ],
+      "motion": "spoiler"
+    },
+    "wheel-front-left": {
+      "pivot": [
+        -0.841,
+        0.355,
+        -1.55
+      ],
+      "motion": "wheel"
+    },
+    "wheel-rear-left": {
+      "pivot": [
+        -0.841,
+        0.355,
+        1.45
+      ],
+      "motion": "wheel"
+    },
+    "wheel-front-right": {
+      "pivot": [
+        0.841,
+        0.355,
+        -1.55
+      ],
+      "motion": "wheel"
+    },
+    "wheel-rear-right": {
+      "pivot": [
+        0.841,
+        0.355,
+        1.45
+      ],
+      "motion": "wheel"
+    },
+    "interior": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "static"
+    },
+    "steering": {
+      "pivot": [
+        -0.43,
+        0.808,
+        -0.286
+      ],
+      "motion": "steering"
+    }
+  },
+  "cameraSockets": {
+    "cockpit": [
+      -0.43,
+      1.12,
+      0.36
+    ]
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "xiaomi-su7.high.glb",
+      "bytes": 3949100,
+      "sha256": "6c0f56c2beae2bf9c1ee89f7ef56b6e78e60aed8f8b4d71a0cdfc6be3bb7b8aa"
+    },
+    {
+      "lod": "low",
+      "file": "xiaomi-su7.low.glb",
+      "bytes": 1298812,
+      "sha256": "a8875e08b728fcd5c71b918a3c661a2cf3dddcf22b4b1bcb695777c4aa1bd55b"
+    }
+  ],
+  "photoTexturesUsed": false,
+  "officialReference": "https://www.xiaomiev.com/su7",
+  "authoring": "Smoothed section transitions, four-element lights, recessed fascia ducts, 20-inch plum wheel detail, black mirrors, rear diffuser and badges.",
+  "accuracy": "Visual approximation from official images; no CAD or scan alignment. No numerical likeness score is claimed."
+}

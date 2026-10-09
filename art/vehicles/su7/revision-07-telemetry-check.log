@@ -1,0 +1,75 @@
+{
+  "checks": [
+    {
+      "name": "Telemetry / two live display bindings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / both in-world screen textures change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / rendered screen regions actually change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / external packet and units preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / reverse and regenerative braking",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / invalid and partial packets stay finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / range limits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / synthetic demo advances",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / pause holds all input values",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / external packet takes over demo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / manual input drives the component",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / reset restores parked state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / parked screens avoid redundant uploads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / disposal releases textures",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": []
+}

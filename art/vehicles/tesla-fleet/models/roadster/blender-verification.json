@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": {
+    "packedImages": true,
+    "cameras": true,
+    "displayUV": true,
+    "wheelJoints": true
+  }
+}

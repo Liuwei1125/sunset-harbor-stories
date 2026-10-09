@@ -1,0 +1,106 @@
+00:00.424  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/source/normalized.blend"
+BMW removed coincident triangles: 90959
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/build_assets.py:98: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes:continue
+GROUPS bmw-m4 {'body': 63, 'steering': 5, 'wheel-front-left': 47, 'brake-front-left': 1, 'wheel-front-right': 48, 'brake-front-right': 1, 'wheel-rear-left': 48, 'brake-rear-left': 1, 'wheel-rear-right': 3, 'brake-rear-right': 1} WHEELS {'front-left': {'pivot': [-0.7992967069149017, 1.554946780204773, 0.3537009114807006], 'radius': 0.3529871349746827, 'halfWidth': 0.13459500670433044}, 'front-right': {'pivot': [0.7999500930309296, 1.5615060925483704, 0.35370091747608967], 'radius': 0.35298712897929363, 'halfWidth': 0.13459494709968567}, 'rear-left': {'pivot': [-0.7780307829380035, -1.321624368429184, 0.3635767942054926], 'radius': 0.36357674545210017, 'halfWidth': 0.15424016118049622}, 'rear-right': {'pivot': [0.7786807829380036, -1.3148643684291839, 0.3635767942054926], 'radius': 0.36357674545210017, 'halfWidth': 0.15424016118049622}}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+18:29:08 | INFO: Starting glTF 2.0 export
+18:29:08 | INFO: Extracting primitive: Cube
+18:29:08 | INFO: Primitives created: 1
+18:29:08 | INFO: Extracting primitive: Material3 clean
+18:29:08 | INFO: Primitives created: 19
+18:29:08 | INFO: Extracting primitive: display surface
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.329
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.328
+18:29:09 | INFO: Primitives created: 3
+18:29:09 | INFO: Extracting primitive: Material3.252
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.251
+18:29:09 | INFO: Primitives created: 3
+18:29:09 | INFO: Extracting primitive: Material3.379
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.378
+18:29:09 | INFO: Primitives created: 3
+18:29:09 | INFO: Extracting primitive: Material3.236
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.012 clean / wheel-rear-right
+18:29:09 | INFO: Primitives created: 3
+18:29:09 | INFO: Extracting primitive: Material3.012 clean / steering
+18:29:09 | INFO: Primitives created: 5
+18:29:09 | INFO: Finished glTF 2.0 export in 0.12551498413085938 s
+
+18:29:09 | INFO: Starting glTF 2.0 export
+18:29:09 | INFO: Extracting primitive: Cube
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3 clean
+18:29:09 | INFO: Primitives created: 19
+18:29:09 | INFO: Extracting primitive: display surface
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.329
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.328
+18:29:09 | INFO: Primitives created: 3
+18:29:09 | INFO: Extracting primitive: Material3.252
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.251
+18:29:09 | INFO: Primitives created: 3
+18:29:09 | INFO: Extracting primitive: Material3.379
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.378
+18:29:09 | INFO: Primitives created: 3
+18:29:09 | INFO: Extracting primitive: Material3.236
+18:29:09 | INFO: Primitives created: 1
+18:29:09 | INFO: Extracting primitive: Material3.012 clean / wheel-rear-right
+18:29:09 | INFO: Primitives created: 3
+18:29:09 | INFO: Extracting primitive: Material3.012 clean / steering
+18:29:09 | INFO: Primitives created: 5
+18:29:09 | INFO: Finished glTF 2.0 export in 0.16942691802978516 s
+
+Info: Packed 2 file(s)
+Info: Saved as "bmw-m4.blend"
+BUILT bmw-m4 [{"lod": "high", "file": "bmw-m4.high.glb", "bytes": 2495304, "triangles": 90255, "sha256": "6340afab773f334e0b7143942ccdafe0e665c58685e8d1b9d56e88230e969f0b"}, {"lod": "low", "file": "bmw-m4.low.glb", "bytes": 1480652, "triangles": 46260, "sha256": "3e223f6decf54fa5ef78e3194888fd5837c7c7267ff3b441c25ccf9fab686389"}]
+00:02.667  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/source/normalized.blend"
+GROUPS bugatti-veyron {'body': 20, 'steering': 0, 'wheel-front-left': 5, 'brake-front-left': 0, 'wheel-front-right': 5, 'brake-front-right': 0, 'wheel-rear-left': 5, 'brake-rear-left': 0, 'wheel-rear-right': 5, 'brake-rear-right': 0} WHEELS {'front-left': {'pivot': [-0.9129407107830048, 1.2952590882778168, 0.36625078320503235], 'radius': 0.3410225808620453, 'halfWidth': 0.1394834816455841}, 'front-right': {'pivot': [0.9122952520847321, 1.2952928841114044, 0.36608898639678955], 'radius': 0.3660659193992615, 'halfWidth': 0.13948366045951843}, 'rear-left': {'pivot': [-0.876139760017395, -1.506949543952942, 0.38431936502456665], 'radius': 0.35786914825439453, 'halfWidth': 0.1830052137374878}, 'rear-right': {'pivot': [0.8755167722702026, -1.5065053701400757, 0.38431936502456665], 'radius': 0.35786914825439453, 'halfWidth': 0.1830054521560669}}
+18:29:10 | INFO: Starting glTF 2.0 export
+18:29:10 | INFO: Extracting primitive: Object_0.001
+18:29:10 | INFO: Primitives created: 10
+18:29:10 | INFO: Extracting primitive: Object_4 / wheel-front-left
+18:29:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:10 | INFO: Primitives created: 2
+18:29:10 | INFO: Extracting primitive: Object_4 / wheel-front-right
+18:29:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:10 | INFO: Primitives created: 2
+18:29:10 | INFO: Extracting primitive: Object_4 / wheel-rear-left
+18:29:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:10 | INFO: Primitives created: 2
+18:29:10 | INFO: Extracting primitive: Object_4 / wheel-rear-right
+18:29:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:10 | INFO: Primitives created: 2
+18:29:10 | INFO: Finished glTF 2.0 export in 0.09252595901489258 s
+
+18:29:10 | INFO: Starting glTF 2.0 export
+18:29:10 | INFO: Extracting primitive: Object_0.001
+18:29:10 | INFO: Primitives created: 10
+18:29:10 | INFO: Extracting primitive: Object_4 / wheel-front-left
+18:29:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:10 | INFO: Primitives created: 2
+18:29:10 | INFO: Extracting primitive: Object_4 / wheel-front-right
+18:29:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:10 | INFO: Primitives created: 2
+18:29:10 | INFO: Extracting primitive: Object_4 / wheel-rear-left
+18:29:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:10 | INFO: Primitives created: 2
+18:29:10 | INFO: Extracting primitive: Object_4 / wheel-rear-right
+18:29:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:10 | INFO: Primitives created: 2
+18:29:10 | INFO: Finished glTF 2.0 export in 0.16803908348083496 s
+
+Info: Packed 1 file(s)
+Info: Saved as "bugatti-veyron.blend"
+BUILT bugatti-veyron [{"lod": "high", "file": "bugatti-veyron.high.glb", "bytes": 3544564, "triangles": 81501, "sha256": "accfc0c271012e336f730e7f88bfc83cc8ec107488d9585aa3e08e5985b39ad0"}, {"lod": "low", "file": "bugatti-veyron.low.glb", "bytes": 2052556, "triangles": 40748, "sha256": "34f3f8b3f30469316d780ffad652bb76700c3112ab50f9fe82dbb3c8b47c90a5"}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

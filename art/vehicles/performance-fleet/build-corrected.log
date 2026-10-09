@@ -1,0 +1,140 @@
+00:00.377  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/source/normalized.blend"
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/build_assets.py:72: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes:continue
+GROUPS bmw-m4 {'body': 117, 'steering': 6, 'wheel-front-left': 98, 'brake-front-left': 1, 'wheel-front-right': 98, 'brake-front-right': 1, 'wheel-rear-left': 98, 'brake-rear-left': 1, 'wheel-rear-right': 6, 'brake-rear-right': 1} WHEELS {'front-left': {'pivot': [-0.7992967069149017, 1.554946780204773, 0.3537009114807006], 'radius': 0.3529871349746827, 'halfWidth': 0.13459500670433044}, 'front-right': {'pivot': [0.7999500930309296, 1.5615060925483704, 0.35370091747608967], 'radius': 0.35298712897929363, 'halfWidth': 0.13459494709968567}, 'rear-left': {'pivot': [-0.7780307829380035, -1.321624368429184, 0.3635767942054926], 'radius': 0.36357674545210017, 'halfWidth': 0.15424016118049622}, 'rear-right': {'pivot': [0.7786807829380036, -1.3148643684291839, 0.3635767942054926], 'radius': 0.36357674545210017, 'halfWidth': 0.15424016118049622}}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+18:17:04 | INFO: Starting glTF 2.0 export
+18:17:04 | INFO: Extracting primitive: Cube
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material2 / body
+18:17:04 | INFO: Primitives created: 27
+18:17:04 | INFO: Extracting primitive: display surface
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material3.329
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material3.328
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Extracting primitive: Material3.252
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material3.251
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Extracting primitive: Material3.379
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material3.378
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Extracting primitive: Material3.236
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material2 / wheel-rear-right
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Extracting primitive: Material2.001 / steering
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Finished glTF 2.0 export in 0.16699695587158203 s
+
+18:17:04 | INFO: Starting glTF 2.0 export
+18:17:04 | INFO: Extracting primitive: Cube
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material2 / body
+18:17:04 | INFO: Primitives created: 27
+18:17:04 | INFO: Extracting primitive: display surface
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material3.329
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material3.328
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Extracting primitive: Material3.252
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material3.251
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Extracting primitive: Material3.379
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material3.378
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Extracting primitive: Material3.236
+18:17:04 | INFO: Primitives created: 1
+18:17:04 | INFO: Extracting primitive: Material2 / wheel-rear-right
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Extracting primitive: Material2.001 / steering
+18:17:04 | INFO: Primitives created: 6
+18:17:04 | INFO: Finished glTF 2.0 export in 0.2828810214996338 s
+
+Info: Packed 2 file(s)
+Info: Saved as "bmw-m4.blend"
+BUILT bmw-m4 [{"lod": "high", "file": "bmw-m4.high.glb", "bytes": 6759876, "triangles": 174000, "sha256": "b01a3d4f6ca1cb57ad9b5277e27ee20f80fd584f6bf566d3c1122bd819bd85b1"}, {"lod": "low", "file": "bmw-m4.low.glb", "bytes": 3988060, "triangles": 85569, "sha256": "b900d6709a73dc7d32ff3178a4e83b9d3609fe0139c0b75920b1ce0f3d430adf"}]
+00:02.472  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/source/normalized.blend"
+GROUPS bugatti-veyron {'body': 20, 'steering': 0, 'wheel-front-left': 5, 'brake-front-left': 0, 'wheel-front-right': 5, 'brake-front-right': 0, 'wheel-rear-left': 5, 'brake-rear-left': 0, 'wheel-rear-right': 5, 'brake-rear-right': 0} WHEELS {'front-left': {'pivot': [-0.9129407107830048, 1.2952590882778168, 0.36625078320503235], 'radius': 0.3410225808620453, 'halfWidth': 0.1394834816455841}, 'front-right': {'pivot': [0.9122952520847321, 1.2952928841114044, 0.36608898639678955], 'radius': 0.3660659193992615, 'halfWidth': 0.13948366045951843}, 'rear-left': {'pivot': [-0.876139760017395, -1.506949543952942, 0.38431936502456665], 'radius': 0.35786914825439453, 'halfWidth': 0.1830052137374878}, 'rear-right': {'pivot': [0.8755167722702026, -1.5065053701400757, 0.38431936502456665], 'radius': 0.35786914825439453, 'halfWidth': 0.1830054521560669}}
+18:17:05 | INFO: Starting glTF 2.0 export
+18:17:05 | INFO: Extracting primitive: Object_0.001
+18:17:05 | INFO: Primitives created: 10
+18:17:05 | INFO: Extracting primitive: Object_4 / wheel-front-left
+18:17:05 | INFO: Primitives created: 1
+18:17:05 | INFO: Extracting primitive: Object_4 / wheel-front-right
+18:17:05 | INFO: Primitives created: 1
+18:17:05 | INFO: Extracting primitive: Object_4 / wheel-rear-left
+18:17:05 | INFO: Primitives created: 1
+18:17:05 | INFO: Extracting primitive: Object_4 / wheel-rear-right
+18:17:05 | INFO: Primitives created: 1
+18:17:05 | INFO: Finished glTF 2.0 export in 0.0897071361541748 s
+
+18:17:05 | INFO: Starting glTF 2.0 export
+18:17:05 | INFO: Extracting primitive: Object_0.001
+18:17:05 | INFO: Primitives created: 10
+18:17:05 | INFO: Extracting primitive: Object_4 / wheel-front-left
+18:17:05 | INFO: Primitives created: 1
+18:17:05 | INFO: Extracting primitive: Object_4 / wheel-front-right
+18:17:05 | INFO: Primitives created: 1
+18:17:05 | INFO: Extracting primitive: Object_4 / wheel-rear-left
+18:17:05 | INFO: Primitives created: 1
+18:17:05 | INFO: Extracting primitive: Object_4 / wheel-rear-right
+18:17:05 | INFO: Primitives created: 1
+18:17:05 | INFO: Finished glTF 2.0 export in 0.13406896591186523 s
+
+Info: Packed 1 file(s)
+Info: Saved as "bugatti-veyron.blend"
+BUILT bugatti-veyron [{"lod": "high", "file": "bugatti-veyron.high.glb", "bytes": 3547360, "triangles": 81501, "sha256": "3f252008bf50e1839ccb2846366f9c2a4ae9b093dfc159afdce2b7042aa22114"}, {"lod": "low", "file": "bugatti-veyron.low.glb", "bytes": 2050784, "triangles": 40748, "sha256": "6931f597d0aba78a47bf181500ecd18919338db41e480e17f76a29ca27997ff2"}]
+00:03.567  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/source/normalized.blend"
+GROUPS ferrari-458 {'body': 19, 'steering': 15, 'wheel-front-left': 7, 'brake-front-left': 0, 'wheel-front-right': 7, 'brake-front-right': 0, 'wheel-rear-left': 7, 'brake-rear-left': 0, 'wheel-rear-right': 7, 'brake-rear-right': 0} WHEELS {'front-left': {'pivot': [-0.8363338708877563, 1.1536478400230408, 0.35750290751457214], 'radius': 0.35750284790992737, 'halfWidth': 0.12353193759918213}, 'front-right': {'pivot': [0.8224664032459259, 1.1527902483940125, 0.36013123393058777], 'radius': 0.35750284790992737, 'halfWidth': 0.12353190779685974}, 'rear-left': {'pivot': [-0.8146412372589111, -1.4928116202354431, 0.35750365257263184], 'radius': 0.35750293731689453, 'halfWidth': 0.13588297367095947}, 'rear-right': {'pivot': [0.8177796006202698, -1.4941371083259583, 0.3575030565261841], 'radius': 0.35750293731689453, 'halfWidth': 0.13588297367095947}}
+18:17:09 | INFO: Starting glTF 2.0 export
+18:17:09 | INFO: Extracting primitive: Cube
+18:17:09 | INFO: Primitives created: 1
+18:17:09 | INFO: Extracting primitive: trim / body
+18:17:09 | INFO: Primitives created: 17
+18:17:09 | INFO: Extracting primitive: display surface
+18:17:09 | INFO: Primitives created: 1
+18:17:09 | INFO: Extracting primitive: interior_light / wheel-front-left
+18:17:09 | INFO: Primitives created: 4
+18:17:09 | INFO: Extracting primitive: interior_light / wheel-front-right
+18:17:09 | INFO: Primitives created: 4
+18:17:09 | INFO: Extracting primitive: interior_light / wheel-rear-left
+18:17:09 | INFO: Primitives created: 4
+18:17:09 | INFO: Extracting primitive: interior_light / wheel-rear-right
+18:17:09 | INFO: Primitives created: 4
+18:17:09 | INFO: Extracting primitive: trim / steering
+18:17:09 | INFO: Primitives created: 10
+18:17:09 | INFO: Finished glTF 2.0 export in 0.5203690528869629 s
+
+18:17:10 | INFO: Starting glTF 2.0 export
+18:17:10 | INFO: Extracting primitive: Cube
+18:17:10 | INFO: Primitives created: 1
+18:17:10 | INFO: Extracting primitive: trim / body
+18:17:10 | INFO: Primitives created: 17
+18:17:10 | INFO: Extracting primitive: display surface
+18:17:10 | INFO: Primitives created: 1
+18:17:10 | INFO: Extracting primitive: interior_light / wheel-front-left
+18:17:10 | INFO: Primitives created: 4
+18:17:10 | INFO: Extracting primitive: interior_light / wheel-front-right
+18:17:10 | INFO: Primitives created: 4
+18:17:10 | INFO: Extracting primitive: interior_light / wheel-rear-left
+18:17:10 | INFO: Primitives created: 4
+18:17:10 | INFO: Extracting primitive: interior_light / wheel-rear-right
+18:17:10 | INFO: Primitives created: 4
+18:17:10 | INFO: Extracting primitive: trim / steering
+18:17:10 | INFO: Primitives created: 10
+18:17:10 | INFO: Finished glTF 2.0 export in 0.707360029220581 s
+
+Info: Packed 2 file(s)
+Info: Saved as "ferrari-458.blend"
+BUILT ferrari-458 [{"lod": "high", "file": "ferrari-458.high.glb", "bytes": 9995408, "triangles": 240119, "sha256": "0bfbafc3108672f03d5ecb3dac0f43257c6bce84348c21f83a9fd9fdead84b5a"}, {"lod": "low", "file": "ferrari-458.low.glb", "bytes": 4169224, "triangles": 85164, "sha256": "43da6ff1868e23e6b93fde0817644e66bc0b723c7abeeca22ac37953febc3589"}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

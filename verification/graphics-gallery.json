@@ -1,0 +1,16 @@
+{
+  "gameSha256": "cdd8f0ea54d4ae425affe29a5b340dfe07494910f1af9af14468ad2bfdaceab2",
+  "gallerySha256": "78e3040565a1b5d9febf3a958adf19f137c9b118464506af3fd7109ecf7a6a98",
+  "scenes": [
+    "boat",
+    "sport",
+    "quay",
+    "warehouse",
+    "rifle",
+    "harbor"
+  ],
+  "keyboardSliderExtremes": true,
+  "mobileNativeTap": true,
+  "mobileOverflow": false,
+  "errors": []
+}

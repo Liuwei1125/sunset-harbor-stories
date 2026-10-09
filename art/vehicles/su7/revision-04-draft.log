@@ -1,0 +1,11 @@
+REVISION 4 GEOMETRY 857 BODY FACES 15479 SURFACE FIT {"front": 2726, "rear": 3325, "side": 2284, "misses": []}
+RENDER rear
+00:17.085  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-rear.png'
+RENDER rear-flat
+00:21.092  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-rear-flat.png'
+RENDER front-flat
+00:25.789  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-front-flat.png'
+REVISION 4 COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

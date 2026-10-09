@@ -1,0 +1,29 @@
+✔ bmw-m4: suspension, acceleration, 100–0 braking and tyre load (70.706625ms)
+✔ ferrari-458: suspension, acceleration, 100–0 braking and tyre load (25.158875ms)
+✔ su7: suspension, acceleration, 100–0 braking and tyre load (26.199083ms)
+✔ different drivetrains change acceleration and power telemetry (32.502209ms)
+✔ friction braking with regen disabled never charges the EV battery (33.079125ms)
+✔ skidpad and alternating bends remain dynamic without rolling over (120.669625ms)
+✔ rigid car collision transfers momentum between both chassis (10.912458ms)
+✔ physical kerbs compress suspension; proving ground reports real acceleration and stopping distance (51.818875ms)
+✔ same fixed-step input has equal physical results at 30/60/120 Hz (85.506542ms)
+✔ penalties determine final classification, unfinished cars remain below finishers (0.2435ms)
+✔ save and record version isolation preserve legacy storage (2.723166ms)
+✔ feedback selects measured time loss and exit speed instead of canned score (1.47575ms)
+✔ ten laps produce usable sector learning, compatible ghosts and multiple valid references (5780.436708ms)
+✔ bmw-m4/harbor: complete same-physics four-car race (9075.408416ms)
+✔ bmw-m4/coast: complete same-physics four-car race (8246.323792ms)
+✔ ferrari-458/harbor: complete same-physics four-car race (8679.129167ms)
+✔ ferrari-458/coast: complete same-physics four-car race (8149.415ms)
+✔ su7/harbor: complete same-physics four-car race (12621.830375ms)
+✔ su7/coast: complete same-physics four-car race (8952.786708ms)
+✔ sector practice ends on selected boundary; reset and cut invalidate laps (296.1255ms)
+✔ write measured acceptance report (0.923084ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 62371.24875

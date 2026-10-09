@@ -1,0 +1,70 @@
+16:28:50 | INFO: Data are loaded, start creating Blender stuff
+16:28:50 | INFO: Blender create Mesh node Object_0
+16:28:50 | INFO: Blender create Mesh node Object_1
+16:28:50 | INFO: Blender create Mesh node Object_2
+16:28:50 | INFO: Blender create Mesh node Object_3
+16:28:50 | INFO: Blender create Mesh node Object_4
+16:28:50 | INFO: Blender create Mesh node Object_5
+16:28:50 | INFO: Blender create Mesh node Object_6
+16:28:50 | INFO: Blender create Mesh node Object_7
+16:28:50 | INFO: Blender create Mesh node Object_8
+16:28:50 | INFO: Blender create Mesh node Object_9
+16:28:50 | INFO: Blender create Mesh node Object_10
+16:28:50 | INFO: Blender create Mesh node Object_11
+16:28:50 | INFO: Blender create Mesh node Object_12
+16:28:51 | INFO: Blender create Mesh node Object_13
+16:28:51 | INFO: Blender create Mesh node Object_14
+16:28:51 | INFO: Blender create Mesh node Object_15
+16:28:51 | INFO: Blender create Mesh node Object_16
+16:28:51 | INFO: Blender create Mesh node Object_17
+16:28:51 | INFO: glTF import finished in 0.29s
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+16:28:53 | INFO: Starting glTF 2.0 export
+16:28:53 | INFO: Extracting primitive: body / Seat belt latch
+16:28:53 | INFO: Primitives created: 15
+16:28:53 | INFO: Extracting primitive: Object_1
+16:28:53 | INFO: Primitives created: 1
+16:28:53 | INFO: Extracting primitive: Object_0
+16:28:53 | INFO: Primitives created: 1
+16:28:53 | INFO: Extracting primitive: steering / Graphite trim
+16:28:53 | INFO: Primitives created: 1
+16:28:53 | INFO: Extracting primitive: wheel-front-left / Graphite trim
+16:28:53 | INFO: Primitives created: 3
+16:28:53 | INFO: Extracting primitive: wheel-front-right / Graphite trim
+16:28:53 | INFO: Primitives created: 3
+16:28:53 | INFO: Extracting primitive: wheel-rear-left / Graphite trim
+16:28:53 | INFO: Primitives created: 3
+16:28:53 | INFO: Extracting primitive: wheel-rear-right / Graphite trim
+16:28:53 | INFO: Primitives created: 3
+16:28:53 | INFO: Finished glTF 2.0 export in 0.17460298538208008 s
+
+16:28:54 | INFO: Starting glTF 2.0 export
+16:28:54 | INFO: Extracting primitive: body / Seat belt latch
+16:28:54 | INFO: Primitives created: 15
+16:28:54 | INFO: Extracting primitive: Object_1
+16:28:54 | INFO: Primitives created: 1
+16:28:54 | INFO: Extracting primitive: Object_0
+16:28:54 | INFO: Primitives created: 1
+16:28:54 | INFO: Extracting primitive: steering / Graphite trim
+16:28:54 | INFO: Primitives created: 1
+16:28:54 | INFO: Extracting primitive: wheel-front-left / Graphite trim
+16:28:54 | INFO: Primitives created: 3
+16:28:54 | INFO: Extracting primitive: wheel-front-right / Graphite trim
+16:28:54 | INFO: Primitives created: 3
+16:28:54 | INFO: Extracting primitive: wheel-rear-left / Graphite trim
+16:28:54 | INFO: Primitives created: 3
+16:28:54 | INFO: Extracting primitive: wheel-rear-right / Graphite trim
+16:28:54 | INFO: Primitives created: 3
+16:28:54 | INFO: Finished glTF 2.0 export in 0.3303642272949219 s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-model-3/build_model.py:220: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Studio environment');scene.world.use_nodes=True
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-model-3/build_model.py:226: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Studio floor');mat.diffuse_color=(.43,.47,.49,1);mat.use_nodes=True;mat.node_tree.nodes.get('Principled BSDF').inputs['Roughness'].default_value=.75
+
+Info: Packed 3 file(s)
+Info: Saved as "tesla-model-3.blend"
+ASSET_BUILT {"assetId": "tesla-model-3-highland", "version": "1.0", "license": "CC BY 4.0", "attribution": "CREDITS.md", "sourceSha256": "6ef6933d93ee0812d4049446a38e9b46273cab03b21be1e2ef1d502eccdb684b", "coordinates": "meters; Y up; -Z forward in glTF", "dimensionsMeters": {"length": 4.720000267028809, "widthWithMirrors": 2.087876558303833, "height": 1.4112953841686249, "wheelbase": 2.87322}, "joints": {"wheel-front-left": {"pivot": [-0.798, 0.34512, -1.48197]}, "wheel-front-right": {"pivot": [0.799, 0.3451, -1.48194]}, "wheel-rear-left": {"pivot": [-0.80657, 0.3451, 1.39125]}, "wheel-rear-right": {"pivot": [0.80573, 0.3451, 1.39125]}, "steering": {"pivot": [-0.375, 0.858, -0.403]}}, "steeringAxis": [0, 0.309, 0.951], "dynamicDisplays": {"front": {"mesh": "geometry:display-front", "material": "display:front", "size": [1536, 960]}, "rear": {"mesh": "geometry:display-rear", "material": "display:rear", "size": [1024, 600]}}, "files": [{"lod": "high", "file": "tesla-model-3.high.glb", "bytes": 7423488, "triangles": 178189, "drawPrimitives": 30, "sha256": "7709c57f6c512e3bcd3714b1b84a7446b5f8825aa9e00959ca7ce91550efbdac"}, {"lod": "low", "file": "tesla-model-3.low.glb", "bytes": 4116972, "triangles": 74211, "drawPrimitives": 30, "sha256": "ba050cd4e27c9687c711735e1411ed08c869e7086dee041c509990a670d377a3"}], "status": "Independent licensed artist-model adaptation; synthetic telemetry preview; no factory CAD or vehicle physics."}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

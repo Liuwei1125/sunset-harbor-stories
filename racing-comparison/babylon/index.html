@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>COAST / RUSH · Babylon.js</title><link rel="stylesheet" href="../shared/game.css"></head>
+<body><canvas id="game" aria-label="海岸公路赛车画面" tabindex="0"></canvas>
+<div id="hud">
+ <header><a href="../">COAST<span> / </span>RUSH</a><div class="badge">BABYLON.JS <i></i> WEBGL 2</div><div class="topbuttons"><button id="camera" title="C 切换视角">座舱 · C</button><button id="sound" title="M 切换声音">声音 开</button><button id="pause" title="Esc 暂停">Ⅱ</button></div></header>
+ <div class="mission"><span class="eyebrow">海岸线 · 90 秒穿车挑战</span><strong id="objective">保持速度，穿过车流</strong><div class="progress"><i id="distancebar"></i></div><div class="mission-meta"><span id="distance">0 / 3000 m</span><span id="timer">01:30</span></div></div>
+ <div class="scorecard"><span class="eyebrow">本轮得分</span><strong id="score">00000</strong><span id="passes">超越 0 · 擦车 0</span></div>
+ <div id="notification" aria-live="polite"></div><div id="hit"></div>
+ <footer><div class="condition"><span>车况 <b id="health">100</b></span><div class="bar"><i id="healthbar"></i></div><span>氮气 <b>SPACE</b></span><div class="bar nitro"><i id="nitrobar"></i></div></div><div class="controls">A / D 转向 <span>·</span> S 刹车 <span>·</span> 空格 氮气 <small>自动油门 · R 重来</small></div><div class="speed"><span id="gear">3</span><strong id="speed">0</strong><small>KM/H</small></div></footer>
+ <div class="telemetry" id="telemetry">正在载入...</div>
+</div>
+<div id="menu" class="overlay"><section class="panel"><span class="eyebrow">COASTAL HIGHWAY / 01</span><h1>追上风。<br><em>穿过车流。</em></h1><p>连续弯道、近距离超车、氮气冲刺。<br>在 90 秒内跑出目标距离，留下你的最高分。</p><div class="difficulty"><button data-level="0" class="selected">巡航<small>3.0 km</small></button><button data-level="1">疾驰<small>3.7 km</small></button><button data-level="2">极限<small>4.3 km</small></button></div><button id="start" class="primary" disabled>正在铺设公路...</button><div class="panel-bottom"><span>第一人称 · 自动油门</span><select id="quality" aria-label="画面质量"><option value="high">高画质</option><option value="medium">流畅</option></select></div><a class="comparelink" href="../">查看引擎对比 ↗</a><div id="loaderror" role="alert"></div></section></div>
+<div id="pausemenu" class="overlay hidden"><section class="panel compact"><span class="eyebrow">TAKE A BREATH</span><h1>已暂停</h1><p>回到公路，继续这次挑战。</p><button id="resume" class="primary">继续驾驶</button><button id="restart" class="secondary">重新开始 · R</button></section></div>
+<div id="result" class="overlay hidden"><section class="panel compact"><span class="eyebrow">YOUR RUN</span><h1 id="resulttitle">挑战完成</h1><div id="resultstats"></div><button id="again" class="primary">再跑一轮 · R</button><button id="tomenu" class="secondary">选择难度</button></section></div>
+<div id="touch"><button data-input="left" aria-label="左转">◀</button><button data-input="right" aria-label="右转">▶</button><button data-input="brake">刹车</button><button data-input="boost">N₂O</button></div>
+<script src="vendor/babylon.js"></script><script type="module" src="game.js"></script></body></html>

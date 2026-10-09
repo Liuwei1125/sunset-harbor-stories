@@ -1,0 +1,8 @@
+PASS Sky is less white and visibly bluer at unchanged exposure
+PASS Vehicle panel gains brightness and warm color at unchanged exposure
+PASS Water restores blue-green color without losing its midtone detail
+PASS Warehouse shadow fill avoids an excessive blue cast
+PASS Default exposure retains highlight and dark detail across the fixtures
+PASS Grading preserves a neutral, monotonically increasing HDR grey ramp
+PASS Both builds render all measured regions without GL or application errors
+7/7 passed

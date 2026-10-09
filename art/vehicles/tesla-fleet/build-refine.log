@@ -1,0 +1,125 @@
+00:01.573  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/model-y/source/normalized.blend"
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=color(hex);n=m.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=color(hex);n.inputs['Metallic'].default_value=metal;n.inputs['Roughness'].default_value=rough;n.inputs['Alpha'].default_value=alpha
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:41: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('display:front');m.use_nodes=True;nt=m.node_tree;nt.nodes.clear();out=nt.nodes.new('ShaderNodeOutputMaterial');em=nt.nodes.new('ShaderNodeEmission');tex=nt.nodes.new('ShaderNodeTexImage');tex.image=bpy.data.images.load(str(HERE/'textures'/('display-'+cfg['layout']+'.png')));nt.links.new(tex.outputs['Color'],em.inputs['Color']);em.inputs['Strength'].default_value=.8;nt.links.new(em.outputs[0],out.inputs['Surface']);mesh.materials.append(m)
+GROUPS model-y {'body': 239, 'steering': 5, 'wheel-front-left': 53, 'brake-front-left': 4, 'wheel-front-right': 53, 'brake-front-right': 4, 'wheel-rear-left': 12, 'brake-rear-left': 8, 'wheel-rear-right': 12, 'brake-rear-right': 8}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+17:22:34 | INFO: Starting glTF 2.0 export
+17:22:35 | INFO: Extracting primitive: MY-125.001
+17:22:35 | INFO: Primitives created: 7
+17:22:35 | INFO: Extracting primitive: display surface
+17:22:35 | INFO: Primitives created: 1
+17:22:35 | INFO: Extracting primitive: MY-010.001
+17:22:35 | INFO: Primitives created: 1
+17:22:35 | INFO: Extracting primitive: MY-016.001
+17:22:35 | INFO: Primitives created: 3
+17:22:35 | INFO: Extracting primitive: MY-007.001
+17:22:35 | INFO: Primitives created: 1
+17:22:35 | INFO: Extracting primitive: MY-013.001
+17:22:35 | INFO: Primitives created: 3
+17:22:35 | INFO: Extracting primitive: MY-019.001
+17:22:35 | INFO: Primitives created: 1
+17:22:35 | INFO: Extracting primitive: MY-003.001
+17:22:35 | INFO: Primitives created: 3
+17:22:35 | INFO: Extracting primitive: MY-025.001
+17:22:35 | INFO: Primitives created: 1
+17:22:36 | INFO: Extracting primitive: MY-001.001
+17:22:36 | INFO: Primitives created: 3
+17:22:36 | INFO: Extracting primitive: MY-151.001
+17:22:36 | INFO: Primitives created: 1
+17:22:36 | INFO: Finished glTF 2.0 export in 1.5896258354187012 s
+
+17:22:37 | INFO: Starting glTF 2.0 export
+17:22:38 | INFO: Extracting primitive: MY-125.001
+17:22:38 | INFO: Primitives created: 7
+17:22:38 | INFO: Extracting primitive: display surface
+17:22:38 | INFO: Primitives created: 1
+17:22:38 | INFO: Extracting primitive: MY-010.001
+17:22:38 | INFO: Primitives created: 1
+17:22:38 | INFO: Extracting primitive: MY-016.001
+17:22:38 | INFO: Primitives created: 3
+17:22:38 | INFO: Extracting primitive: MY-007.001
+17:22:38 | INFO: Primitives created: 1
+17:22:39 | INFO: Extracting primitive: MY-013.001
+17:22:39 | INFO: Primitives created: 3
+17:22:39 | INFO: Extracting primitive: MY-019.001
+17:22:39 | INFO: Primitives created: 1
+17:22:39 | INFO: Extracting primitive: MY-003.001
+17:22:39 | INFO: Primitives created: 3
+17:22:39 | INFO: Extracting primitive: MY-025.001
+17:22:39 | INFO: Primitives created: 1
+17:22:39 | INFO: Extracting primitive: MY-001.001
+17:22:39 | INFO: Primitives created: 3
+17:22:39 | INFO: Extracting primitive: MY-151.001
+17:22:39 | INFO: Primitives created: 1
+17:22:39 | INFO: Finished glTF 2.0 export in 1.6623990535736084 s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:177: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Studio');scene.world.use_nodes=True;nt=scene.world.node_tree;env=nt.nodes.new('ShaderNodeTexEnvironment');env.image=bpy.data.images.load(str(ROOT/'assets/showroom/studio.hdr'));nt.links.new(env.outputs['Color'],nt.nodes['Background'].inputs['Color']);nt.nodes['Background'].inputs['Strength'].default_value=.28
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=color(hex);n=m.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=color(hex);n.inputs['Metallic'].default_value=metal;n.inputs['Roughness'].default_value=rough;n.inputs['Alpha'].default_value=alpha
+
+Info: Packed 2 file(s)
+Info: Saved as "model-y.blend"
+BUILT model-y [{"lod": "high", "file": "model-y.high.glb", "bytes": 8194860, "triangles": 378430, "sha256": "79d396c8afc4b7f8057423f1f9a17dc769fb2fa5b202356dbc9bdf912c404855"}, {"lod": "low", "file": "model-y.low.glb", "bytes": 3380236, "triangles": 145545, "sha256": "0fdb070bdae9b88dba19b369d009c8fecc39902358000c71bae6c157a6b3c1be"}]
+00:08.566  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/roadster/source/normalized.blend"
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:41: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('display:front');m.use_nodes=True;nt=m.node_tree;nt.nodes.clear();out=nt.nodes.new('ShaderNodeOutputMaterial');em=nt.nodes.new('ShaderNodeEmission');tex=nt.nodes.new('ShaderNodeTexImage');tex.image=bpy.data.images.load(str(HERE/'textures'/('display-'+cfg['layout']+'.png')));nt.links.new(tex.outputs['Color'],em.inputs['Color']);em.inputs['Strength'].default_value=.8;nt.links.new(em.outputs[0],out.inputs['Surface']);mesh.materials.append(m)
+GROUPS roadster {'body': 76, 'steering': 6, 'wheel-front-left': 7, 'brake-front-left': 1, 'wheel-front-right': 7, 'brake-front-right': 1, 'wheel-rear-left': 6, 'brake-rear-left': 1, 'wheel-rear-right': 6, 'brake-rear-right': 1}
+17:22:41 | INFO: Starting glTF 2.0 export
+17:22:42 | INFO: Extracting primitive: roadster.005_grill_0.001
+17:22:42 | INFO: Primitives created: 8
+17:22:42 | INFO: Extracting primitive: display surface
+17:22:42 | INFO: Primitives created: 1
+17:22:42 | INFO: Extracting primitive: TR.DEF-WheelBrake.Ft.L_calipers_0.001
+17:22:42 | INFO: Primitives created: 1
+17:22:42 | INFO: Extracting primitive: roadster.026_indicator left_0.001
+17:22:42 | INFO: Primitives created: 5
+17:22:42 | INFO: Extracting primitive: TR.DEF-WheelBrake.Ft.R_calipers_0.001
+17:22:42 | INFO: Primitives created: 1
+17:22:42 | INFO: Extracting primitive: roadster.026_indicator right_0.001
+17:22:42 | INFO: Primitives created: 5
+17:22:42 | INFO: Extracting primitive: TR.DEF-WheelBrake.Bk.L_calipers_0.001
+17:22:42 | INFO: Primitives created: 1
+17:22:42 | INFO: Extracting primitive: roadster.003_Sidewall_0.001
+17:22:42 | INFO: Primitives created: 4
+17:22:42 | INFO: Extracting primitive: TR.DEF-WheelBrake.Bk.R_calipers_0.001
+17:22:42 | INFO: Primitives created: 1
+17:22:42 | INFO: Extracting primitive: roadster.004_Sidewall_0.001
+17:22:42 | INFO: Primitives created: 4
+17:22:42 | INFO: Extracting primitive: steering:leather rim
+17:22:42 | INFO: Primitives created: 2
+17:22:42 | INFO: Finished glTF 2.0 export in 1.185364007949829 s
+
+17:22:44 | INFO: Starting glTF 2.0 export
+17:22:45 | INFO: Extracting primitive: roadster.005_grill_0.001
+17:22:45 | INFO: Primitives created: 8
+17:22:45 | INFO: Extracting primitive: display surface
+17:22:45 | INFO: Primitives created: 1
+17:22:45 | INFO: Extracting primitive: TR.DEF-WheelBrake.Ft.L_calipers_0.001
+17:22:45 | INFO: Primitives created: 1
+17:22:45 | INFO: Extracting primitive: roadster.026_indicator left_0.001
+17:22:45 | INFO: Primitives created: 5
+17:22:45 | INFO: Extracting primitive: TR.DEF-WheelBrake.Ft.R_calipers_0.001
+17:22:45 | INFO: Primitives created: 1
+17:22:45 | INFO: Extracting primitive: roadster.026_indicator right_0.001
+17:22:45 | INFO: Primitives created: 5
+17:22:45 | INFO: Extracting primitive: TR.DEF-WheelBrake.Bk.L_calipers_0.001
+17:22:45 | INFO: Primitives created: 1
+17:22:45 | INFO: Extracting primitive: roadster.003_Sidewall_0.001
+17:22:45 | INFO: Primitives created: 4
+17:22:45 | INFO: Extracting primitive: TR.DEF-WheelBrake.Bk.R_calipers_0.001
+17:22:45 | INFO: Primitives created: 1
+17:22:45 | INFO: Extracting primitive: roadster.004_Sidewall_0.001
+17:22:45 | INFO: Primitives created: 4
+17:22:45 | INFO: Extracting primitive: steering:leather rim
+17:22:45 | INFO: Primitives created: 2
+17:22:45 | INFO: Finished glTF 2.0 export in 1.6539018154144287 s
+
+Info: Packed 2 file(s)
+Info: Saved as "roadster.blend"
+BUILT roadster [{"lod": "high", "file": "roadster.high.glb", "bytes": 16932608, "triangles": 397519, "sha256": "179089913d1b3fbaf9fe5d15abf0c7613854e77e03e4962d8297cce9593e901a"}, {"lod": "low", "file": "roadster.low.glb", "bytes": 8018920, "triangles": 122308, "sha256": "a56a9edf298c07fff416ed97a7a85f7dc7d4c49cf5132284723e425876be3ff8"}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

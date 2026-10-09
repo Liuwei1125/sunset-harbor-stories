@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": {
+    "packedImages": true,
+    "cameraCount": 4,
+    "displayUVs": true,
+    "movingParts": true
+  }
+}

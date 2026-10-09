@@ -1,0 +1,261 @@
+{
+  "provingGround": {
+    "mode": "test",
+    "measurements": [
+      "0–100 km/h：4.98 秒",
+      "100–0 km/h：41.4 米"
+    ]
+  },
+  "unlock": {
+    "xp": 45,
+    "valid": 3
+  },
+  "rounds": [
+    {
+      "track": "harbor",
+      "phase": "result",
+      "result": [
+        {
+          "id": 3,
+          "name": "阿岚",
+          "progress": 7115.522847579187,
+          "finished": true,
+          "finishTime": 389.8666666664764,
+          "penalty": 0,
+          "laps": 4,
+          "place": 1,
+          "classifiedTime": 389.8666666664764
+        },
+        {
+          "id": 2,
+          "name": "小夏",
+          "progress": 7115.3564128113685,
+          "finished": true,
+          "finishTime": 392.1916666664743,
+          "penalty": 0,
+          "laps": 4,
+          "place": 2,
+          "classifiedTime": 392.1916666664743
+        },
+        {
+          "id": 0,
+          "name": "你",
+          "progress": 7115.553684716062,
+          "finished": true,
+          "finishTime": 396.0749999998041,
+          "penalty": 9.430446563512394,
+          "laps": 4,
+          "place": 3,
+          "classifiedTime": 405.5054465633165
+        },
+        {
+          "id": 1,
+          "name": "林舟",
+          "progress": 7115.592527270355,
+          "finished": true,
+          "finishTime": 411.49166666645675,
+          "penalty": 14.62970124788656,
+          "laps": 4,
+          "place": 4,
+          "classifiedTime": 426.1213679143433
+        }
+      ]
+    },
+    {
+      "track": "coast",
+      "phase": "result",
+      "result": [
+        {
+          "id": 3,
+          "name": "阿岚",
+          "progress": 7942.8553199346225,
+          "finished": true,
+          "finishTime": 386.48333333314616,
+          "penalty": 0,
+          "laps": 3,
+          "place": 1,
+          "classifiedTime": 386.48333333314616
+        },
+        {
+          "id": 1,
+          "name": "林舟",
+          "progress": 7942.987846372449,
+          "finished": true,
+          "finishTime": 387.1833333331455,
+          "penalty": 0,
+          "laps": 3,
+          "place": 2,
+          "classifiedTime": 387.1833333331455
+        },
+        {
+          "id": 2,
+          "name": "小夏",
+          "progress": 7942.921604558891,
+          "finished": true,
+          "finishTime": 388.858333333144,
+          "penalty": 0,
+          "laps": 3,
+          "place": 3,
+          "classifiedTime": 388.858333333144
+        },
+        {
+          "id": 0,
+          "name": "你",
+          "progress": 7942.9369655609335,
+          "finished": true,
+          "finishTime": 391.26666666647515,
+          "penalty": 0,
+          "laps": 3,
+          "place": 4,
+          "classifiedTime": 391.26666666647515
+        }
+      ]
+    },
+    {
+      "track": "harbor",
+      "phase": "result",
+      "result": [
+        {
+          "id": 3,
+          "name": "阿岚",
+          "progress": 7115.522847579187,
+          "finished": true,
+          "finishTime": 389.8666666664764,
+          "penalty": 0,
+          "laps": 4,
+          "place": 1,
+          "classifiedTime": 389.8666666664764
+        },
+        {
+          "id": 2,
+          "name": "小夏",
+          "progress": 7115.521533591832,
+          "finished": true,
+          "finishTime": 392.1916666664743,
+          "penalty": 0,
+          "laps": 4,
+          "place": 2,
+          "classifiedTime": 392.1916666664743
+        },
+        {
+          "id": 0,
+          "name": "你",
+          "progress": 7115.516235683912,
+          "finished": true,
+          "finishTime": 396.1333333331374,
+          "penalty": 9.32975367527869,
+          "laps": 4,
+          "place": 3,
+          "classifiedTime": 405.4630870084161
+        },
+        {
+          "id": 1,
+          "name": "林舟",
+          "progress": 7115.457753092225,
+          "finished": true,
+          "finishTime": 404.10833333313013,
+          "penalty": 10.65404235202692,
+          "laps": 4,
+          "place": 4,
+          "classifiedTime": 414.76237568515705
+        }
+      ]
+    }
+  ],
+  "final": {
+    "champ": null,
+    "history": {
+      "round": 3,
+      "points": [
+        19,
+        19,
+        25,
+        36
+      ],
+      "settings": {
+        "car": "bmw-m4",
+        "track": "harbor",
+        "event": "championship",
+        "setup": "balanced",
+        "abs": true,
+        "tc": 2,
+        "regen": 1,
+        "difficulty": "club",
+        "camera": 0,
+        "volume": 0.25,
+        "quality": "auto",
+        "paint": 0,
+        "hints": true
+      },
+      "results": [
+        [
+          {
+            "id": 3,
+            "place": 1,
+            "time": 389.8666666664764
+          },
+          {
+            "id": 2,
+            "place": 2,
+            "time": 392.1916666664743
+          },
+          {
+            "id": 0,
+            "place": 3,
+            "time": 405.5054465633165
+          },
+          {
+            "id": 1,
+            "place": 4,
+            "time": 426.1213679143433
+          }
+        ],
+        [
+          {
+            "id": 3,
+            "place": 1,
+            "time": 386.48333333314616
+          },
+          {
+            "id": 1,
+            "place": 2,
+            "time": 387.1833333331455
+          },
+          {
+            "id": 2,
+            "place": 3,
+            "time": 388.858333333144
+          },
+          {
+            "id": 0,
+            "place": 4,
+            "time": 391.26666666647515
+          }
+        ],
+        [
+          {
+            "id": 3,
+            "place": 1,
+            "time": 389.8666666664764
+          },
+          {
+            "id": 2,
+            "place": 2,
+            "time": 392.1916666664743
+          },
+          {
+            "id": 0,
+            "place": 3,
+            "time": 405.4630870084161
+          },
+          {
+            "id": 1,
+            "place": 4,
+            "time": 414.76237568515705
+          }
+        ]
+      ]
+    }
+  },
+  "errors": []
+}

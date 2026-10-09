@@ -1,0 +1,68 @@
+00:00.997  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/model-y/source/normalized.blend"
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=color(hex);n=m.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=color(hex);n.inputs['Metallic'].default_value=metal;n.inputs['Roughness'].default_value=rough;n.inputs['Alpha'].default_value=alpha
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:41: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('display:front');m.use_nodes=True;nt=m.node_tree;nt.nodes.clear();out=nt.nodes.new('ShaderNodeOutputMaterial');em=nt.nodes.new('ShaderNodeEmission');tex=nt.nodes.new('ShaderNodeTexImage');tex.image=bpy.data.images.load(str(HERE/'textures'/('display-'+cfg['layout']+'.png')));nt.links.new(tex.outputs['Color'],em.inputs['Color']);em.inputs['Strength'].default_value=.8;nt.links.new(em.outputs[0],out.inputs['Surface']);mesh.materials.append(m)
+GROUPS model-y {'body': 239, 'steering': 5, 'wheel-front-left': 53, 'brake-front-left': 4, 'wheel-front-right': 53, 'brake-front-right': 4, 'wheel-rear-left': 12, 'brake-rear-left': 8, 'wheel-rear-right': 12, 'brake-rear-right': 8}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+17:28:53 | INFO: Starting glTF 2.0 export
+17:28:54 | INFO: Extracting primitive: MY-125.001
+17:28:54 | INFO: Primitives created: 7
+17:28:54 | INFO: Extracting primitive: display surface
+17:28:54 | INFO: Primitives created: 1
+17:28:54 | INFO: Extracting primitive: MY-010.001
+17:28:54 | INFO: Primitives created: 1
+17:28:54 | INFO: Extracting primitive: MY-016.001
+17:28:54 | INFO: Primitives created: 3
+17:28:54 | INFO: Extracting primitive: MY-007.001
+17:28:54 | INFO: Primitives created: 1
+17:28:54 | INFO: Extracting primitive: MY-013.001
+17:28:54 | INFO: Primitives created: 3
+17:28:54 | INFO: Extracting primitive: MY-019.001
+17:28:54 | INFO: Primitives created: 1
+17:28:54 | INFO: Extracting primitive: MY-003.001
+17:28:55 | INFO: Primitives created: 3
+17:28:55 | INFO: Extracting primitive: MY-025.001
+17:28:55 | INFO: Primitives created: 1
+17:28:55 | INFO: Extracting primitive: MY-001.001
+17:28:55 | INFO: Primitives created: 3
+17:28:55 | INFO: Extracting primitive: MY-151.001
+17:28:55 | INFO: Primitives created: 1
+17:28:55 | INFO: Finished glTF 2.0 export in 1.593135118484497 s
+
+17:28:56 | INFO: Starting glTF 2.0 export
+17:28:58 | INFO: Extracting primitive: MY-125.001
+17:28:58 | INFO: Primitives created: 7
+17:28:58 | INFO: Extracting primitive: display surface
+17:28:58 | INFO: Primitives created: 1
+17:28:58 | INFO: Extracting primitive: MY-010.001
+17:28:58 | INFO: Primitives created: 1
+17:28:58 | INFO: Extracting primitive: MY-016.001
+17:28:58 | INFO: Primitives created: 3
+17:28:58 | INFO: Extracting primitive: MY-007.001
+17:28:58 | INFO: Primitives created: 1
+17:28:58 | INFO: Extracting primitive: MY-013.001
+17:28:58 | INFO: Primitives created: 3
+17:28:58 | INFO: Extracting primitive: MY-019.001
+17:28:58 | INFO: Primitives created: 1
+17:28:58 | INFO: Extracting primitive: MY-003.001
+17:28:58 | INFO: Primitives created: 3
+17:28:58 | INFO: Extracting primitive: MY-025.001
+17:28:58 | INFO: Primitives created: 1
+17:28:58 | INFO: Extracting primitive: MY-001.001
+17:28:58 | INFO: Primitives created: 3
+17:28:58 | INFO: Extracting primitive: MY-151.001
+17:28:58 | INFO: Primitives created: 1
+17:28:58 | INFO: Finished glTF 2.0 export in 2.1301770210266113 s
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:177: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Studio');scene.world.use_nodes=True;nt=scene.world.node_tree;env=nt.nodes.new('ShaderNodeTexEnvironment');env.image=bpy.data.images.load(str(ROOT/'assets/showroom/studio.hdr'));nt.links.new(env.outputs['Color'],nt.nodes['Background'].inputs['Color']);nt.nodes['Background'].inputs['Strength'].default_value=.28
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=color(hex);n=m.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=color(hex);n.inputs['Metallic'].default_value=metal;n.inputs['Roughness'].default_value=rough;n.inputs['Alpha'].default_value=alpha
+
+Info: Packed 2 file(s)
+Info: Saved as "model-y.blend"
+BUILT model-y [{"lod": "high", "file": "model-y.high.glb", "bytes": 8194860, "triangles": 378430, "sha256": "a494ce7902efe49fc74c6b16c24f9a3dab292622df4dc92b55ca259829178a1b"}, {"lod": "low", "file": "model-y.low.glb", "bytes": 3380236, "triangles": 145545, "sha256": "83bffcaee3ebf65d3118d8c4484694bca52bbf73b7a1a540e66dd832ed3507d6"}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

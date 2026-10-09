@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "sha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "packSha256": "948a79e2d388c971041ea8f9173a012998cf5845b31b7059e30f8f7b57f6bb7b",
+  "assets": [
+    {
+      "id": "ar7-rifle",
+      "high": 2940,
+      "low": 310,
+      "glbBytes": 179404
+    },
+    {
+      "id": "comet-launcher",
+      "high": 1508,
+      "low": 390,
+      "glbBytes": 58524
+    },
+    {
+      "id": "ember-bottle",
+      "high": 732,
+      "low": 188,
+      "glbBytes": 27780
+    },
+    {
+      "id": "longwatch-sniper",
+      "high": 4164,
+      "low": 638,
+      "glbBytes": 208128
+    },
+    {
+      "id": "pulse-grenade",
+      "high": 608,
+      "low": 158,
+      "glbBytes": 26112
+    },
+    {
+      "id": "pump-shotgun",
+      "high": 2568,
+      "low": 306,
+      "glbBytes": 91256
+    },
+    {
+      "id": "sidearm-pistol",
+      "high": 1000,
+      "low": 132,
+      "glbBytes": 65444
+    },
+    {
+      "id": "vector-smg",
+      "high": 1240,
+      "low": 200,
+      "glbBytes": 75532
+    }
+  ],
+  "uniqueMeshes": 117,
+  "maxNormalError": 0.00002293029843669636,
+  "runtimeBytes": 523172
+}

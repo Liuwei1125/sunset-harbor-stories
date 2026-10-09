@@ -1,0 +1,645 @@
+{
+  "sha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "passed": 14,
+  "total": 14,
+  "checks": [
+    {
+      "name": "file:// boots with network disabled",
+      "pass": true,
+      "detail": {
+        "seconds": 0.297
+      }
+    },
+    {
+      "name": "All 14 authored assets are bundled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Public Start / road route loads campaign",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All 10 harbor props are placed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Low quality uses only simplified authored models",
+      "pass": true,
+      "detail": {
+        "high": {
+          "high": 22,
+          "low": 38,
+          "instances": 60,
+          "draws": 1255,
+          "triangles": 851225
+        },
+        "low": {
+          "high": 0,
+          "low": 55,
+          "instances": 55,
+          "draws": 155,
+          "triangles": 69068
+        }
+      }
+    },
+    {
+      "name": "Reduced shadow meshes registered",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Blender roughness and metalness reach instance buffers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Wheels, door and both rotor groups move as real geometry",
+      "pass": true,
+      "detail": {
+        "wheels": {
+          "changed": 65128,
+          "finite": true
+        },
+        "doors": {
+          "changed": 3096,
+          "finite": true
+        },
+        "rotors": {
+          "changed": 9024,
+          "finite": true
+        },
+        "physicsUntouched": true
+      }
+    },
+    {
+      "name": "Rendering leaves simulation poses intact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "World switching resets harbor placements without duplicates",
+      "pass": true,
+      "detail": [
+        {
+          "id": "coast",
+          "placements": 61,
+          "finite": true
+        },
+        {
+          "id": "islands",
+          "placements": 0,
+          "finite": true
+        },
+        {
+          "id": "canyon",
+          "placements": 0,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "name": "WebGL rendered without GL errors",
+      "pass": true,
+      "detail": {
+        "software": false,
+        "webgl": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+        "error": 0
+      }
+    },
+    {
+      "name": "CPU fallback keeps the new models with low LOD",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Live WebGL loop runs without runtime errors",
+      "pass": true,
+      "detail": {
+        "samples": 20,
+        "quality": 2
+      }
+    },
+    {
+      "name": "No browser page errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "live": {
+    "schema": "sunset-diagnostic-6",
+    "createdAt": "2026-09-10T19:00:19.564Z",
+    "label": "Blender harbor / 20s live WebGL",
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "renderer": "WebGL",
+      "gpuTimerAvailable": true,
+      "viewport": [
+        1280,
+        800
+      ],
+      "devicePixelRatio": 1,
+      "hardwareConcurrency": 8,
+      "touch": false
+    },
+    "notice": "Device emulation is not physical-device testing. CPU submission time is not GPU time. No real-device pass is inferred.",
+    "durationSeconds": 20.007,
+    "framesOver100ms": 0,
+    "maxFrameMs": 33.400000000001455,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "inputCount": 0,
+    "samples": [
+      {
+        "seconds": 0.59,
+        "fps": 58.3,
+        "p95": 16.80000000000001,
+        "cpuMs": 15.2966233871823,
+        "simMs": 0.26063525141687705,
+        "gpuMs": 9.854051887648174,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 1.61,
+        "fps": 58.8,
+        "p95": 16.700000000000045,
+        "cpuMs": 15.848759860693063,
+        "simMs": 0.18736176193605608,
+        "gpuMs": 10.313486592897362,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 2.61,
+        "fps": 58.8,
+        "p95": 16.799999999999955,
+        "cpuMs": 15.993872389020892,
+        "simMs": 0.1756861321933788,
+        "gpuMs": 9.892355931623262,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 3.63,
+        "fps": 58.9,
+        "p95": 16.80000000000001,
+        "cpuMs": 9.50778585448645,
+        "simMs": 0.12763645433604845,
+        "gpuMs": 9.150298933738505,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 4.63,
+        "fps": 59.1,
+        "p95": 16.800000000000182,
+        "cpuMs": 11.235175123597141,
+        "simMs": 0.22708329484722503,
+        "gpuMs": 10.087567746626222,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 5.63,
+        "fps": 58.6,
+        "p95": 16.800000000000182,
+        "cpuMs": 17.58655293069724,
+        "simMs": 0.23153251833606567,
+        "gpuMs": 8.612792050580827,
+        "heapMB": 132.56072998046875,
+        "projectiles": 1,
+        "actors": 4,
+        "draws": 1214,
+        "triangles": 830001,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 6.65,
+        "fps": 57.6,
+        "p95": 16.800000000000182,
+        "cpuMs": 19.23732112664196,
+        "simMs": 0.20809642290092442,
+        "gpuMs": 9.917095246236686,
+        "heapMB": 132.56072998046875,
+        "projectiles": 1,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 7.67,
+        "fps": 57,
+        "p95": 33.29999999999927,
+        "cpuMs": 17.9927205772108,
+        "simMs": 0.2239062003901714,
+        "gpuMs": 8.27026948238734,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 8.68,
+        "fps": 56.4,
+        "p95": 33.299999999999955,
+        "cpuMs": 17.661285230633283,
+        "simMs": 0.15200922180003842,
+        "gpuMs": 8.232818338441547,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 9.69,
+        "fps": 55.9,
+        "p95": 33.30000000000018,
+        "cpuMs": 19.45491904204005,
+        "simMs": 0.15583781435474253,
+        "gpuMs": 10.158755492858548,
+        "heapMB": 132.56072998046875,
+        "projectiles": 1,
+        "actors": 4,
+        "draws": 1214,
+        "triangles": 830001,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 10.7,
+        "fps": 55.6,
+        "p95": 33.30000000000018,
+        "cpuMs": 19.458318021830053,
+        "simMs": 0.1296426933245567,
+        "gpuMs": 10.194567071217087,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 11.7,
+        "fps": 54.9,
+        "p95": 33.30000000000109,
+        "cpuMs": 19.40327308132549,
+        "simMs": 0.12340106838865464,
+        "gpuMs": 9.614298115334119,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829961,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 12.72,
+        "fps": 54.2,
+        "p95": 33.30000000000109,
+        "cpuMs": 18.318684654448738,
+        "simMs": 0.17652385891129266,
+        "gpuMs": 8.4063305164617,
+        "heapMB": 132.56072998046875,
+        "projectiles": 1,
+        "actors": 4,
+        "draws": 1214,
+        "triangles": 830001,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 13.73,
+        "fps": 53.7,
+        "p95": 33.30000000000109,
+        "cpuMs": 17.894658668265944,
+        "simMs": 0.18025439929669682,
+        "gpuMs": 8.496930549851864,
+        "heapMB": 132.56072998046875,
+        "projectiles": 1,
+        "actors": 4,
+        "draws": 1214,
+        "triangles": 830001,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 14.73,
+        "fps": 53.3,
+        "p95": 33.30000000000109,
+        "cpuMs": 17.932777772591002,
+        "simMs": 0.1292097065884607,
+        "gpuMs": 8.398114208688542,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829985,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 15.73,
+        "fps": 52.8,
+        "p95": 33.399999999999636,
+        "cpuMs": 17.085096358644368,
+        "simMs": 0.1525998072556852,
+        "gpuMs": 8.006865596950318,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 829985,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 16.74,
+        "fps": 52.5,
+        "p95": 33.30000000000291,
+        "cpuMs": 18.8867497606917,
+        "simMs": 0.20112695037823813,
+        "gpuMs": 9.956758954414019,
+        "heapMB": 132.56072998046875,
+        "projectiles": 1,
+        "actors": 4,
+        "draws": 1214,
+        "triangles": 830025,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 17.75,
+        "fps": 52.7,
+        "p95": 33.399999999999636,
+        "cpuMs": 17.24077032669482,
+        "simMs": 0.14568333369994166,
+        "gpuMs": 9.136677010181913,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1214,
+        "triangles": 830777,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 18.76,
+        "fps": 53,
+        "p95": 33.30000000000291,
+        "cpuMs": 17.300004455428198,
+        "simMs": 0.1705639723902867,
+        "gpuMs": 7.588533660876777,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 830009,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      },
+      {
+        "seconds": 19.77,
+        "fps": 53.3,
+        "p95": 33.30000000000109,
+        "cpuMs": 16.495562517608157,
+        "simMs": 0.13716939377656479,
+        "gpuMs": 7.7491669708387025,
+        "heapMB": 132.56072998046875,
+        "projectiles": 0,
+        "actors": 4,
+        "draws": 1213,
+        "triangles": 830009,
+        "chunks": 100,
+        "quality": 2,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "medium": "foot",
+        "mission": "approach"
+      }
+    ],
+    "errors": [],
+    "events": [
+      {
+        "t": 0.183,
+        "type": "campaign-start",
+        "route": "road",
+        "difficulty": "easy"
+      },
+      {
+        "t": 0.183,
+        "type": "recording-start",
+        "label": "Blender harbor / 20s live WebGL"
+      }
+    ],
+    "missionResult": null,
+    "checks": [
+      {
+        "name": "Finite player position",
+        "pass": true
+      },
+      {
+        "name": "Unique projectile IDs",
+        "pass": true
+      },
+      {
+        "name": "No gameplay projectile eviction policy",
+        "pass": true
+      },
+      {
+        "name": "Projectile visual budget independent",
+        "pass": true
+      },
+      {
+        "name": "Only one active primary activity",
+        "pass": true
+      },
+      {
+        "name": "No duplicate campaign reward IDs",
+        "pass": true
+      },
+      {
+        "name": "No stale render mutations",
+        "pass": true
+      }
+    ],
+    "graphics": {
+      "active": true,
+      "hdr": true,
+      "ao": 16,
+      "cascades": 2,
+      "reflection": true,
+      "bloom": true,
+      "resolution": [
+        1600,
+        1000
+      ],
+      "resourceGeneration": 1,
+      "localLights": 0,
+      "effect": "6.3.1",
+      "capabilities": {
+        "depth": true,
+        "hdr": true,
+        "derivatives": true,
+        "post": true,
+        "reason": null
+      }
+    }
+  },
+  "scope": "Fixed-camera visual fixtures, real offline file URL, software fallback, and 20 seconds of live desktop WebGL. Not a physical phone or thermal test."
+}

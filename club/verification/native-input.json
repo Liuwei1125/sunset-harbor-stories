@@ -1,0 +1,303 @@
+{
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "name": "Native mouse chord right then left fires while aiming and releases independently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native mouse chord left then right fires while aiming and releases independently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Releasing mouse fire preserves a separately held keyboard fire source",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "shooting completes through native mouse and keyboard and starts Next",
+      "pass": true,
+      "detail": {
+        "mode": "shooting",
+        "phase": "result",
+        "success": true,
+        "score": 1536,
+        "elapsed": 22.733333333332684,
+        "shots": 8,
+        "hits": 8,
+        "nextStarted": true
+      }
+    },
+    {
+      "name": "darts completes through native mouse and keyboard and starts Next",
+      "pass": true,
+      "detail": {
+        "mode": "darts",
+        "phase": "result",
+        "success": true,
+        "score": 780,
+        "elapsed": 30.224999999998925,
+        "shots": 13,
+        "hits": 13,
+        "nextStarted": true
+      }
+    },
+    {
+      "name": "archery completes through native mouse and keyboard and starts Next",
+      "pass": true,
+      "detail": {
+        "mode": "archery",
+        "phase": "result",
+        "success": true,
+        "score": 60,
+        "elapsed": 12.841666666666578,
+        "shots": 6,
+        "hits": 6,
+        "nextStarted": true
+      }
+    },
+    {
+      "name": "Race completes through native WASD and starts Next",
+      "pass": true,
+      "detail": {
+        "mode": "race",
+        "phase": "result",
+        "success": true,
+        "score": 18.69999999999958,
+        "elapsed": 18.69999999999958,
+        "checkpoints": 12,
+        "collisions": 0,
+        "nextStarted": true
+      }
+    },
+    {
+      "name": "race blur pauses and cancels input without throwing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "shooting blur pauses and cancels input without throwing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "darts blur pauses and cancels input without throwing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "archery blur pauses and cancels input without throwing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native touch 390×844 / race",
+      "pass": true,
+      "detail": {
+        "speed": 13.768070441318471,
+        "carYaw": -1.8429924149694885,
+        "yaw": 0,
+        "shots": 0,
+        "projectile": false,
+        "held": 0,
+        "gl": 0
+      }
+    },
+    {
+      "name": "Native touch 390×844 / shooting",
+      "pass": true,
+      "detail": {
+        "speed": null,
+        "carYaw": null,
+        "yaw": 0.0594,
+        "shots": 13,
+        "projectile": false,
+        "held": 0,
+        "gl": 0
+      }
+    },
+    {
+      "name": "Native touch 390×844 / darts",
+      "pass": true,
+      "detail": {
+        "speed": null,
+        "carYaw": null,
+        "yaw": 0.00758748479592436,
+        "shots": 1,
+        "projectile": false,
+        "held": 0,
+        "gl": 0
+      }
+    },
+    {
+      "name": "darts touch cancellation 390 clears draw without release",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native touch 390×844 / archery",
+      "pass": true,
+      "detail": {
+        "speed": null,
+        "carYaw": null,
+        "yaw": 0.01517496959184872,
+        "shots": 1,
+        "projectile": false,
+        "held": 0,
+        "gl": 0
+      }
+    },
+    {
+      "name": "archery touch cancellation 390 clears draw without release",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native touch 844×390 / race",
+      "pass": true,
+      "detail": {
+        "speed": 13.768070441318471,
+        "carYaw": -1.8429924149694885,
+        "yaw": 0,
+        "shots": 0,
+        "projectile": false,
+        "held": 0,
+        "gl": 0
+      }
+    },
+    {
+      "name": "Native touch 844×390 / shooting",
+      "pass": true,
+      "detail": {
+        "speed": null,
+        "carYaw": null,
+        "yaw": 0.0594,
+        "shots": 13,
+        "projectile": false,
+        "held": 0,
+        "gl": 0
+      }
+    },
+    {
+      "name": "Native touch 844×390 / darts",
+      "pass": true,
+      "detail": {
+        "speed": null,
+        "carYaw": null,
+        "yaw": 0.00758748479592436,
+        "shots": 1,
+        "projectile": false,
+        "held": 0,
+        "gl": 0
+      }
+    },
+    {
+      "name": "darts touch cancellation 844 clears draw without release",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native touch 844×390 / archery",
+      "pass": true,
+      "detail": {
+        "speed": null,
+        "carYaw": null,
+        "yaw": 0.01517496959184872,
+        "shots": 1,
+        "projectile": false,
+        "held": 0,
+        "gl": 0
+      }
+    },
+    {
+      "name": "archery touch cancellation 844 clears draw without release",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No application exceptions in native input flows",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "completions": [
+    {
+      "mode": "shooting",
+      "phase": "result",
+      "success": true,
+      "score": 1536,
+      "elapsed": 22.733333333332684,
+      "shots": 8,
+      "hits": 8,
+      "nextStarted": true
+    },
+    {
+      "mode": "darts",
+      "phase": "result",
+      "success": true,
+      "score": 780,
+      "elapsed": 30.224999999998925,
+      "shots": 13,
+      "hits": 13,
+      "nextStarted": true
+    },
+    {
+      "mode": "archery",
+      "phase": "result",
+      "success": true,
+      "score": 60,
+      "elapsed": 12.841666666666578,
+      "shots": 6,
+      "hits": 6,
+      "nextStarted": true
+    },
+    {
+      "mode": "race",
+      "phase": "result",
+      "success": true,
+      "score": 18.69999999999958,
+      "elapsed": 18.69999999999958,
+      "checkpoints": 12,
+      "collisions": 0,
+      "nextStarted": true
+    }
+  ],
+  "errors": [],
+  "device": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "cores": 8,
+    "memory": 16,
+    "viewport": [
+      1440,
+      900
+    ],
+    "dpr": 1,
+    "renderer": {
+      "engine": "Babylon.js 9.26.0",
+      "backend": "WebGL 2",
+      "width": 1440,
+      "height": 900,
+      "fps": 11.14578689251759,
+      "activeMeshes": 134,
+      "triangles": 239222,
+      "drawCalls": 387,
+      "meshes": 246,
+      "materials": 41,
+      "textures": 58,
+      "dynamicInstances": 1,
+      "effectPool": 0
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+    "remoteScripts": [
+      "http://127.0.0.1:8012/club/vendor/babylon-9.26.0.js",
+      "http://127.0.0.1:8012/club/vendor/babylonjs.loaders-9.26.0.min.js",
+      "http://127.0.0.1:8012/club/src/app.js"
+    ],
+    "live": null
+  },
+  "method": "Playwright native mouse drags, right-button aiming, Space/Shift and WASD complete four representative events. CDP dispatchTouchEvent exercises simultaneous contacts in portrait and landscape, pause, banking, retry and cancellation. Only production 120 Hz time is advanced; no hit, position, score, checkpoint or result is injected. Physical phones remain unmeasured."
+}

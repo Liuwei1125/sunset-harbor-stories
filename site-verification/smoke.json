@@ -1,0 +1,65 @@
+{
+  "passed": 14,
+  "total": 14,
+  "checks": [
+    {
+      "name": "Public main game opens with a link to the new Club",
+      "pass": true
+    },
+    {
+      "name": "Published main-game bundle starts, walks and pauses",
+      "pass": true
+    },
+    {
+      "name": "Main-game navigation reaches the new Club and offers a return link",
+      "pass": true
+    },
+    {
+      "name": "New public car and native camera switching work",
+      "pass": true
+    },
+    {
+      "name": "race loads its public assets and reaches gameplay without GL errors",
+      "pass": true
+    },
+    {
+      "name": "shooting loads its public assets and reaches gameplay without GL errors",
+      "pass": true
+    },
+    {
+      "name": "darts loads its public assets and reaches gameplay without GL errors",
+      "pass": true
+    },
+    {
+      "name": "archery loads its public assets and reaches gameplay without GL errors",
+      "pass": true
+    },
+    {
+      "name": "Circuit entry loads same-origin physics and selected vehicle",
+      "pass": true
+    },
+    {
+      "name": "Published Circuit can accelerate",
+      "pass": true
+    },
+    {
+      "name": "Original offline Club is also available",
+      "pass": true
+    },
+    {
+      "name": "Existing model showroom loads its local engine and model",
+      "pass": true
+    },
+    {
+      "name": "Existing graphics comparison and images load",
+      "pass": true
+    },
+    {
+      "name": "No browser exceptions or HTTP failures in public routes",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "httpFailures": [],
+  "scope": "Local smoke check of the prepared public directory, not a new full gameplay benchmark or hosted-network test."
+}

@@ -1,0 +1,157 @@
+{
+  "name": "HARBOR STORIES / Sunset Frontiers VI",
+  "version": "6.2.0",
+  "singlePlayer": true,
+  "offline": true,
+  "maps": 3,
+  "vehicles": 12,
+  "weapons": 8,
+  "runtimeExternalDependencies": [],
+  "physicalDeviceTesting": "pending",
+  "browserWebGLValidation": "PASS: offline file URL, desktop WebGL, CPU fallback and high/low continuous-fire samples",
+  "noviceHumanPlaytest": "pending",
+  "verification": "verification/RESULTS.md",
+  "htmlSha256": "000b0ffe96902f1415213538cd380f5fb4a7b07f191d3c45901b2538572057fc",
+  "verificationSummary": {
+    "release": "HARBOR STORIES 6.2.0",
+    "htmlSha256": "000b0ffe96902f1415213538cd380f5fb4a7b07f191d3c45901b2538572057fc",
+    "checkSets": {
+      "regressions": {
+        "passed": 29,
+        "total": 29
+      },
+      "mobile": {
+        "passed": 15,
+        "total": 15
+      },
+      "blender-browser": {
+        "passed": 14,
+        "total": 14
+      },
+      "armory-browser": {
+        "passed": 21,
+        "total": 21
+      }
+    },
+    "inputOnlyCampaigns": {
+      "road": {
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "road",
+        "used": [
+          "land"
+        ],
+        "cargo": 100,
+        "seconds": 90.3,
+        "kills": 4,
+        "quiet": false,
+        "checkpoint": "extract"
+      },
+      "sea": {
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "sea",
+        "used": [
+          "sea"
+        ],
+        "cargo": 100,
+        "seconds": 162.9,
+        "kills": 5,
+        "quiet": false,
+        "checkpoint": "extract"
+      },
+      "air": {
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "air",
+        "used": [
+          "air"
+        ],
+        "cargo": 100,
+        "seconds": 122.5,
+        "kills": 4,
+        "quiet": false,
+        "checkpoint": "extract"
+      }
+    },
+    "armoryLive": [
+      {
+        "quality": "high",
+        "medianFPS": 59.95,
+        "medianCpuMs": 1.9066870013128008,
+        "samples": 20,
+        "pools": {
+          "casings": 12,
+          "motes": 23,
+          "marks": 42,
+          "bursts": 2,
+          "bodies": 0
+        },
+        "cap": {
+          "casings": 48,
+          "motes": 110,
+          "marks": 42,
+          "bodies": 5,
+          "bursts": 10
+        }
+      },
+      {
+        "quality": "low",
+        "medianFPS": 60.0,
+        "medianCpuMs": 0.8529130220579366,
+        "samples": 20,
+        "pools": {
+          "casings": 12,
+          "motes": 10,
+          "marks": 12,
+          "bursts": 2,
+          "bodies": 0
+        },
+        "cap": {
+          "casings": 14,
+          "motes": 36,
+          "marks": 12,
+          "bodies": 2,
+          "bursts": 4
+        }
+      }
+    ],
+    "pending": [
+      "Physical Android and iPhone",
+      "Novice human player sessions",
+      "20-30 minute thermal and battery run",
+      "Persistent storage on a real deployment origin"
+    ]
+  },
+  "blenderAssets": {
+    "count": 14,
+    "driveableReplacements": 4,
+    "props": 10,
+    "source": "art/harbor-workshop.blend",
+    "manifest": "assets/blender/manifest.json",
+    "runtimeBytes": 2556035
+  },
+  "armoryAssets": {
+    "count": 8,
+    "source": "art/harbor-armory.blend",
+    "manifest": "assets/armory/manifest.json",
+    "runtimeBytes": 523172,
+    "batches": [
+      [
+        "rifle",
+        "shotgun",
+        "sniper"
+      ],
+      [
+        "pistol",
+        "smg",
+        "grenade",
+        "molotov",
+        "launcher"
+      ]
+    ]
+  }
+}

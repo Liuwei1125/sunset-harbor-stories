@@ -1,0 +1,46 @@
+00:00.381  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/source/normalized.blend"
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/build_assets.py:92: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes:continue
+GROUPS bugatti-veyron {'body': 20, 'steering': 0, 'wheel-front-left': 5, 'brake-front-left': 0, 'wheel-front-right': 5, 'brake-front-right': 0, 'wheel-rear-left': 5, 'brake-rear-left': 0, 'wheel-rear-right': 5, 'brake-rear-right': 0} WHEELS {'front-left': {'pivot': [-0.9129407107830048, 1.2952590882778168, 0.36625078320503235], 'radius': 0.3410225808620453, 'halfWidth': 0.1394834816455841}, 'front-right': {'pivot': [0.9122952520847321, 1.2952928841114044, 0.36608898639678955], 'radius': 0.3660659193992615, 'halfWidth': 0.13948366045951843}, 'rear-left': {'pivot': [-0.876139760017395, -1.506949543952942, 0.38431936502456665], 'radius': 0.35786914825439453, 'halfWidth': 0.1830052137374878}, 'rear-right': {'pivot': [0.8755167722702026, -1.5065053701400757, 0.38431936502456665], 'radius': 0.35786914825439453, 'halfWidth': 0.1830054521560669}}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+18:26:50 | INFO: Starting glTF 2.0 export
+18:26:50 | INFO: Extracting primitive: Object_0.001
+18:26:50 | INFO: Primitives created: 10
+18:26:50 | INFO: Extracting primitive: Object_4 / wheel-front-left
+18:26:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:26:50 | INFO: Primitives created: 2
+18:26:50 | INFO: Extracting primitive: Object_4 / wheel-front-right
+18:26:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:26:50 | INFO: Primitives created: 2
+18:26:50 | INFO: Extracting primitive: Object_4 / wheel-rear-left
+18:26:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:26:50 | INFO: Primitives created: 2
+18:26:50 | INFO: Extracting primitive: Object_4 / wheel-rear-right
+18:26:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:26:50 | INFO: Primitives created: 2
+18:26:50 | INFO: Finished glTF 2.0 export in 0.12961220741271973 s
+
+18:26:50 | INFO: Starting glTF 2.0 export
+18:26:50 | INFO: Extracting primitive: Object_0.001
+18:26:50 | INFO: Primitives created: 10
+18:26:50 | INFO: Extracting primitive: Object_4 / wheel-front-left
+18:26:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:26:50 | INFO: Primitives created: 2
+18:26:50 | INFO: Extracting primitive: Object_4 / wheel-front-right
+18:26:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:26:50 | INFO: Primitives created: 2
+18:26:50 | INFO: Extracting primitive: Object_4 / wheel-rear-left
+18:26:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:26:50 | INFO: Primitives created: 2
+18:26:50 | INFO: Extracting primitive: Object_4 / wheel-rear-right
+18:26:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:26:50 | INFO: Primitives created: 2
+18:26:50 | INFO: Finished glTF 2.0 export in 0.16252803802490234 s
+
+Info: Packed 1 file(s)
+Info: Saved as "bugatti-veyron.blend"
+BUILT bugatti-veyron [{"lod": "high", "file": "bugatti-veyron.high.glb", "bytes": 3544564, "triangles": 81501, "sha256": "accfc0c271012e336f730e7f88bfc83cc8ec107488d9585aa3e08e5985b39ad0"}, {"lod": "low", "file": "bugatti-veyron.low.glb", "bytes": 2052556, "triangles": 40748, "sha256": "34f3f8b3f30469316d780ffad652bb76700c3112ab50f9fe82dbb3c8b47c90a5"}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

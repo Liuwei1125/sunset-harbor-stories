@@ -1,0 +1,46 @@
+{
+  "retrieved": "2026-09-18",
+  "uid": "57bf6cc56931426e87494f554df1dab6",
+  "title": "Ferrari 458 Italia",
+  "sourcePage": "https://sketchfab.com/3d-models/57bf6cc56931426e87494f554df1dab6",
+  "author": {
+    "username": "vicent091036",
+    "displayName": "vicent091036",
+    "profileUrl": "https://sketchfab.com/vicent091036"
+  },
+  "license": {
+    "slug": "by",
+    "label": "CC Attribution",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "description": "ferrari 458 Italia",
+  "listingStatus": "archived; original listing unavailable",
+  "archive": "allenai/objaverse",
+  "archiveUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-128/57bf6cc56931426e87494f554df1dab6.glb",
+  "downloadUrl": "https://hf-mirror.com/datasets/allenai/objaverse/resolve/main/glbs/000-128/57bf6cc56931426e87494f554df1dab6.glb",
+  "assetMetadata": {
+    "extras": {
+      "author": "vicent091036 (https://sketchfab.com/vicent091036)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/ferrari-458-italia-57bf6cc56931426e87494f554df1dab6",
+      "title": "Ferrari 458 Italia"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "file": {
+    "name": "asset.glb",
+    "bytes": 14398816,
+    "sha256": "e0f3e0297d7abcddb770c633a90968a8a8638b76c0388858e2a9a3d98881519b"
+  },
+  "runtimeSource": {
+    "file": "threejs.glb",
+    "url": "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/models/gltf/ferrari.glb",
+    "sha256": "cafe3f48da6797aa9bde75ca768bc5b57db366575fd233e90df186ae988a876e",
+    "bytes": 1681572,
+    "attributionPage": "https://threejs.org/examples/webgl_materials_car.html",
+    "note": "Three.js maintained derivative of the same vicent091036 CC BY model; archive original and archived license evidence retained.",
+    "pinnedUrl": "https://raw.githubusercontent.com/mrdoob/three.js/6eec560494b0492cb72b6120ea2405bf4e4fe9c7/examples/models/gltf/ferrari.glb",
+    "commit": "6eec560494b0492cb72b6120ea2405bf4e4fe9c7"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "assetId": "xiaomi-su7-study",
+  "version": "0.2",
+  "status": "Independent visual reference study; not integrated into the shipped racing game.",
+  "referenceModel": "2026 SU7 Max exterior / ceramic interior, visual approximation",
+  "coordinates": "meters; Y up; -Z forward in GLB",
+  "nominalDimensionsMeters": {
+    "length": 4.997,
+    "bodyWidth": 1.963,
+    "roofHeight": 1.445,
+    "wheelbase": 3.0
+  },
+  "joints": {
+    "body": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "static"
+    },
+    "spoiler": {
+      "pivot": [
+        0,
+        0.994,
+        2.27
+      ],
+      "motion": "spoiler"
+    },
+    "wheel-front-left": {
+      "pivot": [
+        -0.841,
+        0.355,
+        -1.55
+      ],
+      "motion": "wheel"
+    },
+    "wheel-rear-left": {
+      "pivot": [
+        -0.841,
+        0.355,
+        1.45
+      ],
+      "motion": "wheel"
+    },
+    "wheel-front-right": {
+      "pivot": [
+        0.841,
+        0.355,
+        -1.55
+      ],
+      "motion": "wheel"
+    },
+    "wheel-rear-right": {
+      "pivot": [
+        0.841,
+        0.355,
+        1.45
+      ],
+      "motion": "wheel"
+    },
+    "interior": {
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "motion": "static"
+    },
+    "steering": {
+      "pivot": [
+        -0.43,
+        0.808,
+        -0.286
+      ],
+      "motion": "steering"
+    }
+  },
+  "cameraSockets": {
+    "cockpit": [
+      -0.43,
+      1.12,
+      0.36
+    ]
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "xiaomi-su7.high.glb",
+      "bytes": 3130492,
+      "sha256": "d25ca7592f512ab4960e56c4f65d71ffbd2148f77641e9c8ec3972483b6a130f"
+    },
+    {
+      "lod": "low",
+      "file": "xiaomi-su7.low.glb",
+      "bytes": 1129728,
+      "sha256": "77488a72c88116854197266557ba552875b9e98ab41457fcebc05c4528e0ae7c"
+    }
+  ],
+  "photoTexturesUsed": false,
+  "officialReference": "https://www.xiaomiev.com/su7",
+  "authoring": "Reference-traced silhouette; continuous window frames; recessed lamps; curved nose and tail."
+}

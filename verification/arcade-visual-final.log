@@ -1,0 +1,6 @@
+{"ready": true, "errors": [], "loading": "SUNSET RUN.BUILDING YOUR NEIGHBORHOOD..."}
+race {'phase': 'playing', 'errors': [], 'gl': 0, 'fps': 54.598780820773754, 'cpu': 1.0798818702693456, 'triangles': 531792, 'draws': 292, 'cam': {'x': -0.8332173351566043, 'y': 1.12, 'z': -81.00748716909547}}
+shooting {'phase': 'playing', 'errors': [], 'gl': 0, 'fps': 59.143910645164866, 'cpu': 0.7630801538569358, 'triangles': 410788, 'draws': 189, 'cam': {'x': 0, 'y': 1.65, 'z': 0}}
+darts {'phase': 'playing', 'errors': [], 'gl': 0, 'fps': 56.97544869967606, 'cpu': 0.40224118616158755, 'triangles': 229507, 'draws': 79, 'cam': {'x': 0, 'y': 1.73, 'z': 0}}
+archery {'phase': 'playing', 'errors': [], 'gl': 0, 'fps': 59.994373343830894, 'cpu': 0.8673168538154455, 'triangles': 362881, 'draws': 226, 'cam': {'x': 0, 'y': 1.65, 'z': 0}}
+errors []

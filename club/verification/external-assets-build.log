@@ -1,0 +1,263 @@
+16:40:13 | INFO: Data are loaded, start creating Blender stuff
+16:40:13 | INFO: Blender create Mesh node BodyUnderside
+16:40:13 | INFO: Blender create Mesh node BodyWindshield
+16:40:13 | INFO: Blender create Mesh node BodyWindshieldGasket
+16:40:13 | INFO: Blender create Mesh node BodyWindshieldWipers
+16:40:13 | INFO: Blender create Mesh node BodyWindshieldWipersBase
+16:40:13 | INFO: Blender create Mesh node Engine
+16:40:13 | INFO: Blender create Mesh node InteriorCage
+16:40:13 | INFO: Blender create Mesh node InteriorDashMid
+16:40:13 | INFO: Blender create Mesh node InteriorDashSides
+16:40:13 | INFO: Blender create Mesh node InteriorFloor
+16:40:13 | INFO: Blender create Mesh node InteriorFloormats
+16:40:13 | INFO: Blender create Mesh node 85
+16:40:13 | INFO: Blender create Mesh node InteriorPedalAccel
+16:40:13 | INFO: Blender create Mesh node InteriorPedalAccelArm
+16:40:13 | INFO: Blender create Mesh node InteriorPedalBrake
+16:40:13 | INFO: Blender create Mesh node InteriorPedalBrakeArm
+16:40:13 | INFO: Blender create Mesh node InteriorPillar
+16:40:13 | INFO: Blender create Mesh node InteriorSeatsColor1
+16:40:13 | INFO: Blender create Mesh node InteriorSeatsColor2
+16:40:13 | INFO: Blender create Mesh node InteriorSeatsFrame1
+16:40:13 | INFO: Blender create Mesh node InteriorSeatsFrame2
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringBase
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringCylinder
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringEmblem
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringWheel04
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringWheel01
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringWheel02
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringWheel03
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringDash
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringDashColumn
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringHandleL
+16:40:13 | INFO: Blender create Mesh node InteriorSteeringHandleR
+16:40:13 | INFO: Blender create Mesh node License Plate
+16:40:13 | INFO: Blender create Mesh node BodyRoofPanel
+16:40:13 | INFO: Blender create Mesh node BodyRearPanelsColor1
+16:40:13 | INFO: Blender create Mesh node InteriorRearHatch
+16:40:13 | INFO: Blender create Mesh node 86
+16:40:13 | INFO: Blender create Mesh node BodyWindowsRearSides
+16:40:13 | INFO: Blender create Mesh node BodyTurnsignalsRear
+16:40:13 | INFO: Blender create Mesh node BodyTaillightsPanels
+16:40:13 | INFO: Blender create Mesh node BodyTaillights
+16:40:13 | INFO: Blender create Mesh node BodyRearwindow
+16:40:13 | INFO: Blender create Mesh node BodyPillars
+16:40:13 | INFO: Blender create Mesh node BodyPanelsColor2
+16:40:13 | INFO: Blender create Mesh node BodyHood
+16:40:13 | INFO: Blender create Mesh node BodyHoodInterior01
+16:40:13 | INFO: Blender create Mesh node BodyHoodInterior02
+16:40:13 | INFO: Blender create Mesh node BodyHoodTopgrill
+16:40:13 | INFO: Blender create Mesh node BodyHoodUnder
+16:40:13 | INFO: Blender create Mesh node BodyHeadlights
+16:40:13 | INFO: Blender create Mesh node BodyDoorRColor1
+16:40:13 | INFO: Blender create Mesh node BodyDoorRColor2
+16:40:13 | INFO: Blender create Mesh node BodyDoorRHandle01
+16:40:13 | INFO: Blender create Mesh node BodyDoorRHandle02
+16:40:13 | INFO: Blender create Mesh node BodyDoorRMirror
+16:40:13 | INFO: Blender create Mesh node BodyDoorRMirrorColor1
+16:40:13 | INFO: Blender create Mesh node BodyDoorRMirrorColor2
+16:40:13 | INFO: Blender create Mesh node BodyDoorRWindow
+16:40:13 | INFO: Blender create Mesh node BodyDoorRWindowGasket
+16:40:13 | INFO: Blender create Mesh node 87
+16:40:13 | INFO: Blender create Mesh node InteriorDoorR02
+16:40:13 | INFO: Blender create Mesh node InteriorDoorR03
+16:40:13 | INFO: Blender create Mesh node InteriorDoorR04
+16:40:13 | INFO: Blender create Mesh node InteriorDoorR05
+16:40:13 | INFO: Blender create Mesh node InteriorDoorR06
+16:40:13 | INFO: Blender create Mesh node BodyDoorLColor1
+16:40:13 | INFO: Blender create Mesh node InteriorDoorL04
+16:40:13 | INFO: Blender create Mesh node 88
+16:40:13 | INFO: Blender create Mesh node InteriorDoorL02
+16:40:13 | INFO: Blender create Mesh node InteriorDoorL03
+16:40:13 | INFO: Blender create Mesh node InteriorDoorL05
+16:40:13 | INFO: Blender create Mesh node InteriorDoorL06
+16:40:13 | INFO: Blender create Mesh node BodyDoorLColor2
+16:40:13 | INFO: Blender create Mesh node BodyDoorLHandle01
+16:40:13 | INFO: Blender create Mesh node BodyDoorLHandle02
+16:40:13 | INFO: Blender create Mesh node BodyDoorLMirror
+16:40:13 | INFO: Blender create Mesh node BodyDoorLMirrorColor1
+16:40:13 | INFO: Blender create Mesh node BodyDoorLWindowGasket
+16:40:13 | INFO: Blender create Mesh node BodyDoorLWindow
+16:40:13 | INFO: Blender create Mesh node BodyDoorLMirrorColor2
+16:40:13 | INFO: Blender create Mesh node 90
+16:40:13 | INFO: Blender create Mesh node WheelFrontLBrakePad
+16:40:13 | INFO: Blender create Mesh node WheelFrontLBrakeDisc
+16:40:13 | INFO: Blender create Mesh node 89
+16:40:13 | INFO: Blender create Mesh node 92
+16:40:13 | INFO: Blender create Mesh node WheelFrontRBrakePad
+16:40:13 | INFO: Blender create Mesh node WheelFrontRBrakeDisc
+16:40:13 | INFO: Blender create Mesh node 91
+16:40:13 | INFO: Blender create Mesh node WheelRearLBrakeDisc
+16:40:13 | INFO: Blender create Mesh node WheelRearLBrakePad
+16:40:13 | INFO: Blender create Mesh node 94
+16:40:13 | INFO: Blender create Mesh node 93
+16:40:13 | INFO: Blender create Mesh node WheelRearRBrakeDisc
+16:40:13 | INFO: Blender create Mesh node WheelRearRBrakePad
+16:40:13 | INFO: Blender create Mesh node 96
+16:40:13 | INFO: Blender create Mesh node 95
+16:40:13 | INFO: Blender create Mesh node Axles
+16:40:13 | INFO: glTF import finished in 0.39s
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+16:40:14 | INFO: Starting glTF 2.0 export
+16:40:14 | INFO: Extracting primitive: Axles.001
+16:40:14 | INFO: Occlusion and metal-roughness texture will be exported separately (use same-sized images if you want them combined)
+16:40:14 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:40:14 | INFO: Primitives created: 16
+16:40:14 | INFO: Extracting primitive: InteriorSteeringWheel01.001
+16:40:14 | INFO: Primitives created: 3
+16:40:14 | INFO: Extracting primitive: Mesh_89.001
+16:40:14 | INFO: Primitives created: 6
+16:40:14 | INFO: Extracting primitive: Mesh_91.001
+16:40:14 | INFO: Primitives created: 6
+16:40:14 | INFO: Extracting primitive: Mesh_93.001
+16:40:14 | INFO: Primitives created: 6
+16:40:14 | INFO: Extracting primitive: Mesh_95.001
+16:40:14 | INFO: Primitives created: 6
+16:40:14 | INFO: Finished glTF 2.0 export in 0.09699821472167969 s
+
+BUILT touring-gt high 41548 43 3777084
+16:40:14 | INFO: Data are loaded, start creating Blender stuff
+16:40:14 | INFO: Blender create Mesh node BodyUnderside
+16:40:14 | INFO: Blender create Mesh node BodyWindshield
+16:40:14 | INFO: Blender create Mesh node BodyWindshieldGasket
+16:40:14 | INFO: Blender create Mesh node BodyWindshieldWipers
+16:40:14 | INFO: Blender create Mesh node BodyWindshieldWipersBase
+16:40:14 | INFO: Blender create Mesh node Engine
+16:40:14 | INFO: Blender create Mesh node InteriorCage
+16:40:14 | INFO: Blender create Mesh node InteriorDashMid
+16:40:14 | INFO: Blender create Mesh node InteriorDashSides
+16:40:14 | INFO: Blender create Mesh node InteriorFloor
+16:40:14 | INFO: Blender create Mesh node InteriorFloormats
+16:40:14 | INFO: Blender create Mesh node 85
+16:40:14 | INFO: Blender create Mesh node InteriorPedalAccel
+16:40:14 | INFO: Blender create Mesh node InteriorPedalAccelArm
+16:40:14 | INFO: Blender create Mesh node InteriorPedalBrake
+16:40:14 | INFO: Blender create Mesh node InteriorPedalBrakeArm
+16:40:14 | INFO: Blender create Mesh node InteriorPillar
+16:40:14 | INFO: Blender create Mesh node InteriorSeatsColor1
+16:40:14 | INFO: Blender create Mesh node InteriorSeatsColor2
+16:40:14 | INFO: Blender create Mesh node InteriorSeatsFrame1
+16:40:14 | INFO: Blender create Mesh node InteriorSeatsFrame2
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringBase
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringCylinder
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringEmblem
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringWheel04
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringWheel01
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringWheel02
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringWheel03
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringDash
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringDashColumn
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringHandleL
+16:40:14 | INFO: Blender create Mesh node InteriorSteeringHandleR
+16:40:14 | INFO: Blender create Mesh node License Plate
+16:40:14 | INFO: Blender create Mesh node BodyRoofPanel
+16:40:14 | INFO: Blender create Mesh node BodyRearPanelsColor1
+16:40:14 | INFO: Blender create Mesh node InteriorRearHatch
+16:40:14 | INFO: Blender create Mesh node 86
+16:40:14 | INFO: Blender create Mesh node BodyWindowsRearSides
+16:40:14 | INFO: Blender create Mesh node BodyTurnsignalsRear
+16:40:14 | INFO: Blender create Mesh node BodyTaillightsPanels
+16:40:14 | INFO: Blender create Mesh node BodyTaillights
+16:40:14 | INFO: Blender create Mesh node BodyRearwindow
+16:40:14 | INFO: Blender create Mesh node BodyPillars
+16:40:14 | INFO: Blender create Mesh node BodyPanelsColor2
+16:40:14 | INFO: Blender create Mesh node BodyHood
+16:40:14 | INFO: Blender create Mesh node BodyHoodInterior01
+16:40:14 | INFO: Blender create Mesh node BodyHoodInterior02
+16:40:14 | INFO: Blender create Mesh node BodyHoodTopgrill
+16:40:14 | INFO: Blender create Mesh node BodyHoodUnder
+16:40:14 | INFO: Blender create Mesh node BodyHeadlights
+16:40:14 | INFO: Blender create Mesh node BodyDoorRColor1
+16:40:14 | INFO: Blender create Mesh node BodyDoorRColor2
+16:40:14 | INFO: Blender create Mesh node BodyDoorRHandle01
+16:40:14 | INFO: Blender create Mesh node BodyDoorRHandle02
+16:40:14 | INFO: Blender create Mesh node BodyDoorRMirror
+16:40:14 | INFO: Blender create Mesh node BodyDoorRMirrorColor1
+16:40:14 | INFO: Blender create Mesh node BodyDoorRMirrorColor2
+16:40:14 | INFO: Blender create Mesh node BodyDoorRWindow
+16:40:14 | INFO: Blender create Mesh node BodyDoorRWindowGasket
+16:40:14 | INFO: Blender create Mesh node 87
+16:40:14 | INFO: Blender create Mesh node InteriorDoorR02
+16:40:14 | INFO: Blender create Mesh node InteriorDoorR03
+16:40:14 | INFO: Blender create Mesh node InteriorDoorR04
+16:40:14 | INFO: Blender create Mesh node InteriorDoorR05
+16:40:14 | INFO: Blender create Mesh node InteriorDoorR06
+16:40:14 | INFO: Blender create Mesh node BodyDoorLColor1
+16:40:14 | INFO: Blender create Mesh node InteriorDoorL04
+16:40:14 | INFO: Blender create Mesh node 88
+16:40:14 | INFO: Blender create Mesh node InteriorDoorL02
+16:40:14 | INFO: Blender create Mesh node InteriorDoorL03
+16:40:14 | INFO: Blender create Mesh node InteriorDoorL05
+16:40:14 | INFO: Blender create Mesh node InteriorDoorL06
+16:40:14 | INFO: Blender create Mesh node BodyDoorLColor2
+16:40:14 | INFO: Blender create Mesh node BodyDoorLHandle01
+16:40:14 | INFO: Blender create Mesh node BodyDoorLHandle02
+16:40:14 | INFO: Blender create Mesh node BodyDoorLMirror
+16:40:14 | INFO: Blender create Mesh node BodyDoorLMirrorColor1
+16:40:14 | INFO: Blender create Mesh node BodyDoorLWindowGasket
+16:40:14 | INFO: Blender create Mesh node BodyDoorLWindow
+16:40:14 | INFO: Blender create Mesh node BodyDoorLMirrorColor2
+16:40:14 | INFO: Blender create Mesh node 90
+16:40:14 | INFO: Blender create Mesh node WheelFrontLBrakePad
+16:40:14 | INFO: Blender create Mesh node WheelFrontLBrakeDisc
+16:40:14 | INFO: Blender create Mesh node 89
+16:40:14 | INFO: Blender create Mesh node 92
+16:40:14 | INFO: Blender create Mesh node WheelFrontRBrakePad
+16:40:14 | INFO: Blender create Mesh node WheelFrontRBrakeDisc
+16:40:14 | INFO: Blender create Mesh node 91
+16:40:14 | INFO: Blender create Mesh node WheelRearLBrakeDisc
+16:40:14 | INFO: Blender create Mesh node WheelRearLBrakePad
+16:40:14 | INFO: Blender create Mesh node 94
+16:40:14 | INFO: Blender create Mesh node 93
+16:40:14 | INFO: Blender create Mesh node WheelRearRBrakeDisc
+16:40:14 | INFO: Blender create Mesh node WheelRearRBrakePad
+16:40:14 | INFO: Blender create Mesh node 96
+16:40:14 | INFO: Blender create Mesh node 95
+16:40:14 | INFO: Blender create Mesh node Axles
+16:40:14 | INFO: glTF import finished in 0.35s
+16:40:15 | INFO: Starting glTF 2.0 export
+16:40:15 | WARNING: Mesh Axles.001 is not valid, and may be exported wrongly
+16:40:15 | INFO: Extracting primitive: Axles.001
+16:40:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:40:15 | INFO: Primitives created: 16
+16:40:15 | INFO: Extracting primitive: InteriorSteeringWheel01.001
+16:40:15 | INFO: Primitives created: 2
+16:40:15 | INFO: Extracting primitive: Mesh_89.001
+16:40:15 | INFO: Primitives created: 6
+16:40:15 | INFO: Extracting primitive: Mesh_91.001
+16:40:15 | INFO: Primitives created: 6
+16:40:15 | INFO: Extracting primitive: Mesh_93.001
+16:40:15 | INFO: Primitives created: 6
+16:40:15 | INFO: Extracting primitive: Mesh_95.001
+16:40:15 | INFO: Primitives created: 6
+16:40:15 | INFO: Finished glTF 2.0 export in 0.08693718910217285 s
+
+BUILT touring-gt low 14161 42 2050348
+00:05.141  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/club/assets/source/third-party/oga-akm/akm54.blend"
+16:40:17 | INFO: Starting glTF 2.0 export
+16:40:17 | INFO: Extracting primitive: AKM_low.002
+16:40:17 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:40:17 | INFO: Primitives created: 1
+16:40:17 | INFO: Extracting primitive: AKM_low.004
+16:40:17 | INFO: Primitives created: 1
+16:40:17 | INFO: Extracting primitive: AKM_low.003
+16:40:17 | INFO: Primitives created: 1
+16:40:17 | INFO: Finished glTF 2.0 export in 0.11622095108032227 s
+
+BUILT field-akm high 5322 3 1142420
+00:06.656  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/club/assets/source/third-party/oga-akm/akm54.blend"
+16:40:18 | INFO: Starting glTF 2.0 export
+16:40:18 | INFO: Extracting primitive: AKM_low.002
+16:40:18 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:40:18 | INFO: Primitives created: 1
+16:40:18 | INFO: Extracting primitive: AKM_low.004
+16:40:18 | INFO: Primitives created: 1
+16:40:18 | INFO: Extracting primitive: AKM_low.003
+16:40:18 | INFO: Primitives created: 1
+16:40:18 | INFO: Finished glTF 2.0 export in 0.024855852127075195 s
+
+BUILT field-akm low 2925 3 937500
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

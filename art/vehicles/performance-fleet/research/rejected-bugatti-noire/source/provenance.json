@@ -1,0 +1,38 @@
+{
+  "retrieved": "2026-09-18",
+  "uid": "b713f2e7c48842c194084cf42b0b7a5f",
+  "title": "Bugatti La Voiture Noire",
+  "sourcePage": "https://sketchfab.com/3d-models/bugatti-la-voiture-noire-b713f2e7c48842c194084cf42b0b7a5f",
+  "author": {
+    "username": "sinnik",
+    "displayName": "SINNIK",
+    "profileUrl": "https://sketchfab.com/sinnik"
+  },
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "description": "With a $19 MILLION price tag, this one-of-a-kind 2021 Bugatti (model name: \"La Voityre Noire\") goes from 0-60 mph in under 3 seconds! Pick yours up today!\n2021 Bugatti La Voiture Noire",
+  "archive": "allenai/objaverse",
+  "archiveUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-107/b713f2e7c48842c194084cf42b0b7a5f.glb",
+  "downloadUrl": "https://hf-mirror.com/datasets/allenai/objaverse/resolve/main/glbs/000-107/b713f2e7c48842c194084cf42b0b7a5f.glb",
+  "assetMetadata": {
+    "extras": {
+      "author": "SINNIK (https://sketchfab.com/sinnik)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bugatti-la-voiture-noire-b713f2e7c48842c194084cf42b0b7a5f",
+      "title": "Bugatti - La Voiture Noire"
+    },
+    "generator": "Sketchfab-12.87.0",
+    "version": "2.0"
+  },
+  "file": {
+    "name": "asset.glb",
+    "bytes": 9697420,
+    "sha256": "a87b74fe38dc1e1e6bb4e58ed8fe630e6b05191fe9d4e4c8df6151eb7bee6cbd"
+  }
+}

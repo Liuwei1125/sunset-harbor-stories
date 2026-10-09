@@ -1,0 +1,114 @@
+{
+  "name": "HARBOR STORIES / Sunset Frontiers VI",
+  "version": "6.1.0",
+  "singlePlayer": true,
+  "offline": true,
+  "maps": 3,
+  "vehicles": 12,
+  "weapons": 8,
+  "runtimeExternalDependencies": [],
+  "physicalDeviceTesting": "pending",
+  "browserWebGLValidation": "PASS: desktop Chrome, offline file URL, fixed visual fixtures and 20-second live sample",
+  "noviceHumanPlaytest": "pending",
+  "verification": "verification/RESULTS.md",
+  "htmlSha256": "a8d596fc29c0c7ba2572eabaa32c3542a7caf186e5355794eb154a7cd5444fe7",
+  "verificationSummary": {
+    "release": "HARBOR STORIES 6.1.0",
+    "htmlSha256": "a8d596fc29c0c7ba2572eabaa32c3542a7caf186e5355794eb154a7cd5444fe7",
+    "fixtureChecks": {
+      "passed": 29,
+      "total": 29
+    },
+    "emulatedTouchChecks": {
+      "passed": 15,
+      "total": 15
+    },
+    "workshopBrowserChecks": {
+      "passed": 14,
+      "total": 14
+    },
+    "inputOnlyCampaigns": {
+      "road": {
+        "passed": true,
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "road",
+        "used": [
+          "land"
+        ],
+        "cargo": 100,
+        "seconds": 90.3,
+        "kills": 4,
+        "quiet": false,
+        "checkpoint": "extract"
+      },
+      "sea": {
+        "passed": true,
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "sea",
+        "used": [
+          "sea"
+        ],
+        "cargo": 100,
+        "seconds": 159.4,
+        "kills": 5,
+        "quiet": false,
+        "checkpoint": "extract"
+      },
+      "air": {
+        "passed": true,
+        "success": true,
+        "reason": "",
+        "payout": 3150,
+        "route": "air",
+        "used": [
+          "air"
+        ],
+        "cargo": 100,
+        "seconds": 115.4,
+        "kills": 3,
+        "quiet": false,
+        "checkpoint": "extract"
+      }
+    },
+    "liveLoop": {
+      "passed": true,
+      "actualWallSeconds": 20.006099999999627,
+      "samples": 20,
+      "sampledRollingFPSMedian": 60.0,
+      "medianCpuMs": 1.6613674930619786,
+      "medianGpuMs": 4.721124782119907,
+      "environment": {
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "renderer": "WebGL",
+        "gpuTimerAvailable": true,
+        "viewport": [
+          1280,
+          800
+        ],
+        "devicePixelRatio": 1,
+        "hardwareConcurrency": 8,
+        "touch": false
+      },
+      "errors": [],
+      "scope": "20 seconds live desktop WebGL at the harbor base; not a physical-phone or thermal test."
+    },
+    "pending": [
+      "Physical Android and iPhone",
+      "Novice human player sessions",
+      "20-30 minute thermal and battery run",
+      "Persistent storage on a real deployment origin"
+    ]
+  },
+  "blenderAssets": {
+    "count": 14,
+    "driveableReplacements": 4,
+    "props": 10,
+    "source": "art/harbor-workshop.blend",
+    "manifest": "assets/blender/manifest.json",
+    "runtimeBytes": 2556035
+  }
+}

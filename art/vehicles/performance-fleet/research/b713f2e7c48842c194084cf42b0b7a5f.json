@@ -1,0 +1,261 @@
+{
+  "animationCount": 0,
+  "categories": [
+    {
+      "uid": "22a2f677efad4d7bbca5ad45f9b5868e",
+      "name": "Cars & Vehicles",
+      "slug": "cars-vehicles",
+      "uri": "https://api.sketchfab.com/v3/categories/22a2f677efad4d7bbca5ad45f9b5868e",
+      "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/45dd0cc0860ac57fcd63bde1cc3f2b7c-v2.svg",
+      "thumbnails": [
+        {
+          "width": "512",
+          "height": "288",
+          "url": "https://static.sketchfab.com/categories/22a2f677efad4d7bbca5ad45f9b5868e/512x288.png"
+        },
+        {
+          "width": "800",
+          "height": "450",
+          "url": "https://static.sketchfab.com/categories/22a2f677efad4d7bbca5ad45f9b5868e/800x450.png"
+        }
+      ]
+    },
+    {
+      "uid": "17d20ca7b35243d4a45171838b50704c",
+      "name": "Science & Technology",
+      "slug": "science-technology",
+      "uri": "https://api.sketchfab.com/v3/categories/17d20ca7b35243d4a45171838b50704c",
+      "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/86b1bae49e0ed3f43b2d59b26700234e-v2.svg",
+      "thumbnails": [
+        {
+          "width": "512",
+          "height": "288",
+          "url": "https://static.sketchfab.com/categories/17d20ca7b35243d4a45171838b50704c/512x288.png"
+        },
+        {
+          "width": "800",
+          "height": "450",
+          "url": "https://static.sketchfab.com/categories/17d20ca7b35243d4a45171838b50704c/800x450.png"
+        }
+      ]
+    }
+  ],
+  "commentCount": 7,
+  "createdAt": "2022-04-05T15:28:52.879728",
+  "embedUrl": "https://sketchfab.com/models/b713f2e7c48842c194084cf42b0b7a5f/embed",
+  "faceCount": 220607,
+  "isAgeRestricted": false,
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "likeCount": 168,
+  "name": "Bugatti - La Voiture Noire",
+  "publishedAt": "2022-04-05T16:04:16.445250",
+  "soundCount": 0,
+  "staffpickedAt": null,
+  "tags": [
+    {
+      "name": "voiture",
+      "slug": "voiture",
+      "uri": "https://api.sketchfab.com/v3/tags/voiture"
+    },
+    {
+      "name": "vehicles",
+      "slug": "vehicles",
+      "uri": "https://api.sketchfab.com/v3/tags/vehicles"
+    },
+    {
+      "name": "cars",
+      "slug": "cars",
+      "uri": "https://api.sketchfab.com/v3/tags/cars"
+    },
+    {
+      "name": "noire",
+      "slug": "noire",
+      "uri": "https://api.sketchfab.com/v3/tags/noire"
+    },
+    {
+      "name": "luxury",
+      "slug": "luxury",
+      "uri": "https://api.sketchfab.com/v3/tags/luxury"
+    },
+    {
+      "name": "sports",
+      "slug": "sports",
+      "uri": "https://api.sketchfab.com/v3/tags/sports"
+    },
+    {
+      "name": "la",
+      "slug": "la",
+      "uri": "https://api.sketchfab.com/v3/tags/la"
+    },
+    {
+      "name": "bugatti",
+      "slug": "bugatti",
+      "uri": "https://api.sketchfab.com/v3/tags/bugatti"
+    },
+    {
+      "name": "Veyron",
+      "slug": "veyron",
+      "uri": "https://api.sketchfab.com/v3/tags/veyron"
+    },
+    {
+      "name": "million",
+      "slug": "million",
+      "uri": "https://api.sketchfab.com/v3/tags/million"
+    },
+    {
+      "name": "dollars",
+      "slug": "dollars",
+      "uri": "https://api.sketchfab.com/v3/tags/dollars"
+    },
+    {
+      "name": "Expensive",
+      "slug": "expensive",
+      "uri": "https://api.sketchfab.com/v3/tags/expensive"
+    },
+    {
+      "name": "chiron",
+      "slug": "chiron",
+      "uri": "https://api.sketchfab.com/v3/tags/chiron"
+    },
+    {
+      "name": "bugattiveyron",
+      "slug": "bugattiveyron",
+      "uri": "https://api.sketchfab.com/v3/tags/bugattiveyron"
+    },
+    {
+      "name": "bugatti-veyron",
+      "slug": "bugatti-veyron",
+      "uri": "https://api.sketchfab.com/v3/tags/bugatti-veyron"
+    },
+    {
+      "name": "bugatti-chiron",
+      "slug": "bugatti-chiron",
+      "uri": "https://api.sketchfab.com/v3/tags/bugatti-chiron"
+    },
+    {
+      "name": "vehicle",
+      "slug": "vehicle",
+      "uri": "https://api.sketchfab.com/v3/tags/vehicle"
+    },
+    {
+      "name": "car",
+      "slug": "car",
+      "uri": "https://api.sketchfab.com/v3/tags/car"
+    },
+    {
+      "name": "sport",
+      "slug": "sport",
+      "uri": "https://api.sketchfab.com/v3/tags/sport"
+    },
+    {
+      "name": "bugat",
+      "slug": "bugat",
+      "uri": "https://api.sketchfab.com/v3/tags/bugat"
+    }
+  ],
+  "thumbnails": {
+    "images": [
+      {
+        "uid": "697d19f7fce84412abbd171c40a984fe",
+        "width": 1920,
+        "height": 1080,
+        "size": 149213,
+        "url": "https://media.sketchfab.com/models/b713f2e7c48842c194084cf42b0b7a5f/thumbnails/7f873bc5a35c48dbab783203e41199a1/ccc5281cee624c628ea06c7c160c03e9.jpeg"
+      },
+      {
+        "uid": "f11c0c0f92bd413a8bf383a5668e2426",
+        "width": 1024,
+        "height": 576,
+        "size": 48972,
+        "url": "https://media.sketchfab.com/models/b713f2e7c48842c194084cf42b0b7a5f/thumbnails/7f873bc5a35c48dbab783203e41199a1/893a4be3a63346608ca55ef24adf3292.jpeg"
+      },
+      {
+        "uid": "e3936afec7a34e1cbd5a71957c5ef141",
+        "width": 720,
+        "height": 405,
+        "size": 28725,
+        "url": "https://media.sketchfab.com/models/b713f2e7c48842c194084cf42b0b7a5f/thumbnails/7f873bc5a35c48dbab783203e41199a1/12fd3e8045d9454c86d2d280fe5cbc8c.jpeg"
+      },
+      {
+        "uid": "921bc0b52545476aa37ba82e0deee8cd",
+        "width": 256,
+        "height": 144,
+        "size": 6256,
+        "url": "https://media.sketchfab.com/models/b713f2e7c48842c194084cf42b0b7a5f/thumbnails/7f873bc5a35c48dbab783203e41199a1/f0558a6c8b6d4e318a5edea7a6e83b1a.jpeg"
+      },
+      {
+        "uid": "6c69a388fe6749d7ad65509306e43f58",
+        "width": 64,
+        "height": 36,
+        "size": 1274,
+        "url": "https://media.sketchfab.com/models/b713f2e7c48842c194084cf42b0b7a5f/thumbnails/7f873bc5a35c48dbab783203e41199a1/44ae8b43a5df4eeea9d060438534a40c.jpeg"
+      }
+    ]
+  },
+  "uid": "b713f2e7c48842c194084cf42b0b7a5f",
+  "uri": "https://api.sketchfab.com/v3/models/b713f2e7c48842c194084cf42b0b7a5f",
+  "user": {
+    "uid": "99ee74c8d6bf439d8dd9df79e648e940",
+    "username": "sinnik",
+    "displayName": "SINNIK",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/sinnik",
+    "avatar": {
+      "uid": "7864879aae5a4d6f8a9308a384c2eb33",
+      "uri": "https://api.sketchfab.com/v3/avatars/7864879aae5a4d6f8a9308a384c2eb33",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 1108,
+          "url": "https://media.sketchfab.com/avatars/7864879aae5a4d6f8a9308a384c2eb33/26b27637da3f43359100acf2715fe981.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1575,
+          "url": "https://media.sketchfab.com/avatars/7864879aae5a4d6f8a9308a384c2eb33/5e79c52ee7244c388a47b10a0f814f65.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 3445,
+          "url": "https://media.sketchfab.com/avatars/7864879aae5a4d6f8a9308a384c2eb33/b77228f1ca484906b1e2b0eb7d1df7b9.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 3943,
+          "url": "https://media.sketchfab.com/avatars/7864879aae5a4d6f8a9308a384c2eb33/7124fe6fc9014e7d8359e5ecdbb26359.jpeg"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/99ee74c8d6bf439d8dd9df79e648e940"
+  },
+  "vertexCount": 149465,
+  "viewCount": 18169,
+  "viewerUrl": "https://sketchfab.com/3d-models/bugatti-la-voiture-noire-b713f2e7c48842c194084cf42b0b7a5f",
+  "isDownloadable": true,
+  "isProtected": false,
+  "description": "With a $19 MILLION price tag, this one-of-a-kind 2021 Bugatti (model name: \"La Voityre Noire\") goes from 0-60 mph in under 3 seconds! Pick yours up today!\n2021 Bugatti La Voiture Noire",
+  "price": null,
+  "downloadCount": 5210,
+  "editorUrl": "https://sketchfab.com/models/b713f2e7c48842c194084cf42b0b7a5f/edit",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "source": "website",
+  "hasCommentsDisabled": false,
+  "updatedAt": "2022-07-21T14:38:26.489606",
+  "pbrType": null,
+  "textureCount": 6,
+  "materialCount": 19
+}

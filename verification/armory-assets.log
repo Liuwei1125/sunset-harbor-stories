@@ -1,0 +1,13 @@
+┌─────────┬────────────────────┬──────┬─────┬──────────┐
+│ (index) │ id                 │ high │ low │ glbBytes │
+├─────────┼────────────────────┼──────┼─────┼──────────┤
+│ 0       │ 'ar7-rifle'        │ 2940 │ 310 │ 179404   │
+│ 1       │ 'comet-launcher'   │ 1508 │ 390 │ 58524    │
+│ 2       │ 'ember-bottle'     │ 732  │ 188 │ 27780    │
+│ 3       │ 'longwatch-sniper' │ 4164 │ 638 │ 208128   │
+│ 4       │ 'pulse-grenade'    │ 608  │ 158 │ 26112    │
+│ 5       │ 'pump-shotgun'     │ 2568 │ 306 │ 91256    │
+│ 6       │ 'sidearm-pistol'   │ 1000 │ 132 │ 65444    │
+│ 7       │ 'vector-smg'       │ 1240 │ 200 │ 75532    │
+└─────────┴────────────────────┴──────┴─────┴──────────┘
+PASS: 8 Blender models, independent GLBs, indexed geometry, LODs, materials and articulated parts.

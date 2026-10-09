@@ -1,0 +1,23 @@
+00:00.733  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/models/cybertruck/source/normalized.blend"
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=color(hex);n=m.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=color(hex);n.inputs['Metallic'].default_value=metal;n.inputs['Roughness'].default_value=rough;n.inputs['Alpha'].default_value=alpha
+/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py:40: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('display:front');m.use_nodes=True;nt=m.node_tree;nt.nodes.clear();out=nt.nodes.new('ShaderNodeOutputMaterial');em=nt.nodes.new('ShaderNodeEmission');tex=nt.nodes.new('ShaderNodeTexImage');tex.image=bpy.data.images.load(str(HERE/'textures'/('display-'+cfg['layout']+'.png')));nt.links.new(tex.outputs['Color'],em.inputs['Color']);em.inputs['Strength'].default_value=.8;nt.links.new(em.outputs[0],out.inputs['Surface']);mesh.materials.append(m)
+WHEEL_BOUNDS Object_11 left [-1.0922266244888306, 1.6176035404205322, 4.172325134277344e-07] [-0.39773911237716675, 2.488133430480957, 0.8706377744674683]
+WHEEL_BOUNDS Object_11 right [0.3977394700050354, 1.6176034212112427, 0.0] [1.0922271013259888, 2.488133430480957, 0.8706373572349548]
+WHEEL_BOUNDS Object_13 left [-1.0922269821166992, -2.292421340942383, 4.470348358154297e-07] [-0.3977394700050354, -1.421891450881958, 0.870637834072113]
+WHEEL_BOUNDS Object_13 right [0.3977392911911011, -2.292421340942383, 2.9802322387695312e-08] [1.0922267436981201, -1.421891450881958, 0.8706374168395996]
+GROUPS cybertruck {'body': 47, 'steering': 6, 'wheel-front-left': 0, 'brake-front-left': 0, 'wheel-front-right': 0, 'brake-front-right': 0, 'wheel-rear-left': 0, 'brake-rear-left': 0, 'wheel-rear-right': 0, 'brake-rear-right': 0}
+Traceback (most recent call last):
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py", line 178, in <module>
+    for key in sys.argv[sys.argv.index('--')+1:]:build(key)
+                                                 ~~~~~^^^^^
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/tesla-fleet/build_fleet.py", line 147, in build
+    assert all(groups['wheel-'+l] for l in pivots),'Missing wheel geometry'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Missing wheel geometry
+
+Error: script failed, file: 'art/vehicles/tesla-fleet/build_fleet.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

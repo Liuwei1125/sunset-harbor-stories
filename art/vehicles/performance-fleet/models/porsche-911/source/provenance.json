@@ -1,0 +1,39 @@
+{
+  "retrieved": "2026-09-18",
+  "uid": "d01b254483794de3819786d93e0e1ebf",
+  "title": "Porsche 911 Carrera 4S",
+  "sourcePage": "https://sketchfab.com/3d-models/free-porsche-911-carrera-4s-d01b254483794de3819786d93e0e1ebf",
+  "author": {
+    "username": "lionsharp",
+    "displayName": "Lionsharp Studios",
+    "profileUrl": "https://sketchfab.com/lionsharp"
+  },
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/b9ddc40b93e34cdca1fc152f39b9f375",
+    "label": "CC Attribution-ShareAlike",
+    "fullName": "Creative Commons Attribution-ShareAlike",
+    "requirements": "Author must be credited. Modified versions must have the same license. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+    "slug": "by-sa"
+  },
+  "description": "Now for FREE to use in your projects. Enjoy!\n\nModel of a Porsche 911 that was a part of a prototype car configurator running on WebGL.\n\nMore details can be found here: http://bit.ly/1hP8RO1",
+  "listingStatus": "live",
+  "archive": "allenai/objaverse",
+  "archiveUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-131/d01b254483794de3819786d93e0e1ebf.glb",
+  "downloadUrl": "https://hf-mirror.com/datasets/allenai/objaverse/resolve/main/glbs/000-131/d01b254483794de3819786d93e0e1ebf.glb",
+  "assetMetadata": {
+    "extras": {
+      "author": "Karol Miklas (https://sketchfab.com/karolmiklas)",
+      "license": "CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/free-porsche-911-carrera-4s-d01b254483794de3819786d93e0e1ebf",
+      "title": "(FREE) Porsche 911 Carrera 4S"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "file": {
+    "name": "asset.glb",
+    "bytes": 21076404,
+    "sha256": "80cbbdfc57c07ad3038d0f5f418507b458c119f1cb782248d3e826e104d501c9"
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "passed": true,
+  "count": 239,
+  "checks": [
+    {
+      "name": "amg-gt: open license",
+      "passed": true
+    },
+    {
+      "name": "amg-gt: source hash",
+      "passed": true
+    },
+    {
+      "name": "amg-gt.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: complete display UV",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "amg-gt.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: complete display UV",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "amg-gt/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "amg-gt: meaningful LOD reduction",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4: open license",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4: source hash",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: complete display UV",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: complete display UV",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "bmw-m4: meaningful LOD reduction",
+      "passed": true
+    },
+    {
+      "name": "porsche-911: open license",
+      "passed": true
+    },
+    {
+      "name": "porsche-911: source hash",
+      "passed": true
+    },
+    {
+      "name": "porsche-911.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "porsche-911.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: front-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: front-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: rear-left caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: rear-right caliper does not spin",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "porsche-911/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "porsche-911: meaningful LOD reduction",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron: open license",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron: source hash",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "bugatti-veyron: meaningful LOD reduction",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario: open license",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario: source hash",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: complete display UV",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: complete display UV",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "lamborghini-centenario: meaningful LOD reduction",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458: open license",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458: source hash",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458: pinned runtime source",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458.high.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: attributed root",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: complete display UV",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/high: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458.low.glb: complete GLB v2",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: exact manifest SHA256",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: embedded resources",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: attributed root",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: front-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: front-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: front-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: front-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: rear-left pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: rear-left wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: rear-right pivot and hierarchy",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: rear-right wheel geometry rotates",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: independent steering wheel",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: optional UV display",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: complete display UV",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: finite geometry and valid indices/normals",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458/low: recorded triangles",
+      "passed": true
+    },
+    {
+      "name": "ferrari-458: meaningful LOD reduction",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="面向桌面浏览器、兼顾手机的单机赛车与射击驾驶项目：PlayCanvas 与 Babylon.js 比较、双引擎架构、8 项模型与资产包清单。">
+  <title>Web 赛车与射击驾驶引擎选型</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="catalog-data.js" defer></script>
+  <script src="catalog.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#report">跳到报告正文</a>
+<div class="layout">
+<nav aria-label="报告目录">
+  <p class="nav-title">报告目录</p>
+  <a href="#conclusion">1. 选型结论</a>
+  <a href="#comparison">2. 能力与生态</a>
+  <a href="#racing">3. 赛车方案</a>
+  <a href="#gta">4. 射击驾驶项目</a>
+  <a href="#dual">5. 双引擎选择</a>
+  <a href="#assets">6. 模型来源</a>
+  <a href="#catalog">7. 模型清单</a>
+  <a href="#pipeline">8. 接入与验收</a>
+  <a href="#performance">9. 性能证据</a>
+  <a href="#roadmap">10. 实施路线</a>
+  <a href="#method">11. 方法与局限</a>
+  <a href="#sources">12. 来源</a>
+  <div class="nav-downloads">
+    <a href="models.csv" download>下载模型清单 CSV</a>
+    <a href="models.json" download>下载模型清单 JSON</a>
+    <button type="button" id="print-report">打印 / 存为 PDF</button>
+  </div>
+</nav>
+<main id="report">
+<h1>Web 赛车与射击驾驶引擎选型</h1>
+
+<section id="conclusion">
+<h2>1. 选型结论</h2>
+<p><strong>面向桌面浏览器、兼顾手机的单机项目，建议以 Babylon.js 作为完整射击驾驶游戏的主引擎；保留 PlayCanvas 赛车版作为对照和备选。</strong>这个判断来自当前项目以代码驱动开发的方式，以及角色碰撞、动画、导航、场景调试的组合需求。它是针对项目的工程判断，不能理解为 Babylon 在所有 Web 游戏中都优于 PlayCanvas。两者都足以承载本项目目前的赛车玩法。[[S01]][[S02]][[S05]][[S06]][[S31]]</p>
+<p><strong>如果主要工作变成多人共同摆场景、调材质、装配车辆和在线预览，PlayCanvas 的优先级会明显上升。</strong>其浏览器编辑器和资源工作流是一项独立优势。只使用它的 JavaScript 引擎、继续手写所有场景时，这部分优势不会自动兑现。Babylon 也有可视化编辑器，不能沿用“PlayCanvas 有编辑器、Babylon 没有”的旧印象。[[S02]][[S10]][[S11]]</p>
+<p><strong>模型建议分成主驾驶车与交通车采购。</strong>免费验证先用 Kenney / Quaternius；保持风格化港口与街区题材时，优先试 Synty Street Racer + City Pack；转向偏写实风格时，再试带内饰的通用车型。任何商品写着“有内饰”“Game Ready”，都不等于已经通过第一人称座舱、手机性能和网页分发授权验收。[[S17]][[S19]][[S20]][[S21]][[S23]][[S24]][[S26]]</p>
+<div class="table-wrap"><table>
+<caption>按实际目标选择路线</caption>
+<thead><tr><th>目标</th><th>建议</th><th>决定理由与边界</th></tr></thead>
+<tbody>
+<tr><td>尽快完善当前赛车</td><td>两者都可；复用共同玩法</td><td>当前对照已跑通；优先改车辆、赛道和操控。没有性能证据支持重写。</td></tr>
+<tr><td>完整步行、驾驶、射击、NPC、任务</td><td><strong>Babylon 主线</strong></td><td>代码工作流与角色/导航/调试组合匹配；仍需自建车辆手感、任务和交通规则。</td></tr>
+<tr><td>美术或关卡团队在线协作</td><td><strong>PlayCanvas 优先试做</strong></td><td>场景编辑与资源管理更集中；预算包括托管编辑器私有项目方案。</td></tr>
+<tr><td>玩家自行选择引擎</td><td>技术上可行，先限于赛车</td><td>共用模拟、资产描述与存档，只加载选中的呈现层。完整项目先避免双线承诺。</td></tr>
+<tr><td>AAA 级开放世界规模</td><td>另开范围与平台评估</td><td>两个 Web 引擎都不会自动提供完整城市内容、交通 AI、动作资产和大规模流式世界。</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="comparison">
+<h2>2. 能力与生态</h2>
+<h3>2.1 生态优势分布</h3>
+<p>“生态更丰富”需要拆成代码能力、制作工具、样例、资产渠道和维护活跃度。Babylon 的官方能力覆盖面和独立调试工具对程序驱动项目更有吸引力；PlayCanvas 把编辑、资源、协作和发布工作流连在一起，对内容制作更有吸引力。通用汽车模型市场基本不跟随这两个引擎二选一：能取得合适的源格式并满足许可的模型，通常都可以进入共同 GLB 管线。Unity/Unreal 的专用材质、蓝图、粒子和完整车辆控制器则不能按同样方式直接移植。[[S02]][[S05]][[S15]][[S16]][[S20]]</p>
+<div class="table-wrap"><table>
+<caption>与本项目直接相关的能力比较；“优势”为分析判断</caption>
+<thead><tr><th>维度</th><th>PlayCanvas</th><th>Babylon.js</th><th>本项目含义</th></tr></thead>
+<tbody>
+<tr><td>代码开发与部署</td><td>独立 npm / JavaScript 引擎，可自行部署。[[S01]]</td><td>JavaScript/TypeScript 生态，可按模块使用加载器与工具。[[S16]]</td><td>均可继续现有 Web 工程；不必引入原生编辑器构建链。</td></tr>
+<tr><td>制作工作流</td><td>浏览器场景编辑、资源管理与协作集成。[[S02]]</td><td>Playground、Inspector、节点工具，另有桌面 Editor。[[S05]][[S10]]</td><td>在线内容协作偏 PlayCanvas；代码调试与逐步替换偏 Babylon。</td></tr>
+<tr><td>渲染与资产</td><td>支持现代 Web 渲染、GLB 层级、皮肤/动画与压缩资源工作流。[[S11]][[S15]]</td><td>WebGL/WebGPU、PBR、骨骼、实例化、LOD、后处理等。[[S05]]</td><td>基础画质能力均足够；模型与场景制作通常比引擎名称更影响观感。</td></tr>
+<tr><td>车辆起点</td><td>官方 Ammo RaycastVehicle 示例可研究。[[S03]]</td><td>Havok 物理整合；本次未核实同等级即用型官方整车控制器。[[S09]]</td><td>以带悬挂的赛车试做为唯一目标时，PlayCanvas 起点更直接。</td></tr>
+<tr><td>角色碰撞与移动</td><td>有第三人称控制器和 FPS 入门示例；项目仍需整合。[[S32]][[S33]]</td><td>官方 PhysicsCharacterController 文档覆盖支撑、碰撞和平台交互。[[S06]]</td><td>Babylon 更适合优先验证上下车和步行环境的共存。</td></tr>
+<tr><td>导航与 NPC</td><td>可接自有路径图或外部导航库；没有据此证明“不支持”。</td><td>官方 Recast 导航与群体代理文档；当前入口已引向 v2。[[S07]][[S08]]</td><td>Babylon 少一些集成探索；行为决策、驾驶交通图仍是业务代码。</td></tr>
+<tr><td>物理扩展</td><td>默认 Ammo；官方新后端抽象仍标 alpha。[[S04]]</td><td>Havok Web 包有官方接入路径。[[S09]]</td><td>不要把更换物理库视为无成本配置；版本需锁定后验证。</td></tr>
+<tr><td>素材生态</td><td colspan="2">Kenney、Quaternius、Synty、CGTrader、Fab 等跨引擎来源；实际可用性取决于文件与许可。</td><td>不应为获取同一汽车模型而保留两个引擎。</td></tr>
+</tbody></table></div>
+
+<h3>2.2 维护、案例与成本</h3>
+<p>2026-09-11 的 GitHub 元数据快照中，Babylon.js 为 26,049 stars / 3,688 forks，PlayCanvas engine 为 16,695 stars / 1,977 forks；两仓库最近都有提交活动。这个指标支持“两个项目都拥有持续维护和可见社区”，也表明 Babylon 的公开仓库关注量较高。它不能换算成活跃开发者、游戏数量、资产数量或性能，issue 数量也不适合直接作为质量排名。[[S13]][[S14]]</p>
+<p>Babylon 官方列出了 Shell Shockers，PlayCanvas 的历史展示文章列出了 Venge.io，说明两者都有浏览器射击游戏落地案例。这些案例只能证明该类产品可实现，不能证明现有项目能获得相同内容量、帧率或运营结果。PlayCanvas 的引用来自 2021 年回顾，不据此推算当前在线人数或市场份额。[[S05]][[S29]]</p>
+<p>引擎许可方面，PlayCanvas engine 为 MIT，Babylon.js 为 Apache-2.0；Babylon 的 Havok Web 分发包元数据标为 MIT。应保留各自要求的版权与许可声明；Web 分发包的许可不等于全部 Havok 原生产品或底层源码都按相同方式开放。PlayCanvas 编辑器前端也已经开源，但仓库的本地开发说明仍连接托管编辑器服务，不能把克隆前端等同于获得完整云服务。[[S09]][[S11]][[S13]][[S14]]</p>
+<div class="table-wrap"><table>
+<caption>PlayCanvas 托管 Editor 页面报价；引擎本身不强制订阅 [[S12]]</caption>
+<thead><tr><th>方案</th><th>月付页面价</th><th>主要约束</th></tr></thead>
+<tbody><tr><td>Free</td><td>USD 0</td><td>公开项目；1 GB 存储。</td></tr><tr><td>Personal</td><td>USD 15 / 月</td><td>个人私有项目；10 GB 存储。</td></tr><tr><td>Organization</td><td>USD 50 / 席位 / 月</td><td>团队管理、私有项目；50 GB 存储。</td></tr></tbody>
+</table></div>
+<p>仅使用独立 PlayCanvas 引擎并自管资源，不需要为了引擎授权购买上述 Editor 订阅。若选择托管编辑器，取消订阅后已发布应用不受影响，但私有项目会被锁定，需续订或改公开才能继续访问。包含付费模型的制作项目不能仅为节省订阅而直接公开源资源；应把编辑服务成本和资产许可一起考虑。以上价格按页面当日展示，税费和结算以订单为准。[[S01]][[S12]][[S22]][[S26]]</p>
+</section>
+
+<section id="racing">
+<h2>3. 赛车方案</h2>
+<p>当前赛车的主要系统是输入、车辆运动、赛道或道路采样、交通车、碰撞判定、计时/得分、摄像机和效果。该范围不要求联机权威服务器或跨设备锁步物理。将车辆手感与渲染绑定，会让之后更换模型、优化画质或增加引擎版本变得更困难；当前共享模拟层已经提供了可复用起点。[[S30]][[S31]]</p>
+<p>如果目标是易上手的街机竞速，可以继续用共同固定步长模拟控制加速、转向、抓地、漂移和碰撞反馈。车轮转动、车身倾斜与悬挂表现可以先由模拟状态驱动，再逐步加入真实接地信息。没有必要只为“像赛车”立即替换全部物理，因为最终手感还依赖输入曲线、速度感、摄像机、声音与赛道设计。这是建议的实施顺序，不是某个引擎的内置保证。</p>
+<p>如果目标包括起伏路面、跳跃、翻车与可信的轮胎接地，就应做专门的车辆物理试验。PlayCanvas 官方车辆例子使用 Ammo 的 RaycastVehicle，可作为悬挂与轮地接触的实现起点；它不等于专业赛车仿真。Babylon 的 Havok 集成解决通用物理接入，但车辆控制仍要选用经过检查的实现，或自己编写悬挂与抓地逻辑。不能将“Havok”这个名称当作已经包含成熟赛车控制器的证据。[[S03]][[S09]]</p>
+<p>因此，若只比较“从零最快做一辆有悬挂的可驾驶车”，PlayCanvas 值得优先试；若赛车要服务于后续完整射击驾驶世界，Babylon 主线的角色/导航整合价值更大。先用同一辆车、同一段弯道、同一个坡道和碰撞场景对比，记录修复成本及可控性，再决定物理方案。现有 90 秒演示测得的渲染帧率不能替代这个试验。[[S03]][[S06]][[S07]][[S30]]</p>
+</section>
+
+<section id="gta">
+<h2>4. 射击驾驶项目</h2>
+<h3>4.1 现有工程可复用的部分</h3>
+<p>Sunset Harbor Stories 已经具备固定步长模拟、画质策略、呈现快照、武器和任务状态、本地存档，以及车辆刚性部件的名称与枢轴。它也已有阴影、HDR/PBR、AO、水面屏幕空间反射和后处理。当前限制主要包括程序化角色、局部导航、没有完整纹理流式加载、地图切换而非完整开放世界流式加载，以及实体手机长时测试尚未完成。迁移应保留已有效工作的规则与数据边界。[[S31]]</p>
+<p>引擎升级的价值在于减少通用渲染、资产导入、角色物理和工具维护，给内容制作留出精力。换一个引擎不会自动生成更好的城市、自然人物动画、真实车辆声音或完整任务设计。尤其不应把原有自研功能全部重写一次，再得到几乎相同的素材和玩法。项目真正需要的是带有内容和验收条件的街区样板。[[S31]]</p>
+<div class="table-wrap"><table>
+<caption>Babylon 主线建议；以下是实施设计，不代表已完成迁移</caption>
+<thead><tr><th>系统</th><th>复用与接入方案</th><th>仍需完成的工作</th></tr></thead>
+<tbody>
+<tr><td>步行与角色</td><td>Havok + PhysicsCharacterController；驱动标准骨骼角色。[[S06]][[S09]]</td><td>跑、跳、蹲、瞄准、换弹、上下车动作；胶囊与摄像机约束。</td></tr>
+<tr><td>驾驶</td><td>先包裹现有车辆模拟；高价值场景再接统一物理。</td><td>坡道/路缘、悬挂、漂移、碰撞、翻车恢复和手感校准。</td></tr>
+<tr><td>射击</td><td>复用弹药、伤害、命中区域和任务事件；物理层提供查询。</td><td>枪口遮挡、射线或弹道、受击动画、贴花、音效；避免渲染物件决定伤害。</td></tr>
+<tr><td>NPC</td><td>保留感知和决策；逐步用导航网格替代局部路径图。[[S07]]</td><td>导航只负责可行走空间；巡逻、追逐、掩体、交通规则与上下车行为需另写。</td></tr>
+<tr><td>世界与资源</td><td>GLB 资产清单、街区分块、实例化和按需加载。[[S05]][[S16]]</td><td>道路连接、碰撞烘焙、导航烘焙、卸载回收；车辆快速移动时的预取。</td></tr>
+<tr><td>任务与存档</td><td>继续共用业务状态机与稳定实体 ID。</td><td>版本迁移、重载恢复、载具占用关系；不存引擎对象或场景层级路径。</td></tr>
+</tbody></table></div>
+<h3>4.2 离线目标与手机策略</h3>
+<p>原项目以单个 HTML 离线运行为重要特征。GLB、贴图和 WASM 解码器的现代资源管线，通常更适合通过 HTTP/HTTPS 分文件加载与缓存。建议保留现有离线版，把新引擎样板作为独立入口，先验证本地/在线 HTTP 运行；如仍需要离线，再规划预缓存或可安装网页应用。是否继续要求任意机器双击一个 HTML 就完整运行，应当作为产品约束单独决定。[[S15]][[S16]][[S31]]</p>
+<p>桌面优先不应演变成手机只缩小画面。手机需要更低的像素预算、有限动态阴影、较少近景交通车、较小纹理、触控布局和音频解锁处理；模拟规则应保持一致。WebGPU 可以作为能力检测后的增强路径，WebGL2 则作为建议的共同验收基线。具体浏览器、GPU、系统版本与持续温升必须实机验证，不能由桌面窗口尺寸模拟替代。</p>
+</section>
+
+<section id="dual">
+<h2>5. 双引擎选择</h2>
+<p><strong>可以让玩家在进入游戏前选择 Babylon 或 PlayCanvas。</strong>当前赛车已经证明同一份模拟可以驱动两种呈现：两版最终里程、超车数、分数与其他记录状态完全相等。这个证据只覆盖该赛车场景，不覆盖完整角色、物理与任务世界。对完整项目保留可扩展接口是合理的，但现在同时承诺两种引擎功能完全一致，会扩大开发和验收范围。[[S30]]</p>
+<figure class="architecture">
+<figcaption>建议的数据流：一份玩法状态，两种可选呈现</figcaption>
+<div class="flow-top">键盘 / 手柄 / 触控 → 统一输入命令</div>
+<div class="flow-core">固定步长模拟<br><span>车辆 · 角色 · 伤害 · NPC · 任务 · 存档</span></div>
+<div class="flow-top">渲染快照 + 资产清单 + 摄像机状态</div>
+<div class="flow-branches"><div>Babylon 适配层<br><small>主线</small></div><div>PlayCanvas 适配层<br><small>按需加载的备选</small></div></div>
+<p>物理世界只能有一个权威来源；渲染回调不更新分数、碰撞或任务。</p>
+</figure>
+<p>建议把引擎选择放在启动菜单或实验设置中，选择后只下载和初始化一个引擎。切换时保存普通数据、释放旧场景及资源，再重新加载另一实现；不追求游戏中逐帧无缝切换。产品主设置优先展示“性能 / 平衡 / 画质”，引擎名称放进高级选项。多数玩家关心的是能否流畅游玩，通常不需要承担技术选型。</p>
+<div class="table-wrap"><table>
+<caption>可以共用与必须分别实现的边界</caption>
+<thead><tr><th>尽量共用</th><th>分别维护</th><th>必须统一</th></tr></thead>
+<tbody><tr><td>车辆参数、任务、计时、伤害、输入、音频事件、存档、GLB 原始资源</td><td>材质与光照映射、动画绑定、摄像机、粒子/贴花、实例化、资源释放、呈现调试</td><td>坐标系、米制尺度、实体 ID、动作语义、命中与物理查询结果、固定步长</td></tr></tbody>
+</table></div>
+<p>最容易低估的是物理耦合。若 Babylon 使用 Havok 与其角色控制器，而 PlayCanvas 使用 Ammo，两版就不只是画面不同：同一输入可能产生不同碰撞、停车位置和上下车结果。要维持同一玩法，必须共用独立物理后端，或把一个物理世界包裹为共同服务；这又会削弱各引擎原生集成带来的便利。PlayCanvas 文档中的替代后端接口仍标 alpha，不能据此承诺现成无缝接入。[[S04]][[S06]][[S09]]</p>
+<p>双引擎成本也不能用“多写一个 renderer 文件”估算。需要维护两套视觉回归基线、浏览器组合、动画映射和资源生命周期；复杂玻璃、车漆、阴影、透明排序和后处理还会产生不同观感。合理顺序是先让主引擎完成街区样板，再用同一份验收场景评估另一引擎的实际追加成本。没有足够数据支持在此给出“只多 10%”或“必然翻倍”的工期结论。</p>
+</section>
+
+<section id="assets">
+<h2>6. 模型来源</h2>
+<h3>6.1 按用途选择来源</h3>
+<p>免费原型优先选有清楚许可的作者官网。Kenney Car Kit、Racing Kit 与 Quaternius Low Poly Cars 都提供 CC0 素材，适合快速建立可运行的资产管线和低成本场景。它们的主要价值是风格一致与试错成本低，不应预期未经检查就能提供细致的第一人称座舱。下载页中的文件数量、车型数量和配色变体必须分开记录。[[S17]][[S18]][[S19]]</p>
+<p>成套风格化项目优先考虑 Synty。Street Racer 的可开门、车辆配件和港口题材与射击驾驶项目吻合，City Pack 则补充街区、日常车辆和角色。两者都提供 FBX 源文件，但 Unity/Unreal/Godot 工程里布置好的场景、特殊着色器和粒子不保证转换后保真；角色还需要另配动作资源。页面当日价格分别为 USD 199.99 和 USD 19.99，简单合计 USD 219.98，仅是模型包页面价格，未含税、动画、音效或接入工作。[[S20]][[S21]]</p>
+<p>偏写实主驾驶车可以从 CGTrader 的通用车型筛选，优先有内饰、源文件和明确面数的商品。9 车型的 Generic Passenger Pack 适合作为车队样本；64,370 三角形的警车则更接近少量近景车辆候选。低价 SUV 作者明确把内饰定位为车外观看，应直接排除在第一人称主车之外。没有必要为了大量交通车采购每辆都带高细节座舱的资源。[[S23]][[S24]][[S25]]</p>
+<p>Fab 可以作为补充市场，Standard License 的官方摘要说明其用途不限于 Unreal。仍需逐商品看清楚授权类型和实际下载格式；Reference-Only 不提供可自由转换的源格式，只有 Unreal 专用文件的商品也不等于可直接导入浏览器。市场级许可说明不能代替对某一个商品的核对，因此本次清单没有给未经核实的 Fab 商品标注“可直接使用”。[[S28]]</p>
+
+<h3>6.2 网页分发与许可</h3>
+<p>网页游戏会把运行所需的模型数据交给浏览器，因此“付费购买”与“允许公开提供原始 GLB”必须分开。CGTrader 的 Royalty Free 帮助页要求资产嵌入产品，并采取合理措施防止最终用户取得资产；不能把 Royalty Free 理解为可任意公开源文件。对拟发布的 Web 游戏，应把具体打包、缓存、源文件可访问性描述给卖家或平台，取得明确的适用答复后再购买或发布。当前报告不把这些候选视为已经获得网页分发确认。[[S26]][[S27]]</p>
+<p>Synty 一次性购买条款允许跨引擎和平台使用，通常一次许可含五个团队席位，但对团队外分享源文件与再分发仍有限制。Fab Standard 同样禁止把资产独立再分发。压缩 GLB、改扩展名或使用 CDN 并不会自动满足这些条款；尤其不要把付费源模型放进公开仓库、公开制作项目或可下载的模型库。应使用订单适用的完整许可确认最终发布方式。[[S22]][[S28]]</p>
+<p>真实品牌的车标、车型外观、作者拥有的模型版权与品牌方权利也不是同一回事；CC0 也明确不消除商标等第三方权利。优先通用虚构车型可以降低品牌依赖，但不能据商品标题或卖家“无商标风险”的宣传给出法律保证。Editorial 许可尤其不应被当作普通商业游戏许可。实际采购应保存来源、作者、许可版本、订单和必要的书面答复。[[S23]][[S27]][[S34]]</p>
+</section>
+
+<section id="catalog">
+<h2>7. 模型清单</h2>
+<p>以下 8 项是<strong>已核对落地页的候选清单，不是下载后完成技术验收的资源库</strong>。价格为 2026-09-11 页面展示美元价，促销、税费与结账可用性可能变化。Synty 页同时出现价格、购买按钮和模板错误/售罄文本，因此仅确认展示价格与内容，未确认实际可下单。各项“座舱候选”均仍需在司机视角检查。</p>
+<div class="filters" role="search" aria-label="筛选模型">
+  <label>搜索名称或用途<input type="search" id="model-search" placeholder="例如：警车、港口、GLB" autocomplete="off"></label>
+  <label>预算<select id="model-cost"><option value="all">全部</option><option value="free">免费</option><option value="paid">付费</option></select></label>
+  <label>风格<select id="model-style"><option value="all">全部</option><option value="stylized">风格化</option><option value="realistic">偏写实</option></select></label>
+  <label>座舱<select id="model-cockpit"><option value="all">全部</option><option value="candidate">座舱候选</option><option value="unknown">未核实</option><option value="outside">只供车外观看</option></select></label>
+  <button type="button" id="model-reset">重置</button>
+</div>
+<p id="model-count" class="small" aria-live="polite">显示 8 / 8 项</p>
+<div class="table-wrap" tabindex="0" aria-label="模型候选清单；窄屏可横向滚动"><table class="model-table">
+<thead><tr><th scope="col">模型 / 资源包</th><th scope="col">价格与许可</th><th scope="col">格式与数量</th><th scope="col">用途与待验收项</th></tr></thead>
+<tbody id="model-rows">{{MODEL_ROWS}}</tbody>
+</table></div>
+<p id="model-empty" hidden>没有符合条件的模型。可清空搜索或放宽筛选。</p>
+<p class="downloads"><a href="models.csv" download>下载 CSV</a> · <a href="models.json" download>下载 JSON</a> · <a href="sources.json" download>下载来源清单</a></p>
+</section>
+
+<section id="pipeline">
+<h2>8. 接入与验收</h2>
+<h3>8.1 一条可复用的模型管线</h3>
+<p>建议保留 Blender/FBX 等可编辑原始资料，以 glTF 2.0 / GLB 作为两个引擎的共同运行资源。统一米制尺度、坐标约定、材质命名、车体中心、轮轴位置和座舱眼位，再导出标准层级。PlayCanvas 文档明确指出导入模型不会自动替艺术家纠正尺度或枢轴；Babylon 加载器也有根节点与坐标系处理。应通过资产元数据归一化这些差异，而不是到处写车型特例。[[S15]][[S16]]</p>
+<pre aria-label="建议的车辆资产结构">vehicle.asset.json
+  id、source、license、scale、bounds
+  lod0.glb / lod1.glb / lod2.glb
+  body、wheel_fl、wheel_fr、wheel_rl、wheel_rr
+  steering_wheel、door_l、door_r
+  seat_driver、camera_cockpit、exit_l、exit_r
+  collider、wheel_radius、axles、material_roles</pre>
+<p>车轮和车门通常可以用独立刚性节点驱动，不一定要蒙皮骨骼；人物则需要标准骨骼、正确权重和动作剪辑。角色“带 rig”不等于已经有走跑、持枪、上下车、驾驶和换弹动画；Synty 清单中的角色不含动画。对于主驾驶车，把外观模型、精细座舱和简化碰撞形状分开管理，便于只在需要时加载座舱。[[S20]][[S21]]</p>
+<p>压缩要以两版实际支持的交集为准。Babylon 的官方加载器文档明确列出 Draco、Meshopt 和 KTX2/Basis；PlayCanvas 的模型加载文档给出 Draco 与 Basis 的准备方式。第一阶段可先用普通 GLB 打通流程，再逐项开启压缩；未验证的扩展不应成为全项目唯一格式。解码器/WASM 也属于发布资源，应固定版本并自托管，避免运行时隐式依赖外部示例 CDN。[[S15]][[S16]]</p>
+
+<h3>8.2 采购或导入前的验收表</h3>
+<div class="table-wrap"><table>
+<caption>车型通用验收；以下为项目建议</caption>
+<thead><tr><th>检查项</th><th>通过条件</th><th>失败影响</th></tr></thead>
+<tbody>
+<tr><td>许可与交付</td><td>准确作者、许可、格式、Web 分发适用答复、购买证明齐全。</td><td>能导入却不能按计划发布。</td></tr>
+<tr><td>司机眼位</td><td>仪表、车顶内侧、挡风玻璃、座椅和脚部视角无破面；视野能驾驶。</td><td>第三人称好看，进入座舱后露馅。</td></tr>
+<tr><td>活动部件</td><td>轮子、方向盘、车门命名独立，旋转中心正确；左右出口有空间。</td><td>转向、开门和上下车需要返工模型。</td></tr>
+<tr><td>材质</td><td>基础色、法线、金属度、粗糙度与透明设置齐全；无需原软件专用着色器。</td><td>车漆、玻璃和灯光与销售渲染差异大。</td></tr>
+<tr><td>性能</td><td>统计最终三角形、材质数、draw calls、压缩下载量与解码后内存。</td><td>“Low Poly”标签掩盖昂贵车轮、透明层和大纹理。</td></tr>
+<tr><td>碰撞与 LOD</td><td>专用简化碰撞体；近/中/远模型与阴影代理可切换。</td><td>细节三角网格直接参与动态碰撞，影响稳定性与性能。</td></tr>
+<tr><td>两引擎一致性</td><td>尺寸、枢轴、颜色空间、法线、玻璃和动画基本一致。</td><td>同一 GLB 可加载，但实际外观或行为不同。</td></tr>
+</tbody></table></div>
+<p>建议先用一辆主驾驶车、两辆交通车和一段城市道路做资产验收，不整包一次性全部接入。可以把主车外观 20–60k 三角形、交通车 LOD0 5–15k、远景 0.5–3k、座舱单独加载作为初始试验区间；这些是项目预算起点，<strong>不是引擎限制、行业标准或设备性能保证</strong>。模型复杂度、材质数量、同时可见车辆、阴影与屏幕分辨率要一起测。警车候选仅车轮就有 14,032 三角形，说明局部减面可能比全车等比例压缩更有价值。[[S25]]</p>
+<p>美术风格也需要验收。把低多边形城市、写实主车和程序化角色混在同一画面里，即便每个资产单看不错，也可能产生比例、细节和光照割裂。建议先确定“统一风格化港口”或“偏写实街区”之一，再选择素材包。现阶段，前者更容易复用现有题材并兼顾手机；这是内容与成本判断，而非两个引擎的画质上限。</p>
+</section>
+
+<section id="performance">
+<h2>9. 性能证据</h2>
+<p>项目已有 Babylon.js 9.26.0 与 PlayCanvas 2.22.1 的各一次 90 秒前台实测：1280×720、WebGL2、高画质、座舱视角、相同 seed 与场景。下表来自项目原始验证记录，不是本报告新做的跨引擎性能研究。导航到渲染就绪时间包含本地加载和初始化，并非公网冷启动；平均帧率也可能受到显示器刷新率限制。[[S30]]</p>
+<div class="table-wrap"><table>
+<caption>当前赛车实现的观察值 [[S30]]</caption>
+<thead><tr><th>指标</th><th>Babylon.js 9.26.0</th><th>PlayCanvas 2.22.1</th></tr></thead>
+<tbody><tr><td>平均 FPS</td><td>56.70</td><td>55.26</td></tr><tr><td>P95 帧间隔</td><td>21 ms</td><td>24 ms</td></tr><tr><td>导航到渲染就绪</td><td>1,621.8 ms</td><td>2,990.1 ms</td></tr><tr><td>帧样本</td><td>4,934</td><td>4,927</td></tr><tr><td>最终里程</td><td>4,603.928 m</td><td>4,603.928 m</td></tr><tr><td>超车 / 得分 / 生命</td><td>52 / 2,600 / 100</td><td>52 / 2,600 / 100</td></tr><tr><td>Unity</td><td colspan="2">未编译、未运行验证；没有可比较的性能数据。</td></tr></tbody>
+</table></div>
+<p>最有用的结果是两版玩法最终状态相同，说明目前的模拟与呈现边界有效。性能数字不足以判定引擎优劣：各仅一轮，后台负载未隔离，缓存未清理，而且抗锯齿和渲染管线不相同。场景没有同时纳入真实车辆物理、骨骼角色群体、完整城市导航和长时资源卸载，不能外推为完整游戏表现。[[S30]][[S31]]</p>
+<p>后续对比应锁定同一资产、摄像机、分辨率、抗锯齿与光照预算，分别测试冷缓存和热缓存，并做多轮交错运行。除了平均帧率，还应看 P95/P99 帧间隔、长帧、主线程与 GPU 耗时、显存/内存趋势、首次可交互时间及实际下载字节。生产构建应比较按需模块、压缩传输后的完整资源，而不是只比较两个整包 JavaScript 文件的磁盘大小。</p>
+<p>建议的验收目标是目标桌面设备稳定接近 60 FPS，代表性手机至少稳定 30 FPS，并在 20–30 分钟驾驶与战斗混合运行后保持可操作。目标须同时固定交通密度、角色数量、街区规模与画质，否则一个空场景通过没有意义。这些是后续验收目标，当前证据未证明已经达成。</p>
+<p><a href="benchmark.json" download>下载本次引用的原始赛车指标</a> · <a href="project-audit.txt" download>下载项目结构核查摘要</a></p>
+</section>
+
+<section id="roadmap">
+<h2>10. 实施路线</h2>
+<p>建议把下一阶段定义为“一个可完成任务的街区”，而不是“把整个项目迁移到新引擎”。这个街区需要同时包含主车、交通车、持枪角色、掩体、可绕行障碍、上下车点和任务存档。一次完整闭环能暴露单独赛车演示看不到的接口问题，尤其是碰撞、摄像机、动画和任务状态的交接。</p>
+<div class="table-wrap"><table>
+<caption>以退出条件推进；不把未经验证的工期作为承诺</caption>
+<thead><tr><th>阶段</th><th>范围</th><th>进入下一阶段的条件</th></tr></thead>
+<tbody>
+<tr><td>1. 资产试样</td><td>1 主车、2 交通车、1 骨骼角色、一段道路；统一 GLB 元数据。</td><td>座舱、轮轴、材质、尺度、许可和资源预算通过。</td></tr>
+<tr><td>2. Babylon 街区</td><td>步行 → 开门上车 → 驾驶 → 停车下车 → 射击 → 完成目标 → 存档重载。</td><td>碰撞一致、动画状态可恢复、任务无重复结算、资源可释放。</td></tr>
+<tr><td>3. 手机与持续运行</td><td>画质档、触控、音频、失焦恢复；多轮 20–30 分钟实机运行。</td><td>目标设备达标；无持续内存增长、明显温升后失控或交互阻塞。</td></tr>
+<tr><td>4. PlayCanvas 复现</td><td>仅复现同一街区和核心验收动作，衡量编辑工作流收益与重复工作。</td><td>若收益足够，再公开双引擎选项；否则保持赛车实验版。</td></tr>
+<tr><td>5. 内容扩展</td><td>增加车型、人物动作、街区、任务；按可见范围加载。</td><td>每类内容有资产预算和自动数据检查，不靠全世界同时常驻。</td></tr>
+</tbody></table></div>
+<p>物理后端的选择应在第二阶段明确：单一 Babylon 主线可以优先使用官方整合的 Havok；若双引擎玩法一致性成为明确产品需求，则先设计独立的物理服务，再决定两个呈现适配层如何消费结果。不要在完成大量角色和车辆代码之后，再要求两套不同物理“跑得一样”。当前单机范围也不需要为尚未计划的联网锁步加入复杂约束。</p>
+<p>如果 PlayCanvas 街区复现显示出明显更快的场景制作速度、更少的内容集成错误，而且角色与导航成本可接受，应允许它转为主线。反之，若 Babylon 的角色控制、查询和调试链缩短了闭环验证，继续集中投入 Babylon。选型依据应是完成同一个产品切片的总成本和运行结果，而不是公开示例截图或仓库热度。</p>
+</section>
+
+<section id="method">
+<h2>11. 方法与局限</h2>
+<p>研究范围为单机 Web 赛车及同一项目中的射击驾驶玩法，桌面浏览器优先、兼顾手机。外部资料以引擎官方文档、官方仓库、作者商品页和平台许可页为主，核对日期为 2026-09-11；动态页面价格可能随地区、促销和账号变化。正式游戏结构与性能数据使用项目内部资料，并提供可下载的核查摘要和原始指标。[[S30]][[S31]]</p>
+<p>报告区分三类内容：官方或作者可验证的事实、当前原型的一次性观察，以及明确标示的工程建议。尚未购买或下载验收付费模型，商品的面数、内饰与格式是作者声明；没有代替作者保证品质或确认全部第三方权利。没有得到可信可比的引擎活跃用户、市场份额、第三方游戏套件总量或完整项目长期性能数据，所以不输出虚构的评分和工期。</p>
+<p>版本也是边界。赛车记录固定为 Babylon.js 9.26.0 / PlayCanvas 2.22.1，官方文档可能比这两个构建更新；PlayCanvas 的物理后端抽象仍标 alpha，不能作为稳定 API 承诺。Babylon 当前导航入口指向 v2，但正文未能完整提取，因此本文仅根据可读取的既有 Recast 文档确认导航集成，不混用新旧接口宣称。实际开发须固定依赖版本，再验证所需接口。[[S04]][[S07]][[S08]][[S30]]</p>
+</section>
+
+<section id="sources">
+<h2>12. 来源</h2>
+<p>编号链接指向对应原始页面；内部资料单独标注。未标明确切发布日期的页面按访问日期核对，不把检索日期当作发布日期。价格和仓库计数为快照。</p>
+<ol class="sources">{{SOURCES}}</ol>
+</section>
+</main>
+</div>
+</body>
+</html>

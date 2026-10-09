@@ -1,0 +1,38 @@
+{
+  "retrieved": "2026-09-18",
+  "uid": "78d5c47ab2554c2592b7e499179a0792",
+  "title": "Porsche 911 GT3",
+  "sourcePage": "https://sketchfab.com/3d-models/porsche-911-gt3-78d5c47ab2554c2592b7e499179a0792",
+  "author": {
+    "username": "ChevroletSS",
+    "displayName": "ChevroletSS",
+    "profileUrl": "https://sketchfab.com/ChevroletSS"
+  },
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "description": "The Porsche 911 GT3 is a high-performance homologation model of the Porsche 911 sports car. It is a line of high-performance models, which began with the 1973 911 Carrera RS. The GT3 has had a successful racing career in the one-make national and regional Porsche Carrera Cup and GT3 Cup Challenge series, as well as the international Porsche Supercup supporting the FIA Formula 1 World Championship.\n\n This is my first model on sketchfab, so the materials are not as good as they should be.\n \n The car comes with an interior and a detailed body.",
+  "archive": "allenai/objaverse",
+  "archiveUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-046/78d5c47ab2554c2592b7e499179a0792.glb",
+  "downloadUrl": "https://hf-mirror.com/datasets/allenai/objaverse/resolve/main/glbs/000-046/78d5c47ab2554c2592b7e499179a0792.glb",
+  "assetMetadata": {
+    "extras": {
+      "author": "ChevroletSS (https://sketchfab.com/ChevroletSS)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/porsche-911-gt3-78d5c47ab2554c2592b7e499179a0792",
+      "title": "Porsche 911 GT3"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "file": {
+    "name": "asset.glb",
+    "bytes": 8594024,
+    "sha256": "2c8ecc16ff979bd09aaac8eca6775cc838fdbc2ca618c24db704aced69c00d32"
+  }
+}

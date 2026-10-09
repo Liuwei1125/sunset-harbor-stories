@@ -1,0 +1,17 @@
+[
+  {
+    "uid": "d9dc4af4a6e645b19ebd7d423870e0f7",
+    "name": "2012 Mercedes Benz SLS AMG Roadster",
+    "author": "the_86_guy",
+    "path": "glbs/000-033/d9dc4af4a6e645b19ebd7d423870e0f7.glb",
+    "description": "Mercedes Benz SLS AMG is a limited production grand tourer car made by Mercedes Benz.\n\n   under the hood is V8 paired with 7 speed dual clutch transmission and it has  weight at 1620kg. making this car from 0-100 km/h just at 3.8 second and the top speed at 315 km/h.",
+    "license": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    }
+  }
+]

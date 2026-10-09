@@ -1,0 +1,16 @@
+REVISION 5 GEOMETRY 1803 BODY FACES 111777 SURFACE FIT {"front": 4644, "rear": 3329, "side": 2282, "misses": []}
+REFERENCE CAMERA FIT {"eye": [-7.324459101805844, 6.684781341591007, 1.2789300625510598], "target": [0.0, 0.0, 0.74], "lens": 40.06852003886259, "shift": [-0.026421539058195723, 0.038756969060208], "resolution": [2048, 1152]} LANDMARK RMS PIXELS 6.771374913238636
+RENDER headlight
+00:54.077  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-headlight.png'
+RENDER wheel
+01:02.615  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-wheel.png'
+RENDER front
+01:08.826  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-front.png'
+RENDER reference-front
+01:14.522  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-reference-front.png'
+RENDER rear
+01:20.155  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v5-rear.png'
+REVISION 5 COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

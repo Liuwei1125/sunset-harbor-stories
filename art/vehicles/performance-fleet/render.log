@@ -1,0 +1,35 @@
+00:00.326  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/amg-gt/amg-gt.blend"
+00:09.550  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/amg-gt/renders/front.png'
+00:16.811  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/amg-gt/renders/rear.png'
+00:42.213  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/amg-gt/renders/cockpit.png'
+01:04.843  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/amg-gt/renders/screen.png'
+RENDERED amg-gt
+01:04.844  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/bmw-m4.blend"
+01:14.295  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/front.png'
+01:24.678  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/rear.png'
+01:37.769  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/cockpit.png'
+01:50.067  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bmw-m4/renders/screen.png'
+RENDERED bmw-m4
+01:50.069  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/porsche-911/porsche-911.blend"
+02:02.650  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/porsche-911/renders/front.png'
+02:13.251  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/porsche-911/renders/rear.png'
+RENDERED porsche-911
+02:13.259  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/lamborghini-centenario/lamborghini-centenario.blend"
+02:25.487  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/lamborghini-centenario/renders/front.png'
+02:35.556  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/lamborghini-centenario/renders/rear.png'
+02:49.868  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/lamborghini-centenario/renders/cockpit.png'
+03:01.981  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/lamborghini-centenario/renders/screen.png'
+RENDERED lamborghini-centenario
+03:01.982  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/bugatti-veyron.blend"
+03:13.445  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/renders/front.png'
+03:23.757  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/renders/rear.png'
+RENDERED bugatti-veyron
+03:23.760  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/ferrari-458.blend"
+03:37.032  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/front.png'
+03:47.853  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/rear.png'
+04:01.168  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/cockpit.png'
+04:13.657  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/ferrari-458/renders/screen.png'
+RENDERED ferrari-458
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

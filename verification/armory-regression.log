@@ -1,0 +1,125 @@
+{
+  "kind": "controlled fixture regressions; not full playthroughs",
+  "passed": 29,
+  "total": 29,
+  "results": [
+    {
+      "name": "Directional sight: front visible, behind not visible",
+      "pass": true
+    },
+    {
+      "name": "Sight range and solid warehouse wall occlusion",
+      "pass": true
+    },
+    {
+      "name": "Hearing gives an approximate location, not exact tracking",
+      "pass": true
+    },
+    {
+      "name": "Campaign guards begin unaware",
+      "pass": true
+    },
+    {
+      "name": "Activity exclusivity: combat and fleet cannot interrupt campaign",
+      "pass": true
+    },
+    {
+      "name": "Stopping interaction releases rather than completing instantly",
+      "pass": true
+    },
+    {
+      "name": "Terminal and cargo interactions require their hold duration",
+      "pass": true
+    },
+    {
+      "name": "Story reward, persistent unlock and duplicate payout protection",
+      "pass": true
+    },
+    {
+      "name": "Projectile cap preserves all live ordnance",
+      "pass": true
+    },
+    {
+      "name": "Ordnance has reserved independent capacity",
+      "pass": true
+    },
+    {
+      "name": "Quality tier changes do not delete gameplay objects",
+      "pass": true
+    },
+    {
+      "name": "Full ordnance channel rejects firing without consuming ammo",
+      "pass": true
+    },
+    {
+      "name": "State snapshot and model-label projection share one pose",
+      "pass": true
+    },
+    {
+      "name": "Foot movement accelerates, stops and crouches",
+      "pass": true
+    },
+    {
+      "name": "Vault transitions over a low crate to a clear landing",
+      "pass": true
+    },
+    {
+      "name": "Ramp height and elevated platform are traversable surfaces",
+      "pass": true
+    },
+    {
+      "name": "Cargo damage depends on actual impacts",
+      "pass": true
+    },
+    {
+      "name": "V6 save validates and restores mission, fleet and unlocks",
+      "pass": true
+    },
+    {
+      "name": "Invalid route and corrupted save checksums are rejected",
+      "pass": true
+    },
+    {
+      "name": "Failed storage attempts are backed off, not retried every frame",
+      "pass": true
+    },
+    {
+      "name": "All three maps load and clear transient combat objects",
+      "pass": true
+    },
+    {
+      "name": "Sea departure is moored to a reboardable berth",
+      "pass": true
+    },
+    {
+      "name": "Bank angle produces a corresponding fighter turn",
+      "pass": true
+    },
+    {
+      "name": "Target lock retains an existing valid target during a crossing",
+      "pass": true
+    },
+    {
+      "name": "Missile launch requires a completed lock and spends one missile",
+      "pass": true
+    },
+    {
+      "name": "Cannon overheating and cooldown remain active",
+      "pass": true
+    },
+    {
+      "name": "Weapon quick swap and reload cancellation remain consistent",
+      "pass": true
+    },
+    {
+      "name": "Health failure ends the campaign without issuing a reward",
+      "pass": true
+    },
+    {
+      "name": "Diagnostics distinguish CPU renderer and unavailable GPU timing",
+      "pass": true
+    }
+  ],
+  "browserErrors": [],
+  "sha256": "3ed33ea0ce19a898108a716838e5215afadcd587480589d3dd7e157e12df1387"
+}

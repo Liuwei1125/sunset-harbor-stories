@@ -1,0 +1,375 @@
+{
+  "checks": [
+    {
+      "name": "high / valid GLB",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / recorded checksum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / embedded dependencies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / no Draco CDN or cameras",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / embedded attribution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / pivot wheel-front-left",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / pivot wheel-front-right",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / pivot wheel-rear-left",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / pivot wheel-rear-right",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / pivot steering",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / independent geometry:display-front",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / full screen UV geometry:display-front",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / independent geometry:display-rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / full screen UV geometry:display-rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / finite geometry and valid indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / unit normals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high / triangle count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / valid GLB",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / recorded checksum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / embedded dependencies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / no Draco CDN or cameras",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / embedded attribution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / pivot wheel-front-left",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / pivot wheel-front-right",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / pivot wheel-rear-left",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / pivot wheel-rear-right",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / pivot steering",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / independent geometry:display-front",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / full screen UV geometry:display-front",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / independent geometry:display-rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / full screen UV geometry:display-rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / finite geometry and valid indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / unit normals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low / triangle count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOD / useful reduction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scale / vehicle dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / high GLB and both displays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "View / front",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "View / side",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "View / rear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "View / cockpit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "View / screen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "View / rear-seat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Attribution / visible license",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rig / inner front wheel steers further",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rig / steering wheel follows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rig / all wheels animate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Materials / paint changes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Materials / interior changes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / both real mesh textures update",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / signed regeneration and caller lap time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / invalid values and clamping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOD / low state and texture lifetime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOD / high state and texture lifetime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOD / low state and texture lifetime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOD / reduced geometry loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / demo drives data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / pause freezes simulation and wheels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / external input stops demo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rig / neutral coasts and reverse rolls backwards",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Telemetry / reset parked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lifecycle / cached navigation preserves scene",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser / no runtime errors or missing files",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "files": []
+      }
+    },
+    {
+      "name": "Lifecycle / releases displays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile / controls fit width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile / touch view and speed control",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "models": {
+    "high": {
+      "lod": "high",
+      "file": "tesla-model-3.high.glb",
+      "bytes": 7423488,
+      "triangles": 178189,
+      "drawPrimitives": 30,
+      "sha256": "7709c57f6c512e3bcd3714b1b84a7446b5f8825aa9e00959ca7ce91550efbdac",
+      "materials": 18
+    },
+    "low": {
+      "lod": "low",
+      "file": "tesla-model-3.low.glb",
+      "bytes": 4116972,
+      "triangles": 74211,
+      "drawPrimitives": 30,
+      "sha256": "ba050cd4e27c9687c711735e1411ed08c869e7086dee041c509990a670d377a3",
+      "materials": 18
+    }
+  },
+  "browser": {
+    "desktop": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "errors": [],
+      "failedResponses": []
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "Chromium touch emulation; not a physical device benchmark"
+    }
+  },
+  "passed": true
+}

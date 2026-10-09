@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/precision_su7.py", line 535, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/precision_su7.py", line 447, in main
+    materials();shell=body();cabin();headlights(shell);bumpers(shell);panel_gaps(shell);finish_surface_normals(shell);wheels();h.interior();exterior_details()
+                                                                                                                      ~~~~~~^^
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/precision_parts.py", line 154, in wheels
+    spoke=patch('Wide forged plum blossom wheel spoke',rounded(shape,.11,4),a,'alloy',0,.023)
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/precision_parts.py", line 133, in patch
+    if abs(area-expected)>expected*.005:raise RuntimeError(name+' has overlapping planar tessellation')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Wide forged plum blossom wheel spoke has overlapping planar tessellation
+
+Error: script failed, file: 'art/vehicles/su7/precision_su7.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

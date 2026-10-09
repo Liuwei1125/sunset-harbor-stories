@@ -1,0 +1,38 @@
+{
+  "retrieved": "2026-09-18",
+  "uid": "661dcab94455463784651a3ebc63cfb9",
+  "title": "Mercedes-AMG GT",
+  "sourcePage": "https://sketchfab.com/3d-models/mercedes-benz-amg-gt-661dcab94455463784651a3ebc63cfb9",
+  "author": {
+    "username": "carvalhoyan",
+    "displayName": "Yan Carvalho",
+    "profileUrl": "https://sketchfab.com/carvalhoyan"
+  },
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "description": "Carro Mercedes Benz AMG GT feito no Blender e renderizado no eevee render.",
+  "archive": "allenai/objaverse",
+  "archiveUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-136/661dcab94455463784651a3ebc63cfb9.glb",
+  "downloadUrl": "https://hf-mirror.com/datasets/allenai/objaverse/resolve/main/glbs/000-136/661dcab94455463784651a3ebc63cfb9.glb",
+  "assetMetadata": {
+    "extras": {
+      "author": "Yan Carvalho (https://sketchfab.com/carvalhoyan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/mercedes-benz-amg-gt-661dcab94455463784651a3ebc63cfb9",
+      "title": "Mercedes Benz AMG GT"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "file": {
+    "name": "asset.glb",
+    "bytes": 17742804,
+    "sha256": "28efb2e0cd593d8b02103fd051a826b5eb35e0314baa3f4a5df8c58de561080b"
+  }
+}

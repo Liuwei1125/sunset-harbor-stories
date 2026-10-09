@@ -1,0 +1,20 @@
+{
+  "version": "0.7",
+  "passed": true,
+  "checks": [
+    {
+      "mobile": false,
+      "passed": true,
+      "sampling": "trilinear + mipmaps",
+      "textures": 2,
+      "runtimeErrors": []
+    },
+    {
+      "mobile": true,
+      "passed": true,
+      "sampling": "trilinear + mipmaps",
+      "textures": 2,
+      "runtimeErrors": []
+    }
+  ]
+}

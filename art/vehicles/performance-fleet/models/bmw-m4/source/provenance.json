@@ -1,0 +1,38 @@
+{
+  "retrieved": "2026-09-18",
+  "uid": "18476c3a7697462f884d8dc8f124d7a0",
+  "title": "BMW M4 (2015)",
+  "sourcePage": "https://sketchfab.com/3d-models/2015-bmw-m4-18476c3a7697462f884d8dc8f124d7a0",
+  "author": {
+    "username": "David_Holiday",
+    "displayName": "David_Holiday",
+    "profileUrl": "https://sketchfab.com/David_Holiday"
+  },
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "description": "2015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M42015 BMW M4",
+  "archive": "allenai/objaverse",
+  "archiveUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-138/18476c3a7697462f884d8dc8f124d7a0.glb",
+  "downloadUrl": "https://hf-mirror.com/datasets/allenai/objaverse/resolve/main/glbs/000-138/18476c3a7697462f884d8dc8f124d7a0.glb",
+  "assetMetadata": {
+    "extras": {
+      "author": "David_Holiday (https://sketchfab.com/David_Holiday)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/2015-bmw-m4-18476c3a7697462f884d8dc8f124d7a0",
+      "title": "2015 BMW M4"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "file": {
+    "name": "asset.glb",
+    "bytes": 9323936,
+    "sha256": "96fb2607057ca8b4dc601ce4525cba90837838d9faa1c49bf9eecdcbeba1eedf"
+  }
+}

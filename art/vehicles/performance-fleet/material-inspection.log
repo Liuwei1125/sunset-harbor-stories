@@ -1,0 +1,11 @@
+00:00.413  blend            | Read blend: "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/models/bugatti-veyron/source/normalized.blend"
+Traceback (most recent call last):
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/performance-fleet/inspect_materials.py", line 14, in <module>
+    for x in a.data[::max(1,len(a.data)//10)]:colors.append(tuple(round(c,2) for c in x.color))
+             ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: bpy_prop_collection[slice]: slice steps not supported
+
+Error: script failed, file: 'art/vehicles/performance-fleet/inspect_materials.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

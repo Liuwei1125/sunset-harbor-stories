@@ -1,0 +1,68 @@
+REVISION 4 GEOMETRY 860 BODY FACES 15454 SURFACE FIT {"front": 3196, "rear": 3325, "side": 2280, "misses": []}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+10:21:37 | INFO: Starting glTF 2.0 export
+10:21:37 | INFO: Extracting primitive: SU7 continuous curvature body / revision 4.002
+10:21:37 | INFO: Primitives created: 17
+10:21:37 | INFO: Extracting primitive: Cube.092
+10:21:37 | INFO: Primitives created: 11
+10:21:37 | INFO: Extracting primitive: Flush active deck spoiler.001
+10:21:37 | INFO: Primitives created: 1
+10:21:37 | INFO: Extracting primitive: Flat bottom leather steering rim
+10:21:37 | INFO: Primitives created: 3
+10:21:37 | INFO: Extracting primitive: Performance radial tire.004
+10:21:37 | INFO: Primitives created: 7
+10:21:37 | INFO: Extracting primitive: Performance radial tire.006
+10:21:37 | INFO: Primitives created: 7
+10:21:37 | INFO: Extracting primitive: Performance radial tire.005
+10:21:37 | INFO: Primitives created: 7
+10:21:37 | INFO: Extracting primitive: Performance radial tire.007
+10:21:37 | INFO: Primitives created: 7
+10:21:37 | INFO: Finished glTF 2.0 export in 0.5061838626861572 s
+
+10:21:38 | INFO: Starting glTF 2.0 export
+10:21:38 | INFO: Extracting primitive: SU7 continuous curvature body / revision 4.002
+10:21:38 | INFO: Primitives created: 17
+10:21:38 | INFO: Extracting primitive: Cube.092
+10:21:38 | INFO: Primitives created: 11
+10:21:38 | INFO: Extracting primitive: Flush active deck spoiler.001
+10:21:38 | INFO: Primitives created: 1
+10:21:38 | INFO: Extracting primitive: Flat bottom leather steering rim
+10:21:38 | INFO: Primitives created: 3
+10:21:38 | INFO: Extracting primitive: Performance radial tire.004
+10:21:38 | INFO: Primitives created: 7
+10:21:38 | INFO: Extracting primitive: Performance radial tire.006
+10:21:38 | INFO: Primitives created: 7
+10:21:38 | INFO: Extracting primitive: Performance radial tire.005
+10:21:38 | INFO: Primitives created: 7
+10:21:38 | INFO: Extracting primitive: Performance radial tire.007
+10:21:38 | INFO: Primitives created: 7
+10:21:38 | INFO: Finished glTF 2.0 export in 0.6493380069732666 s
+
+Info: Saved as "xiaomi-su7.blend"
+RENDER front
+00:32.446  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-front.png'
+RENDER rear
+00:46.515  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-rear.png'
+RENDER side
+00:55.862  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-side.png'
+RENDER front-flat
+01:09.952  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-front-flat.png'
+RENDER rear-flat
+01:21.389  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-rear-flat.png'
+RENDER headlight
+01:44.562  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-headlight.png'
+RENDER wheel
+02:07.347  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-wheel.png'
+RENDER cockpit
+02:37.878  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-cockpit.png'
+RENDER clay-front
+02:52.883  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-clay-front.png'
+RENDER clay-side
+03:01.549  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-clay-side.png'
+RENDER reflection-rear
+03:14.230  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v4-reflection-rear.png'
+REVISION 4 COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

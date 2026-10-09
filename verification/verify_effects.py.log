@@ -1,0 +1,17 @@
+PASS Settings expose exactly 6.2 and 6.3.1 effects
+PASS classic / low matches archived rendered pixels and quality
+PASS classic / medium matches archived rendered pixels and quality
+PASS classic / high matches archived rendered pixels and quality
+PASS photo / low matches archived rendered pixels and quality
+PASS photo / medium matches archived rendered pixels and quality
+PASS photo / high matches archived rendered pixels and quality
+PASS Classic releases unused targets and preserves photo brightness
+PASS Repeated live switches preserve game state
+PASS classic persists through a real page reload
+PASS photo persists through a real page reload
+PASS Exported and imported saves retain the classic effect
+PASS Adaptive quality retains the selected 6.2 effect
+PASS Both effects render all three maps
+PASS Phone-sized touch menu exposes both working effects
+PASS No renderer or application errors during switches
+16/16 passed

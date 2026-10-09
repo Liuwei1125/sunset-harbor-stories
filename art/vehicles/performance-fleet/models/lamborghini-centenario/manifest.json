@@ -1,0 +1,131 @@
+{
+  "title": "Lamborghini Centenario",
+  "brand": "Lamborghini",
+  "edition": "LP 770 · SDC PERFORMANCE",
+  "paint": "65717A",
+  "paintMaterials": [
+    "Carbon_R"
+  ],
+  "tireMaterials": [
+    "pneu.005"
+  ],
+  "steering": [
+    -0.35,
+    0.135,
+    0.71
+  ],
+  "eye": [
+    -0.35,
+    -0.23,
+    1.02
+  ],
+  "aim": [
+    -0.035,
+    0.6,
+    0.75
+  ],
+  "screen": [
+    0,
+    0.3,
+    0.765,
+    0.22,
+    0.145,
+    0.3
+  ],
+  "layout": "landscape",
+  "cabin": true,
+  "notes": "保留碳纤维、灯组和原作座舱；作者说明内饰与实车存在差异。",
+  "id": "lamborghini-centenario",
+  "license": "CC BY 4.0",
+  "source": "https://sketchfab.com/3d-models/lamborghini-centenario-lp-770-interior-sdc-d679af35b5694301a185c7454a700c73",
+  "author": "SDC PERFORMANCE™️",
+  "coordinates": "metres; glTF Y up; -Z forward",
+  "paintable": true,
+  "dimensions": {
+    "width": 2.2452783584594727,
+    "length": 4.923999786376953,
+    "height": 1.1450666189193726
+  },
+  "wheelFront": 1.213204175233841,
+  "wheelRear": -1.448641687631607,
+  "track": 0.84304578602314,
+  "radius": 0.35446081310510635,
+  "joints": {
+    "front-left": [
+      -0.8438311815261841,
+      0.3587965667247772,
+      -1.2266433835029602
+    ],
+    "front-right": [
+      0.8515013456344604,
+      0.35879677534103394,
+      -1.1997649669647217
+    ],
+    "rear-left": [
+      -0.8384251296520233,
+      0.3732253313064575,
+      1.4486418962478638
+    ],
+    "rear-right": [
+      0.838425487279892,
+      0.37322551012039185,
+      1.4486414790153503
+    ]
+  },
+  "steeringPivot": [
+    -0.35,
+    0.71,
+    -0.135
+  ],
+  "views": {
+    "cockpit": {
+      "eye": [
+        -0.35,
+        1.02,
+        0.23
+      ],
+      "target": [
+        -0.035,
+        0.75,
+        -0.6
+      ]
+    },
+    "screen": {
+      "eye": [
+        -0.08,
+        0.915,
+        0.14
+      ],
+      "target": [
+        0,
+        0.765,
+        -0.3
+      ]
+    }
+  },
+  "display": {
+    "material": "display:front",
+    "layout": "landscape",
+    "size": [
+      1536,
+      960
+    ],
+    "enabled": true
+  },
+  "files": [
+    {
+      "lod": "high",
+      "file": "lamborghini-centenario.high.glb",
+      "bytes": 15251092,
+      "triangles": 240112,
+      "sha256": "e5869f3c7e64aa571690119bd8839f6a0b6d90164e967739cb515943cc61205b"
+    },
+    {
+      "lod": "low",
+      "file": "lamborghini-centenario.low.glb",
+      "bytes": 7479372,
+      "triangles": 85160,
+      "sha256": "e3f9f72eb4eff485e2ffd468567e6cc6da3dca251b6138b8244d928ab296dd60"
+    }
+  ]
+}

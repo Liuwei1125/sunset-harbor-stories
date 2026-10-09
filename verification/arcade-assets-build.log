@@ -1,0 +1,2028 @@
+/Users/liuwei53/Desktop/sunset-harbor-stories/tools/blender_arcade.py:204: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world=bpy.data.worlds.new('Club studio');s.world.use_nodes=True;s.world.node_tree.nodes['Background'].inputs[0].default_value=(.10,.15,.19,1);s.world.node_tree.nodes['Background'].inputs[1].default_value=.45
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+02:26:59 | INFO: Starting glTF 2.0 export
+02:26:59 | INFO: Extracting primitive: Cylinder.079
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.081
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.078
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.080
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.095
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.096
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.083
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.082
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.018
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.019
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.020
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.021
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.022
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.023
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.024
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.025
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.026
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Torus.027
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.085
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.086
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.087
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.088
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.089
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.090
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.091
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.092
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.093
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.094
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.084
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Finished glTF 2.0 export in 0.05268502235412598 s
+
+HARBOR_ASSET club-archery-target {'high': 13228, 'low': 3548}
+00:03.405  object.modifier  | WARNING Object: "Fletching.006", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:03.405  object.modifier  | WARNING Object: "Fletching.007", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:03.406  object.modifier  | WARNING Object: "Fletching.008", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+02:26:59 | INFO: Starting glTF 2.0 export
+02:26:59 | INFO: Extracting primitive: Cylinder.048
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Fletching is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Fletching
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Fletching.001 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Fletching.001
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Fletching.002 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Fletching.002
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.050
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.049
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Finished glTF 2.0 export in 0.012737035751342773 s
+
+HARBOR_ASSET club-arrow {'high': 280, 'low': 80}
+02:26:59 | INFO: Starting glTF 2.0 export
+02:26:59 | INFO: Extracting primitive: Cylinder.105
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.106
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.107
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.108
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.109
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.110
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.111
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Layered crown
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Layered crown.001
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Layered crown.002
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Layered crown.003
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Layered crown.004
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Layered crown.005
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Layered crown.006
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.001 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.001
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.002 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.002
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.003 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.003
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.004 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.004
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.005 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.005
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.006 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.006
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.007 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.007
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.008 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.008
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.009 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.009
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.010 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.010
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.011 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.011
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.012 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.012
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.013 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.013
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.014 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.014
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.015 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.015
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.016 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.016
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.017 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.017
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.018 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.018
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.019 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.019
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.020 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.020
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.021 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.021
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.022 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.022
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.023 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.023
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.024 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.024
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.025 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.025
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.026 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.026
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.027 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.027
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.028 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.028
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | WARNING: Mesh Leaf silhouette.029 is not valid, and may be exported wrongly
+02:26:59 | INFO: Extracting primitive: Leaf silhouette.029
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.112
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.113
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.114
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.115
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Cylinder.116
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Extracting primitive: Tapered trunk
+02:26:59 | INFO: Primitives created: 1
+02:26:59 | INFO: Finished glTF 2.0 export in 0.038961172103881836 s
+
+HARBOR_ASSET club-canopy-tree {'high': 1372, 'low': 443}
+02:27:00 | INFO: Starting glTF 2.0 export
+02:27:00 | INFO: Extracting primitive: Cube.020
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.035
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.036
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.019
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.007
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.011
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.037
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.002
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.003
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.004
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.005
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.014
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.039
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.040
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.041
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.042
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.043
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.044
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.045
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.046
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.047
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.048
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.049
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.050
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.051
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.052
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.053
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.054
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.055
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.056
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.057
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.058
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.059
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.060
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.061
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.062
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.063
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.064
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.065
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.066
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.067
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.068
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.069
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.070
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.071
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.072
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.073
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.074
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.008
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.012
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.021
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.028
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.015
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.018
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.001
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.006
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.021
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.007
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.022
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.008
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.009
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.010
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.011
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.012
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.013
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.014
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.015
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.016
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.017
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.018
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.019
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.020
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.023
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.024
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.025
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.026
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.027
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.028
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.029
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.030
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.031
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.032
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.033
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.034
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.035
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.004
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.005
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.009
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.036
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.037
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.002
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.006
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.010
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.003
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.022
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.029
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Sculpted dashboard
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.016
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.017
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.001
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.038
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.039
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.040
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Text
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.013
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.023
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.030
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.024
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.025
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.026
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.027
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.031
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.032
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.033
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.034
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Visible sculpted bonnet
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.041
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cube.038
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Windshield pillar
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Windshield pillar.001
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Finished glTF 2.0 export in 0.13791108131408691 s
+
+HARBOR_ASSET club-cockpit {'high': 7640, 'low': 1568}
+00:04.462  object.modifier  | WARNING Object: "Moulded flight.008", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:04.463  object.modifier  | WARNING Object: "Moulded flight.009", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:04.464  object.modifier  | WARNING Object: "Moulded flight.010", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:04.464  object.modifier  | WARNING Object: "Moulded flight.011", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+02:27:00 | INFO: Starting glTF 2.0 export
+02:27:00 | INFO: Extracting primitive: Torus.002
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus.003
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus.004
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus.005
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus.006
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus.007
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus.008
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus.009
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Torus.010
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.053
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | WARNING: Mesh Moulded flight is not valid, and may be exported wrongly
+02:27:00 | INFO: Extracting primitive: Moulded flight
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | WARNING: Mesh Moulded flight.001 is not valid, and may be exported wrongly
+02:27:00 | INFO: Extracting primitive: Moulded flight.001
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | WARNING: Mesh Moulded flight.002 is not valid, and may be exported wrongly
+02:27:00 | INFO: Extracting primitive: Moulded flight.002
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | WARNING: Mesh Moulded flight.003 is not valid, and may be exported wrongly
+02:27:00 | INFO: Extracting primitive: Moulded flight.003
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.051
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Extracting primitive: Cylinder.052
+02:27:00 | INFO: Primitives created: 1
+02:27:00 | INFO: Finished glTF 2.0 export in 0.019709110260009766 s
+
+HARBOR_ASSET club-dart {'high': 2404, 'low': 650}
+00:04.920  object.modifier  | WARNING Object: "Scoring segment.800", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:04.934  object.modifier  | WARNING Object: "Scoring segment.801", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:04.948  object.modifier  | WARNING Object: "Scoring segment.802", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:04.965  object.modifier  | WARNING Object: "Scoring segment.803", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:04.980  object.modifier  | WARNING Object: "Scoring segment.804", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:04.994  object.modifier  | WARNING Object: "Scoring segment.805", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.009  object.modifier  | WARNING Object: "Scoring segment.806", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.018  object.modifier  | WARNING Object: "Scoring segment.807", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.030  object.modifier  | WARNING Object: "Scoring segment.808", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.046  object.modifier  | WARNING Object: "Scoring segment.809", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.062  object.modifier  | WARNING Object: "Scoring segment.810", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.082  object.modifier  | WARNING Object: "Scoring segment.811", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.098  object.modifier  | WARNING Object: "Scoring segment.812", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.111  object.modifier  | WARNING Object: "Scoring segment.813", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.120  object.modifier  | WARNING Object: "Scoring segment.814", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.133  object.modifier  | WARNING Object: "Scoring segment.815", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.149  object.modifier  | WARNING Object: "Scoring segment.816", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.163  object.modifier  | WARNING Object: "Scoring segment.817", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.179  object.modifier  | WARNING Object: "Scoring segment.818", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.194  object.modifier  | WARNING Object: "Scoring segment.819", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.243  object.modifier  | WARNING Object: "Scoring segment.820", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.256  object.modifier  | WARNING Object: "Scoring segment.821", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.274  object.modifier  | WARNING Object: "Scoring segment.822", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.289  object.modifier  | WARNING Object: "Scoring segment.823", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.304  object.modifier  | WARNING Object: "Scoring segment.824", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.318  object.modifier  | WARNING Object: "Scoring segment.825", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.339  object.modifier  | WARNING Object: "Scoring segment.826", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.357  object.modifier  | WARNING Object: "Scoring segment.827", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.383  object.modifier  | WARNING Object: "Scoring segment.828", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.408  object.modifier  | WARNING Object: "Scoring segment.829", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.424  object.modifier  | WARNING Object: "Scoring segment.830", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.441  object.modifier  | WARNING Object: "Scoring segment.831", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.455  object.modifier  | WARNING Object: "Scoring segment.832", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.471  object.modifier  | WARNING Object: "Scoring segment.833", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.490  object.modifier  | WARNING Object: "Scoring segment.834", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.505  object.modifier  | WARNING Object: "Scoring segment.835", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.520  object.modifier  | WARNING Object: "Scoring segment.836", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.537  object.modifier  | WARNING Object: "Scoring segment.837", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.553  object.modifier  | WARNING Object: "Scoring segment.838", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.567  object.modifier  | WARNING Object: "Scoring segment.839", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.621  object.modifier  | WARNING Object: "Scoring segment.840", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.637  object.modifier  | WARNING Object: "Scoring segment.841", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.653  object.modifier  | WARNING Object: "Scoring segment.842", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.670  object.modifier  | WARNING Object: "Scoring segment.843", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.692  object.modifier  | WARNING Object: "Scoring segment.844", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.713  object.modifier  | WARNING Object: "Scoring segment.845", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.729  object.modifier  | WARNING Object: "Scoring segment.846", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.747  object.modifier  | WARNING Object: "Scoring segment.847", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.764  object.modifier  | WARNING Object: "Scoring segment.848", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.785  object.modifier  | WARNING Object: "Scoring segment.849", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.803  object.modifier  | WARNING Object: "Scoring segment.850", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.820  object.modifier  | WARNING Object: "Scoring segment.851", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.839  object.modifier  | WARNING Object: "Scoring segment.852", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.855  object.modifier  | WARNING Object: "Scoring segment.853", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.875  object.modifier  | WARNING Object: "Scoring segment.854", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.893  object.modifier  | WARNING Object: "Scoring segment.855", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.916  object.modifier  | WARNING Object: "Scoring segment.856", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.933  object.modifier  | WARNING Object: "Scoring segment.857", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.949  object.modifier  | WARNING Object: "Scoring segment.858", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:05.966  object.modifier  | WARNING Object: "Scoring segment.859", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.032  object.modifier  | WARNING Object: "Scoring segment.860", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.051  object.modifier  | WARNING Object: "Scoring segment.861", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.068  object.modifier  | WARNING Object: "Scoring segment.862", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.085  object.modifier  | WARNING Object: "Scoring segment.863", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.103  object.modifier  | WARNING Object: "Scoring segment.864", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.122  object.modifier  | WARNING Object: "Scoring segment.865", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.139  object.modifier  | WARNING Object: "Scoring segment.866", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.155  object.modifier  | WARNING Object: "Scoring segment.867", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.170  object.modifier  | WARNING Object: "Scoring segment.868", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.186  object.modifier  | WARNING Object: "Scoring segment.869", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.204  object.modifier  | WARNING Object: "Scoring segment.870", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.224  object.modifier  | WARNING Object: "Scoring segment.871", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.248  object.modifier  | WARNING Object: "Scoring segment.872", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.265  object.modifier  | WARNING Object: "Scoring segment.873", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.281  object.modifier  | WARNING Object: "Scoring segment.874", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.301  object.modifier  | WARNING Object: "Scoring segment.875", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.323  object.modifier  | WARNING Object: "Scoring segment.876", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.344  object.modifier  | WARNING Object: "Scoring segment.877", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.365  object.modifier  | WARNING Object: "Scoring segment.878", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.382  object.modifier  | WARNING Object: "Scoring segment.879", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.447  object.modifier  | WARNING Object: "Scoring segment.880", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.465  object.modifier  | WARNING Object: "Scoring segment.881", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.485  object.modifier  | WARNING Object: "Scoring segment.882", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.504  object.modifier  | WARNING Object: "Scoring segment.883", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.524  object.modifier  | WARNING Object: "Scoring segment.884", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.548  object.modifier  | WARNING Object: "Scoring segment.885", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.567  object.modifier  | WARNING Object: "Scoring segment.886", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.585  object.modifier  | WARNING Object: "Scoring segment.887", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.605  object.modifier  | WARNING Object: "Scoring segment.888", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.627  object.modifier  | WARNING Object: "Scoring segment.889", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.647  object.modifier  | WARNING Object: "Scoring segment.890", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.668  object.modifier  | WARNING Object: "Scoring segment.891", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.687  object.modifier  | WARNING Object: "Scoring segment.892", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.708  object.modifier  | WARNING Object: "Scoring segment.893", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.731  object.modifier  | WARNING Object: "Scoring segment.894", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.751  object.modifier  | WARNING Object: "Scoring segment.895", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.773  object.modifier  | WARNING Object: "Scoring segment.896", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.791  object.modifier  | WARNING Object: "Scoring segment.897", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.810  object.modifier  | WARNING Object: "Scoring segment.898", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.829  object.modifier  | WARNING Object: "Scoring segment.899", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.901  object.modifier  | WARNING Object: "Scoring segment.900", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.922  object.modifier  | WARNING Object: "Scoring segment.901", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.944  object.modifier  | WARNING Object: "Scoring segment.902", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.963  object.modifier  | WARNING Object: "Scoring segment.903", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:06.979  object.modifier  | WARNING Object: "Scoring segment.904", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.003  object.modifier  | WARNING Object: "Scoring segment.905", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.022  object.modifier  | WARNING Object: "Scoring segment.906", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.045  object.modifier  | WARNING Object: "Scoring segment.907", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.067  object.modifier  | WARNING Object: "Scoring segment.908", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.089  object.modifier  | WARNING Object: "Scoring segment.909", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.115  object.modifier  | WARNING Object: "Scoring segment.910", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.135  object.modifier  | WARNING Object: "Scoring segment.911", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.157  object.modifier  | WARNING Object: "Scoring segment.912", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.181  object.modifier  | WARNING Object: "Scoring segment.913", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.202  object.modifier  | WARNING Object: "Scoring segment.914", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.229  object.modifier  | WARNING Object: "Scoring segment.915", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.250  object.modifier  | WARNING Object: "Scoring segment.916", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.270  object.modifier  | WARNING Object: "Scoring segment.917", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.294  object.modifier  | WARNING Object: "Scoring segment.918", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.315  object.modifier  | WARNING Object: "Scoring segment.919", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.386  object.modifier  | WARNING Object: "Scoring segment.920", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.409  object.modifier  | WARNING Object: "Scoring segment.921", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.436  object.modifier  | WARNING Object: "Scoring segment.922", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.460  object.modifier  | WARNING Object: "Scoring segment.923", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.478  object.modifier  | WARNING Object: "Scoring segment.924", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.500  object.modifier  | WARNING Object: "Scoring segment.925", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.520  object.modifier  | WARNING Object: "Scoring segment.926", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.542  object.modifier  | WARNING Object: "Scoring segment.927", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.565  object.modifier  | WARNING Object: "Scoring segment.928", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.588  object.modifier  | WARNING Object: "Scoring segment.929", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.611  object.modifier  | WARNING Object: "Scoring segment.930", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.634  object.modifier  | WARNING Object: "Scoring segment.931", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.660  object.modifier  | WARNING Object: "Scoring segment.932", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.683  object.modifier  | WARNING Object: "Scoring segment.933", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.706  object.modifier  | WARNING Object: "Scoring segment.934", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.729  object.modifier  | WARNING Object: "Scoring segment.935", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.753  object.modifier  | WARNING Object: "Scoring segment.936", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.778  object.modifier  | WARNING Object: "Scoring segment.937", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.800  object.modifier  | WARNING Object: "Scoring segment.938", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.823  object.modifier  | WARNING Object: "Scoring segment.939", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.898  object.modifier  | WARNING Object: "Scoring segment.940", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.923  object.modifier  | WARNING Object: "Scoring segment.941", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.945  object.modifier  | WARNING Object: "Scoring segment.942", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.966  object.modifier  | WARNING Object: "Scoring segment.943", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:07.989  object.modifier  | WARNING Object: "Scoring segment.944", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.011  object.modifier  | WARNING Object: "Scoring segment.945", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.034  object.modifier  | WARNING Object: "Scoring segment.946", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.062  object.modifier  | WARNING Object: "Scoring segment.947", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.083  object.modifier  | WARNING Object: "Scoring segment.948", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.106  object.modifier  | WARNING Object: "Scoring segment.949", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.130  object.modifier  | WARNING Object: "Scoring segment.950", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.155  object.modifier  | WARNING Object: "Scoring segment.951", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.181  object.modifier  | WARNING Object: "Scoring segment.952", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.204  object.modifier  | WARNING Object: "Scoring segment.953", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.229  object.modifier  | WARNING Object: "Scoring segment.954", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.256  object.modifier  | WARNING Object: "Scoring segment.955", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.281  object.modifier  | WARNING Object: "Scoring segment.956", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.304  object.modifier  | WARNING Object: "Scoring segment.957", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.330  object.modifier  | WARNING Object: "Scoring segment.958", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.355  object.modifier  | WARNING Object: "Scoring segment.959", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.421  object.modifier  | WARNING Object: "Scoring segment.960", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.448  object.modifier  | WARNING Object: "Scoring segment.961", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.472  object.modifier  | WARNING Object: "Scoring segment.962", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.494  object.modifier  | WARNING Object: "Scoring segment.963", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.518  object.modifier  | WARNING Object: "Scoring segment.964", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.540  object.modifier  | WARNING Object: "Scoring segment.965", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.565  object.modifier  | WARNING Object: "Scoring segment.966", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.590  object.modifier  | WARNING Object: "Scoring segment.967", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.617  object.modifier  | WARNING Object: "Scoring segment.968", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.646  object.modifier  | WARNING Object: "Scoring segment.969", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.668  object.modifier  | WARNING Object: "Scoring segment.970", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.698  object.modifier  | WARNING Object: "Scoring segment.971", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.722  object.modifier  | WARNING Object: "Scoring segment.972", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.748  object.modifier  | WARNING Object: "Scoring segment.973", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.773  object.modifier  | WARNING Object: "Scoring segment.974", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.802  object.modifier  | WARNING Object: "Scoring segment.975", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.829  object.modifier  | WARNING Object: "Scoring segment.976", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.853  object.modifier  | WARNING Object: "Scoring segment.977", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.881  object.modifier  | WARNING Object: "Scoring segment.978", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.911  object.modifier  | WARNING Object: "Scoring segment.979", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:08.993  object.modifier  | WARNING Object: "Scoring segment.980", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.022  object.modifier  | WARNING Object: "Scoring segment.981", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.048  object.modifier  | WARNING Object: "Scoring segment.982", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.072  object.modifier  | WARNING Object: "Scoring segment.983", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.105  object.modifier  | WARNING Object: "Scoring segment.984", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.133  object.modifier  | WARNING Object: "Scoring segment.985", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.158  object.modifier  | WARNING Object: "Scoring segment.986", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.184  object.modifier  | WARNING Object: "Scoring segment.987", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.212  object.modifier  | WARNING Object: "Scoring segment.988", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.238  object.modifier  | WARNING Object: "Scoring segment.989", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.265  object.modifier  | WARNING Object: "Scoring segment.990", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.286  object.modifier  | WARNING Object: "Scoring segment.991", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.310  object.modifier  | WARNING Object: "Scoring segment.992", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.333  object.modifier  | WARNING Object: "Scoring segment.993", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.355  object.modifier  | WARNING Object: "Scoring segment.994", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.383  object.modifier  | WARNING Object: "Scoring segment.995", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.412  object.modifier  | WARNING Object: "Scoring segment.996", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.438  object.modifier  | WARNING Object: "Scoring segment.997", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.469  object.modifier  | WARNING Object: "Scoring segment.998", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.500  object.modifier  | WARNING Object: "Scoring segment.999", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.589  object.modifier  | WARNING Object: "Scoring segment.1000", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.617  object.modifier  | WARNING Object: "Scoring segment.1001", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.646  object.modifier  | WARNING Object: "Scoring segment.1002", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.678  object.modifier  | WARNING Object: "Scoring segment.1003", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.705  object.modifier  | WARNING Object: "Scoring segment.1004", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.732  object.modifier  | WARNING Object: "Scoring segment.1005", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.765  object.modifier  | WARNING Object: "Scoring segment.1006", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.791  object.modifier  | WARNING Object: "Scoring segment.1007", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.820  object.modifier  | WARNING Object: "Scoring segment.1008", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.848  object.modifier  | WARNING Object: "Scoring segment.1009", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.868  object.modifier  | WARNING Object: "Scoring segment.1010", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.897  object.modifier  | WARNING Object: "Scoring segment.1011", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.926  object.modifier  | WARNING Object: "Scoring segment.1012", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.956  object.modifier  | WARNING Object: "Scoring segment.1013", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:09.992  object.modifier  | WARNING Object: "Scoring segment.1014", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.020  object.modifier  | WARNING Object: "Scoring segment.1015", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.190  object.modifier  | WARNING Object: "Scoring segment.1016", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.233  object.modifier  | WARNING Object: "Scoring segment.1017", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.295  object.modifier  | WARNING Object: "Scoring segment.1018", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.322  object.modifier  | WARNING Object: "Scoring segment.1019", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.414  object.modifier  | WARNING Object: "Scoring segment.1020", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.444  object.modifier  | WARNING Object: "Scoring segment.1021", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.471  object.modifier  | WARNING Object: "Scoring segment.1022", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.504  object.modifier  | WARNING Object: "Scoring segment.1023", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.535  object.modifier  | WARNING Object: "Scoring segment.1024", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.564  object.modifier  | WARNING Object: "Scoring segment.1025", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.595  object.modifier  | WARNING Object: "Scoring segment.1026", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.623  object.modifier  | WARNING Object: "Scoring segment.1027", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.653  object.modifier  | WARNING Object: "Scoring segment.1028", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.681  object.modifier  | WARNING Object: "Scoring segment.1029", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.707  object.modifier  | WARNING Object: "Scoring segment.1030", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.732  object.modifier  | WARNING Object: "Scoring segment.1031", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.763  object.modifier  | WARNING Object: "Scoring segment.1032", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.792  object.modifier  | WARNING Object: "Scoring segment.1033", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.824  object.modifier  | WARNING Object: "Scoring segment.1034", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.854  object.modifier  | WARNING Object: "Scoring segment.1035", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.890  object.modifier  | WARNING Object: "Scoring segment.1036", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.920  object.modifier  | WARNING Object: "Scoring segment.1037", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.951  object.modifier  | WARNING Object: "Scoring segment.1038", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:10.981  object.modifier  | WARNING Object: "Scoring segment.1039", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.073  object.modifier  | WARNING Object: "Scoring segment.1040", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.111  object.modifier  | WARNING Object: "Scoring segment.1041", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.140  object.modifier  | WARNING Object: "Scoring segment.1042", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.172  object.modifier  | WARNING Object: "Scoring segment.1043", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.202  object.modifier  | WARNING Object: "Scoring segment.1044", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.238  object.modifier  | WARNING Object: "Scoring segment.1045", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.269  object.modifier  | WARNING Object: "Scoring segment.1046", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.301  object.modifier  | WARNING Object: "Scoring segment.1047", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.337  object.modifier  | WARNING Object: "Scoring segment.1048", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.371  object.modifier  | WARNING Object: "Scoring segment.1049", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.406  object.modifier  | WARNING Object: "Scoring segment.1050", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.442  object.modifier  | WARNING Object: "Scoring segment.1051", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.473  object.modifier  | WARNING Object: "Scoring segment.1052", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.503  object.modifier  | WARNING Object: "Scoring segment.1053", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.538  object.modifier  | WARNING Object: "Scoring segment.1054", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.566  object.modifier  | WARNING Object: "Scoring segment.1055", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.601  object.modifier  | WARNING Object: "Scoring segment.1056", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.635  object.modifier  | WARNING Object: "Scoring segment.1057", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.668  object.modifier  | WARNING Object: "Scoring segment.1058", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.705  object.modifier  | WARNING Object: "Scoring segment.1059", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.806  object.modifier  | WARNING Object: "Scoring segment.1060", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.842  object.modifier  | WARNING Object: "Scoring segment.1061", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.874  object.modifier  | WARNING Object: "Scoring segment.1062", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.905  object.modifier  | WARNING Object: "Scoring segment.1063", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.942  object.modifier  | WARNING Object: "Scoring segment.1064", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:11.973  object.modifier  | WARNING Object: "Scoring segment.1065", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.006  object.modifier  | WARNING Object: "Scoring segment.1066", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.045  object.modifier  | WARNING Object: "Scoring segment.1067", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.077  object.modifier  | WARNING Object: "Scoring segment.1068", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.114  object.modifier  | WARNING Object: "Scoring segment.1069", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.146  object.modifier  | WARNING Object: "Scoring segment.1070", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.178  object.modifier  | WARNING Object: "Scoring segment.1071", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.214  object.modifier  | WARNING Object: "Scoring segment.1072", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.246  object.modifier  | WARNING Object: "Scoring segment.1073", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.279  object.modifier  | WARNING Object: "Scoring segment.1074", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.312  object.modifier  | WARNING Object: "Scoring segment.1075", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.345  object.modifier  | WARNING Object: "Scoring segment.1076", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.374  object.modifier  | WARNING Object: "Scoring segment.1077", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.411  object.modifier  | WARNING Object: "Scoring segment.1078", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.447  object.modifier  | WARNING Object: "Scoring segment.1079", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.551  object.modifier  | WARNING Object: "Scoring segment.1080", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.584  object.modifier  | WARNING Object: "Scoring segment.1081", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.620  object.modifier  | WARNING Object: "Scoring segment.1082", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.651  object.modifier  | WARNING Object: "Scoring segment.1083", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.685  object.modifier  | WARNING Object: "Scoring segment.1084", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.720  object.modifier  | WARNING Object: "Scoring segment.1085", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.753  object.modifier  | WARNING Object: "Scoring segment.1086", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.785  object.modifier  | WARNING Object: "Scoring segment.1087", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.817  object.modifier  | WARNING Object: "Scoring segment.1088", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.850  object.modifier  | WARNING Object: "Scoring segment.1089", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.886  object.modifier  | WARNING Object: "Scoring segment.1090", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.915  object.modifier  | WARNING Object: "Scoring segment.1091", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.948  object.modifier  | WARNING Object: "Scoring segment.1092", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:12.977  object.modifier  | WARNING Object: "Scoring segment.1093", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.007  object.modifier  | WARNING Object: "Scoring segment.1094", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.041  object.modifier  | WARNING Object: "Scoring segment.1095", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.081  object.modifier  | WARNING Object: "Scoring segment.1096", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.115  object.modifier  | WARNING Object: "Scoring segment.1097", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.149  object.modifier  | WARNING Object: "Scoring segment.1098", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.187  object.modifier  | WARNING Object: "Scoring segment.1099", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.298  object.modifier  | WARNING Object: "Scoring segment.1100", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.332  object.modifier  | WARNING Object: "Scoring segment.1101", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.369  object.modifier  | WARNING Object: "Scoring segment.1102", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.395  object.modifier  | WARNING Object: "Scoring segment.1103", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.432  object.modifier  | WARNING Object: "Scoring segment.1104", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.465  object.modifier  | WARNING Object: "Scoring segment.1105", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.497  object.modifier  | WARNING Object: "Scoring segment.1106", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.530  object.modifier  | WARNING Object: "Scoring segment.1107", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.562  object.modifier  | WARNING Object: "Scoring segment.1108", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.595  object.modifier  | WARNING Object: "Scoring segment.1109", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.630  object.modifier  | WARNING Object: "Scoring segment.1110", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.661  object.modifier  | WARNING Object: "Scoring segment.1111", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.692  object.modifier  | WARNING Object: "Scoring segment.1112", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.719  object.modifier  | WARNING Object: "Scoring segment.1113", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.752  object.modifier  | WARNING Object: "Scoring segment.1114", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.791  object.modifier  | WARNING Object: "Scoring segment.1115", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.822  object.modifier  | WARNING Object: "Scoring segment.1116", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.856  object.modifier  | WARNING Object: "Scoring segment.1117", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.892  object.modifier  | WARNING Object: "Scoring segment.1118", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:13.928  object.modifier  | WARNING Object: "Scoring segment.1119", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.029  object.modifier  | WARNING Object: "Scoring segment.1120", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.062  object.modifier  | WARNING Object: "Scoring segment.1121", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.092  object.modifier  | WARNING Object: "Scoring segment.1122", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.129  object.modifier  | WARNING Object: "Scoring segment.1123", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.162  object.modifier  | WARNING Object: "Scoring segment.1124", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.196  object.modifier  | WARNING Object: "Scoring segment.1125", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.231  object.modifier  | WARNING Object: "Scoring segment.1126", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.264  object.modifier  | WARNING Object: "Scoring segment.1127", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.295  object.modifier  | WARNING Object: "Scoring segment.1128", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.333  object.modifier  | WARNING Object: "Scoring segment.1129", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.369  object.modifier  | WARNING Object: "Scoring segment.1130", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.409  object.modifier  | WARNING Object: "Scoring segment.1131", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.446  object.modifier  | WARNING Object: "Scoring segment.1132", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.481  object.modifier  | WARNING Object: "Scoring segment.1133", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.515  object.modifier  | WARNING Object: "Scoring segment.1134", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.554  object.modifier  | WARNING Object: "Scoring segment.1135", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.589  object.modifier  | WARNING Object: "Scoring segment.1136", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.625  object.modifier  | WARNING Object: "Scoring segment.1137", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.665  object.modifier  | WARNING Object: "Scoring segment.1138", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.701  object.modifier  | WARNING Object: "Scoring segment.1139", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.812  object.modifier  | WARNING Object: "Scoring segment.1140", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.838  object.modifier  | WARNING Object: "Scoring segment.1141", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.872  object.modifier  | WARNING Object: "Scoring segment.1142", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.913  object.modifier  | WARNING Object: "Scoring segment.1143", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.947  object.modifier  | WARNING Object: "Scoring segment.1144", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:14.980  object.modifier  | WARNING Object: "Scoring segment.1145", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.013  object.modifier  | WARNING Object: "Scoring segment.1146", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.044  object.modifier  | WARNING Object: "Scoring segment.1147", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.081  object.modifier  | WARNING Object: "Scoring segment.1148", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.120  object.modifier  | WARNING Object: "Scoring segment.1149", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.156  object.modifier  | WARNING Object: "Scoring segment.1150", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.192  object.modifier  | WARNING Object: "Scoring segment.1151", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.234  object.modifier  | WARNING Object: "Scoring segment.1152", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.269  object.modifier  | WARNING Object: "Scoring segment.1153", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.304  object.modifier  | WARNING Object: "Scoring segment.1154", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.341  object.modifier  | WARNING Object: "Scoring segment.1155", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.377  object.modifier  | WARNING Object: "Scoring segment.1156", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.414  object.modifier  | WARNING Object: "Scoring segment.1157", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.453  object.modifier  | WARNING Object: "Scoring segment.1158", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.489  object.modifier  | WARNING Object: "Scoring segment.1159", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.609  object.modifier  | WARNING Object: "Scoring segment.1160", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.648  object.modifier  | WARNING Object: "Scoring segment.1161", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.685  object.modifier  | WARNING Object: "Scoring segment.1162", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.729  object.modifier  | WARNING Object: "Scoring segment.1163", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.766  object.modifier  | WARNING Object: "Scoring segment.1164", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.806  object.modifier  | WARNING Object: "Scoring segment.1165", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.845  object.modifier  | WARNING Object: "Scoring segment.1166", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.885  object.modifier  | WARNING Object: "Scoring segment.1167", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.922  object.modifier  | WARNING Object: "Scoring segment.1168", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.959  object.modifier  | WARNING Object: "Scoring segment.1169", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:15.998  object.modifier  | WARNING Object: "Scoring segment.1170", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.036  object.modifier  | WARNING Object: "Scoring segment.1171", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.080  object.modifier  | WARNING Object: "Scoring segment.1172", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.117  object.modifier  | WARNING Object: "Scoring segment.1173", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.154  object.modifier  | WARNING Object: "Scoring segment.1174", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.198  object.modifier  | WARNING Object: "Scoring segment.1175", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.234  object.modifier  | WARNING Object: "Scoring segment.1176", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.273  object.modifier  | WARNING Object: "Scoring segment.1177", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.315  object.modifier  | WARNING Object: "Scoring segment.1178", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.352  object.modifier  | WARNING Object: "Scoring segment.1179", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.468  object.modifier  | WARNING Object: "Scoring segment.1180", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.503  object.modifier  | WARNING Object: "Scoring segment.1181", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.537  object.modifier  | WARNING Object: "Scoring segment.1182", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.572  object.modifier  | WARNING Object: "Scoring segment.1183", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.616  object.modifier  | WARNING Object: "Scoring segment.1184", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.653  object.modifier  | WARNING Object: "Scoring segment.1185", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.693  object.modifier  | WARNING Object: "Scoring segment.1186", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.732  object.modifier  | WARNING Object: "Scoring segment.1187", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.775  object.modifier  | WARNING Object: "Scoring segment.1188", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.815  object.modifier  | WARNING Object: "Scoring segment.1189", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.858  object.modifier  | WARNING Object: "Scoring segment.1190", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.898  object.modifier  | WARNING Object: "Scoring segment.1191", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.936  object.modifier  | WARNING Object: "Scoring segment.1192", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:16.980  object.modifier  | WARNING Object: "Scoring segment.1193", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:17.018  object.modifier  | WARNING Object: "Scoring segment.1194", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:17.057  object.modifier  | WARNING Object: "Scoring segment.1195", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:17.100  object.modifier  | WARNING Object: "Scoring segment.1196", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:17.137  object.modifier  | WARNING Object: "Scoring segment.1197", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:17.173  object.modifier  | WARNING Object: "Scoring segment.1198", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+00:17.211  object.modifier  | WARNING Object: "Scoring segment.1199", Modifier: "Runtime LOD reduction", Modifier requires more than 3 input faces
+02:27:13 | INFO: Starting glTF 2.0 export
+02:27:13 | INFO: Extracting primitive: Torus.017
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.077
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.054
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.076
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.056
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.057
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.058
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.059
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.060
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.061
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.062
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.063
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.064
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.065
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.066
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.067
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.068
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.069
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.070
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.071
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.072
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.073
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.074
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Cylinder.075
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.001
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.002
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.003
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.004
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.005
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.006
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.007
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.008
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.009
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.010
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.011
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.012
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.013
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.014
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.015
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.016
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.017
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.018
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.019
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.020
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.021
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.022
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.023
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.024
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.025
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.026
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.027
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.028
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.029
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.030
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.031
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.032
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.033
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.034
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.035
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.036
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.037
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.038
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.039
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.040
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.041
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.042
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.043
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.044
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.045
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.046
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.047
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.048
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.049
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.050
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.051
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.052
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.053
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.054
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.055
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.056
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.057
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.058
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.059
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.060
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.061
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.062
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.063
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.064
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.065
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.066
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.067
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.068
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.069
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.070
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.071
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.072
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.073
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.074
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.075
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.076
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.077
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.078
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.079
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.080
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.081
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.082
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.083
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.084
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.085
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.086
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.087
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.088
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.089
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.090
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.091
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.092
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.093
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.094
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.095
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.096
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.097
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.098
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.099
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.100
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.101
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.102
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.103
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.104
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.105
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.106
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.107
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.108
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.109
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.110
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.111
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.112
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.113
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.114
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.115
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.116
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.117
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.118
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.119
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.120
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.121
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.122
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.123
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.124
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.125
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.126
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.127
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.128
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.129
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.130
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.131
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.132
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.133
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.134
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.135
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.136
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.137
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.138
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.139
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.140
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.141
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.142
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.143
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.144
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.145
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.146
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.147
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.148
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.149
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.150
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.151
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.152
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.153
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.154
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.155
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.156
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.157
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.158
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.159
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.160
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.161
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.162
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.163
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.164
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.165
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.166
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.167
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.168
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.169
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.170
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.171
+02:27:13 | INFO: Primitives created: 1
+02:27:13 | INFO: Extracting primitive: Scoring segment.172
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.173
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.174
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.175
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.176
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.177
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.178
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.179
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.180
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.181
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.182
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.183
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.184
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.185
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.186
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.187
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.188
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.189
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.190
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.191
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.192
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.193
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.194
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.195
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.196
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.197
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.198
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.199
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.200
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.201
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.202
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.203
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.204
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.205
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.206
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.207
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.208
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.209
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.210
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.211
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.212
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.213
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.214
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.215
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.216
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.217
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.218
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.219
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.220
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.221
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.222
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.223
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.224
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.225
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.226
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.227
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.228
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.229
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.230
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.231
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.232
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.233
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.234
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.235
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.236
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.237
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.238
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.239
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.240
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.241
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.242
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.243
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.244
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.245
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.246
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.247
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.248
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.249
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.250
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.251
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.252
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.253
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.254
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.255
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.256
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.257
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.258
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.259
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.260
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.261
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.262
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.263
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.264
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.265
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.266
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.267
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.268
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.269
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.270
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.271
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.272
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.273
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.274
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.275
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.276
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.277
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.278
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.279
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.280
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.281
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.282
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.283
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.284
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.285
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.286
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.287
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.288
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.289
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.290
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.291
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.292
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.293
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.294
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.295
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.296
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.297
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.298
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.299
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.300
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.301
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.302
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.303
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.304
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.305
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.306
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.307
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.308
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.309
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.310
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.311
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.312
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.313
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.314
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.315
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.316
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.317
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.318
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.319
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.320
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.321
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.322
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.323
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.324
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.325
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.326
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.327
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.328
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.329
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.330
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.331
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.332
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.333
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.334
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.335
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.336
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.337
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.338
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.339
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.340
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.341
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.342
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.343
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.344
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.345
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.346
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.347
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.348
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.349
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.350
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.351
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.352
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.353
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.354
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.355
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.356
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.357
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.358
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.359
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.360
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.361
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.362
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.363
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.364
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.365
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.366
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.367
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.368
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.369
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.370
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.371
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.372
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.373
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.374
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.375
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.376
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.377
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.378
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.379
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.380
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.381
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.382
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.383
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.384
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.385
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.386
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.387
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.388
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.389
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.390
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.391
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.392
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.393
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.394
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.395
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.396
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.397
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.398
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Scoring segment.399
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.055
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.011
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.012
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.013
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.014
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.015
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.016
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.002
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.009
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.011
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.004
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.020
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.006
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.013
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.015
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.018
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.007
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.016
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.019
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.005
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.017
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.008
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.014
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.010
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.003
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.012
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.001
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Finished glTF 2.0 export in 0.317141056060791 s
+
+HARBOR_ASSET club-dartboard {'high': 18976, 'low': 5658}
+02:27:14 | INFO: Starting glTF 2.0 export
+02:27:14 | WARNING: Mesh Bent grass blade is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.001 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.001
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.002 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.002
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.003 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.003
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.004 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.004
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.005 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.005
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.006 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.006
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.007 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.007
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.008 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.008
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.009 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.009
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.010 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.010
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.011 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.011
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.012 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.012
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.013 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.013
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.014 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.014
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.015 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.015
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.016 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.016
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.017 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.017
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.018 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.018
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.019 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.019
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.020 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.020
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.021 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.021
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.022 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.022
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.023 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.023
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.024 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.024
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.025 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.025
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | WARNING: Mesh Bent grass blade.026 is not valid, and may be exported wrongly
+02:27:14 | INFO: Extracting primitive: Bent grass blade.026
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.118
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.120
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.122
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.124
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.126
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.128
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.117
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.119
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.121
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.123
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.125
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.127
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Finished glTF 2.0 export in 0.03062605857849121 s
+
+HARBOR_ASSET club-meadow {'high': 324, 'low': 108}
+02:27:14 | INFO: Starting glTF 2.0 export
+02:27:14 | INFO: Extracting primitive: Cube.081
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.084
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.087
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.082
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.085
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.100
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.101
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.102
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.103
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.104
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Text.021
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.088
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.083
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.086
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Finished glTF 2.0 export in 0.024713993072509766 s
+
+HARBOR_ASSET club-race-gate {'high': 4072, 'low': 1084}
+02:27:14 | INFO: Starting glTF 2.0 export
+02:27:14 | INFO: Extracting primitive: Laminated limb
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Laminated limb.001
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Laminated limb.002
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Laminated limb.003
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Laminated limb.004
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Laminated limb.005
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.075
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.042
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.043
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Sculpted riser
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.001
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.044
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.045
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.046
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.047
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Finished glTF 2.0 export in 0.031172990798950195 s
+
+HARBOR_ASSET club-recurve {'high': 1552, 'low': 400}
+02:27:14 | INFO: Starting glTF 2.0 export
+02:27:14 | INFO: Extracting primitive: Cube.077
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.028
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.029
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Torus.030
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.098
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.097
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cylinder.099
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.079
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.080
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.078
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Extracting primitive: Cube.076
+02:27:14 | INFO: Primitives created: 1
+02:27:14 | INFO: Finished glTF 2.0 export in 0.02202916145324707 s
+
+HARBOR_ASSET club-shooting-target {'high': 2784, 'low': 748}
+00:44.740  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/previews/blender-arcade.png'
+Info: Saved as "harbor-arcade.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

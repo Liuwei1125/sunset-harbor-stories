@@ -1,0 +1,61 @@
+REFERENCE CAMERA FIT {"eye": [-7.324459101805844, 6.684781341591007, 1.2789300625510598], "target": [0.0, 0.0, 0.74], "lens": 40.06852003886259, "shift": [-0.026421539058195723, 0.038756969060208], "resolution": [2048, 1152]} LANDMARK RMS PIXELS 6.771374913238636
+LAMP REFERENCE SURFACE XZ [(0.5113544464111328, 0.606677770614624), (0.5734238624572754, 0.6584563255310059), (0.7627496719360352, 0.732573926448822), (0.8839230537414551, 0.7653385996818542), (0.9298090934753418, 0.7687434554100037), (0.9602885246276855, 0.7521758675575256), (0.9630861282348633, 0.7140886187553406), (0.9620351791381836, 0.6524767279624939), (0.9567294120788574, 0.6157417893409729), (0.9439201354980469, 0.601773738861084), (0.8501114845275879, 0.5908223390579224), (0.6785116195678711, 0.5876737236976624), (0.5651845932006836, 0.5926966071128845)]
+REVISION 6 GEOMETRY 789 BODY FACES 110176 SURFACE FIT {"front": 12136, "rear": 11570, "side": 2392, "misses": []}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+13:36:58 | INFO: Starting glTF 2.0 export
+13:36:58 | WARNING: Mesh SU7 continuous curvature body / revision 6.003 is not valid, and may be exported wrongly
+13:36:58 | INFO: Extracting primitive: SU7 continuous curvature body / revision 6.003
+13:36:58 | INFO: Primitives created: 20
+13:36:58 | INFO: Extracting primitive: Cube.232
+13:36:58 | INFO: Primitives created: 11
+13:36:58 | INFO: Extracting primitive: Flush active deck spoiler.002
+13:36:58 | INFO: Primitives created: 1
+13:36:58 | INFO: Extracting primitive: Flat bottom leather steering rim.001
+13:36:58 | INFO: Primitives created: 3
+13:36:58 | INFO: Extracting primitive: Performance radial tire.008
+13:36:58 | INFO: Primitives created: 7
+13:36:58 | INFO: Extracting primitive: Performance radial tire.010
+13:36:58 | INFO: Primitives created: 7
+13:36:58 | INFO: Extracting primitive: Performance radial tire.009
+13:36:58 | INFO: Primitives created: 7
+13:36:58 | INFO: Extracting primitive: Performance radial tire.011
+13:36:58 | INFO: Primitives created: 7
+13:36:58 | INFO: Finished glTF 2.0 export in 0.4914250373840332 s
+
+13:39:41 | INFO: Starting glTF 2.0 export
+13:39:41 | WARNING: Mesh SU7 continuous curvature body / revision 6.004 is not valid, and may be exported wrongly
+13:39:41 | INFO: Extracting primitive: SU7 continuous curvature body / revision 6.004
+13:39:41 | INFO: Primitives created: 20
+13:39:41 | INFO: Extracting primitive: Cube.330
+13:39:41 | INFO: Primitives created: 11
+13:39:41 | INFO: Extracting primitive: Flush active deck spoiler.003
+13:39:41 | INFO: Primitives created: 1
+13:39:41 | INFO: Extracting primitive: Flat bottom leather steering rim.002
+13:39:41 | INFO: Primitives created: 3
+13:39:41 | INFO: Extracting primitive: Performance radial tire.012
+13:39:41 | INFO: Primitives created: 7
+13:39:41 | INFO: Extracting primitive: Performance radial tire.014
+13:39:41 | INFO: Primitives created: 7
+13:39:41 | INFO: Extracting primitive: Performance radial tire.013
+13:39:41 | INFO: Primitives created: 7
+13:39:41 | INFO: Extracting primitive: Performance radial tire.015
+13:39:41 | INFO: Primitives created: 7
+13:39:41 | INFO: Finished glTF 2.0 export in 0.23468899726867676 s
+Traceback (most recent call last):
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/atelier_su7.py", line 619, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/atelier_su7.py", line 535, in main
+    bpy.ops.file.pack_all()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: Error: Unable to pack file, source path 'references/6-1.png' not found
+
+
+Error: Unable to pack file, source path 'references/6-1.png' not found
+Info: Packed 2 file(s)
+
+Error: script failed, file: 'art/vehicles/su7/atelier_su7.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

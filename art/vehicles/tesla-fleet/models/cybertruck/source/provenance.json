@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-09-18",
+  "source": {
+    "repo": "MigrantCaravan/Tesla-CyberTruck-Model3-Paint-Selector",
+    "revision": "6616e4a5eb5b6944f13e4b4ebcfc3d9ec9cc74ed",
+    "path": "public/tesla_cybertruck/scene.gltf",
+    "credit": "public/tesla_cybertruck/license.txt",
+    "uid": "1ab0c3f248fa47019c4311abce9731a0"
+  },
+  "files": [
+    {
+      "file": "asset.gltf",
+      "url": "https://raw.githubusercontent.com/MigrantCaravan/Tesla-CyberTruck-Model3-Paint-Selector/6616e4a5eb5b6944f13e4b4ebcfc3d9ec9cc74ed/public/tesla_cybertruck/scene.gltf",
+      "bytes": 16021,
+      "sha256": "168934134caf2ab2a776924fb3130d1696f78e49edb71ee6889160b144fdc10e"
+    },
+    {
+      "file": "scene.bin",
+      "url": "https://raw.githubusercontent.com/MigrantCaravan/Tesla-CyberTruck-Model3-Paint-Selector/6616e4a5eb5b6944f13e4b4ebcfc3d9ec9cc74ed/public/tesla_cybertruck/scene.bin",
+      "bytes": 1843024,
+      "sha256": "45455e6455100be8be8484b923c1020509619792ff2867e105c615cc29cd9aa3"
+    },
+    {
+      "file": "textures/TeslaBlack_metallicRoughness.png",
+      "url": "https://raw.githubusercontent.com/MigrantCaravan/Tesla-CyberTruck-Model3-Paint-Selector/6616e4a5eb5b6944f13e4b4ebcfc3d9ec9cc74ed/public/tesla_cybertruck/textures/TeslaBlack_metallicRoughness.png",
+      "bytes": 42508,
+      "sha256": "51c1441cc142002cb63b0dc1859517fffeadc92a1697f1f248fc12f0b5001d62"
+    }
+  ],
+  "embeddedAsset": {
+    "extras": {
+      "author": "PolyDucky (https://sketchfab.com/salphytheunemployed)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/tesla-cybertruck-1ab0c3f248fa47019c4311abce9731a0",
+      "title": "Tesla Cybertruck"
+    },
+    "generator": "Sketchfab-11.49.7",
+    "version": "2.0"
+  },
+  "listing": {
+    "uid": "1ab0c3f248fa47019c4311abce9731a0",
+    "name": "Tesla Cybertruck",
+    "description": "A quick model I decided to make out of the Tesla Cybertruck!\nExcuse the inaccuracies, I only had the side of the car as reference. Feel free to add more detail, please credit!",
+    "license": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    },
+    "faceCount": 28182,
+    "isDownloadable": true
+  },
+  "author": {
+    "username": "TheOminousDuck",
+    "displayName": "A Certain Duck",
+    "profileUrl": "https://sketchfab.com/TheOminousDuck"
+  }
+}

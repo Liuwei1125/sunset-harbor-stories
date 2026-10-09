@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "sha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "packSha256": "92be0f047c77046a4d531c36179272532e65f64141b791805c55c9c1f2c0cbf6",
+  "assets": [
+    {
+      "id": "comet-sport",
+      "high": 16249,
+      "low": 2797,
+      "glbBytes": 625932
+    },
+    {
+      "id": "dock-forklift",
+      "high": 9212,
+      "low": 2179,
+      "glbBytes": 310564
+    },
+    {
+      "id": "dock-pallet",
+      "high": 836,
+      "low": 190,
+      "glbBytes": 57052
+    },
+    {
+      "id": "fuel-drum",
+      "high": 2516,
+      "low": 578,
+      "glbBytes": 66384
+    },
+    {
+      "id": "mission-case",
+      "high": 712,
+      "low": 176,
+      "glbBytes": 52836
+    },
+    {
+      "id": "mooring-bollard",
+      "high": 1548,
+      "low": 408,
+      "glbBytes": 40928
+    },
+    {
+      "id": "oak-crate",
+      "high": 2480,
+      "low": 410,
+      "glbBytes": 147916
+    },
+    {
+      "id": "osprey-heli",
+      "high": 6736,
+      "low": 870,
+      "glbBytes": 273360
+    },
+    {
+      "id": "quay-barrier",
+      "high": 916,
+      "low": 224,
+      "glbBytes": 44176
+    },
+    {
+      "id": "quay-container",
+      "high": 8680,
+      "low": 1240,
+      "glbBytes": 474904
+    },
+    {
+      "id": "quay-lamp",
+      "high": 748,
+      "low": 188,
+      "glbBytes": 42576
+    },
+    {
+      "id": "relay-terminal",
+      "high": 1336,
+      "low": 318,
+      "glbBytes": 91764
+    },
+    {
+      "id": "stingray-boat",
+      "high": 4935,
+      "low": 697,
+      "glbBytes": 253804
+    },
+    {
+      "id": "trail-jeep",
+      "high": 24260,
+      "low": 2468,
+      "glbBytes": 1056612
+    }
+  ],
+  "uniqueMeshes": 242,
+  "maxNormalError": 0.000022741698410877476,
+  "runtimeBytes": 2556035
+}

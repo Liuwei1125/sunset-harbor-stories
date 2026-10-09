@@ -1,0 +1,9 @@
+PASS Midnight daily rollover rebuilds the venue before entering
+PASS GPU context loss recovers through Retry with functioning native input
+PASS Countdown retains intended throttle and releases it cleanly at GO
+PASS Native pointer lock or its drag fallback supports aim and pause
+PASS A user gesture unlocks audio and volume remains controllable
+PASS PlayCanvas circuit rebuilds stabilize native GPU resource counts
+PASS Blocked localStorage does not prevent a playable session
+PASS No uncaught exceptions in failure recovery paths
+8/8 checks passed

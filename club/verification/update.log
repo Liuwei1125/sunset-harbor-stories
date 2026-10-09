@@ -1,0 +1,25 @@
+PASS babylon C cycles all three views while preserving held throttle and the entire running simulation
+PASS babylon native camera button preserves input and does not restart the race
+PASS babylon both LOD dashboards match live speed, nitro and HUD with transparent glass
+PASS babylon instrument texture updates after acceleration and nitro use
+PASS babylon camera preference survives the visible settings flow and reload
+PASS babylon repeated car and instrument LOD rebuilds stabilize native GPU resources
+PASS playcanvas C cycles all three views while preserving held throttle and the entire running simulation
+PASS playcanvas native camera button preserves input and does not restart the race
+PASS playcanvas both LOD dashboards match live speed, nitro and HUD with transparent glass
+PASS playcanvas instrument texture updates after acceleration and nitro use
+PASS playcanvas camera preference survives the visible settings flow and reload
+PASS playcanvas repeated car and instrument LOD rebuilds stabilize native GPU resources
+PASS 390×844 second touch changes camera while the first keeps accelerating
+PASS 390×844 primary touch switches the camera exactly once
+PASS 390×844 camera, bank and pause fit without overlap
+PASS 844×390 second touch changes camera while the first keeps accelerating
+PASS 844×390 primary touch switches the camera exactly once
+PASS 844×390 camera, bank and pause fit without overlap
+PASS Camera control is hidden outside racing and C leaves shooting unchanged
+PASS C does not alter shooting state
+PASS AKM ironsights align on the aiming axis without a scope overlay
+PASS AKM fires with native bolt motion and a muzzle effect
+PASS AKM reload moves the native magazine
+PASS No exceptions and no runtime source changes during 7.1 checks
+24/24 checks passed

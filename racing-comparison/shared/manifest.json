@@ -1,0 +1,58 @@
+{
+  "models.json": {
+    "bytes": 359381,
+    "sha256": "c04b428e5c742e1a0d42ac70b0a28dbd39ac2188cc2765e655c1d0acee4e27fb"
+  },
+  "rules.json": {
+    "bytes": 794,
+    "sha256": "4b1a770dfd72f19b8a49c4f1590111ff49d4620fa499a177ddba6005931fc355"
+  },
+  "world.json": {
+    "bytes": 750110,
+    "sha256": "4db1cc0179f0840c6e5e2f653c171b5bcda1de6a3d8d89fc6ae3d96dd7c5aa01"
+  },
+  "textures/road.png": {
+    "bytes": 437525,
+    "sha256": "d356c16ca91ddd9424a171336aaedb1eefc67d52490acf3cb1bda79d1f98491b"
+  },
+  "textures/road-normal.png": {
+    "bytes": 551376,
+    "sha256": "b56308e3e7f58b82539e22779ba67a16aedd0aa6d4d706948110af73c80abe31"
+  },
+  "textures/rock.png": {
+    "bytes": 321495,
+    "sha256": "2c1f260eb81a6a3c1617d29896f3cf4acafe05f55748f7d509441f08cfdb1547"
+  },
+  "textures/sky-py.png": {
+    "bytes": 50775,
+    "sha256": "d6cbf1a40fcf80a29bf6dae1b01b791bda767131f809fb793cd98e17f77e5dea"
+  },
+  "textures/grass.png": {
+    "bytes": 341501,
+    "sha256": "c9a40e727fbc2e18210e48f302b7416ca5fd4ee7b3a12e387e8a8d443d05bf37"
+  },
+  "textures/sky-px.png": {
+    "bytes": 27049,
+    "sha256": "27d7ed13c7f17b382f8797a931c2a23b223c452d3ccd9f8ec871785b3e276f78"
+  },
+  "textures/sky-pz.png": {
+    "bytes": 28805,
+    "sha256": "b657de67c93e37ac4d24662a624271a84af7deb68e9fe6ca33813ec518f710a8"
+  },
+  "textures/sky.png": {
+    "bytes": 114537,
+    "sha256": "144b1dcb76f1ffbefb8df29764792dfb6a10c8fa6ac02a3e5c6ec1c5abc9aa79"
+  },
+  "textures/sky-nz.png": {
+    "bytes": 28246,
+    "sha256": "7366c4bdf530719e8debb73d682818be2d643728f4c4cdf389564f13c5dc7171"
+  },
+  "textures/sky-ny.png": {
+    "bytes": 1857,
+    "sha256": "a5c7d625f4d197033efe6bdbdb465a3fc5769b85ffecaa212bb9676cf5b1c381"
+  },
+  "textures/sky-nx.png": {
+    "bytes": 27811,
+    "sha256": "25fd841c1b1e74f7ce40afea4c40e0f4e934d849c62543b8350072ecaea148b8"
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "sha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "baselines": {
+    "6.2.0": "000b0ffe96902f1415213538cd380f5fb4a7b07f191d3c45901b2538572057fc",
+    "6.3.1": "cdd8f0ea54d4ae425affe29a5b340dfe07494910f1af9af14468ad2bfdaceab2"
+  },
+  "passed": 16,
+  "total": 16,
+  "checks": [
+    {
+      "name": "Settings expose exactly 6.2 and 6.3.1 effects",
+      "pass": true,
+      "detail": [
+        "6.2 · 经典效果",
+        "6.3.1 · 自然光影"
+      ]
+    },
+    {
+      "name": "classic / low matches archived rendered pixels and quality",
+      "pass": true,
+      "detail": {
+        "sport": {
+          "width": 595,
+          "height": 372,
+          "hash": -633479828,
+          "sum": 129376609,
+          "shadow": 0,
+          "radius": 35,
+          "scale": 0.62,
+          "error": 0
+        },
+        "warehouse": {
+          "width": 595,
+          "height": 372,
+          "hash": -1985176087,
+          "sum": 141808648,
+          "shadow": 0,
+          "radius": 35,
+          "scale": 0.62,
+          "error": 0
+        },
+        "boat": {
+          "width": 595,
+          "height": 372,
+          "hash": -1158395482,
+          "sum": 135753723,
+          "shadow": 0,
+          "radius": 35,
+          "scale": 0.62,
+          "error": 0
+        }
+      }
+    },
+    {
+      "name": "classic / medium matches archived rendered pixels and quality",
+      "pass": true,
+      "detail": {
+        "sport": {
+          "width": 796,
+          "height": 498,
+          "hash": 1111988437,
+          "sum": 224407510,
+          "shadow": 512,
+          "radius": 48,
+          "scale": 0.83,
+          "error": 0
+        },
+        "warehouse": {
+          "width": 796,
+          "height": 498,
+          "hash": -1198883482,
+          "sum": 228228067,
+          "shadow": 512,
+          "radius": 48,
+          "scale": 0.83,
+          "error": 0
+        },
+        "boat": {
+          "width": 796,
+          "height": 498,
+          "hash": -387143147,
+          "sum": 242091232,
+          "shadow": 512,
+          "radius": 48,
+          "scale": 0.83,
+          "error": 0
+        }
+      }
+    },
+    {
+      "name": "classic / high matches archived rendered pixels and quality",
+      "pass": true,
+      "detail": {
+        "sport": {
+          "width": 960,
+          "height": 600,
+          "hash": 303518237,
+          "sum": 327674464,
+          "shadow": 1024,
+          "radius": 68,
+          "scale": 1,
+          "error": 0
+        },
+        "warehouse": {
+          "width": 960,
+          "height": 600,
+          "hash": -631884675,
+          "sum": 331937672,
+          "shadow": 1024,
+          "radius": 68,
+          "scale": 1,
+          "error": 0
+        },
+        "boat": {
+          "width": 960,
+          "height": 600,
+          "hash": -1203565416,
+          "sum": 351970437,
+          "shadow": 1024,
+          "radius": 68,
+          "scale": 1,
+          "error": 0
+        }
+      }
+    },
+    {
+      "name": "photo / low matches archived rendered pixels and quality",
+      "pass": true,
+      "detail": {
+        "sport": {
+          "width": 595,
+          "height": 372,
+          "hash": -2141702243,
+          "sum": 137306626,
+          "shadow": 0,
+          "radius": 35,
+          "scale": 0.62,
+          "error": 0
+        },
+        "warehouse": {
+          "width": 595,
+          "height": 372,
+          "hash": 1222086867,
+          "sum": 143698590,
+          "shadow": 0,
+          "radius": 35,
+          "scale": 0.62,
+          "error": 0
+        },
+        "boat": {
+          "width": 595,
+          "height": 372,
+          "hash": -900171234,
+          "sum": 145766983,
+          "shadow": 0,
+          "radius": 35,
+          "scale": 0.62,
+          "error": 0
+        }
+      }
+    },
+    {
+      "name": "photo / medium matches archived rendered pixels and quality",
+      "pass": true,
+      "detail": {
+        "sport": {
+          "width": 796,
+          "height": 498,
+          "hash": -1851469673,
+          "sum": 243322594,
+          "shadow": 1024,
+          "radius": 64,
+          "scale": 0.83,
+          "error": 0
+        },
+        "warehouse": {
+          "width": 796,
+          "height": 498,
+          "hash": 1080202576,
+          "sum": 226585961,
+          "shadow": 1024,
+          "radius": 64,
+          "scale": 0.83,
+          "error": 0
+        },
+        "boat": {
+          "width": 796,
+          "height": 498,
+          "hash": 997476101,
+          "sum": 260598808,
+          "shadow": 1024,
+          "radius": 64,
+          "scale": 0.83,
+          "error": 0
+        }
+      }
+    },
+    {
+      "name": "photo / high matches archived rendered pixels and quality",
+      "pass": true,
+      "detail": {
+        "sport": {
+          "width": 1200,
+          "height": 750,
+          "hash": -626896509,
+          "sum": 551325106,
+          "shadow": 2048,
+          "radius": 94,
+          "scale": 1.25,
+          "error": 0
+        },
+        "warehouse": {
+          "width": 1200,
+          "height": 750,
+          "hash": 745992441,
+          "sum": 513874116,
+          "shadow": 2048,
+          "radius": 94,
+          "scale": 1.25,
+          "error": 0
+        },
+        "boat": {
+          "width": 1200,
+          "height": 750,
+          "hash": 1240441739,
+          "sum": 591243328,
+          "shadow": 2048,
+          "radius": 94,
+          "scale": 1.25,
+          "error": 0
+        }
+      }
+    },
+    {
+      "name": "Classic releases unused targets and preserves photo brightness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Repeated live switches preserve game state",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "classic persists through a real page reload",
+      "pass": true,
+      "detail": {
+        "enabled": false,
+        "exposure": 1.2,
+        "scale": 1,
+        "quality": "high",
+        "loaded": true
+      }
+    },
+    {
+      "name": "photo persists through a real page reload",
+      "pass": true,
+      "detail": {
+        "enabled": true,
+        "exposure": 1.2,
+        "scale": 1.25,
+        "quality": "high",
+        "loaded": true
+      }
+    },
+    {
+      "name": "Exported and imported saves retain the classic effect",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Adaptive quality retains the selected 6.2 effect",
+      "pass": true,
+      "detail": {
+        "classic": true,
+        "tiers": [
+          {
+            "scale": 0.62,
+            "shadow": 0
+          },
+          {
+            "scale": 0.83,
+            "shadow": 512
+          },
+          {
+            "scale": 1,
+            "shadow": 1024
+          }
+        ]
+      }
+    },
+    {
+      "name": "Both effects render all three maps",
+      "pass": true,
+      "detail": [
+        {
+          "id": "coast",
+          "effect": "classic",
+          "active": false,
+          "error": 0
+        },
+        {
+          "id": "coast",
+          "effect": "photo",
+          "active": true,
+          "error": 0
+        },
+        {
+          "id": "islands",
+          "effect": "classic",
+          "active": false,
+          "error": 0
+        },
+        {
+          "id": "islands",
+          "effect": "photo",
+          "active": true,
+          "error": 0
+        },
+        {
+          "id": "canyon",
+          "effect": "classic",
+          "active": false,
+          "error": 0
+        },
+        {
+          "id": "canyon",
+          "effect": "photo",
+          "active": true,
+          "error": 0
+        }
+      ]
+    },
+    {
+      "name": "Phone-sized touch menu exposes both working effects",
+      "pass": true,
+      "detail": {
+        "x": 216.25,
+        "y": 252.046875,
+        "width": 130,
+        "height": 33
+      }
+    },
+    {
+      "name": "No renderer or application errors during switches",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "method": "Three frozen cameras, three quality tiers, raw RGBA hashes/sums and dimensions against the archived builds; real UI controls and page reloads in isolated browser contexts."
+}

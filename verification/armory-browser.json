@@ -1,0 +1,248 @@
+{
+  "sha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "passed": 21,
+  "total": 21,
+  "checks": [
+    {
+      "name": "Offline game starts with authored armory",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "Each weapon spends one round and observes cooldown",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "weapons": [
+          {
+            "id": "pistol",
+            "spent": 1
+          },
+          {
+            "id": "smg",
+            "spent": 1
+          },
+          {
+            "id": "shotgun",
+            "spent": 1
+          },
+          {
+            "id": "rifle",
+            "spent": 1
+          },
+          {
+            "id": "sniper",
+            "spent": 1
+          },
+          {
+            "id": "grenade",
+            "spent": 1
+          },
+          {
+            "id": "molotov",
+            "spent": 1
+          },
+          {
+            "id": "launcher",
+            "spent": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scope / crouch / pitched muzzle matches rendered model root",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "errors": [
+          2.220446049250313e-16,
+          5.684341886080802e-14,
+          0,
+          1.1102230246251565e-16,
+          5.684515355781502e-14,
+          4.440892098500626e-16
+        ]
+      }
+    },
+    {
+      "name": "Near wall stops protruding barrel and does not damage target behind it",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "blocked": true,
+        "health": 110
+      }
+    },
+    {
+      "name": "Shotgun range attenuation and aggregate pellet hits",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "damage": 112,
+        "near": 20,
+        "far": 4.730124573075631
+      }
+    },
+    {
+      "name": "Shotgun inserts actual shells and firing can interrupt without free ammo",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "loaded": 1,
+        "reserve": 3
+      }
+    },
+    {
+      "name": "Magazine reload cancellation and completion conserve ammunition",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "ammo": 30,
+        "reserve": 27
+      }
+    },
+    {
+      "name": "Magazine, bolt and pump visibly move while meshes remain finite",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "samples": [
+          {
+            "i": 3,
+            "reloading": false,
+            "finite": true,
+            "changed": 30
+          },
+          {
+            "i": 4,
+            "reloading": false,
+            "finite": true,
+            "changed": 126
+          },
+          {
+            "i": 2,
+            "reloading": false,
+            "finite": true,
+            "changed": 102
+          },
+          {
+            "i": 3,
+            "reloading": true,
+            "finite": true,
+            "changed": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "Metal, wood, concrete, water and armor produce different hit responses",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "kinds": [
+          "spark",
+          "chip",
+          "dust",
+          "drop",
+          "spark"
+        ]
+      }
+    },
+    {
+      "name": "Death feedback leaves collision disabled and rewards only once",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "payout": 130
+      }
+    },
+    {
+      "name": "Unfired guards and collapsing bodies render finite vertices",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "Blast damage respects cover while smoke outlives the flash",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "covered": true,
+        "damage": 58.79893430326695
+      }
+    },
+    {
+      "name": "Incendiaries extinguish in water and fire cannot damage through cover",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "extinguished": true,
+        "blocked": true
+      }
+    },
+    {
+      "name": "Grenade wall bounce reflects its normal without reversing tangential travel",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "velocity": {
+          "x": -3.6,
+          "y": 0.484,
+          "z": -1.35
+        }
+      }
+    },
+    {
+      "name": "Sniper scope zoom eases toward 4x and 8x",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "first": 0.9056332539011137,
+        "four": 0.32191035729595185,
+        "eight": 0.16200084081840804
+      }
+    },
+    {
+      "name": "Low quality bounds all cosmetic pools without removing projectiles",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "cap": {
+          "casings": 14,
+          "motes": 36,
+          "marks": 12,
+          "bodies": 2,
+          "bursts": 4
+        }
+      }
+    },
+    {
+      "name": "Pause freezes cosmetic physics; reset clears transient effects",
+      "pass": true,
+      "detail": {
+        "ok": true
+      }
+    },
+    {
+      "name": "Feathered effects reach the WebGL vertex stream",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "WebGL armory draws without GL errors",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "Phone-sized CPU renderer draws authored weapons and effects",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "No browser errors",
+      "pass": true,
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "scope": "Offline desktop WebGL and phone-sized CPU fallback; automated scenes, not a physical phone thermal benchmark."
+}

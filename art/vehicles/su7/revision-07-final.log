@@ -1,0 +1,87 @@
+REFERENCE CAMERA FIT {"eye": [-7.324459101805844, 6.684781341591007, 1.2789300625510598], "target": [0.0, 0.0, 0.74], "lens": 40.06852003886259, "shift": [-0.026421539058195723, 0.038756969060208], "resolution": [2048, 1152]} LANDMARK RMS PIXELS 6.771374913238636
+LAMP REFERENCE SURFACE XZ [(0.5113544464111328, 0.606677770614624), (0.5734238624572754, 0.6584563255310059), (0.7627496719360352, 0.732573926448822), (0.8839230537414551, 0.7653385996818542), (0.9298090934753418, 0.7687434554100037), (0.9602885246276855, 0.7521758675575256), (0.9630861282348633, 0.7140886187553406), (0.9620351791381836, 0.6524767279624939), (0.9567294120788574, 0.6157417893409729), (0.9439201354980469, 0.601773738861084), (0.8501114845275879, 0.5908223390579224), (0.6785116195678711, 0.5876737236976624), (0.5651845932006836, 0.5926966071128845)]
+REVISION 7 GEOMETRY 819 BODY FACES 110176 SURFACE FIT {"front": 12136, "rear": 11570, "side": 2392, "misses": []}
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+14:39:38 | INFO: Starting glTF 2.0 export
+14:39:38 | WARNING: Mesh SU7 continuous curvature body / revision 7.003 is not valid, and may be exported wrongly
+14:39:38 | INFO: Extracting primitive: SU7 continuous curvature body / revision 7.003
+14:39:38 | INFO: Primitives created: 20
+14:39:38 | INFO: Extracting primitive: Live display surface / center.002
+14:39:38 | INFO: Primitives created: 1
+14:39:38 | INFO: Extracting primitive: Live display surface / cluster.002
+14:39:38 | INFO: Primitives created: 1
+14:39:38 | INFO: Extracting primitive: Cube.300
+14:39:38 | INFO: Primitives created: 14
+14:39:38 | INFO: Extracting primitive: Flush active deck spoiler.002
+14:39:38 | INFO: Primitives created: 1
+14:39:38 | INFO: Extracting primitive: Flat bottom leather steering rim.001
+14:39:38 | INFO: Primitives created: 3
+14:39:38 | INFO: Extracting primitive: Performance radial tire.008
+14:39:38 | INFO: Primitives created: 7
+14:39:38 | INFO: Extracting primitive: Performance radial tire.010
+14:39:38 | INFO: Primitives created: 7
+14:39:38 | INFO: Extracting primitive: Performance radial tire.009
+14:39:38 | INFO: Primitives created: 7
+14:39:38 | INFO: Extracting primitive: Performance radial tire.011
+14:39:38 | INFO: Primitives created: 7
+14:39:39 | INFO: Finished glTF 2.0 export in 0.58809494972229 s
+
+14:42:51 | INFO: Starting glTF 2.0 export
+14:42:51 | WARNING: Mesh SU7 continuous curvature body / revision 7.004 is not valid, and may be exported wrongly
+14:42:51 | INFO: Extracting primitive: SU7 continuous curvature body / revision 7.004
+14:42:51 | INFO: Primitives created: 20
+14:42:51 | INFO: Extracting primitive: Live display surface / center.003
+14:42:51 | INFO: Primitives created: 1
+14:42:51 | INFO: Extracting primitive: Live display surface / cluster.003
+14:42:51 | INFO: Primitives created: 1
+14:42:51 | INFO: Extracting primitive: Cube.421
+14:42:51 | INFO: Primitives created: 14
+14:42:51 | INFO: Extracting primitive: Flush active deck spoiler.003
+14:42:51 | INFO: Primitives created: 1
+14:42:51 | INFO: Extracting primitive: Flat bottom leather steering rim.002
+14:42:51 | INFO: Primitives created: 3
+14:42:51 | INFO: Extracting primitive: Performance radial tire.012
+14:42:51 | INFO: Primitives created: 7
+14:42:51 | INFO: Extracting primitive: Performance radial tire.014
+14:42:51 | INFO: Primitives created: 7
+14:42:51 | INFO: Extracting primitive: Performance radial tire.013
+14:42:51 | INFO: Primitives created: 7
+14:42:51 | INFO: Extracting primitive: Performance radial tire.015
+14:42:51 | INFO: Primitives created: 7
+14:42:51 | INFO: Finished glTF 2.0 export in 0.3483541011810303 s
+
+Info: Packed 4 file(s)
+Info: Saved as "xiaomi-su7.blend"
+RENDER cockpit
+08:53.265  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-cockpit.png'
+RENDER cabin-wide
+10:17.668  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-cabin-wide.png'
+RENDER instruments
+11:34.610  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-instruments.png'
+RENDER front
+12:09.942  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-front.png'
+RENDER rear
+12:46.263  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-rear.png'
+RENDER side
+13:04.908  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-side.png'
+RENDER front-flat
+13:38.958  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-front-flat.png'
+RENDER rear-flat
+14:05.922  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-rear-flat.png'
+RENDER headlight
+14:59.402  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-headlight.png'
+RENDER wheel
+15:51.607  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-wheel.png'
+RENDER clay-front
+16:27.724  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-clay-front.png'
+RENDER clay-side
+16:45.799  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-clay-side.png'
+RENDER reflection-rear
+17:22.258  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-reflection-rear.png'
+RENDER reference-front
+17:42.123  render           | Saved: '/Users/liuwei53/Desktop/sunset-harbor-stories/art/vehicles/su7/renders/v7-reference-front.png'
+REVISION 7 COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

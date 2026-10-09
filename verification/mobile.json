@@ -1,0 +1,134 @@
+{
+  "sha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "mode": "Chromium mobile viewport emulation, native two-finger CDP input; not physical-phone testing",
+  "passed": 15,
+  "total": 15,
+  "results": [
+    {
+      "name": "Touch mode detected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Simultaneous native move and fire",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Touch cancellation releases movement and fire",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Long press opens the quick weapon wheel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Wheel selects sniper and resumes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Touch crouch toggle is effective",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Flight throttle visible, redundant gas key hidden",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "One tap latches target locking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Second tap releases target locking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Throttle remains latched after finger release",
+      "pass": true,
+      "detail": {
+        "throttle": 0.61
+      }
+    },
+    {
+      "name": "Native steering and cannon simultaneous",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Cancelling flight touches stops held cannon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Pause clears continuous flight controls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Portrait primary controls remain inside viewport",
+      "pass": true,
+      "detail": [
+        {
+          "id": "move-stick",
+          "x": 18,
+          "y": 720,
+          "w": 96,
+          "h": 96,
+          "inside": true
+        },
+        {
+          "id": "touch-cannon",
+          "x": 286,
+          "y": 741,
+          "w": 78,
+          "h": 78,
+          "inside": true
+        },
+        {
+          "id": "touch-missile",
+          "x": 204,
+          "y": 752,
+          "w": 66,
+          "h": 66,
+          "inside": true
+        },
+        {
+          "id": "touch-lock",
+          "x": 135,
+          "y": 753,
+          "w": 62,
+          "h": 62,
+          "inside": true
+        },
+        {
+          "id": "touch-flare",
+          "x": 313,
+          "y": 676,
+          "w": 50,
+          "h": 50,
+          "inside": true
+        },
+        {
+          "id": "throttle6",
+          "x": 36,
+          "y": 627,
+          "w": 112,
+          "h": 30,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "No page runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

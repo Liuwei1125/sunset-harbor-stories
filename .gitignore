@@ -1,43 +1,23 @@
+# Local secrets, machine state, dependencies, and rebuildable root site output.
 .DS_Store
 __pycache__/
 *.pyc
-*.blend1
 node_modules/
+.venv/
 .env
 .env.*
 !.env.example
 .sites-runtime/
-dist/
-site-verification/
-*.tar.gz
-/previews/
-/verification/
-/club/previews/
-/club/verification/
-!/club/verification/
-/club/verification/*
-!/club/verification/baseline.json
-/research/
-/racing-comparison/
-/art/vehicles/
-/club/circuit/verification/
+.openai/local/
+/dist/
 
-# Downloadable art originals remain local; the published GLBs and provenance are tracked.
-/club/assets/source/third-party/car-concept/CarConcept.glb
-/club/assets/source/third-party/oga-akm/akm54.blend
-
-# These twelve images are published by the existing graphics comparison page.
-!/previews/
-/previews/*
-!/previews/graphics-after-boat.png
-!/previews/graphics-after-sport.png
-!/previews/graphics-after-quay.png
-!/previews/graphics-after-warehouse.png
-!/previews/graphics-after-rifle.png
-!/previews/graphics-after-harbor.png
-!/previews/grading-before-boat.png
-!/previews/grading-before-sport.png
-!/previews/grading-before-quay.png
-!/previews/grading-before-warehouse.png
-!/previews/grading-before-rifle.png
-!/previews/grading-before-harbor.png
+# Reference photos lack redistribution permission; sources.json remains public.
+/art/vehicles/su7/references/3-1.png
+/art/vehicles/su7/references/3-2.png
+/art/vehicles/su7/references/3-3.png
+/art/vehicles/su7/references/9-1.png
+/art/vehicles/su7/references/47-1.jpg
+/art/vehicles/su7/references/47-2.jpg
+/art/vehicles/su7/references/7-3-1.png
+/art/vehicles/su7/references/4-1.png
+/art/vehicles/su7/references/6-1.png

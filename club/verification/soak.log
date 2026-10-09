@@ -1,0 +1,49 @@
+30.9s / 1200s: race, 27.1s simulated, 0 shots, 7 model instances
+61.7s / 1200s: race, 57.2s simulated, 0 shots, 8 model instances
+Completed segment 1: race; banked=True; GPU={'Buffer': 1982, 'Texture': 25, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 275}
+106.5s / 1200s: shooting, 27.0s simulated, 21 shots, 7 model instances
+137.4s / 1200s: shooting, 57.1s simulated, 42 shots, 7 model instances
+Completed segment 2: shooting; banked=True; GPU={'Buffer': 790, 'Texture': 41, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 124}
+182.0s / 1200s: darts, 27.0s simulated, 11 shots, 11 model instances
+212.8s / 1200s: darts, 57.1s simulated, 22 shots, 11 model instances
+Completed segment 3: darts; banked=True; GPU={'Buffer': 232, 'Texture': 17, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 42}
+257.5s / 1200s: archery, 27.0s simulated, 13 shots, 20 model instances
+288.3s / 1200s: archery, 57.1s simulated, 26 shots, 33 model instances
+Completed segment 4: archery; banked=True; GPU={'Buffer': 610, 'Texture': 41, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 105}
+333.3s / 1200s: race, 27.1s simulated, 0 shots, 7 model instances
+364.1s / 1200s: race, 57.1s simulated, 0 shots, 8 model instances
+Completed segment 5: race; banked=True; GPU={'Buffer': 1982, 'Texture': 25, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 275}
+408.8s / 1200s: shooting, 27.0s simulated, 21 shots, 7 model instances
+439.6s / 1200s: shooting, 57.1s simulated, 42 shots, 7 model instances
+Completed segment 6: shooting; banked=True; GPU={'Buffer': 790, 'Texture': 41, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 124}
+484.3s / 1200s: darts, 27.0s simulated, 11 shots, 11 model instances
+515.1s / 1200s: darts, 57.1s simulated, 22 shots, 11 model instances
+Completed segment 7: darts; banked=True; GPU={'Buffer': 232, 'Texture': 17, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 42}
+559.8s / 1200s: archery, 27.0s simulated, 13 shots, 20 model instances
+590.6s / 1200s: archery, 57.1s simulated, 26 shots, 33 model instances
+Completed segment 8: archery; banked=True; GPU={'Buffer': 610, 'Texture': 41, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 105}
+635.6s / 1200s: race, 27.1s simulated, 0 shots, 7 model instances
+666.4s / 1200s: race, 57.1s simulated, 0 shots, 8 model instances
+Completed segment 9: race; banked=True; GPU={'Buffer': 1982, 'Texture': 25, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 275}
+711.1s / 1200s: shooting, 27.0s simulated, 21 shots, 7 model instances
+741.9s / 1200s: shooting, 57.1s simulated, 42 shots, 7 model instances
+Completed segment 10: shooting; banked=True; GPU={'Buffer': 790, 'Texture': 41, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 124}
+786.6s / 1200s: darts, 27.0s simulated, 11 shots, 11 model instances
+817.4s / 1200s: darts, 57.1s simulated, 22 shots, 11 model instances
+Completed segment 11: darts; banked=True; GPU={'Buffer': 232, 'Texture': 17, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 42}
+862.1s / 1200s: archery, 27.0s simulated, 13 shots, 20 model instances
+892.9s / 1200s: archery, 57.1s simulated, 26 shots, 33 model instances
+Completed segment 12: archery; banked=True; GPU={'Buffer': 610, 'Texture': 41, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 105}
+937.8s / 1200s: race, 27.1s simulated, 0 shots, 7 model instances
+968.6s / 1200s: race, 57.1s simulated, 0 shots, 8 model instances
+Completed segment 13: race; banked=True; GPU={'Buffer': 1982, 'Texture': 25, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 275}
+1013.4s / 1200s: shooting, 27.0s simulated, 21 shots, 7 model instances
+1044.2s / 1200s: shooting, 57.1s simulated, 42 shots, 7 model instances
+Completed segment 14: shooting; banked=True; GPU={'Buffer': 790, 'Texture': 41, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 124}
+1088.8s / 1200s: darts, 27.0s simulated, 11 shots, 11 model instances
+1119.6s / 1200s: darts, 57.1s simulated, 22 shots, 11 model instances
+Completed segment 15: darts; banked=True; GPU={'Buffer': 232, 'Texture': 17, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 42}
+1164.3s / 1200s: archery, 27.0s simulated, 13 shots, 20 model instances
+1195.1s / 1200s: archery, 57.1s simulated, 26 shots, 33 model instances
+Completed segment 16: archery; banked=True; GPU={'Buffer': 610, 'Texture': 41, 'Framebuffer': 8, 'Renderbuffer': 1, 'VertexArray': 105}
+Soak finished after 1200.2 real seconds; passed=True

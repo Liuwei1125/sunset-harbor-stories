@@ -1,0 +1,47 @@
+[
+  {
+    "uid": "661dcab94455463784651a3ebc63cfb9",
+    "name": "Mercedes Benz AMG GT",
+    "author": "carvalhoyan",
+    "path": "glbs/000-136/661dcab94455463784651a3ebc63cfb9.glb",
+    "description": "Carro Mercedes Benz AMG GT feito no Blender e renderizado no eevee render.",
+    "license": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    }
+  },
+  {
+    "uid": "20db8f28297044ecb864c2e9e9dc19ad",
+    "name": "Mercedes-AMG GT Black Series 2021",
+    "author": "GY4N",
+    "path": "glbs/000-079/20db8f28297044ecb864c2e9e9dc19ad.glb",
+    "description": "Mercedes-AMG GT Black Series 3D Model free. Edited interior and more detailed exterior.",
+    "license": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    }
+  },
+  {
+    "uid": "2c21b97ff3dc4fc3b1ef9e4bb0164318",
+    "name": "Mercedes-Benz AMG GT-R (2017)",
+    "author": "SimonStrikesBack",
+    "path": "glbs/000-080/2c21b97ff3dc4fc3b1ef9e4bb0164318.glb",
+    "description": "A low poly model of Mercedes-Benz AMG GT-R (2017), a german sports car. The GT-R version visually differs mainly in its front grille.",
+    "license": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    }
+  }
+]

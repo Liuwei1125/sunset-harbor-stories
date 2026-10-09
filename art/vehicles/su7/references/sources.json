@@ -1,0 +1,61 @@
+{
+  "page": "https://www.xiaomiev.com/su7",
+  "retrieved": "2026-09-17",
+  "use": "Visual modeling reference only; photographs are not model textures and are not licensed for redistribution by this project.",
+  "images": [
+    {
+      "file": "3-1.png",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/3-1.png",
+      "sha256": "4cd7deab917d293d78ff8a33ff57bdbaed55ff1a2c6287988faf7af939677592",
+      "bytes": 1746694
+    },
+    {
+      "file": "3-2.png",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/3-2.png",
+      "sha256": "900928f3683d8f46be36df133a24e3cf34d72d0d95dfbf8d222d1a9cd128b319",
+      "bytes": 1723239
+    },
+    {
+      "file": "3-3.png",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/3-3.png",
+      "sha256": "6bae46781a1f270f2db89381c521ce14e211dc7270b93cbb56a3bede993c1d3c",
+      "bytes": 1566445
+    },
+    {
+      "file": "9-1.png",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/9-1.png",
+      "sha256": "cc23fa1bf17b77a9dadde76641f81b4bcc7dece073414437e1b0a3d749183bf6",
+      "bytes": 2588348
+    },
+    {
+      "file": "47-1.jpg",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/47-1.jpg",
+      "sha256": "85439d108b9f4e4bc2998430831b5cf65788153a0b1ae65afea0b68b96696073",
+      "bytes": 2406941
+    },
+    {
+      "file": "47-2.jpg",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/47-2.jpg",
+      "sha256": "b53c4808a98a7c949f99292f199af3f799bc1b2bd218d8b3defb50021f775bb8",
+      "bytes": 2404230
+    },
+    {
+      "file": "7-3-1.png",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/7-3-1.png",
+      "sha256": "9d51043c6d12ef94f96f3f48bb816bf3838388170941acc346e0016ed6178ca4",
+      "bytes": 886782
+    },
+    {
+      "file": "4-1.png",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/4-1.png",
+      "sha256": "03bff00afd07d7a98015c30ffcb91a8660e7e20e7e58d047d5d5a1299562a379",
+      "bytes": 1349640
+    },
+    {
+      "file": "6-1.png",
+      "url": "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7_20260319/pc/6-1.png",
+      "sha256": "bf9c0c43defee21edc8039266d0ee70da93295fb1006750d860479551e54a2a7",
+      "bytes": 4327686
+    }
+  ]
+}

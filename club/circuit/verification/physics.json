@@ -1,0 +1,437 @@
+{
+  "vehicles": {
+    "bmw-m4": {
+      "zeroTo100": 4.941666666666702,
+      "brakingSeconds": 2.941666666666659,
+      "brakingDistance": 41.67577362060547
+    },
+    "ferrari-458": {
+      "zeroTo100": 3.8333333333333224,
+      "brakingSeconds": 2.758333333333326,
+      "brakingDistance": 39.8465690612793
+    },
+    "su7": {
+      "zeroTo100": 3.6416666666666564,
+      "brakingSeconds": 2.9583333333333255,
+      "brakingDistance": 41.971092224121094
+    }
+  },
+  "races": [
+    {
+      "car": "bmw-m4",
+      "track": "harbor",
+      "result": [
+        {
+          "id": 3,
+          "finished": true,
+          "time": 389.8666666664764,
+          "penalty": 0,
+          "classifiedTime": 389.8666666664764
+        },
+        {
+          "id": 2,
+          "finished": true,
+          "time": 392.1916666664743,
+          "penalty": 0,
+          "classifiedTime": 392.1916666664743
+        },
+        {
+          "id": 0,
+          "finished": true,
+          "time": 395.5916666664712,
+          "penalty": 0,
+          "classifiedTime": 395.5916666664712
+        },
+        {
+          "id": 1,
+          "finished": false,
+          "time": null,
+          "penalty": 76.12176816068934,
+          "classifiedTime": null
+        }
+      ]
+    },
+    {
+      "car": "bmw-m4",
+      "track": "coast",
+      "result": [
+        {
+          "id": 3,
+          "finished": true,
+          "time": 386.48333333314616,
+          "penalty": 0,
+          "classifiedTime": 386.48333333314616
+        },
+        {
+          "id": 1,
+          "finished": true,
+          "time": 387.1833333331455,
+          "penalty": 0,
+          "classifiedTime": 387.1833333331455
+        },
+        {
+          "id": 2,
+          "finished": true,
+          "time": 388.858333333144,
+          "penalty": 0,
+          "classifiedTime": 388.858333333144
+        },
+        {
+          "id": 0,
+          "finished": true,
+          "time": 391.3416666664751,
+          "penalty": 0,
+          "classifiedTime": 391.3416666664751
+        }
+      ]
+    },
+    {
+      "car": "ferrari-458",
+      "track": "harbor",
+      "result": [
+        {
+          "id": 3,
+          "finished": true,
+          "time": 373.816666666491,
+          "penalty": 0,
+          "classifiedTime": 373.816666666491
+        },
+        {
+          "id": 0,
+          "finished": true,
+          "time": 376.8249999998216,
+          "penalty": 0,
+          "classifiedTime": 376.8249999998216
+        },
+        {
+          "id": 1,
+          "finished": true,
+          "time": 380.58333333315153,
+          "penalty": 14.771419765059024,
+          "classifiedTime": 395.35475309821055
+        },
+        {
+          "id": 2,
+          "finished": false,
+          "time": null,
+          "penalty": 44.000238728534946,
+          "classifiedTime": null
+        }
+      ]
+    },
+    {
+      "car": "ferrari-458",
+      "track": "coast",
+      "result": [
+        {
+          "id": 3,
+          "finished": true,
+          "time": 370.566666666494,
+          "penalty": 0,
+          "classifiedTime": 370.566666666494
+        },
+        {
+          "id": 1,
+          "finished": true,
+          "time": 371.5749999998264,
+          "penalty": 0,
+          "classifiedTime": 371.5749999998264
+        },
+        {
+          "id": 2,
+          "finished": true,
+          "time": 373.4249999998247,
+          "penalty": 0,
+          "classifiedTime": 373.4249999998247
+        },
+        {
+          "id": 0,
+          "finished": true,
+          "time": 375.0166666664899,
+          "penalty": 0,
+          "classifiedTime": 375.0166666664899
+        }
+      ]
+    },
+    {
+      "car": "su7",
+      "track": "harbor",
+      "result": [
+        {
+          "id": 3,
+          "finished": true,
+          "time": 394.2333333331391,
+          "penalty": 0,
+          "classifiedTime": 394.2333333331391
+        },
+        {
+          "id": 2,
+          "finished": true,
+          "time": 396.93333333313666,
+          "penalty": 8.111552286008829,
+          "classifiedTime": 405.0448856191455
+        },
+        {
+          "id": 0,
+          "finished": true,
+          "time": 399.5333333331343,
+          "penalty": 7.650000000000132,
+          "classifiedTime": 407.18333333313444
+        },
+        {
+          "id": 1,
+          "finished": false,
+          "time": null,
+          "penalty": 99.95967061142345,
+          "classifiedTime": null
+        }
+      ]
+    },
+    {
+      "car": "su7",
+      "track": "coast",
+      "result": [
+        {
+          "id": 3,
+          "finished": true,
+          "time": 388.39166666647776,
+          "penalty": 0,
+          "classifiedTime": 388.39166666647776
+        },
+        {
+          "id": 1,
+          "finished": true,
+          "time": 388.8499999998107,
+          "penalty": 0,
+          "classifiedTime": 388.8499999998107
+        },
+        {
+          "id": 2,
+          "finished": true,
+          "time": 390.9249999998088,
+          "penalty": 0,
+          "classifiedTime": 390.9249999998088
+        },
+        {
+          "id": 0,
+          "finished": true,
+          "time": 393.3833333331399,
+          "penalty": 0,
+          "classifiedTime": 393.3833333331399
+        }
+      ]
+    }
+  ],
+  "learning": [
+    {
+      "time": 97.68333333335953,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 27.58333333333225,
+          "exitSpeed": 77.12096858814382,
+          "brake": 7.658333333333504
+        },
+        {
+          "time": 39.69166666666975,
+          "exitSpeed": 67.66125768854641,
+          "brake": 11.291666666666666
+        },
+        {
+          "time": 30.408333333357533,
+          "exitSpeed": 115.43916895980811,
+          "brake": 4.55833333333335
+        }
+      ]
+    },
+    {
+      "time": 96.683333333292,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 26.60833333335451,
+          "exitSpeed": 77.07781094075565,
+          "brake": 10.658333333333369
+        },
+        {
+          "time": 38.95833333329912,
+          "exitSpeed": 67.71680709612215,
+          "brake": 10.966666666666685
+        },
+        {
+          "time": 31.116666666638366,
+          "exitSpeed": 115.4354707410174,
+          "brake": 4.850000000000031
+        }
+      ]
+    },
+    {
+      "time": 96.49999999991223,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 26.00833333330968,
+          "exitSpeed": 73.77735080749477,
+          "brake": 10.100000000000067
+        },
+        {
+          "time": 39.42499999996414,
+          "exitSpeed": 67.68990272788012,
+          "brake": 9.483333333333436
+        },
+        {
+          "time": 31.06666666663841,
+          "exitSpeed": 115.51065466645296,
+          "brake": 3.416666666666657
+        }
+      ]
+    },
+    {
+      "time": 96.64166666657877,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 25.941666666643073,
+          "exitSpeed": 77.13587702852674,
+          "brake": 10.091666666666734
+        },
+        {
+          "time": 39.616666666630636,
+          "exitSpeed": 67.68592430670047,
+          "brake": 11.141666666666675
+        },
+        {
+          "time": 31.083333333305063,
+          "exitSpeed": 113.62099942438803,
+          "brake": 4.600000000000018
+        }
+      ]
+    },
+    {
+      "time": 96.19166666657918,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 25.9499999999764,
+          "exitSpeed": 77.08324780661104,
+          "brake": 10.141666666666731
+        },
+        {
+          "time": 39.80833333329713,
+          "exitSpeed": 67.64147777334529,
+          "brake": 10.008333333333406
+        },
+        {
+          "time": 30.433333333305654,
+          "exitSpeed": 115.43731092689298,
+          "brake": 4.550000000000016
+        }
+      ]
+    },
+    {
+      "time": 96.2749999999125,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 26.141666666642948,
+          "exitSpeed": 77.11254829534525,
+          "brake": 8.050000000000184
+        },
+        {
+          "time": 39.716666666630545,
+          "exitSpeed": 67.5906492821013,
+          "brake": 11.075000000000012
+        },
+        {
+          "time": 30.416666666639003,
+          "exitSpeed": 115.52300035842826,
+          "brake": 4.550000000000016
+        }
+      ]
+    },
+    {
+      "time": 96.6499999999121,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 26.608333333309133,
+          "exitSpeed": 77.11122106900419,
+          "brake": 10.766666666666696
+        },
+        {
+          "time": 38.94166666663125,
+          "exitSpeed": 67.70129778783176,
+          "brake": 10.883333333333356
+        },
+        {
+          "time": 31.099999999971715,
+          "exitSpeed": 115.51891158309657,
+          "brake": 5.275000000000052
+        }
+      ]
+    },
+    {
+      "time": 96.4249999999123,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 25.974999999976376,
+          "exitSpeed": 76.42659631589841,
+          "brake": 10.1083333333334
+        },
+        {
+          "time": 39.399999999964166,
+          "exitSpeed": 67.66503390963197,
+          "brake": 8.758333333333477
+        },
+        {
+          "time": 31.04999999997176,
+          "exitSpeed": 115.44997089373508,
+          "brake": 3.333333333333324
+        }
+      ]
+    },
+    {
+      "time": 96.34166666657904,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 25.96666666664305,
+          "exitSpeed": 77.1078012781186,
+          "brake": 10.116666666666733
+        },
+        {
+          "time": 39.541666666630704,
+          "exitSpeed": 67.66451363279126,
+          "brake": 11.10000000000001
+        },
+        {
+          "time": 30.83333333330529,
+          "exitSpeed": 108.52221912747585,
+          "brake": 4.566666666666683
+        }
+      ]
+    },
+    {
+      "time": 96.24166666657914,
+      "valid": true,
+      "sectors": [
+        {
+          "time": 26.041666666642982,
+          "exitSpeed": 77.07896627429005,
+          "brake": 10.208333333333394
+        },
+        {
+          "time": 39.75833333329717,
+          "exitSpeed": 67.7074086157929,
+          "brake": 11.68333333333331
+        },
+        {
+          "time": 30.44166666663898,
+          "exitSpeed": 115.50889299476093,
+          "brake": 4.550000000000016
+        }
+      ]
+    }
+  ]
+}

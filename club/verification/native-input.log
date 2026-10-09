@@ -1,0 +1,25 @@
+PASS Native mouse chord right then left fires while aiming and releases independently
+PASS Native mouse chord left then right fires while aiming and releases independently
+PASS Releasing mouse fire preserves a separately held keyboard fire source
+PASS shooting completes through native mouse and keyboard and starts Next
+PASS darts completes through native mouse and keyboard and starts Next
+PASS archery completes through native mouse and keyboard and starts Next
+PASS Race completes through native WASD and starts Next
+PASS race blur pauses and cancels input without throwing
+PASS shooting blur pauses and cancels input without throwing
+PASS darts blur pauses and cancels input without throwing
+PASS archery blur pauses and cancels input without throwing
+PASS Native touch 390×844 / race
+PASS Native touch 390×844 / shooting
+PASS Native touch 390×844 / darts
+PASS darts touch cancellation 390 clears draw without release
+PASS Native touch 390×844 / archery
+PASS archery touch cancellation 390 clears draw without release
+PASS Native touch 844×390 / race
+PASS Native touch 844×390 / shooting
+PASS Native touch 844×390 / darts
+PASS darts touch cancellation 844 clears draw without release
+PASS Native touch 844×390 / archery
+PASS archery touch cancellation 844 clears draw without release
+PASS No application exceptions in native input flows
+24/24 checks passed

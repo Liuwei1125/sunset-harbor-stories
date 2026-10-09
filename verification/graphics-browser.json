@@ -1,0 +1,274 @@
+{
+  "sha256": "ede949002126c7765e0a00201a4440fbab07d2469af9a59eadf081d60e2f01c4",
+  "passed": 16,
+  "total": 16,
+  "checks": [
+    {
+      "name": "Offline game boots the HDR renderer with AO, two cascades and reflections",
+      "pass": true,
+      "detail": {
+        "depth": true,
+        "hdr": true,
+        "derivatives": true,
+        "post": true,
+        "reason": null,
+        "active": true,
+        "ao": 16,
+        "cascades": 2,
+        "reflection": true,
+        "bloom": true,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "resourceGeneration": 1,
+        "localLights": 0
+      }
+    },
+    {
+      "name": "AO target contains actual contact occlusion pixels",
+      "pass": true,
+      "detail": {
+        "min": 90,
+        "dark": 26142,
+        "pixels": 400000,
+        "error": 0
+      }
+    },
+    {
+      "name": "Contact occlusion changes final scene pixels",
+      "pass": true,
+      "detail": {
+        "mean": 0.44606166666680946,
+        "changed": 84183
+      }
+    },
+    {
+      "name": "Exposure produces a monotonic visible change through AgX",
+      "pass": true,
+      "detail": [
+        115.27228403271796,
+        132.81668750480713,
+        149.2167389851547
+      ]
+    },
+    {
+      "name": "Water scene reflections change actual rendered pixels",
+      "pass": true,
+      "detail": {
+        "mean": 0.40267395833336983,
+        "changed": 84706
+      }
+    },
+    {
+      "name": "Explosion light illuminates nearby geometry",
+      "pass": true,
+      "detail": {
+        "count": 1,
+        "mean": 0.1873295833333308,
+        "changed": 28973
+      }
+    },
+    {
+      "name": "Bloom affects emissive highlights in the final image",
+      "pass": true,
+      "detail": {
+        "mean": 0.04656541666666642,
+        "changed": 6963
+      }
+    },
+    {
+      "name": "Repeated renders leave time, ammunition, mission and actor poses intact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Quality tiers reduce AO, reflections and shadow workload without GL errors",
+      "pass": true,
+      "detail": [
+        {
+          "mode": "medium",
+          "active": true,
+          "hdr": true,
+          "ao": 8,
+          "cascades": 2,
+          "reflection": false,
+          "bloom": true,
+          "resolution": [
+            1062,
+            664
+          ],
+          "resourceGeneration": 2,
+          "localLights": 0,
+          "error": 0
+        },
+        {
+          "mode": "low",
+          "active": true,
+          "hdr": true,
+          "ao": 0,
+          "cascades": 0,
+          "reflection": false,
+          "bloom": false,
+          "resolution": [
+            793,
+            496
+          ],
+          "resourceGeneration": 3,
+          "localLights": 0,
+          "error": 0
+        },
+        {
+          "mode": "high",
+          "active": true,
+          "hdr": true,
+          "ao": 16,
+          "cascades": 2,
+          "reflection": true,
+          "bloom": true,
+          "resolution": [
+            1600,
+            1000
+          ],
+          "resourceGeneration": 4,
+          "localLights": 0,
+          "error": 0
+        }
+      ]
+    },
+    {
+      "name": "Resize replaces and deletes old render targets; steady frames reuse them",
+      "pass": true,
+      "detail": {
+        "old": 4,
+        "generation": 5,
+        "stable": true,
+        "deleted": true,
+        "error": 0
+      }
+    },
+    {
+      "name": "Public graphics controls switch renderer and round-trip through saves",
+      "pass": true,
+      "detail": {
+        "enabled": true,
+        "exposure": 1.2
+      }
+    },
+    {
+      "name": "Older saves receive safe graphics defaults",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Coast, islands and canyon all render through the new pipeline",
+      "pass": true,
+      "detail": [
+        {
+          "id": "coast",
+          "error": 0,
+          "active": true
+        },
+        {
+          "id": "islands",
+          "error": 0,
+          "active": true
+        },
+        {
+          "id": "canyon",
+          "error": 0,
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "no-hdr retains a visible game and working exposure",
+      "pass": true,
+      "detail": {
+        "software": false,
+        "active": true,
+        "hdr": false,
+        "ao": 16,
+        "cascades": 2,
+        "reflection": false,
+        "bloom": false,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "resourceGeneration": 1,
+        "localLights": 0,
+        "caps": {
+          "depth": true,
+          "hdr": false,
+          "derivatives": true,
+          "post": true,
+          "reason": "Half-float textures unavailable; using LDR color"
+        },
+        "error": 0,
+        "mean": 117.65428237649266,
+        "bright": 133.5972789977469
+      }
+    },
+    {
+      "name": "no-depth retains a visible game and working exposure",
+      "pass": true,
+      "detail": {
+        "software": false,
+        "active": true,
+        "hdr": true,
+        "ao": 0,
+        "cascades": 2,
+        "reflection": false,
+        "bloom": true,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "resourceGeneration": 1,
+        "localLights": 0,
+        "caps": {
+          "depth": false,
+          "hdr": true,
+          "derivatives": true,
+          "post": true,
+          "reason": null
+        },
+        "error": 0,
+        "mean": 118.65991208182217,
+        "bright": 134.64165641173506
+      }
+    },
+    {
+      "name": "basic-gpu retains a visible game and working exposure",
+      "pass": true,
+      "detail": {
+        "software": false,
+        "active": true,
+        "hdr": false,
+        "ao": 0,
+        "cascades": 2,
+        "reflection": false,
+        "bloom": false,
+        "resolution": [
+          1600,
+          1000
+        ],
+        "resourceGeneration": 1,
+        "localLights": 0,
+        "caps": {
+          "depth": false,
+          "hdr": false,
+          "derivatives": false,
+          "post": true,
+          "reason": "Half-float textures unavailable; using LDR color"
+        },
+        "error": 0,
+        "mean": 118.17481725074263,
+        "bright": 134.12326605512064
+      }
+    }
+  ],
+  "errors": [],
+  "physicalMobileTested": false
+}

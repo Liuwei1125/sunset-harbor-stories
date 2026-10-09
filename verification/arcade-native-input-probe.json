@@ -1,0 +1,136 @@
+{
+  "results": [
+    {
+      "mode": "shooting",
+      "phase": "result",
+      "result": {
+        "success": true,
+        "score": 1536,
+        "medal": 3,
+        "details": [
+          [
+            "100%",
+            "命中率"
+          ],
+          [
+            "8 连",
+            "最高连击"
+          ],
+          [
+            "0 次",
+            "禁射靶误击"
+          ],
+          [
+            "0:22.82",
+            "完成时间"
+          ]
+        ],
+        "isBest": true,
+        "xp": 140
+      },
+      "shots": 8,
+      "hits": 8,
+      "elapsed": 22.824999999999346,
+      "score": 1536
+    },
+    {
+      "mode": "darts",
+      "phase": "result",
+      "result": {
+        "success": true,
+        "score": 780,
+        "medal": 3,
+        "details": [
+          [
+            "13 镖",
+            "投掷次数"
+          ],
+          [
+            "180 分",
+            "最佳轮分"
+          ],
+          [
+            "100%",
+            "上靶率"
+          ],
+          [
+            "累计得分",
+            "本关规则"
+          ]
+        ],
+        "isBest": true,
+        "xp": 140
+      },
+      "shots": 13,
+      "hits": 13,
+      "elapsed": 30.174999999998928,
+      "score": 780
+    },
+    {
+      "mode": "archery",
+      "phase": "result",
+      "result": {
+        "success": true,
+        "score": 60,
+        "medal": 3,
+        "details": [
+          [
+            "6 支",
+            "十环"
+          ],
+          [
+            "100%",
+            "上靶率"
+          ],
+          [
+            "10.0 环",
+            "平均环数"
+          ],
+          [
+            "10 米",
+            "基准距离"
+          ]
+        ],
+        "isBest": true,
+        "xp": 140
+      },
+      "shots": 6,
+      "hits": 6,
+      "elapsed": 12.79166666666658,
+      "score": 60
+    },
+    {
+      "mode": "race",
+      "phase": "result",
+      "result": {
+        "success": true,
+        "score": 18.69999999999958,
+        "medal": 3,
+        "details": [
+          [
+            "1 / 4",
+            "最终名次"
+          ],
+          [
+            "0:18.70",
+            "最佳单圈"
+          ],
+          [
+            "0 次",
+            "碰撞"
+          ],
+          [
+            "0.0 秒",
+            "罚时"
+          ]
+        ],
+        "isBest": true,
+        "xp": 140
+      },
+      "elapsed": 18.69999999999958,
+      "gates": 12,
+      "collisions": 0
+    }
+  ],
+  "errors": []
+}

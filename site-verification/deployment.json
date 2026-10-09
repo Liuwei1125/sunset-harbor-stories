@@ -1,0 +1,12 @@
+{
+  "project_id": "appgprj_6aa768cc7ba48191af7fcc54e3022c85",
+  "version_id": "appgprj_6aa768cc7ba48191af7fcc54e3022c85~appgver_0f3e649a742081918ed2a047a60328c4",
+  "version_number": 2,
+  "deployment_id": "appgdep_6aad2fa0ed20819197c6d2235bea0fe5",
+  "commit_sha": "16fb5e798ea5fe666de81e74334edb2501caf709",
+  "status": "succeeded",
+  "url": "https://sunset-harbor-stories.nce16220811.chatgpt.site",
+  "access_mode": "public",
+  "updated_at": "2026-09-18T12:33:49.412646+00:00",
+  "local_public_smoke": "14/14 passed"
+}
